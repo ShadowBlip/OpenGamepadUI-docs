@@ -1,5 +1,5 @@
 OpenGamepadUI Docs - *development* branch
-==================================
+=========================================
 
 Welcome to the official documentation for OpenGamepadUI, the free and open 
 source game launcher and overlay written using `Godot Engine <https://godotengine.org>`_,

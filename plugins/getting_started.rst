@@ -87,7 +87,8 @@ This will create a symlink to your plugin inside the
 project directory, allowing you to work on your plugin with the Godot
 editor.
 
-   :warning: NOTE: Ensure you only have one plugin linked at a time, or
+.. note::
+   Ensure you only have one plugin linked at a time, or
    multiple plugins you’re working on might get bundled together!
 
 Once the symlink to your plugin is created, open the OpenGamepadUI
