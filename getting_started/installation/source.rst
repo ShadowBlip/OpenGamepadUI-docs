@@ -1,5 +1,5 @@
-Source Installation
-===================
+Source Install
+==============
 
 OpenGamepadUI can be built and installed on any modern Linux
 distribution. There are 3 different ways you can install OpenGamepadUI:

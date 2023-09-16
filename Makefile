@@ -1,38 +1,49 @@
 # Makefile for Sphinx documentation
 
-SPHINXOPTS      ?=
-SPHINXBUILD     ?= sphinx-build
-SPHINXSOURCEDIR ?= .
-SPHINXBUILDDIR  ?= _build
-SPHINXPAPER     ?=
-FILELIST        ?=
+UID := $(shell id -u)
+GID := $(shell id -g)
+ALL_RST := $(shell find ./ -name '*.rst')
 
-# User-friendly check for sphinx-build
-ifneq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 0)
-define ERROR_MESSAGE
-The '$(SPHINXBUILD)' command was not found!
-Make sure you have Sphinx installed, then set the SPHINXBUILD make variable to the full path of the '$(SPHINXBUILD)' executable.
-Alternatively you can add the executable's directory to your PATH.
-If you don't have Sphinx installed, grab it from http://sphinx-doc.org/
-endef
-$(error ${ERROR_MESSAGE})
-endif
+IMAGE_NAME ?= docs-builder
+IMAGE_TAG ?= latest
 
-PAPEROPT_a4         = -D latex_paper_size=a4
-PAPEROPT_letter     = -D latex_paper_size=letter
-COMMONSPHINXOPTS    = $(PAPEROPT_$(SPHINXPAPER)) $(SPHINXOPTS) '$(SPHINXSOURCEDIR)'
-DEFAULTSPHINXOPTS   = -d $(SPHINXBUILDDIR)/doctrees $(COMMONSPHINXOPTS)
+##@ General
 
-.PHONY: help clean
+# The help target prints out all targets with their descriptions organized
+# beneath their categories. The categories are represented by '##@' and the
+# target descriptions by '##'. The awk commands is responsible for reading the
+# entire set of makefiles included in this invocation, looking for lines of the
+# file as xyz: ## something, and then pretty-format the target and help. Then,
+# if there's a line with ##@ something, that gets pretty-printed as a category.
+# More info on the usage of ANSI control characters for terminal formatting:
+# https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_parameters
+# More info on the awk command:
+# http://linuxcommand.org/lc3_adv_awk.php
 
-help:
-	@$(SPHINXBUILD) -M help $(DEFAULTSPHINXOPTS) $(O) "$(SPHINXBUILDDIR)"
+.PHONY: help
+help: ## Display this help.
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_0-9-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
 
-# This is used by https://github.com/godotengine/godot-docs-l10n
-# See https://github.com/godotengine/godot-docs-l10n/blob/f157c0cacc8a6e542e06e96b983b27de91637f8b/update.sh#L92
-gettext:
-	$(SPHINXBUILD) -b gettext -t i18n $(COMMONSPHINXOPTS) ../sphinx/templates $(FILELIST)
+##@ Development
 
-%:
-	$(SPHINXBUILD) -M $@ $(DEFAULTSPHINXOPTS) $(O) "$(SPHINXBUILDDIR)"/$@ $(FILELIST)
+.PHONY: image
+image: ## Build the Sphinx documentation container
+	docker build -t $(IMAGE_NAME):$(IMAGE_TAG) .
 
+.PHONY: build
+build: image html/index.html ## Build the documentation HTML
+html/index.html: $(ALL_RST)
+	docker run -it -u $(UID):$(GID) --rm \
+		--volume $(PWD):/src \
+		--workdir /src \
+		--entrypoint python3 \
+		$(IMAGE_NAME):$(IMAGE_TAG) \
+		-m sphinx -T -E -b html -d _build/doctrees -D language=en . html
+
+.PHONY: preview
+preview: build ## Build and launch the documentation in a browser
+	firefox html/index.html
+
+.PHONY: clean
+clean: ## Clean up generated documentation
+	rm -rf _build html

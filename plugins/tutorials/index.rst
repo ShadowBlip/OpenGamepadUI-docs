@@ -1,4 +1,4 @@
-.. _doc_plugin_tutorials
+.. _doc_plugin_tutorials:
 
 Tutorials
 =========

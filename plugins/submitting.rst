@@ -1,3 +1,5 @@
+.. _doc_plugin_submitting:
+
 Submitting Plugins
 ==================
 
