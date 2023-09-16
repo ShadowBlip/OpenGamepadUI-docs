@@ -31,6 +31,7 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
 
    about/introduction
    about/faq
+   about/release_policy
 
 .. toctree::
    :hidden:
@@ -38,20 +39,8 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
    :caption: Getting started
    :name: sec-learn
 
-   getting_started/introduction/index
-
-
-.. Sections below are split into two groups. First come meta sections, covering
-   general matters. Below that different areas of the engine are listed.
-   These sections are sorted alphabetically. Please keep them that way.
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Manual
-   :name: sec-tutorials
-
-   tutorials/best_practices/index
-   tutorials/editor/index
+   getting_started/introduction
+   getting_started/installation/index
 
 
 .. toctree::
@@ -69,10 +58,20 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Plugins
+   :name: sec-plugins
+
+   plugins/getting_started
+   plugins/submitting
+   plugins/tutorials/index
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Community
    :name: sec-community
 
-   community/asset_library/index
    community/channels
    community/tutorials
 
