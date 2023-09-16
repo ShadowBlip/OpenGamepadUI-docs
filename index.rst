@@ -63,6 +63,7 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
    :caption: Plugins
    :name: sec-plugins
 
+   plugins/introduction
    plugins/getting_started
    plugins/submitting
    plugins/tutorials/index
