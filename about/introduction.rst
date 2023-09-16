@@ -33,6 +33,16 @@ How does it work and look?
 OpenGamepadUI works hand-in-hand with Gamescope, which is a Wayland compositor
 designed for a console-like experience.
 
+Some examples of what it looks like are here:
+
+.. image:: img/screenshot01.png
+
+.. image:: img/screenshot02.png
+
+.. image:: img/screenshot03.png
+
+.. image:: img/screenshot04.png
+
 
 Organization of the documentation
 ---------------------------------
