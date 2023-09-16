@@ -1,6 +1,6 @@
 .. _doc_release_policy:
 
-OpenGamepadUI release policy
+Release Policy
 ====================
 
 OpenGamepadUI's release policy is subject to change, but the description below

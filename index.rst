@@ -2,7 +2,7 @@ OpenGamepadUI Docs - *development* branch
 ==================================
 
 Welcome to the official documentation for OpenGamepadUI, the free and open 
-source game launcher and overlay written using `Godot Engine <https://godotengine.org>`__,
+source game launcher and overlay written using `Godot Engine <https://godotengine.org>`_,
 designed with a gamepad native experience in mind.
 
 The table of contents in the sidebar should let you easily access the documentation
@@ -33,6 +33,7 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
    about/faq
    about/release_policy
 
+
 .. toctree::
    :hidden:
    :maxdepth: 1
@@ -41,6 +42,7 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
 
    getting_started/introduction
    getting_started/installation/index
+   getting_started/usage
 
 
 .. toctree::
