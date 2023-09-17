@@ -1,5 +1,7 @@
 # OpenGamepadUI Documentation
 
+[![Documentation Status](https://readthedocs.org/projects/opengamepadui/badge/?version=latest)](https://opengamepadui.readthedocs.io/en/latest/?badge=latest)
+
 This repository contains contains the source files of OpenGamepadUI's
 documentation in reStructuredText markup.
 
