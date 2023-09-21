@@ -1,5 +1,8 @@
 name: generate
-on: [repository_dispatch]
+on:
+  repository_dispatch:
+    types:
+      - "Trigger Workflow"
 jobs:
   generate:
     runs-on: ubuntu-latest
