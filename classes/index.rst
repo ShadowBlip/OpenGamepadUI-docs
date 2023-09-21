@@ -9,45 +9,91 @@
 All classes
 ===========
 
-Variant types
-=============
+Nodes
+=====
 
 .. toctree::
     :maxdepth: 1
-    :name: toc-class-ref-variants
+    :name: toc-class-ref-nodes
 
-    class_variant
+    class_node
+    class_backinputhandler
+    class_boxartprovider
+    class_cardaxesmappingcontainer
+    class_cardbutton
+    class_cardiconbutton
+    class_cardmappingbutton
+    class_componenttextinput
+    class_dropdown
+    class_effect
+    class_expandablecard
+    class_fadeeffect
+    class_focusgroup
+    class_focusgroupsetter
+    class_focusmanager
+    class_focussetter
+    class_gamecard
+    class_gamepadmapper
+    class_githubclient
+    class_growereffect
+    class_httpapiclient
+    class_httpimagefetcher
+    class_launcher
+    class_levelindicator
+    class_library
+    class_librarydeck
+    class_multihttprequest
+    class_nodethread
+    class_notificationcontainer
+    class_playaudioeffect
+    class_plugin
+    class_pluginmanager
+    class_powersaver
+    class_quickaccesscard
+    class_raiseeffect
+    class_scrollerjoystick
+    class_searchbar
+    class_selectabletext
+    class_slideeffect
+    class_smoothscrolleffect
+    class_softwareupdater
+    class_statechanger
+    class_statemanager
+    class_stateupdater
+    class_statewatcher
+    class_store
+    class_test
+    class_themesetter
+    class_toggle
+    class_transition
+    class_transitioncontainer
+    class_unixsocketclient
+    class_valueslider
+    class_visibilitymanager
+    class_websocketrpcclient
+    class_wifinetworktree
+
+Resources
+=========
+
+.. toctree::
+    :maxdepth: 1
+    :name: toc-class-ref-resources
+
+    class_resource
     class_actionstartopensd
     class_actionturbotakeover
     class_apudatabase
     class_apuentry
     class_audiomanager
-    class_backinputhandler
-    class_battery
     class_batterymanager
-    class_bitwise
     class_bluetoothmanager
-    class_bluetoothmanager.adapter
-    class_bluetoothmanager.device
     class_boxartmanager
-    class_boxartprovider
-    class_cache
-    class_cardaxesmappingcontainer
-    class_cardbutton
-    class_cardiconbutton
-    class_cardmappingbutton
-    class_command
-    class_componenttextinput
     class_dbusmanager
-    class_dbusmanager.dbusproxy
-    class_dbusmanager.managedobject
     class_dbusmanager.proxy
     class_devicehider
     class_dialogmanager
-    class_dialogmanager.request
     class_displaymanager
-    class_dropdown
-    class_effect
     class_evdevabsevent
     class_evdevevent
     class_evdevkeyevent
@@ -58,46 +104,26 @@ Variant types
     class_evdevsndevent
     class_evdevswevent
     class_evdevsynevent
-    class_expandablecard
-    class_fadeeffect
-    class_focusgroup
-    class_focusgroupsetter
-    class_focusmanager
-    class_focussetter
     class_focusstack
-    class_gamecard
     class_gamepadaxesmapping
     class_gamepadmanager
-    class_gamepadmanager.gamepadarray
-    class_gamepadmapper
     class_gamepadmapping
     class_gamepadmouse
     class_gamepadprofile
     class_gamescope
-    class_githubclient
-    class_growereffect
     class_handheldeventmapping
     class_handheldgamepad
-    class_handheldgamepad.keypad
     class_handheldiconmapping
     class_handheldplatform
-    class_httpapiclient
-    class_httpapiclient.response
-    class_httpimagefetcher
     class_inputmanager
     class_installmanager
-    class_installmanager.request
     class_interactiveprocess
     class_keyboardcontext
     class_keyboardinstance
     class_keyboardkeyconfig
     class_keyboardlayout
     class_keyboardrow
-    class_launcher
     class_launchmanager
-    class_levelindicator
-    class_library
-    class_librarydeck
     class_libraryitem
     class_librarylaunchitem
     class_librarymanager
@@ -105,16 +131,8 @@ Variant types
     class_log.logger
     class_logmanager
     class_managedgamepad
-    class_mangoapp
     class_mappableevent
-    class_multihttprequest
     class_nativeevent
-    class_networkmanager
-    class_networkmanager.networkdevice
-    class_networkmanager.wifiap
-    class_nodethread
-    class_notification
-    class_notificationcontainer
     class_notificationmanager
     class_osplatform
     class_packageverifier
@@ -128,60 +146,60 @@ Variant types
     class_platformchimeraos
     class_platformprovider
     class_platformsteamos
-    class_playaudioeffect
-    class_plugin
     class_pluginloader
-    class_pluginmanager
     class_powermanager
     class_powermanager.device
     class_powermanager.upower
-    class_powersaver
-    class_quickaccesscard
-    class_raiseeffect
-    class_reaper
     class_runningapp
     class_sandbox
     class_sandboxbubblewrap
     class_sandboxfirejail
-    class_scrollerjoystick
-    class_searchbar
-    class_selectabletext
-    class_semanticversion
     class_settingsmanager
     class_sharedthread
-    class_sharedthread.scheduledtask
-    class_slideeffect
-    class_smoothscrolleffect
-    class_softwareupdater
     class_state
-    class_statechanger
     class_statemachine
-    class_statemanager
-    class_stateupdater
-    class_statewatcher
-    class_store
-    class_storeitem
-    class_storeitemdetails
     class_storemanager
     class_sysfsdevice
-    class_sysfsdevice.bitmap
-    class_sysfsdevice.id
     class_tabcontainerstate
-    class_test
-    class_test.assertion
-    class_themesetter
     class_threadgroup
     class_threadpool
-    class_threadpool.task
-    class_toggle
-    class_transition
-    class_transitioncontainer
-    class_unixsocketclient
     class_userinterface
-    class_valueslider
     class_version
-    class_visibilitymanager
     class_watchdogthread
-    class_websocketrpcclient
-    class_wifinetworktree
+
+Other objects
+=============
+
+.. toctree::
+    :maxdepth: 1
+    :name: toc-class-ref-objects
+
+    class_object
+    class_battery
+    class_bitwise
+    class_bluetoothmanager.adapter
+    class_bluetoothmanager.device
+    class_cache
+    class_command
+    class_dbusmanager.dbusproxy
+    class_dbusmanager.managedobject
+    class_dialogmanager.request
+    class_gamepadmanager.gamepadarray
+    class_handheldgamepad.keypad
+    class_httpapiclient.response
+    class_installmanager.request
+    class_mangoapp
+    class_networkmanager
+    class_networkmanager.networkdevice
+    class_networkmanager.wifiap
+    class_notification
+    class_reaper
+    class_semanticversion
+    class_sharedthread.scheduledtask
+    class_storeitem
+    class_storeitemdetails
+    class_sysfsdevice.bitmap
+    class_sysfsdevice.id
+    class_test.assertion
+    class_threadpool.task
 
