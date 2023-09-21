@@ -10,7 +10,7 @@
 APUDatabase
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+----------------------------------------------------------------+
-   | Array                               | :ref:`apu_list<class_APUDatabase_property_apu_list>`           |
-   +-------------------------------------+----------------------------------------------------------------+
-   | Dictionary                          | :ref:`apu_map<class_APUDatabase_property_apu_map>`             |
-   +-------------------------------------+----------------------------------------------------------------+
-   | String                              | :ref:`database_name<class_APUDatabase_property_database_name>` |
-   +-------------------------------------+----------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_APUDatabase_property_logger>`               |
-   +-------------------------------------+----------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`apu_list<class_APUDatabase_property_apu_list>`           |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`apu_map<class_APUDatabase_property_apu_map>`             |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`database_name<class_APUDatabase_property_database_name>` |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_APUDatabase_property_logger>`               |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,11 +42,11 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------+------------------------------------------------------------------------------+
-   | :ref:`APUEntry<class_APUEntry>` | :ref:`get_apu<class_APUDatabase_method_get_apu>` **(** String apu_name **)** |
-   +---------------------------------+------------------------------------------------------------------------------+
-   | void                            | :ref:`init<class_APUDatabase_method_init>` **(** **)**                       |
-   +---------------------------------+------------------------------------------------------------------------------+
+   +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`APUEntry<class_APUEntry>` | :ref:`get_apu<class_APUDatabase_method_get_apu>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ apu_name **)** |
+   +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                            | :ref:`init<class_APUDatabase_method_init>` **(** **)**                                                                                             |
+   +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -78,7 +78,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **apu_list**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **apu_list**
 
 .. container:: contribute
 
@@ -92,7 +92,7 @@ Array **apu_list**
 
 .. rst-class:: classref-property
 
-Dictionary **apu_map**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **apu_map**
 
 .. container:: contribute
 
@@ -106,7 +106,7 @@ Dictionary **apu_map**
 
 .. rst-class:: classref-property
 
-String **database_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **database_name**
 
 .. container:: contribute
 
@@ -139,7 +139,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`APUEntry<class_APUEntry>` **get_apu** **(** String apu_name **)**
+:ref:`APUEntry<class_APUEntry>` **get_apu** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ apu_name **)**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 EvdevAbsEvent
 =============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +--------------------------------------+------------------------------------------------+-------+
-   | :ref:`AXIS<enum_EvdevAbsEvent_AXIS>` | :ref:`axis<class_EvdevAbsEvent_property_axis>` | ``0`` |
-   +--------------------------------------+------------------------------------------------+-------+
-   | String                               | :ref:`code<class_EvdevAbsEvent_property_code>` |       |
-   +--------------------------------------+------------------------------------------------+-------+
+   +------------------------------------------------------------------------------+------------------------------------------------+-------+
+   | :ref:`AXIS<enum_EvdevAbsEvent_AXIS>`                                         | :ref:`axis<class_EvdevAbsEvent_property_axis>` | ``0`` |
+   +------------------------------------------------------------------------------+------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`code<class_EvdevAbsEvent_property_code>` |       |
+   +------------------------------------------------------------------------------+------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -38,11 +38,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_EvdevAbsEvent_method__init>` **(** **)**                     |
-   +------+--------------------------------------------------------------------------------+
-   | bool | :ref:`is_binary_event<class_EvdevAbsEvent_method_is_binary_event>` **(** **)** |
-   +------+--------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_init<class_EvdevAbsEvent_method__init>` **(** **)**                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_binary_event<class_EvdevAbsEvent_method_is_binary_event>` **(** **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -110,7 +110,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **code**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **code**
 
 .. container:: contribute
 
@@ -143,7 +143,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **is_binary_event** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_binary_event** **(** **)**
 
 .. container:: contribute
 

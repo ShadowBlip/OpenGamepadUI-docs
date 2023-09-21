@@ -10,7 +10,7 @@
 UnixSocketClient
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-----------------------------------------------------------+-----------+
-   | bool                                | :ref:`_is_open<class_UnixSocketClient_property__is_open>` | ``false`` |
-   +-------------------------------------+-----------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`_logger<class_UnixSocketClient_property__logger>`   |           |
-   +-------------------------------------+-----------------------------------------------------------+-----------+
-   | StreamPeerUnix                      | :ref:`_stream<class_UnixSocketClient_property__stream>`   |           |
-   +-------------------------------------+-----------------------------------------------------------+-----------+
+   +----------------------------------------------------------------------------------------------+-----------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                     | :ref:`_is_open<class_UnixSocketClient_property__is_open>` | ``false`` |
+   +----------------------------------------------------------------------------------------------+-----------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                          | :ref:`_logger<class_UnixSocketClient_property__logger>`   |           |
+   +----------------------------------------------------------------------------------------------+-----------------------------------------------------------+-----------+
+   | `StreamPeerUnix <https://docs.godotengine.org/en/stable/classes/class_streampeerunix.html>`_ | :ref:`_stream<class_UnixSocketClient_property__stream>`   |           |
+   +----------------------------------------------------------------------------------------------+-----------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -40,15 +40,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------+
-   | void | :ref:`_process<class_UnixSocketClient_method__process>` **(** float _delta **)** |
-   +------+----------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_UnixSocketClient_method__ready>` **(** **)**                  |
-   +------+----------------------------------------------------------------------------------+
-   | void | :ref:`open<class_UnixSocketClient_method_open>` **(** String path **)**          |
-   +------+----------------------------------------------------------------------------------+
-   | bool | :ref:`send<class_UnixSocketClient_method_send>` **(** PackedByteArray data **)** |
-   +------+----------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_process<class_UnixSocketClient_method__process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**           |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_UnixSocketClient_method__ready>` **(** **)**                                                                                                 |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`open<class_UnixSocketClient_method_open>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**                   |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`send<class_UnixSocketClient_method_send>` **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data **)** |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -124,7 +124,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **_is_open** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_open** = ``false``
 
 .. container:: contribute
 
@@ -152,7 +152,7 @@ bool **_is_open** = ``false``
 
 .. rst-class:: classref-property
 
-StreamPeerUnix **_stream**
+`StreamPeerUnix <https://docs.godotengine.org/en/stable/classes/class_streampeerunix.html>`_ **_stream**
 
 .. container:: contribute
 
@@ -171,7 +171,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_process** **(** float _delta **)**
+void **_process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**
 
 .. container:: contribute
 
@@ -199,7 +199,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **open** **(** String path **)**
+void **open** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 .. container:: contribute
 
@@ -213,7 +213,7 @@ void **open** **(** String path **)**
 
 .. rst-class:: classref-method
 
-bool **send** **(** PackedByteArray data **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **send** **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data **)**
 
 .. container:: contribute
 

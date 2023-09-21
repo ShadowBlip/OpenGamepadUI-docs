@@ -10,7 +10,7 @@
 DBusManager.DBusProxy
 =====================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Proxy to manage /org/freedesktop/DBus on the org.freedesktop.DBus bus.
 
@@ -34,11 +34,11 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+----------------------------------------------------------------------------------------------------------------------------+
-   | void   | :ref:`_init<class_DBusManager.DBusProxy_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)** |
-   +--------+----------------------------------------------------------------------------------------------------------------------------+
-   | String | :ref:`get_name_owner<class_DBusManager.DBusProxy_method_get_name_owner>` **(** String name **)**                           |
-   +--------+----------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`_init<class_DBusManager.DBusProxy_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**                                             |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_name_owner<class_DBusManager.DBusProxy_method_get_name_owner>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)** |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -86,7 +86,7 @@ void **_init** **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)
 
 .. rst-class:: classref-method
 
-String **get_name_owner** **(** String name **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_name_owner** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Return the connection name (e.g. ":1.1270") from the given well-known name
 

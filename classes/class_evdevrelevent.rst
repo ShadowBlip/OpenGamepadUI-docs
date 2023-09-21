@@ -10,7 +10,7 @@
 EvdevRelEvent
 =============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+------------------------------------------------+
-   | String | :ref:`code<class_EvdevRelEvent_property_code>` |
-   +--------+------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`code<class_EvdevRelEvent_property_code>` |
+   +------------------------------------------------------------------------------+------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,11 +36,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_EvdevRelEvent_method__init>` **(** **)**                     |
-   +------+--------------------------------------------------------------------------------+
-   | bool | :ref:`is_binary_event<class_EvdevRelEvent_method_is_binary_event>` **(** **)** |
-   +------+--------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_init<class_EvdevRelEvent_method__init>` **(** **)**                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_binary_event<class_EvdevRelEvent_method_is_binary_event>` **(** **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -55,7 +55,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **code**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **code**
 
 .. container:: contribute
 
@@ -88,7 +88,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **is_binary_event** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_binary_event** **(** **)**
 
 .. container:: contribute
 

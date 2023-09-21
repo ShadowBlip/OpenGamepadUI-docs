@@ -10,7 +10,7 @@
 Platform
 ========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,29 +24,29 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`APUDatabase<class_APUDatabase>`           | :ref:`amd_apu_database<class_Platform_property_amd_apu_database>`     |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | String                                          | :ref:`bios<class_Platform_property_bios>`                             |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>` | :ref:`cpu<class_Platform_property_cpu>`                               |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>` | :ref:`gpu<class_Platform_property_gpu>`                               |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`APUDatabase<class_APUDatabase>`           | :ref:`intel_apu_database<class_Platform_property_intel_apu_database>` |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | String                                          | :ref:`kernel<class_Platform_property_kernel>`                         |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | bool                                            | :ref:`loaded<class_Platform_property_loaded>`                         |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`             | :ref:`logger<class_Platform_property_logger>`                         |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`PlatformProvider<class_PlatformProvider>` | :ref:`os<class_Platform_property_os>`                                 |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`Platform.OSInfo<class_Platform.OSInfo>`   | :ref:`os_info<class_Platform_property_os_info>`                       |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`PlatformProvider<class_PlatformProvider>` | :ref:`platform<class_Platform_property_platform>`                     |
-   +-------------------------------------------------+-----------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`APUDatabase<class_APUDatabase>`                                        | :ref:`amd_apu_database<class_Platform_property_amd_apu_database>`     |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`bios<class_Platform_property_bios>`                             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>`                              | :ref:`cpu<class_Platform_property_cpu>`                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>`                              | :ref:`gpu<class_Platform_property_gpu>`                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`APUDatabase<class_APUDatabase>`                                        | :ref:`intel_apu_database<class_Platform_property_intel_apu_database>` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`kernel<class_Platform_property_kernel>`                         |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`loaded<class_Platform_property_loaded>`                         |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_Platform_property_logger>`                         |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`PlatformProvider<class_PlatformProvider>`                              | :ref:`os<class_Platform_property_os>`                                 |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`Platform.OSInfo<class_Platform.OSInfo>`                                | :ref:`os_info<class_Platform_property_os_info>`                       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`PlatformProvider<class_PlatformProvider>`                              | :ref:`platform<class_Platform_property_platform>`                     |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -56,57 +56,57 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`Platform.OSInfo<class_Platform.OSInfo>`   | :ref:`_detect_os<class_Platform_method__detect_os>` **(** **)**                         |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | Array                                           | :ref:`_do_exec<class_Platform_method__do_exec>` **(** String command, Array args **)**  |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`_get_bios_version<class_Platform_method__get_bios_version>` **(** **)**           |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | Array                                           | :ref:`_get_glxinfo<class_Platform_method__get_glxinfo>` **(** **)**                     |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`_get_kernel_version<class_Platform_method__get_kernel_version>` **(** **)**       |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | Array                                           | :ref:`_get_lscpu_info<class_Platform_method__get_lscpu_info>` **(** **)**               |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | void                                            | :ref:`_get_system_components<class_Platform_method__get_system_components>` **(** **)** |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | void                                            | :ref:`_init<class_Platform_method__init>` **(** **)**                                   |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>` | :ref:`_read_cpu_info<class_Platform_method__read_cpu_info>` **(** **)**                 |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`PLATFORM<enum_Platform_PLATFORM>`         | :ref:`_read_dmi<class_Platform_method__read_dmi>` **(** **)**                           |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>` | :ref:`_read_gpu_info<class_Platform_method__read_gpu_info>` **(** **)**                 |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | Array                                           | :ref:`_read_os<class_Platform_method__read_os>` **(** **)**                             |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`_read_sys<class_Platform_method__read_sys>` **(** String path **)**               |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_bios_version<class_Platform_method_get_bios_version>` **(** **)**             |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>` | :ref:`get_cpu_info<class_Platform_method_get_cpu_info>` **(** **)**                     |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_cpu_model<class_Platform_method_get_cpu_model>` **(** **)**                   |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_gpu_driver<class_Platform_method_get_gpu_driver>` **(** **)**                 |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>` | :ref:`get_gpu_info<class_Platform_method_get_gpu_info>` **(** **)**                     |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_gpu_model<class_Platform_method_get_gpu_model>` **(** **)**                   |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | :ref:`HandheldGamepad<class_HandheldGamepad>`   | :ref:`get_handheld_gamepad<class_Platform_method_get_handheld_gamepad>` **(** **)**     |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_kernel_version<class_Platform_method_get_kernel_version>` **(** **)**         |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | Array                                           | :ref:`get_platform_flags<class_Platform_method_get_platform_flags>` **(** **)**         |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_product_name<class_Platform_method_get_product_name>` **(** **)**             |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | String                                          | :ref:`get_vendor_name<class_Platform_method_get_vendor_name>` **(** **)**               |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
-   | void                                            | :ref:`load<class_Platform_method_load>` **(** Window root **)**                         |
-   +-------------------------------------------------+-----------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Platform.OSInfo<class_Platform.OSInfo>`                                | :ref:`_detect_os<class_Platform_method__detect_os>` **(** **)**                                                                                                                                                                   |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`_do_exec<class_Platform_method__do_exec>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args **)** |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_get_bios_version<class_Platform_method__get_bios_version>` **(** **)**                                                                                                                                                     |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`_get_glxinfo<class_Platform_method__get_glxinfo>` **(** **)**                                                                                                                                                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_get_kernel_version<class_Platform_method__get_kernel_version>` **(** **)**                                                                                                                                                 |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`_get_lscpu_info<class_Platform_method__get_lscpu_info>` **(** **)**                                                                                                                                                         |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`_get_system_components<class_Platform_method__get_system_components>` **(** **)**                                                                                                                                           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`_init<class_Platform_method__init>` **(** **)**                                                                                                                                                                             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>`                              | :ref:`_read_cpu_info<class_Platform_method__read_cpu_info>` **(** **)**                                                                                                                                                           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PLATFORM<enum_Platform_PLATFORM>`                                      | :ref:`_read_dmi<class_Platform_method__read_dmi>` **(** **)**                                                                                                                                                                     |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>`                              | :ref:`_read_gpu_info<class_Platform_method__read_gpu_info>` **(** **)**                                                                                                                                                           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`_read_os<class_Platform_method__read_os>` **(** **)**                                                                                                                                                                       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_read_sys<class_Platform_method__read_sys>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**                                                                                   |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_bios_version<class_Platform_method_get_bios_version>` **(** **)**                                                                                                                                                       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>`                              | :ref:`get_cpu_info<class_Platform_method_get_cpu_info>` **(** **)**                                                                                                                                                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_cpu_model<class_Platform_method_get_cpu_model>` **(** **)**                                                                                                                                                             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_gpu_driver<class_Platform_method_get_gpu_driver>` **(** **)**                                                                                                                                                           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>`                              | :ref:`get_gpu_info<class_Platform_method_get_gpu_info>` **(** **)**                                                                                                                                                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_gpu_model<class_Platform_method_get_gpu_model>` **(** **)**                                                                                                                                                             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`HandheldGamepad<class_HandheldGamepad>`                                | :ref:`get_handheld_gamepad<class_Platform_method_get_handheld_gamepad>` **(** **)**                                                                                                                                               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_kernel_version<class_Platform_method_get_kernel_version>` **(** **)**                                                                                                                                                   |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`get_platform_flags<class_Platform_method_get_platform_flags>` **(** **)**                                                                                                                                                   |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_product_name<class_Platform_method_get_product_name>` **(** **)**                                                                                                                                                       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_vendor_name<class_Platform_method_get_vendor_name>` **(** **)**                                                                                                                                                         |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`load<class_Platform_method_load>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**                                                                                             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -386,7 +386,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **bios**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **bios**
 
 .. container:: contribute
 
@@ -442,7 +442,7 @@ String **bios**
 
 .. rst-class:: classref-property
 
-String **kernel**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **kernel**
 
 .. container:: contribute
 
@@ -456,7 +456,7 @@ String **kernel**
 
 .. rst-class:: classref-property
 
-bool **loaded**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **loaded**
 
 .. container:: contribute
 
@@ -537,7 +537,7 @@ Detect the currently running OS
 
 .. rst-class:: classref-method
 
-Array **_do_exec** **(** String command, Array args **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_do_exec** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args **)**
 
 returns result of OS.Execute in a reliable data structure
 
@@ -549,7 +549,7 @@ returns result of OS.Execute in a reliable data structure
 
 .. rst-class:: classref-method
 
-String **_get_bios_version** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_get_bios_version** **(** **)**
 
 .. container:: contribute
 
@@ -563,7 +563,7 @@ String **_get_bios_version** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **_get_glxinfo** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_get_glxinfo** **(** **)**
 
 .. container:: contribute
 
@@ -577,7 +577,7 @@ Array **_get_glxinfo** **(** **)**
 
 .. rst-class:: classref-method
 
-String **_get_kernel_version** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_get_kernel_version** **(** **)**
 
 .. container:: contribute
 
@@ -591,7 +591,7 @@ String **_get_kernel_version** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **_get_lscpu_info** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_get_lscpu_info** **(** **)**
 
 .. container:: contribute
 
@@ -675,7 +675,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **_read_os** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_read_os** **(** **)**
 
 .. container:: contribute
 
@@ -689,7 +689,7 @@ Array **_read_os** **(** **)**
 
 .. rst-class:: classref-method
 
-String **_read_sys** **(** String path **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_read_sys** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 Used to read values from sysfs
 
@@ -701,7 +701,7 @@ Used to read values from sysfs
 
 .. rst-class:: classref-method
 
-String **get_bios_version** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_bios_version** **(** **)**
 
 .. container:: contribute
 
@@ -727,7 +727,7 @@ Returns the CPUInfo
 
 .. rst-class:: classref-method
 
-String **get_cpu_model** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_cpu_model** **(** **)**
 
 .. container:: contribute
 
@@ -741,7 +741,7 @@ String **get_cpu_model** **(** **)**
 
 .. rst-class:: classref-method
 
-String **get_gpu_driver** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_gpu_driver** **(** **)**
 
 .. container:: contribute
 
@@ -767,7 +767,7 @@ Returns the GPUInfo
 
 .. rst-class:: classref-method
 
-String **get_gpu_model** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_gpu_model** **(** **)**
 
 .. container:: contribute
 
@@ -793,7 +793,7 @@ Returns the handheld gamepad for the detected platform
 
 .. rst-class:: classref-method
 
-String **get_kernel_version** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_kernel_version** **(** **)**
 
 .. container:: contribute
 
@@ -807,7 +807,7 @@ String **get_kernel_version** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **get_platform_flags** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_platform_flags** **(** **)**
 
 Returns all detected platform flags
 
@@ -819,7 +819,7 @@ Returns all detected platform flags
 
 .. rst-class:: classref-method
 
-String **get_product_name** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_product_name** **(** **)**
 
 Returns the hardware product name
 
@@ -831,7 +831,7 @@ Returns the hardware product name
 
 .. rst-class:: classref-method
 
-String **get_vendor_name** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_vendor_name** **(** **)**
 
 Returns the hardware vendor name
 
@@ -843,7 +843,7 @@ Returns the hardware vendor name
 
 .. rst-class:: classref-method
 
-void **load** **(** Window root **)**
+void **load** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 Loads the detected platforms. This should be called once when OpenGamepadUI first starts. It takes the root window to give platform providers the opportinity to modify the scene tree.
 

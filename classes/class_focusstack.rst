@@ -10,7 +10,7 @@
 FocusStack
 ==========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Manages the focus flow using a stack
 
@@ -29,11 +29,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_FocusStack_property_logger>` |
-   +-------------------------------------+-------------------------------------------------+
-   | Array                               | :ref:`stack<class_FocusStack_property_stack>`   |
-   +-------------------------------------+-------------------------------------------------+
+   +----------------------------------------------------------------------------+-------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_FocusStack_property_logger>` |
+   +----------------------------------------------------------------------------+-------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`stack<class_FocusStack_property_stack>`   |
+   +----------------------------------------------------------------------------+-------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -43,19 +43,19 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`current_focus<class_FocusStack_method_current_focus>` **(** **)**                                       |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`is_focused<class_FocusStack_method_is_focused>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)**   |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`is_in_stack<class_FocusStack_method_is_in_stack>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)** |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`pop<class_FocusStack_method_pop>` **(** **)**                                                           |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`push<class_FocusStack_method_push>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)**               |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
-   | int                                 | :ref:`size<class_FocusStack_method_size>` **(** **)**                                                         |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                      | :ref:`current_focus<class_FocusStack_method_current_focus>` **(** **)**                                       |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_focused<class_FocusStack_method_is_focused>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)**   |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_in_stack<class_FocusStack_method_is_in_stack>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)** |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                      | :ref:`pop<class_FocusStack_method_pop>` **(** **)**                                                           |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`push<class_FocusStack_method_push>` **(** :ref:`FocusGroup<class_FocusGroup>` group **)**               |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`size<class_FocusStack_method_size>` **(** **)**                                                         |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -103,7 +103,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **stack**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **stack**
 
 .. container:: contribute
 
@@ -134,7 +134,7 @@ Returns the currently focused focus group
 
 .. rst-class:: classref-method
 
-bool **is_focused** **(** :ref:`FocusGroup<class_FocusGroup>` group **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_focused** **(** :ref:`FocusGroup<class_FocusGroup>` group **)**
 
 Returns whether or not the given focus group is currently focused
 
@@ -146,7 +146,7 @@ Returns whether or not the given focus group is currently focused
 
 .. rst-class:: classref-method
 
-bool **is_in_stack** **(** :ref:`FocusGroup<class_FocusGroup>` group **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_in_stack** **(** :ref:`FocusGroup<class_FocusGroup>` group **)**
 
 Returns true if the given focus group exists anywhere in the stack
 
@@ -182,7 +182,7 @@ Push the given focus group to the top of the focus stack and call its grab_focus
 
 .. rst-class:: classref-method
 
-int **size** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **size** **(** **)**
 
 Current size of the focus stack
 

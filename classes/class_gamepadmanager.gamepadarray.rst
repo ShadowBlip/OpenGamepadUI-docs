@@ -10,7 +10,7 @@
 GamepadManager.GamepadArray
 ===========================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Structure for looking up and maintaining Gamepads objects
 
@@ -22,17 +22,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
-   | Array                                         | :ref:`gamepad_phys_paths<class_GamepadManager.GamepadArray_property_gamepad_phys_paths>` |
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
-   | Array                                         | :ref:`gamepad_virt_paths<class_GamepadManager.GamepadArray_property_gamepad_virt_paths>` |
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
-   | Array                                         | :ref:`gamepads<class_GamepadManager.GamepadArray_property_gamepads>`                     |
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
-   | :ref:`HandheldGamepad<class_HandheldGamepad>` | :ref:`handheld<class_GamepadManager.GamepadArray_property_handheld>`                     |
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
-   | Mutex                                         | :ref:`mutex<class_GamepadManager.GamepadArray_property_mutex>`                           |
-   +-----------------------------------------------+------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`gamepad_phys_paths<class_GamepadManager.GamepadArray_property_gamepad_phys_paths>` |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`gamepad_virt_paths<class_GamepadManager.GamepadArray_property_gamepad_virt_paths>` |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`gamepads<class_GamepadManager.GamepadArray_property_gamepads>`                     |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | :ref:`HandheldGamepad<class_HandheldGamepad>`                              | :ref:`handheld<class_GamepadManager.GamepadArray_property_handheld>`                     |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ | :ref:`mutex<class_GamepadManager.GamepadArray_property_mutex>`                           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,21 +42,21 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | void                                        | :ref:`add<class_GamepadManager.GamepadArray_method_add>` **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)**     |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | void                                        | :ref:`erase<class_GamepadManager.GamepadArray_method_erase>` **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)** |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`ManagedGamepad<class_ManagedGamepad>` | :ref:`get_by_phys<class_GamepadManager.GamepadArray_method_get_by_phys>` **(** String phys_path **)**                        |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                        | :ref:`has_handheld<class_GamepadManager.GamepadArray_method_has_handheld>` **(** **)**                                       |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                        | :ref:`is_managed<class_GamepadManager.GamepadArray_method_is_managed>` **(** String path **)**                               |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                       | :ref:`items<class_GamepadManager.GamepadArray_method_items>` **(** **)**                                                     |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                       | :ref:`phys_paths<class_GamepadManager.GamepadArray_method_phys_paths>` **(** **)**                                           |
-   +---------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`add<class_GamepadManager.GamepadArray_method_add>` **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)**                                                    |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`erase<class_GamepadManager.GamepadArray_method_erase>` **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)**                                                |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`ManagedGamepad<class_ManagedGamepad>`                                | :ref:`get_by_phys<class_GamepadManager.GamepadArray_method_get_by_phys>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)** |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`has_handheld<class_GamepadManager.GamepadArray_method_has_handheld>` **(** **)**                                                                                      |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`is_managed<class_GamepadManager.GamepadArray_method_is_managed>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**        |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`items<class_GamepadManager.GamepadArray_method_items>` **(** **)**                                                                                                    |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`phys_paths<class_GamepadManager.GamepadArray_method_phys_paths>` **(** **)**                                                                                          |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -71,7 +71,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **gamepad_phys_paths**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **gamepad_phys_paths**
 
 .. container:: contribute
 
@@ -85,7 +85,7 @@ Array **gamepad_phys_paths**
 
 .. rst-class:: classref-property
 
-Array **gamepad_virt_paths**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **gamepad_virt_paths**
 
 .. container:: contribute
 
@@ -99,7 +99,7 @@ Array **gamepad_virt_paths**
 
 .. rst-class:: classref-property
 
-Array **gamepads**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **gamepads**
 
 .. container:: contribute
 
@@ -127,7 +127,7 @@ Array **gamepads**
 
 .. rst-class:: classref-property
 
-Mutex **mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
 
 .. container:: contribute
 
@@ -174,7 +174,7 @@ void **erase** **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)**
 
 .. rst-class:: classref-method
 
-:ref:`ManagedGamepad<class_ManagedGamepad>` **get_by_phys** **(** String phys_path **)**
+:ref:`ManagedGamepad<class_ManagedGamepad>` **get_by_phys** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**
 
 .. container:: contribute
 
@@ -188,7 +188,7 @@ void **erase** **(** :ref:`ManagedGamepad<class_ManagedGamepad>` gamepad **)**
 
 .. rst-class:: classref-method
 
-bool **has_handheld** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_handheld** **(** **)**
 
 .. container:: contribute
 
@@ -202,7 +202,7 @@ bool **has_handheld** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **is_managed** **(** String path **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_managed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 .. container:: contribute
 
@@ -216,7 +216,7 @@ bool **is_managed** **(** String path **)**
 
 .. rst-class:: classref-method
 
-Array **items** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **items** **(** **)**
 
 .. container:: contribute
 
@@ -230,7 +230,7 @@ Array **items** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **phys_paths** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **phys_paths** **(** **)**
 
 .. container:: contribute
 

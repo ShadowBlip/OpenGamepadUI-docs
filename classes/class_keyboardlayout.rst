@@ -10,7 +10,7 @@
 KeyboardLayout
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Defines the rows and columns of the on-screen keyboard
 
@@ -29,11 +29,11 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-------------------------------------------------+---------------+
-   | String | :ref:`name<class_KeyboardLayout_property_name>` | ``"Default"`` |
-   +--------+-------------------------------------------------+---------------+
-   | Array  | :ref:`rows<class_KeyboardLayout_property_rows>` |               |
-   +--------+-------------------------------------------------+---------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_KeyboardLayout_property_name>` | ``"Default"`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------+---------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`rows<class_KeyboardLayout_property_rows>` |               |
+   +------------------------------------------------------------------------------+-------------------------------------------------+---------------+
 
 .. rst-class:: classref-section-separator
 
@@ -48,7 +48,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **name** = ``"Default"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name** = ``"Default"``
 
 Name of the keyboard layout
 
@@ -60,7 +60,7 @@ Name of the keyboard layout
 
 .. rst-class:: classref-property
 
-Array **rows**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **rows**
 
 Keyboard rows that belong to this layout
 

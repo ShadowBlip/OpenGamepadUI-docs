@@ -10,7 +10,7 @@
 StateWatcher
 ============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Fires signals based on :ref:`State<class_State>` changes to a :ref:`StateMachine<class_StateMachine>`
 

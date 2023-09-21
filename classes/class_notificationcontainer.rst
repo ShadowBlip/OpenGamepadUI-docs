@@ -10,7 +10,7 @@
 NotificationContainer
 =====================
 
-**Inherits:** 
+**Inherits:** `PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | TextureRect   | :ref:`icon<class_NotificationContainer_property_icon>`                     |                                |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | Vector2       | :ref:`icon_size<class_NotificationContainer_property_icon_size>`           | ``Vector2(64, 64)``            |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | Texture2D     | :ref:`icon_texture<class_NotificationContainer_property_icon_texture>`     | ``Resource("res://icon.svg")`` |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | Label         | :ref:`label<class_NotificationContainer_property_label>`                   |                                |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | LabelSettings | :ref:`label_settings<class_NotificationContainer_property_label_settings>` |                                |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
-   | String        | :ref:`text<class_NotificationContainer_property_text>`                     | ``""``                         |
-   +---------------+----------------------------------------------------------------------------+--------------------------------+
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_     | :ref:`icon<class_NotificationContainer_property_icon>`                     |                                |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_             | :ref:`icon_size<class_NotificationContainer_property_icon_size>`           | ``Vector2(64, 64)``            |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_         | :ref:`icon_texture<class_NotificationContainer_property_icon_texture>`     | ``Resource("res://icon.svg")`` |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                 | :ref:`label<class_NotificationContainer_property_label>`                   |                                |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `LabelSettings <https://docs.godotengine.org/en/stable/classes/class_labelsettings.html>`_ | :ref:`label_settings<class_NotificationContainer_property_label_settings>` |                                |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_               | :ref:`text<class_NotificationContainer_property_text>`                     | ``""``                         |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+--------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -63,7 +63,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-TextureRect **icon**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **icon**
 
 .. container:: contribute
 
@@ -77,7 +77,7 @@ TextureRect **icon**
 
 .. rst-class:: classref-property
 
-Vector2 **icon_size** = ``Vector2(64, 64)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **icon_size** = ``Vector2(64, 64)``
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ Vector2 **icon_size** = ``Vector2(64, 64)``
 
 .. rst-class:: classref-property
 
-Texture2D **icon_texture** = ``Resource("res://icon.svg")``
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **icon_texture** = ``Resource("res://icon.svg")``
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ Texture2D **icon_texture** = ``Resource("res://icon.svg")``
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-LabelSettings **label_settings**
+`LabelSettings <https://docs.godotengine.org/en/stable/classes/class_labelsettings.html>`_ **label_settings**
 
 .. container:: contribute
 
@@ -133,7 +133,7 @@ LabelSettings **label_settings**
 
 .. rst-class:: classref-property
 
-String **text** = ``""``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``""``
 
 .. container:: contribute
 

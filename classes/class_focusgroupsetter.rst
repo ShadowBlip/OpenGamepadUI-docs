@@ -10,7 +10,7 @@
 FocusGroupSetter
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_FocusGroupSetter_property_logger>`       |
-   +-------------------------------------+-------------------------------------------------------------+
-   | String                              | :ref:`on_signal<class_FocusGroupSetter_property_on_signal>` |
-   +-------------------------------------+-------------------------------------------------------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`target<class_FocusGroupSetter_property_target>`       |
-   +-------------------------------------+-------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_FocusGroupSetter_property_logger>`       |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`on_signal<class_FocusGroupSetter_property_on_signal>` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                          | :ref:`target<class_FocusGroupSetter_property_target>`       |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -75,7 +75,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **on_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **on_signal**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 TabContainerState
 =================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Shared resource for the state of a tab container
 
@@ -29,11 +29,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+------------------------------------------------------------------+-------+
-   | int               | :ref:`current_tab<class_TabContainerState_property_current_tab>` | ``0`` |
-   +-------------------+------------------------------------------------------------------+-------+
-   | PackedStringArray | :ref:`tabs_text<class_TabContainerState_property_tabs_text>`     |       |
-   +-------------------+------------------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+-------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`current_tab<class_TabContainerState_property_current_tab>` | ``0`` |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+-------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`tabs_text<class_TabContainerState_property_tabs_text>`     |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-section-separator
 
@@ -48,7 +48,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**tab_button_pressed** **(** int tab **)**
+**tab_button_pressed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ tab **)**
 
 .. container:: contribute
 
@@ -62,7 +62,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**tab_changed** **(** int tab **)**
+**tab_changed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ tab **)**
 
 .. container:: contribute
 
@@ -76,7 +76,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**tab_selected** **(** int tab **)**
+**tab_selected** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ tab **)**
 
 .. container:: contribute
 
@@ -95,7 +95,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-int **current_tab** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **current_tab** = ``0``
 
 .. container:: contribute
 
@@ -109,7 +109,7 @@ int **current_tab** = ``0``
 
 .. rst-class:: classref-property
 
-PackedStringArray **tabs_text**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **tabs_text**
 
 .. container:: contribute
 

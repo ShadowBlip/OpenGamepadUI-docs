@@ -10,7 +10,7 @@
 HandheldIconMapping
 ===================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------+------------------------------------------------------------+
-   | String    | :ref:`path<class_HandheldIconMapping_property_path>`       |
-   +-----------+------------------------------------------------------------+
-   | Texture2D | :ref:`texture<class_HandheldIconMapping_property_texture>` |
-   +-----------+------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`path<class_HandheldIconMapping_property_path>`       |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`texture<class_HandheldIconMapping_property_texture>` |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **path**
 
 .. container:: contribute
 
@@ -57,7 +57,7 @@ String **path**
 
 .. rst-class:: classref-property
 
-Texture2D **texture**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **texture**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 PackageVerifier
 ===============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Verify cryptographic signatures on packages
 
@@ -29,15 +29,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
-   | Crypto                              | :ref:`crypto<class_PackageVerifier_property_crypto>`         |                                                  |
-   +-------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_PackageVerifier_property_logger>`         |                                                  |
-   +-------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
-   | CryptoKey                           | :ref:`pubkey<class_PackageVerifier_property_pubkey>`         |                                                  |
-   +-------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
-   | String                              | :ref:`public_key<class_PackageVerifier_property_public_key>` | ``"res://assets/crypto/keys/opengamepadui.pub"`` |
-   +-------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
+   | `Crypto <https://docs.godotengine.org/en/stable/classes/class_crypto.html>`_       | :ref:`crypto<class_PackageVerifier_property_crypto>`         |                                                  |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                | :ref:`logger<class_PackageVerifier_property_logger>`         |                                                  |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
+   | `CryptoKey <https://docs.godotengine.org/en/stable/classes/class_cryptokey.html>`_ | :ref:`pubkey<class_PackageVerifier_property_pubkey>`         |                                                  |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`public_key<class_PackageVerifier_property_public_key>` | ``"res://assets/crypto/keys/opengamepadui.pub"`` |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------+--------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -47,21 +47,21 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | void            | :ref:`_init<class_PackageVerifier_method__init>` **(** **)**                                                                              |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool            | :ref:`file_has_valid_signature<class_PackageVerifier_method_file_has_valid_signature>` **(** String path, PackedByteArray signature **)** |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedByteArray | :ref:`get_file_hash<class_PackageVerifier_method_get_file_hash>` **(** String path, HashingContext.HashType type **)**                    |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | String          | :ref:`get_file_hash_string<class_PackageVerifier_method_get_file_hash_string>` **(** String path, HashingContext.HashType type **)**      |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedByteArray | :ref:`get_hash<class_PackageVerifier_method_get_hash>` **(** PackedByteArray data, HashingContext.HashType type **)**                     |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | String          | :ref:`get_hash_string<class_PackageVerifier_method_get_hash_string>` **(** PackedByteArray data, HashingContext.HashType type **)**       |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool            | :ref:`has_valid_signature<class_PackageVerifier_method_has_valid_signature>` **(** PackedByteArray data, PackedByteArray signature **)**  |
-   +-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                           | :ref:`_init<class_PackageVerifier_method__init>` **(** **)**                                                                                                                                                                                                                                                                  |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                       | :ref:`file_has_valid_signature<class_PackageVerifier_method_file_has_valid_signature>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ signature **)**                                |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ | :ref:`get_file_hash<class_PackageVerifier_method_get_file_hash>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**                       |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                   | :ref:`get_file_hash_string<class_PackageVerifier_method_get_file_hash_string>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**         |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ | :ref:`get_hash<class_PackageVerifier_method_get_hash>` **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**               |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                   | :ref:`get_hash_string<class_PackageVerifier_method_get_hash_string>` **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)** |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                       | :ref:`has_valid_signature<class_PackageVerifier_method_has_valid_signature>` **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ signature **)**                        |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -76,7 +76,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Crypto **crypto**
+`Crypto <https://docs.godotengine.org/en/stable/classes/class_crypto.html>`_ **crypto**
 
 .. container:: contribute
 
@@ -104,7 +104,7 @@ Crypto **crypto**
 
 .. rst-class:: classref-property
 
-CryptoKey **pubkey**
+`CryptoKey <https://docs.godotengine.org/en/stable/classes/class_cryptokey.html>`_ **pubkey**
 
 .. container:: contribute
 
@@ -118,7 +118,7 @@ CryptoKey **pubkey**
 
 .. rst-class:: classref-property
 
-String **public_key** = ``"res://assets/crypto/keys/opengamepadui.pub"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **public_key** = ``"res://assets/crypto/keys/opengamepadui.pub"``
 
 Path to the public key used to verify signatures
 
@@ -149,7 +149,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **file_has_valid_signature** **(** String path, PackedByteArray signature **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **file_has_valid_signature** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ signature **)**
 
 Loads the file at the given path and returns true if its contents match the given signature.
 
@@ -161,7 +161,7 @@ Loads the file at the given path and returns true if its contents match the give
 
 .. rst-class:: classref-method
 
-PackedByteArray **get_file_hash** **(** String path, HashingContext.HashType type **)**
+`PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ **get_file_hash** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**
 
 Returns the hash of the file at the given path
 
@@ -173,7 +173,7 @@ Returns the hash of the file at the given path
 
 .. rst-class:: classref-method
 
-String **get_file_hash_string** **(** String path, HashingContext.HashType type **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_file_hash_string** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**
 
 Get the hash of the file at the given path as a hex encoded string
 
@@ -185,7 +185,7 @@ Get the hash of the file at the given path as a hex encoded string
 
 .. rst-class:: classref-method
 
-PackedByteArray **get_hash** **(** PackedByteArray data, HashingContext.HashType type **)**
+`PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ **get_hash** **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**
 
 Returns the hash of the given data
 
@@ -197,7 +197,7 @@ Returns the hash of the given data
 
 .. rst-class:: classref-method
 
-String **get_hash_string** **(** PackedByteArray data, HashingContext.HashType type **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_hash_string** **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `HashingContext.HashType <https://docs.godotengine.org/en/stable/classes/class_hashingcontext.html#enum-hashingcontext-hashtype>`_ type **)**
 
 Get the hash of the given data as a hex encoded string
 
@@ -209,7 +209,7 @@ Get the hash of the given data as a hex encoded string
 
 .. rst-class:: classref-method
 
-bool **has_valid_signature** **(** PackedByteArray data, PackedByteArray signature **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_valid_signature** **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ signature **)**
 
 Returns true if the given data matches the given signature data.
 

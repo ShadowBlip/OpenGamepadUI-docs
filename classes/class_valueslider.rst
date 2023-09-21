@@ -10,7 +10,7 @@
 ValueSlider
 ===========
 
-**Inherits:** 
+**Inherits:** `VBoxContainer <https://docs.godotengine.org/en/stable/classes/class_vboxcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,35 +24,35 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------+------------------------------------------------------------------------+---------------+
-   | bool          | :ref:`editable<class_ValueSlider_property_editable>`                   | ``true``      |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | HBoxContainer | :ref:`hbox<class_ValueSlider_property_hbox>`                           |               |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | HSeparator    | :ref:`hsep<class_ValueSlider_property_hsep>`                           |               |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | Label         | :ref:`label<class_ValueSlider_property_label>`                         |               |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | Label         | :ref:`label_value<class_ValueSlider_property_label_value>`             |               |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | float         | :ref:`max_value<class_ValueSlider_property_max_value>`                 | ``100.0``     |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | float         | :ref:`min_value<class_ValueSlider_property_min_value>`                 | ``0.0``       |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | bool          | :ref:`separator_visible<class_ValueSlider_property_separator_visible>` | ``false``     |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | bool          | :ref:`show_label<class_ValueSlider_property_show_label>`               | ``true``      |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | HSlider       | :ref:`slider<class_ValueSlider_property_slider>`                       |               |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | float         | :ref:`step<class_ValueSlider_property_step>`                           | ``1.0``       |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | String        | :ref:`text<class_ValueSlider_property_text>`                           | ``"Setting"`` |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | int           | :ref:`tick_count<class_ValueSlider_property_tick_count>`               | ``0``         |
-   +---------------+------------------------------------------------------------------------+---------------+
-   | float         | :ref:`value<class_ValueSlider_property_value>`                         | ``0.0``       |
-   +---------------+------------------------------------------------------------------------+---------------+
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                   | :ref:`editable<class_ValueSlider_property_editable>`                   | ``true``      |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `HBoxContainer <https://docs.godotengine.org/en/stable/classes/class_hboxcontainer.html>`_ | :ref:`hbox<class_ValueSlider_property_hbox>`                           |               |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `HSeparator <https://docs.godotengine.org/en/stable/classes/class_hseparator.html>`_       | :ref:`hsep<class_ValueSlider_property_hsep>`                           |               |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                 | :ref:`label<class_ValueSlider_property_label>`                         |               |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                 | :ref:`label_value<class_ValueSlider_property_label_value>`             |               |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                 | :ref:`max_value<class_ValueSlider_property_max_value>`                 | ``100.0``     |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                 | :ref:`min_value<class_ValueSlider_property_min_value>`                 | ``0.0``       |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                   | :ref:`separator_visible<class_ValueSlider_property_separator_visible>` | ``false``     |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                   | :ref:`show_label<class_ValueSlider_property_show_label>`               | ``true``      |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `HSlider <https://docs.godotengine.org/en/stable/classes/class_hslider.html>`_             | :ref:`slider<class_ValueSlider_property_slider>`                       |               |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                 | :ref:`step<class_ValueSlider_property_step>`                           | ``1.0``       |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_               | :ref:`text<class_ValueSlider_property_text>`                           | ``"Setting"`` |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                     | :ref:`tick_count<class_ValueSlider_property_tick_count>`               | ``0``         |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                 | :ref:`value<class_ValueSlider_property_value>`                         | ``0.0``       |
+   +--------------------------------------------------------------------------------------------+------------------------------------------------------------------------+---------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -62,17 +62,17 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-------------------------------------------------------------------------------------------+
-   | void | :ref:`_grab_focus<class_ValueSlider_method__grab_focus>` **(** **)**                      |
-   +------+-------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_theme_changed<class_ValueSlider_method__on_theme_changed>` **(** **)**          |
-   +------+-------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_value_changed<class_ValueSlider_method__on_value_changed>` **(** float v **)**  |
-   +------+-------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_ValueSlider_method__ready>` **(** **)**                                |
-   +------+-------------------------------------------------------------------------------------------+
-   | bool | :ref:`_set<class_ValueSlider_method__set>` **(** StringName property, Variant value **)** |
-   +------+-------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_grab_focus<class_ValueSlider_method__grab_focus>` **(** **)**                                                                                                                                                                       |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_theme_changed<class_ValueSlider_method__on_theme_changed>` **(** **)**                                                                                                                                                           |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_value_changed<class_ValueSlider_method__on_value_changed>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ v **)**                                                                              |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_ValueSlider_method__ready>` **(** **)**                                                                                                                                                                                 |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`_set<class_ValueSlider_method__set>` **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -101,7 +101,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**drag_ended** **(** bool value_changed **)**
+**drag_ended** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ value_changed **)**
 
 .. container:: contribute
 
@@ -129,7 +129,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**value_changed** **(** float value **)**
+**value_changed** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **editable** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **editable** = ``true``
 
 .. container:: contribute
 
@@ -162,7 +162,7 @@ bool **editable** = ``true``
 
 .. rst-class:: classref-property
 
-HBoxContainer **hbox**
+`HBoxContainer <https://docs.godotengine.org/en/stable/classes/class_hboxcontainer.html>`_ **hbox**
 
 .. container:: contribute
 
@@ -176,7 +176,7 @@ HBoxContainer **hbox**
 
 .. rst-class:: classref-property
 
-HSeparator **hsep**
+`HSeparator <https://docs.godotengine.org/en/stable/classes/class_hseparator.html>`_ **hsep**
 
 .. container:: contribute
 
@@ -190,7 +190,7 @@ HSeparator **hsep**
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -204,7 +204,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-Label **label_value**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label_value**
 
 .. container:: contribute
 
@@ -218,7 +218,7 @@ Label **label_value**
 
 .. rst-class:: classref-property
 
-float **max_value** = ``100.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **max_value** = ``100.0``
 
 .. container:: contribute
 
@@ -232,7 +232,7 @@ float **max_value** = ``100.0``
 
 .. rst-class:: classref-property
 
-float **min_value** = ``0.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **min_value** = ``0.0``
 
 .. container:: contribute
 
@@ -246,7 +246,7 @@ float **min_value** = ``0.0``
 
 .. rst-class:: classref-property
 
-bool **separator_visible** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **separator_visible** = ``false``
 
 .. container:: contribute
 
@@ -260,7 +260,7 @@ bool **separator_visible** = ``false``
 
 .. rst-class:: classref-property
 
-bool **show_label** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **show_label** = ``true``
 
 .. container:: contribute
 
@@ -274,7 +274,7 @@ bool **show_label** = ``true``
 
 .. rst-class:: classref-property
 
-HSlider **slider**
+`HSlider <https://docs.godotengine.org/en/stable/classes/class_hslider.html>`_ **slider**
 
 .. container:: contribute
 
@@ -288,7 +288,7 @@ HSlider **slider**
 
 .. rst-class:: classref-property
 
-float **step** = ``1.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **step** = ``1.0``
 
 .. container:: contribute
 
@@ -302,7 +302,7 @@ float **step** = ``1.0``
 
 .. rst-class:: classref-property
 
-String **text** = ``"Setting"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``"Setting"``
 
 .. container:: contribute
 
@@ -316,7 +316,7 @@ String **text** = ``"Setting"``
 
 .. rst-class:: classref-property
 
-int **tick_count** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **tick_count** = ``0``
 
 .. container:: contribute
 
@@ -330,7 +330,7 @@ int **tick_count** = ``0``
 
 .. rst-class:: classref-property
 
-float **value** = ``0.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **value** = ``0.0``
 
 .. container:: contribute
 
@@ -377,7 +377,7 @@ void **_on_theme_changed** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_on_value_changed** **(** float v **)**
+void **_on_value_changed** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ v **)**
 
 .. container:: contribute
 
@@ -405,7 +405,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **_set** **(** StringName property, Variant value **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_set** **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**
 
 .. container:: contribute
 

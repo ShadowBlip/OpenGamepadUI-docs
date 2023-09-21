@@ -10,7 +10,7 @@
 Platform.CPUInfo
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Data container for CPU information
 
@@ -22,19 +22,19 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`boost_capable<class_Platform.CPUInfo_property_boost_capable>`     | ``false`` |
-   +--------+-------------------------------------------------------------------------+-----------+
-   | int    | :ref:`core_count<class_Platform.CPUInfo_property_core_count>`           | ``1``     |
-   +--------+-------------------------------------------------------------------------+-----------+
-   | int    | :ref:`cores_available<class_Platform.CPUInfo_property_cores_available>` | ``1``     |
-   +--------+-------------------------------------------------------------------------+-----------+
-   | String | :ref:`model<class_Platform.CPUInfo_property_model>`                     |           |
-   +--------+-------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`smt_capable<class_Platform.CPUInfo_property_smt_capable>`         | ``false`` |
-   +--------+-------------------------------------------------------------------------+-----------+
-   | String | :ref:`vendor<class_Platform.CPUInfo_property_vendor>`                   |           |
-   +--------+-------------------------------------------------------------------------+-----------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`boost_capable<class_Platform.CPUInfo_property_boost_capable>`     | ``false`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`core_count<class_Platform.CPUInfo_property_core_count>`           | ``1``     |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`cores_available<class_Platform.CPUInfo_property_cores_available>` | ``1``     |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`model<class_Platform.CPUInfo_property_model>`                     |           |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`smt_capable<class_Platform.CPUInfo_property_smt_capable>`         | ``false`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_Platform.CPUInfo_property_vendor>`                   |           |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-section-separator
 
@@ -49,7 +49,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **boost_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **boost_capable** = ``false``
 
 .. container:: contribute
 
@@ -63,7 +63,7 @@ bool **boost_capable** = ``false``
 
 .. rst-class:: classref-property
 
-int **core_count** = ``1``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **core_count** = ``1``
 
 .. container:: contribute
 
@@ -77,7 +77,7 @@ int **core_count** = ``1``
 
 .. rst-class:: classref-property
 
-int **cores_available** = ``1``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **cores_available** = ``1``
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ int **cores_available** = ``1``
 
 .. rst-class:: classref-property
 
-String **model**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **model**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ String **model**
 
 .. rst-class:: classref-property
 
-bool **smt_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **smt_capable** = ``false``
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ bool **smt_capable** = ``false``
 
 .. rst-class:: classref-property
 
-String **vendor**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **vendor**
 
 .. container:: contribute
 

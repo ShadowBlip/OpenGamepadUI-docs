@@ -10,7 +10,7 @@
 HandheldEventMapping
 ====================
 
-**Inherits:** :ref:`MappableEvent<class_MappableEvent>`
+**Inherits:** :ref:`MappableEvent<class_MappableEvent>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------+-----------------------------------------------------------------------------+
-   | Array                                     | :ref:`activation_keys<class_HandheldEventMapping_property_activation_keys>` |
-   +-------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`MappableEvent<class_MappableEvent>` | :ref:`emits<class_HandheldEventMapping_property_emits>`                     |
-   +-------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`       | :ref:`logger<class_HandheldEventMapping_property_logger>`                   |
-   +-------------------------------------------+-----------------------------------------------------------------------------+
-   | String                                    | :ref:`name<class_HandheldEventMapping_property_name>`                       |
-   +-------------------------------------------+-----------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`activation_keys<class_HandheldEventMapping_property_activation_keys>` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`MappableEvent<class_MappableEvent>`                                    | :ref:`emits<class_HandheldEventMapping_property_emits>`                     |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_HandheldEventMapping_property_logger>`                   |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_HandheldEventMapping_property_name>`                       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,11 +42,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`output_events_match<class_HandheldEventMapping_method_output_events_match>` **(** Array active_event **)**  |
-   +------+-------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`trigger_events_match<class_HandheldEventMapping_method_trigger_events_match>` **(** Array active_keys **)** |
-   +------+-------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`output_events_match<class_HandheldEventMapping_method_output_events_match>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ active_event **)**  |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`trigger_events_match<class_HandheldEventMapping_method_trigger_events_match>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ active_keys **)** |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **activation_keys**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **activation_keys**
 
 List of events that will trigger this MappedEvent.
 
@@ -97,7 +97,7 @@ Will show logger statements in the event log with the prefix **HandheldEventMapp
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Name of the event to emit
 
@@ -114,7 +114,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **output_events_match** **(** Array active_event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **output_events_match** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ active_event **)**
 
 Checks if the given Array of EvdevEvents matches the activation_keys array.
 
@@ -126,7 +126,7 @@ Checks if the given Array of EvdevEvents matches the activation_keys array.
 
 .. rst-class:: classref-method
 
-bool **trigger_events_match** **(** Array active_keys **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **trigger_events_match** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ active_keys **)**
 
 Checks if the given Array of EvdevEvents matches the activation_keys array.
 

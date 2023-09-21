@@ -10,7 +10,7 @@
 DBusManager.Proxy
 =================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 A Proxy provides an interface to call methods on a DBus object.
 
@@ -22,17 +22,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+------------------------------------------------------------+
-   | DBus                                | :ref:`_dbus<class_DBusManager.Proxy_property__dbus>`       |
-   +-------------------------------------+------------------------------------------------------------+
-   | String                              | :ref:`bus_name<class_DBusManager.Proxy_property_bus_name>` |
-   +-------------------------------------+------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_DBusManager.Proxy_property_logger>`     |
-   +-------------------------------------+------------------------------------------------------------+
-   | String                              | :ref:`path<class_DBusManager.Proxy_property_path>`         |
-   +-------------------------------------+------------------------------------------------------------+
-   | PackedStringArray                   | :ref:`rules<class_DBusManager.Proxy_property_rules>`       |
-   +-------------------------------------+------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_                           | :ref:`_dbus<class_DBusManager.Proxy_property__dbus>`       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`bus_name<class_DBusManager.Proxy_property_bus_name>` |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_DBusManager.Proxy_property_logger>`     |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`path<class_DBusManager.Proxy_property_path>`         |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`rules<class_DBusManager.Proxy_property_rules>`       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,23 +42,23 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | void        | :ref:`_init<class_DBusManager.Proxy_method__init>` **(** DBus conn, String bus, String obj_path **)**                                |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | void        | :ref:`_notification<class_DBusManager.Proxy_method__notification>` **(** int what **)**                                              |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | void        | :ref:`_on_property_changed<class_DBusManager.Proxy_method__on_property_changed>` **(** DBusMessage msg **)**                         |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | DBusMessage | :ref:`call_method<class_DBusManager.Proxy_method_call_method>` **(** String iface, String method, Array args, String signature **)** |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | Dictionary  | :ref:`get_properties<class_DBusManager.Proxy_method_get_properties>` **(** String iface **)**                                        |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | void        | :ref:`get_property<class_DBusManager.Proxy_method_get_property>` **(** String iface, String property **)**                           |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | void        | :ref:`set_property<class_DBusManager.Proxy_method_set_property>` **(** String iface, String property, Variant value **)**            |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-   | int         | :ref:`watch<class_DBusManager.Proxy_method_watch>` **(** String iface, String member **)**                                           |
-   +-------------+--------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                   | :ref:`_init<class_DBusManager.Proxy_method__init>` **(** `DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_ conn, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ obj_path **)**                                                                                                       |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                   | :ref:`_notification<class_DBusManager.Proxy_method__notification>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**                                                                                                                                                                                                                                                                  |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                   | :ref:`_on_property_changed<class_DBusManager.Proxy_method__on_property_changed>` **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**                                                                                                                                                                                                                                     |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ | :ref:`call_method<class_DBusManager.Proxy_method_call_method>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ method, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ signature **)** |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_   | :ref:`get_properties<class_DBusManager.Proxy_method_get_properties>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface **)**                                                                                                                                                                                                                                                         |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                   | :ref:`get_property<class_DBusManager.Proxy_method_get_property>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ property **)**                                                                                                                                                                      |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                   | :ref:`set_property<class_DBusManager.Proxy_method_set_property>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**                                                                                |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                 | :ref:`watch<class_DBusManager.Proxy_method_watch>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ member **)**                                                                                                                                                                                      |
+   +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -73,7 +73,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**message_received** **(** DBusMessage msg **)**
+**message_received** **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**properties_changed** **(** String iface, Dictionary props **)**
+**properties_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)**
 
 .. container:: contribute
 
@@ -106,7 +106,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-DBus **_dbus**
+`DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_ **_dbus**
 
 .. container:: contribute
 
@@ -120,7 +120,7 @@ DBus **_dbus**
 
 .. rst-class:: classref-property
 
-String **bus_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **bus_name**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ String **bus_name**
 
 .. rst-class:: classref-property
 
-String **path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **path**
 
 .. container:: contribute
 
@@ -162,7 +162,7 @@ String **path**
 
 .. rst-class:: classref-property
 
-PackedStringArray **rules**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **rules**
 
 .. container:: contribute
 
@@ -181,7 +181,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** DBus conn, String bus, String obj_path **)**
+void **_init** **(** `DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_ conn, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ obj_path **)**
 
 .. container:: contribute
 
@@ -195,7 +195,7 @@ void **_init** **(** DBus conn, String bus, String obj_path **)**
 
 .. rst-class:: classref-method
 
-void **_notification** **(** int what **)**
+void **_notification** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**
 
 .. container:: contribute
 
@@ -209,7 +209,7 @@ void **_notification** **(** int what **)**
 
 .. rst-class:: classref-method
 
-void **_on_property_changed** **(** DBusMessage msg **)**
+void **_on_property_changed** **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**
 
 .. container:: contribute
 
@@ -223,7 +223,7 @@ void **_on_property_changed** **(** DBusMessage msg **)**
 
 .. rst-class:: classref-method
 
-DBusMessage **call_method** **(** String iface, String method, Array args, String signature **)**
+`DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ **call_method** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ method, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ signature **)**
 
 Call the given method
 
@@ -235,7 +235,7 @@ Call the given method
 
 .. rst-class:: classref-method
 
-Dictionary **get_properties** **(** String iface **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **get_properties** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface **)**
 
 Get all properties for the given interface
 
@@ -247,7 +247,7 @@ Get all properties for the given interface
 
 .. rst-class:: classref-method
 
-void **get_property** **(** String iface, String property **)**
+void **get_property** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ property **)**
 
 Get the given property
 
@@ -259,7 +259,7 @@ Get the given property
 
 .. rst-class:: classref-method
 
-void **set_property** **(** String iface, String property, Variant value **)**
+void **set_property** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**
 
 Set the given property
 
@@ -271,7 +271,7 @@ Set the given property
 
 .. rst-class:: classref-method
 
-int **watch** **(** String iface, String member **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **watch** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ member **)**
 
 Watch the bus for particular signals
 

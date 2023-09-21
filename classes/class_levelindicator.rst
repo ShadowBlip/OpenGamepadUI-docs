@@ -10,7 +10,7 @@
 LevelIndicator
 ==============
 
-**Inherits:** 
+**Inherits:** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------+-----------------------------------------------------------------+----------+
-   | Node      | :ref:`icon<class_LevelIndicator_property_icon>`                 |          |
-   +-----------+-----------------------------------------------------------------+----------+
-   | Texture2D | :ref:`icon_texture<class_LevelIndicator_property_icon_texture>` |          |
-   +-----------+-----------------------------------------------------------------+----------+
-   | Node      | :ref:`progress_bar<class_LevelIndicator_property_progress_bar>` |          |
-   +-----------+-----------------------------------------------------------------+----------+
-   | float     | :ref:`value<class_LevelIndicator_property_value>`               | ``50.0`` |
-   +-----------+-----------------------------------------------------------------+----------+
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------+----------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_           | :ref:`icon<class_LevelIndicator_property_icon>`                 |          |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------+----------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`icon_texture<class_LevelIndicator_property_icon_texture>` |          |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------+----------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_           | :ref:`progress_bar<class_LevelIndicator_property_progress_bar>` |          |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------+----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_         | :ref:`value<class_LevelIndicator_property_value>`               | ``50.0`` |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------+----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -59,7 +59,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Node **icon**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **icon**
 
 .. container:: contribute
 
@@ -73,7 +73,7 @@ Node **icon**
 
 .. rst-class:: classref-property
 
-Texture2D **icon_texture**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **icon_texture**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ Texture2D **icon_texture**
 
 .. rst-class:: classref-property
 
-Node **progress_bar**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **progress_bar**
 
 .. container:: contribute
 
@@ -101,7 +101,7 @@ Node **progress_bar**
 
 .. rst-class:: classref-property
 
-float **value** = ``50.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **value** = ``50.0``
 
 .. container:: contribute
 

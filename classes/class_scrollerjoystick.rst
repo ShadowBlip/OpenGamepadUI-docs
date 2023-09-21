@@ -10,7 +10,7 @@
 ScrollerJoystick
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Scroll a ``ScrollContainer`` using the right analog stick
 
@@ -29,17 +29,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------+-------------------------------------------------------------------+-----------------------+
-   | Vector2         | :ref:`dead_zone<class_ScrollerJoystick_property_dead_zone>`       | ``Vector2(0.2, 0.2)`` |
-   +-----------------+-------------------------------------------------------------------+-----------------------+
-   | Vector2         | :ref:`direction<class_ScrollerJoystick_property_direction>`       | ``Vector2(0, 0)``     |
-   +-----------------+-------------------------------------------------------------------+-----------------------+
-   | ScrollContainer | :ref:`parent<class_ScrollerJoystick_property_parent>`             |                       |
-   +-----------------+-------------------------------------------------------------------+-----------------------+
-   | Vector2         | :ref:`remainder<class_ScrollerJoystick_property_remainder>`       | ``Vector2(0, 0)``     |
-   +-----------------+-------------------------------------------------------------------+-----------------------+
-   | int             | :ref:`scroll_speed<class_ScrollerJoystick_property_scroll_speed>` | ``600``               |
-   +-----------------+-------------------------------------------------------------------+-----------------------+
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_                 | :ref:`dead_zone<class_ScrollerJoystick_property_dead_zone>`       | ``Vector2(0.2, 0.2)`` |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_                 | :ref:`direction<class_ScrollerJoystick_property_direction>`       | ``Vector2(0, 0)``     |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
+   | `ScrollContainer <https://docs.godotengine.org/en/stable/classes/class_scrollcontainer.html>`_ | :ref:`parent<class_ScrollerJoystick_property_parent>`             |                       |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_                 | :ref:`remainder<class_ScrollerJoystick_property_remainder>`       | ``Vector2(0, 0)``     |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                         | :ref:`scroll_speed<class_ScrollerJoystick_property_scroll_speed>` | ``600``               |
+   +------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -49,11 +49,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------+
-   | void | :ref:`_input<class_ScrollerJoystick_method__input>` **(** InputEvent event **)** |
-   +------+----------------------------------------------------------------------------------+
-   | void | :ref:`_process<class_ScrollerJoystick_method__process>` **(** float delta **)**  |
-   +------+----------------------------------------------------------------------------------+
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_input<class_ScrollerJoystick_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)** |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_process<class_ScrollerJoystick_method__process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**       |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -68,7 +68,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Vector2 **dead_zone** = ``Vector2(0.2, 0.2)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **dead_zone** = ``Vector2(0.2, 0.2)``
 
 .. container:: contribute
 
@@ -82,7 +82,7 @@ Vector2 **dead_zone** = ``Vector2(0.2, 0.2)``
 
 .. rst-class:: classref-property
 
-Vector2 **direction** = ``Vector2(0, 0)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **direction** = ``Vector2(0, 0)``
 
 .. container:: contribute
 
@@ -96,7 +96,7 @@ Vector2 **direction** = ``Vector2(0, 0)``
 
 .. rst-class:: classref-property
 
-ScrollContainer **parent**
+`ScrollContainer <https://docs.godotengine.org/en/stable/classes/class_scrollcontainer.html>`_ **parent**
 
 .. container:: contribute
 
@@ -110,7 +110,7 @@ ScrollContainer **parent**
 
 .. rst-class:: classref-property
 
-Vector2 **remainder** = ``Vector2(0, 0)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **remainder** = ``Vector2(0, 0)``
 
 .. container:: contribute
 
@@ -124,7 +124,7 @@ Vector2 **remainder** = ``Vector2(0, 0)``
 
 .. rst-class:: classref-property
 
-int **scroll_speed** = ``600``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **scroll_speed** = ``600``
 
 .. container:: contribute
 
@@ -143,7 +143,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_input** **(** InputEvent event **)**
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -157,7 +157,7 @@ void **_input** **(** InputEvent event **)**
 
 .. rst-class:: classref-method
 
-void **_process** **(** float delta **)**
+void **_process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 .. container:: contribute
 

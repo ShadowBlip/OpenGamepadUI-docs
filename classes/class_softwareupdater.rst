@@ -10,7 +10,7 @@
 SoftwareUpdater
 ===============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,25 +24,25 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | :ref:`PackageVerifier<class_PackageVerifier>` | :ref:`PackageVerifier<class_SoftwareUpdater_property_PackageVerifier>`           | ``Resource("res://core/global/package_verifier.tres")`` |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | :ref:`Version<class_Version>`                 | :ref:`Version<class_SoftwareUpdater_property_Version>`                           | ``Resource("res://core/global/version.tres")``          |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | :ref:`GitHubClient<class_GitHubClient>`       | :ref:`github_client<class_SoftwareUpdater_property_github_client>`               |                                                         |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | String                                        | :ref:`github_project<class_SoftwareUpdater_property_github_project>`             | ``"ShadowBlip/OpenGamepadUI"``                          |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`           | :ref:`logger<class_SoftwareUpdater_property_logger>`                             |                                                         |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | String                                        | :ref:`update_filename<class_SoftwareUpdater_property_update_filename>`           | ``"update.zip"``                                        |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | String                                        | :ref:`update_folder<class_SoftwareUpdater_property_update_folder>`               | ``"user://updates"``                                    |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | String                                        | :ref:`update_hash_filename<class_SoftwareUpdater_property_update_hash_filename>` | ``"update.zip.sha256.txt"``                             |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
-   | String                                        | :ref:`update_pack_url<class_SoftwareUpdater_property_update_pack_url>`           | ``""``                                                  |
-   +-----------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | :ref:`PackageVerifier<class_PackageVerifier>`                                | :ref:`PackageVerifier<class_SoftwareUpdater_property_PackageVerifier>`           | ``Resource("res://core/global/package_verifier.tres")`` |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | :ref:`Version<class_Version>`                                                | :ref:`Version<class_SoftwareUpdater_property_Version>`                           | ``Resource("res://core/global/version.tres")``          |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | :ref:`GitHubClient<class_GitHubClient>`                                      | :ref:`github_client<class_SoftwareUpdater_property_github_client>`               |                                                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`github_project<class_SoftwareUpdater_property_github_project>`             | ``"ShadowBlip/OpenGamepadUI"``                          |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_SoftwareUpdater_property_logger>`                             |                                                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`update_filename<class_SoftwareUpdater_property_update_filename>`           | ``"update.zip"``                                        |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`update_folder<class_SoftwareUpdater_property_update_folder>`               | ``"user://updates"``                                    |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`update_hash_filename<class_SoftwareUpdater_property_update_hash_filename>` | ``"update.zip.sha256.txt"``                             |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`update_pack_url<class_SoftwareUpdater_property_update_pack_url>`           | ``""``                                                  |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -52,13 +52,13 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------+----------------------------------------------------------------------------------------------------+
-   | PackedByteArray | :ref:`_download_file<class_SoftwareUpdater_method__download_file>` **(** String download_url **)** |
-   +-----------------+----------------------------------------------------------------------------------------------------+
-   | void            | :ref:`check_for_updates<class_SoftwareUpdater_method_check_for_updates>` **(** **)**               |
-   +-----------------+----------------------------------------------------------------------------------------------------+
-   | void            | :ref:`install_update<class_SoftwareUpdater_method_install_update>` **(** String download_url **)** |
-   +-----------------+----------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ | :ref:`_download_file<class_SoftwareUpdater_method__download_file>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ download_url **)** |
+   +------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                           | :ref:`check_for_updates<class_SoftwareUpdater_method_check_for_updates>` **(** **)**                                                                                     |
+   +------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                           | :ref:`install_update<class_SoftwareUpdater_method_install_update>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ download_url **)** |
+   +------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -73,7 +73,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**update_available** **(** bool available **)**
+**update_available** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ available **)**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**update_installed** **(** int status **)**
+**update_installed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ status **)**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **github_project** = ``"ShadowBlip/OpenGamepadUI"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **github_project** = ``"ShadowBlip/OpenGamepadUI"``
 
 .. container:: contribute
 
@@ -176,7 +176,7 @@ String **github_project** = ``"ShadowBlip/OpenGamepadUI"``
 
 .. rst-class:: classref-property
 
-String **update_filename** = ``"update.zip"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **update_filename** = ``"update.zip"``
 
 .. container:: contribute
 
@@ -190,7 +190,7 @@ String **update_filename** = ``"update.zip"``
 
 .. rst-class:: classref-property
 
-String **update_folder** = ``"user://updates"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **update_folder** = ``"user://updates"``
 
 .. container:: contribute
 
@@ -204,7 +204,7 @@ String **update_folder** = ``"user://updates"``
 
 .. rst-class:: classref-property
 
-String **update_hash_filename** = ``"update.zip.sha256.txt"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **update_hash_filename** = ``"update.zip.sha256.txt"``
 
 .. container:: contribute
 
@@ -218,7 +218,7 @@ String **update_hash_filename** = ``"update.zip.sha256.txt"``
 
 .. rst-class:: classref-property
 
-String **update_pack_url** = ``""``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **update_pack_url** = ``""``
 
 .. container:: contribute
 
@@ -237,7 +237,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-PackedByteArray **_download_file** **(** String download_url **)**
+`PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ **_download_file** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ download_url **)**
 
 Download the given file and return its data as a PackedByteArray. Returns an empty array if file could not be downloaded.
 
@@ -261,7 +261,7 @@ Checks to see if there is a newer version of OpenGamepadUI available.
 
 .. rst-class:: classref-method
 
-void **install_update** **(** String download_url **)**
+void **install_update** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ download_url **)**
 
 Downloads and installs the given update
 

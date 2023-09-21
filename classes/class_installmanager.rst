@@ -10,7 +10,7 @@
 InstallManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------------+---------------------------------------------------------------------+
-   | :ref:`InstallManager.Request<class_InstallManager.Request>` | :ref:`_current_req<class_InstallManager_property__current_req>`     |
-   +-------------------------------------------------------------+---------------------------------------------------------------------+
-   | Array                                                       | :ref:`_install_queue<class_InstallManager_property__install_queue>` |
-   +-------------------------------------------------------------+---------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`                         | :ref:`logger<class_InstallManager_property_logger>`                 |
-   +-------------------------------------------------------------+---------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | :ref:`InstallManager.Request<class_InstallManager.Request>`                | :ref:`_current_req<class_InstallManager_property__current_req>`     |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_install_queue<class_InstallManager_property__install_queue>` |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_InstallManager_property_logger>`                 |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -40,25 +40,25 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`_process_install_queue<class_InstallManager_method__process_install_queue>` **(** **)**                                                          |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`_queue_install<class_InstallManager_method__queue_install>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` req **)**          |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`InstallManager.Request<class_InstallManager.Request>` | :ref:`get_installing<class_InstallManager_method_get_installing>` **(** **)**                                                                          |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`install<class_InstallManager_method_install>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                    |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                        | :ref:`is_installing<class_InstallManager_method_is_installing>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**                     |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                        | :ref:`is_queued<class_InstallManager_method_is_queued>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**                             |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                        | :ref:`is_queued_or_installing<class_InstallManager_method_is_queued_or_installing>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)** |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`uninstall<class_InstallManager_method_uninstall>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`update<class_InstallManager_method_update>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                      |
-   +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_process_install_queue<class_InstallManager_method__process_install_queue>` **(** **)**                                                          |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_queue_install<class_InstallManager_method__queue_install>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` req **)**          |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`InstallManager.Request<class_InstallManager.Request>`              | :ref:`get_installing<class_InstallManager_method_get_installing>` **(** **)**                                                                          |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`install<class_InstallManager_method_install>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                    |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_installing<class_InstallManager_method_is_installing>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_queued<class_InstallManager_method_is_queued>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**                             |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_queued_or_installing<class_InstallManager_method_is_queued_or_installing>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`uninstall<class_InstallManager_method_uninstall>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`update<class_InstallManager_method_update>` **(** :ref:`InstallManager.Request<class_InstallManager.Request>` request **)**                      |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -187,7 +187,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **_install_queue**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_install_queue**
 
 .. container:: contribute
 
@@ -272,7 +272,7 @@ Installs the given library launch item using its provider
 
 .. rst-class:: classref-method
 
-bool **is_installing** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_installing** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
 
 Returns whether or not the given launch item is currently being installed
 
@@ -284,7 +284,7 @@ Returns whether or not the given launch item is currently being installed
 
 .. rst-class:: classref-method
 
-bool **is_queued** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_queued** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
 
 Returns whether or not the given launch item is queued for install
 
@@ -296,7 +296,7 @@ Returns whether or not the given launch item is queued for install
 
 .. rst-class:: classref-method
 
-bool **is_queued_or_installing** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_queued_or_installing** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
 
 Returns whether or not the given launch item is being installed or queued for install.
 

@@ -10,7 +10,7 @@
 MultiHTTPRequest
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | Array                               | :ref:`_clients<class_MultiHTTPRequest_property__clients>`                 |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | Array                               | :ref:`_done<class_MultiHTTPRequest_property__done>`                       |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | Array                               | :ref:`_requests<class_MultiHTTPRequest_property__requests>`               |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | Array                               | :ref:`_requests_queue<class_MultiHTTPRequest_property__requests_queue>`   |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | Array                               | :ref:`_responses_queue<class_MultiHTTPRequest_property__responses_queue>` |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_MultiHTTPRequest_property_logger>`                     |       |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
-   | int                                 | :ref:`num_clients<class_MultiHTTPRequest_property_num_clients>`           | ``8`` |
-   +-------------------------------------+---------------------------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_clients<class_MultiHTTPRequest_property__clients>`                 |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_done<class_MultiHTTPRequest_property__done>`                       |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_requests<class_MultiHTTPRequest_property__requests>`               |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_requests_queue<class_MultiHTTPRequest_property__requests_queue>`   |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_responses_queue<class_MultiHTTPRequest_property__responses_queue>` |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_MultiHTTPRequest_property_logger>`                     |       |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`num_clients<class_MultiHTTPRequest_property_num_clients>`           | ``8`` |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,21 +48,21 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_collect_results<class_MultiHTTPRequest_method__collect_results>` **(** **)**                                                                                                          |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_http_request_completed<class_MultiHTTPRequest_method__http_request_completed>` **(** int result, int response_code, PackedStringArray headers, PackedByteArray body, int worker **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_worker_done<class_MultiHTTPRequest_method__on_worker_done>` **(** int worker **)**                                                                                                 |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_MultiHTTPRequest_method__ready>` **(** **)**                                                                                                                              |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_reset_queues<class_MultiHTTPRequest_method__reset_queues>` **(** **)**                                                                                                                |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`cancel_request<class_MultiHTTPRequest_method_cancel_request>` **(** **)**                                                                                                              |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`request<class_MultiHTTPRequest_method_request>` **(** PackedStringArray urls **)**                                                                                                     |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_collect_results<class_MultiHTTPRequest_method__collect_results>` **(** **)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_http_request_completed<class_MultiHTTPRequest_method__http_request_completed>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ result, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ response_code, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ headers, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ body, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ worker **)** |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_on_worker_done<class_MultiHTTPRequest_method__on_worker_done>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ worker **)**                                                                                                                                                                                                                                                                                                                                                                                                       |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_ready<class_MultiHTTPRequest_method__ready>` **(** **)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_reset_queues<class_MultiHTTPRequest_method__reset_queues>` **(** **)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`cancel_request<class_MultiHTTPRequest_method_cancel_request>` **(** **)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`request<class_MultiHTTPRequest_method_request>` **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ urls **)**                                                                                                                                                                                                                                                                                                                                                                                             |
+   +------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -77,7 +77,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**request_completed** **(** Array results **)**
+**request_completed** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ results **)**
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**worker_done** **(** int worker **)**
+**worker_done** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ worker **)**
 
 .. container:: contribute
 
@@ -110,7 +110,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **_clients**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_clients**
 
 .. container:: contribute
 
@@ -124,7 +124,7 @@ Array **_clients**
 
 .. rst-class:: classref-property
 
-Array **_done**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_done**
 
 .. container:: contribute
 
@@ -138,7 +138,7 @@ Array **_done**
 
 .. rst-class:: classref-property
 
-Array **_requests**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_requests**
 
 .. container:: contribute
 
@@ -152,7 +152,7 @@ Array **_requests**
 
 .. rst-class:: classref-property
 
-Array **_requests_queue**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_requests_queue**
 
 .. container:: contribute
 
@@ -166,7 +166,7 @@ Array **_requests_queue**
 
 .. rst-class:: classref-property
 
-Array **_responses_queue**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_responses_queue**
 
 .. container:: contribute
 
@@ -194,7 +194,7 @@ Array **_responses_queue**
 
 .. rst-class:: classref-property
 
-int **num_clients** = ``8``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **num_clients** = ``8``
 
 .. container:: contribute
 
@@ -227,7 +227,7 @@ void **_collect_results** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_http_request_completed** **(** int result, int response_code, PackedStringArray headers, PackedByteArray body, int worker **)**
+void **_http_request_completed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ result, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ response_code, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ headers, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ body, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ worker **)**
 
 .. container:: contribute
 
@@ -241,7 +241,7 @@ void **_http_request_completed** **(** int result, int response_code, PackedStri
 
 .. rst-class:: classref-method
 
-void **_on_worker_done** **(** int worker **)**
+void **_on_worker_done** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ worker **)**
 
 .. container:: contribute
 
@@ -297,7 +297,7 @@ void **cancel_request** **(** **)**
 
 .. rst-class:: classref-method
 
-int **request** **(** PackedStringArray urls **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **request** **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ urls **)**
 
 .. container:: contribute
 

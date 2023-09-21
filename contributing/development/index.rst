@@ -127,7 +127,7 @@ OpenGamepadUI uses ``make`` to help make developing the project easier.
 You can view the things you can do with ``make`` by running
 ``make help``:
 
-.. image:: ./media/makefile.png
+.. image:: ./img/makefile.png
 
 You can build the OpenGamepadUI binary using the following:
 

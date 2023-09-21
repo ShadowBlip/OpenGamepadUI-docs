@@ -10,7 +10,7 @@
 SemanticVersion
 ===============
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 Static methods for semantic versioning
 
@@ -29,15 +29,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_feature_compatible<class_SemanticVersion_method_is_feature_compatible>` **(** String version, String target **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_greater<class_SemanticVersion_method_is_greater>` **(** String version, String target **)**                       |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_greater_or_equal<class_SemanticVersion_method_is_greater_or_equal>` **(** String version, String target **)**     |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_valid<class_SemanticVersion_method_is_valid>` **(** String version **)**                                          |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_feature_compatible<class_SemanticVersion_method_is_feature_compatible>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)** |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_greater<class_SemanticVersion_method_is_greater>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)**                       |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_greater_or_equal<class_SemanticVersion_method_is_greater_or_equal>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)**     |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_valid<class_SemanticVersion_method_is_valid>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version **)**                                                                                                                |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -52,7 +52,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **is_feature_compatible** **(** String version, String target **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_feature_compatible** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)**
 
 Returns whether or not the given version is feature compatible with the target version. E.g. v1.4.3 is feature compatible with v1.4.0, but not v1.3.0
 
@@ -64,7 +64,7 @@ Returns whether or not the given version is feature compatible with the target v
 
 .. rst-class:: classref-method
 
-bool **is_greater** **(** String version, String target **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_greater** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)**
 
 Returns whether or not the given semantic version string is greater than the target semantic version string.
 
@@ -76,7 +76,7 @@ Returns whether or not the given semantic version string is greater than the tar
 
 .. rst-class:: classref-method
 
-bool **is_greater_or_equal** **(** String version, String target **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_greater_or_equal** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ target **)**
 
 Returns whether or not the given semantic version string is greater or equal to the target semantic version string.
 
@@ -88,7 +88,7 @@ Returns whether or not the given semantic version string is greater or equal to 
 
 .. rst-class:: classref-method
 
-bool **is_valid** **(** String version **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_valid** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ version **)**
 
 Returns whether or not the given version string is a valid semantic version string. Semantic version strings are in the form of X.Y.Z (e.g. 1.3.24)
 

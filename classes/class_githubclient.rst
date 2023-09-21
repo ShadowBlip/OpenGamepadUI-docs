@@ -10,7 +10,7 @@
 GitHubClient
 ============
 
-**Inherits:** :ref:`HTTPAPIClient<class_HTTPAPIClient>`
+**Inherits:** :ref:`HTTPAPIClient<class_HTTPAPIClient>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_GitHubClient_method__ready>` **(** **)**                                                    |
-   +------+----------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`get_releases<class_GitHubClient_method_get_releases>` **(** String project, int per_page, int page **)** |
-   +------+----------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_GitHubClient_method__ready>` **(** **)**                                                                                                                                                                                                                                                                |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`get_releases<class_GitHubClient_method_get_releases>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ project, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ per_page, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ page **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -57,7 +57,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **get_releases** **(** String project, int per_page, int page **)**
+void **get_releases** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ project, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ per_page, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ page **)**
 
 Returns the releases for the given project. E.g. "ShadowBlip/OpenGamepadUI" Refer to the GitHub API for data layout: https://api.github.com/repos/ShadowBlip/OpenGamepadUI/releases
 

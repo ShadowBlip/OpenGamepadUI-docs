@@ -10,7 +10,7 @@
 Platform.OSInfo
 ===============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Data container for OS information
 
@@ -22,19 +22,19 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`id<class_Platform.OSInfo_property_id>`                             |
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`id_like<class_Platform.OSInfo_property_id_like>`                   |
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`name<class_Platform.OSInfo_property_name>`                         |
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`pretty_name<class_Platform.OSInfo_property_pretty_name>`           |
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`variant_id<class_Platform.OSInfo_property_variant_id>`             |
-   +--------+--------------------------------------------------------------------------+
-   | String | :ref:`version_codename<class_Platform.OSInfo_property_version_codename>` |
-   +--------+--------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`id<class_Platform.OSInfo_property_id>`                             |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`id_like<class_Platform.OSInfo_property_id_like>`                   |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_Platform.OSInfo_property_name>`                         |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`pretty_name<class_Platform.OSInfo_property_pretty_name>`           |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`variant_id<class_Platform.OSInfo_property_variant_id>`             |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`version_codename<class_Platform.OSInfo_property_version_codename>` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -49,7 +49,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **id**
 
 .. container:: contribute
 
@@ -63,7 +63,7 @@ String **id**
 
 .. rst-class:: classref-property
 
-String **id_like**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **id_like**
 
 .. container:: contribute
 
@@ -77,7 +77,7 @@ String **id_like**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ String **name**
 
 .. rst-class:: classref-property
 
-String **pretty_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **pretty_name**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ String **pretty_name**
 
 .. rst-class:: classref-property
 
-String **variant_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **variant_id**
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ String **variant_id**
 
 .. rst-class:: classref-property
 
-String **version_codename**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **version_codename**
 
 .. container:: contribute
 

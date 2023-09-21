@@ -10,7 +10,7 @@
 StateUpdater
 ============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Update the state of a state machine when a signal fires
 
@@ -29,15 +29,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+-----------------------------------------------------------------+-------+
-   | :ref:`ACTION<enum_StateUpdater_ACTION>` | :ref:`action<class_StateUpdater_property_action>`               | ``0`` |
-   +-----------------------------------------+-----------------------------------------------------------------+-------+
-   | String                                  | :ref:`on_signal<class_StateUpdater_property_on_signal>`         |       |
-   +-----------------------------------------+-----------------------------------------------------------------+-------+
-   | :ref:`State<class_State>`               | :ref:`state<class_StateUpdater_property_state>`                 |       |
-   +-----------------------------------------+-----------------------------------------------------------------+-------+
-   | :ref:`StateMachine<class_StateMachine>` | :ref:`state_machine<class_StateUpdater_property_state_machine>` |       |
-   +-----------------------------------------+-----------------------------------------------------------------+-------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------+-------+
+   | :ref:`ACTION<enum_StateUpdater_ACTION>`                                      | :ref:`action<class_StateUpdater_property_action>`               | ``0`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`on_signal<class_StateUpdater_property_on_signal>`         |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------+-------+
+   | :ref:`State<class_State>`                                                    | :ref:`state<class_StateUpdater_property_state>`                 |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------+-------+
+   | :ref:`StateMachine<class_StateMachine>`                                      | :ref:`state_machine<class_StateUpdater_property_state_machine>` |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -144,7 +144,7 @@ Whether to push, pop, replace, or set the state when the signal has fired.
 
 .. rst-class:: classref-property
 
-String **on_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **on_signal**
 
 Signal on our parent to connect to. When this signal fires, the **StateUpdater** will change the state machine to the given state.
 

@@ -10,7 +10,7 @@
 BoxArtProvider
 ==============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Base class for BoxArt implementations
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | :ref:`BoxArtManager<class_BoxArtManager>` | :ref:`BoxArtManager<class_BoxArtProvider_property_BoxArtManager>` |       |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | :ref:`LEVEL<enum_Log_LEVEL>`              | :ref:`log_level<class_BoxArtProvider_property_log_level>`         | ``3`` |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | :ref:`Log.Logger<class_Log.Logger>`       | :ref:`logger<class_BoxArtProvider_property_logger>`               |       |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | String                                    | :ref:`logger_name<class_BoxArtProvider_property_logger_name>`     |       |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | Texture2D                                 | :ref:`provider_icon<class_BoxArtProvider_property_provider_icon>` |       |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
-   | String                                    | :ref:`provider_id<class_BoxArtProvider_property_provider_id>`     |       |
-   +-------------------------------------------+-------------------------------------------------------------------+-------+
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | :ref:`BoxArtManager<class_BoxArtManager>`                                          | :ref:`BoxArtManager<class_BoxArtProvider_property_BoxArtManager>` |       |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | :ref:`LEVEL<enum_Log_LEVEL>`                                                       | :ref:`log_level<class_BoxArtProvider_property_log_level>`         | ``3`` |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                | :ref:`logger<class_BoxArtProvider_property_logger>`               |       |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`logger_name<class_BoxArtProvider_property_logger_name>`     |       |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`provider_icon<class_BoxArtProvider_property_provider_icon>` |       |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`provider_id<class_BoxArtProvider_property_provider_id>`     |       |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,15 +51,15 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`_exit_tree<class_BoxArtProvider_method__exit_tree>` **(** **)**                                                                                            |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`_init<class_BoxArtProvider_method__init>` **(** **)**                                                                                                      |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`_ready<class_BoxArtProvider_method__ready>` **(** **)**                                                                                                    |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D | :ref:`get_boxart<class_BoxArtProvider_method_get_boxart>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)** |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_exit_tree<class_BoxArtProvider_method__exit_tree>` **(** **)**                                                                                            |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_init<class_BoxArtProvider_method__init>` **(** **)**                                                                                                      |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_ready<class_BoxArtProvider_method__ready>` **(** **)**                                                                                                    |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_boxart<class_BoxArtProvider_method_get_boxart>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)** |
+   +------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -74,7 +74,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**boxart_loaded** **(** Texture2D texture **)**
+**boxart_loaded** **(** `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ texture **)**
 
 Should be emitted when boxart has been loaded
 
@@ -178,7 +178,7 @@ Log level of the logger.
 
 .. rst-class:: classref-property
 
-String **logger_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **logger_name**
 
 Logger name used for debug messages
 
@@ -190,7 +190,7 @@ Logger name used for debug messages
 
 .. rst-class:: classref-property
 
-Texture2D **provider_icon**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **provider_icon**
 
 Icon for boxart provider
 
@@ -202,7 +202,7 @@ Icon for boxart provider
 
 .. rst-class:: classref-property
 
-String **provider_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **provider_id**
 
 Unique identifier for the boxart provider
 
@@ -261,7 +261,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-Texture2D **get_boxart** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_boxart** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
 
 Returns the game artwork as a texture for the given game in the given layout. This method should be overriden in the extending class.
 

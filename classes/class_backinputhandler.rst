@@ -10,7 +10,7 @@
 BackInputHandler
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`     | :ref:`logger<class_BackInputHandler_property_logger>`                             |                                                                             |
-   +-----------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | int                                     | :ref:`minimum_states<class_BackInputHandler_property_minimum_states>`             | ``1``                                                                       |
-   +-----------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | Array                                   | :ref:`process_input_during<class_BackInputHandler_property_process_input_during>` |                                                                             |
-   +-----------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`StateMachine<class_StateMachine>` | :ref:`state_machine<class_BackInputHandler_property_state_machine>`               | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
-   +-----------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_BackInputHandler_property_logger>`                             |                                                                             |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`minimum_states<class_BackInputHandler_property_minimum_states>`             | ``1``                                                                       |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`process_input_during<class_BackInputHandler_property_process_input_during>` |                                                                             |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`StateMachine<class_StateMachine>`                                    | :ref:`state_machine<class_BackInputHandler_property_state_machine>`               | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,13 +42,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_input<class_BackInputHandler_method__input>` **(** InputEvent event **)**                                                                    |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_state_changed<class_BackInputHandler_method__on_state_changed>` **(** :ref:`State<class_State>` _from, :ref:`State<class_State>` to **)** |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_BackInputHandler_method__ready>` **(** **)**                                                                                     |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_input<class_BackInputHandler_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)** |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_state_changed<class_BackInputHandler_method__on_state_changed>` **(** :ref:`State<class_State>` _from, :ref:`State<class_State>` to **)**        |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_BackInputHandler_method__ready>` **(** **)**                                                                                            |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -75,7 +75,7 @@ Will show logger events with the prefix BackInputHandler
 
 .. rst-class:: classref-property
 
-int **minimum_states** = ``1``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **minimum_states** = ``1``
 
 Minimum number of states in the state machine stack. **BackInputHandler** will not pop the state machine stack beyond this number.
 
@@ -87,7 +87,7 @@ Minimum number of states in the state machine stack. **BackInputHandler** will n
 
 .. rst-class:: classref-property
 
-Array **process_input_during**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **process_input_during**
 
 Pop the state machine when back input is pressed during any of these states
 
@@ -116,7 +116,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_input** **(** InputEvent event **)**
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 

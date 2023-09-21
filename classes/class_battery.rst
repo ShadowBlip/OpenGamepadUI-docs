@@ -10,7 +10,7 @@
 Battery
 =======
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -36,15 +36,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                               | :ref:`find_battery_path<class_Battery_method_find_battery_path>` **(** **)**                                                               |
-   +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                | :ref:`get_capacity<class_Battery_method_get_capacity>` **(** String battery **)**                                                          |
-   +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                          | :ref:`get_capacity_texture<class_Battery_method_get_capacity_texture>` **(** int capacity, :ref:`STATUS<enum_Battery_STATUS>` status **)** |
-   +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`STATUS<enum_Battery_STATUS>` | :ref:`get_status<class_Battery_method_get_status>` **(** String battery **)**                                                              |
-   +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`find_battery_path<class_Battery_method_find_battery_path>` **(** **)**                                                                                                                                  |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`get_capacity<class_Battery_method_get_capacity>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ battery **)**                                                       |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_capacity_texture<class_Battery_method_get_capacity_texture>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ capacity, :ref:`STATUS<enum_Battery_STATUS>` status **)** |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`STATUS<enum_Battery_STATUS>`                                                 | :ref:`get_status<class_Battery_method_get_status>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ battery **)**                                                           |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -212,7 +212,7 @@ void **find_battery_path** **(** **)**
 
 .. rst-class:: classref-method
 
-int **get_capacity** **(** String battery **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_capacity** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ battery **)**
 
 .. container:: contribute
 
@@ -226,7 +226,7 @@ int **get_capacity** **(** String battery **)**
 
 .. rst-class:: classref-method
 
-Texture2D **get_capacity_texture** **(** int capacity, :ref:`STATUS<enum_Battery_STATUS>` status **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_capacity_texture** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ capacity, :ref:`STATUS<enum_Battery_STATUS>` status **)**
 
 Returns the texture reflecting the given battery capacity
 
@@ -238,7 +238,7 @@ Returns the texture reflecting the given battery capacity
 
 .. rst-class:: classref-method
 
-:ref:`STATUS<enum_Battery_STATUS>` **get_status** **(** String battery **)**
+:ref:`STATUS<enum_Battery_STATUS>` **get_status** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ battery **)**
 
 Returns the status of the given battery
 

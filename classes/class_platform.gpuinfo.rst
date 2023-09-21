@@ -10,7 +10,7 @@
 Platform.GPUInfo
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Data container for GPU information
 
@@ -22,33 +22,33 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`clk_capable<class_Platform.GPUInfo_property_clk_capable>`                         | ``false`` |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | String | :ref:`driver<class_Platform.GPUInfo_property_driver>`                                   |           |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | float  | :ref:`freq_max<class_Platform.GPUInfo_property_freq_max>`                               |           |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | float  | :ref:`freq_min<class_Platform.GPUInfo_property_freq_min>`                               |           |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | float  | :ref:`max_boost<class_Platform.GPUInfo_property_max_boost>`                             | ``-1.0``  |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | String | :ref:`model<class_Platform.GPUInfo_property_model>`                                     |           |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`power_profile_capable<class_Platform.GPUInfo_property_power_profile_capable>`     | ``false`` |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`tdp_capable<class_Platform.GPUInfo_property_tdp_capable>`                         | ``false`` |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | float  | :ref:`tdp_max<class_Platform.GPUInfo_property_tdp_max>`                                 | ``-1.0``  |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | float  | :ref:`tdp_min<class_Platform.GPUInfo_property_tdp_min>`                                 | ``-1.0``  |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`thermal_profile_capable<class_Platform.GPUInfo_property_thermal_profile_capable>` | ``false`` |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | bool   | :ref:`tj_temp_capable<class_Platform.GPUInfo_property_tj_temp_capable>`                 | ``false`` |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
-   | String | :ref:`vendor<class_Platform.GPUInfo_property_vendor>`                                   |           |
-   +--------+-----------------------------------------------------------------------------------------+-----------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`clk_capable<class_Platform.GPUInfo_property_clk_capable>`                         | ``false`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`driver<class_Platform.GPUInfo_property_driver>`                                   |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`freq_max<class_Platform.GPUInfo_property_freq_max>`                               |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`freq_min<class_Platform.GPUInfo_property_freq_min>`                               |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`max_boost<class_Platform.GPUInfo_property_max_boost>`                             | ``-1.0``  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`model<class_Platform.GPUInfo_property_model>`                                     |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`power_profile_capable<class_Platform.GPUInfo_property_power_profile_capable>`     | ``false`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`tdp_capable<class_Platform.GPUInfo_property_tdp_capable>`                         | ``false`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`tdp_max<class_Platform.GPUInfo_property_tdp_max>`                                 | ``-1.0``  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`tdp_min<class_Platform.GPUInfo_property_tdp_min>`                                 | ``-1.0``  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`thermal_profile_capable<class_Platform.GPUInfo_property_thermal_profile_capable>` | ``false`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`tj_temp_capable<class_Platform.GPUInfo_property_tj_temp_capable>`                 | ``false`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_Platform.GPUInfo_property_vendor>`                                   |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-section-separator
 
@@ -63,7 +63,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **clk_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **clk_capable** = ``false``
 
 .. container:: contribute
 
@@ -77,7 +77,7 @@ bool **clk_capable** = ``false``
 
 .. rst-class:: classref-property
 
-String **driver**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **driver**
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ String **driver**
 
 .. rst-class:: classref-property
 
-float **freq_max**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **freq_max**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ float **freq_max**
 
 .. rst-class:: classref-property
 
-float **freq_min**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **freq_min**
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ float **freq_min**
 
 .. rst-class:: classref-property
 
-float **max_boost** = ``-1.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **max_boost** = ``-1.0``
 
 .. container:: contribute
 
@@ -133,7 +133,7 @@ float **max_boost** = ``-1.0``
 
 .. rst-class:: classref-property
 
-String **model**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **model**
 
 .. container:: contribute
 
@@ -147,7 +147,7 @@ String **model**
 
 .. rst-class:: classref-property
 
-bool **power_profile_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **power_profile_capable** = ``false``
 
 .. container:: contribute
 
@@ -161,7 +161,7 @@ bool **power_profile_capable** = ``false``
 
 .. rst-class:: classref-property
 
-bool **tdp_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **tdp_capable** = ``false``
 
 .. container:: contribute
 
@@ -175,7 +175,7 @@ bool **tdp_capable** = ``false``
 
 .. rst-class:: classref-property
 
-float **tdp_max** = ``-1.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **tdp_max** = ``-1.0``
 
 .. container:: contribute
 
@@ -189,7 +189,7 @@ float **tdp_max** = ``-1.0``
 
 .. rst-class:: classref-property
 
-float **tdp_min** = ``-1.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **tdp_min** = ``-1.0``
 
 .. container:: contribute
 
@@ -203,7 +203,7 @@ float **tdp_min** = ``-1.0``
 
 .. rst-class:: classref-property
 
-bool **thermal_profile_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **thermal_profile_capable** = ``false``
 
 .. container:: contribute
 
@@ -217,7 +217,7 @@ bool **thermal_profile_capable** = ``false``
 
 .. rst-class:: classref-property
 
-bool **tj_temp_capable** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **tj_temp_capable** = ``false``
 
 .. container:: contribute
 
@@ -231,7 +231,7 @@ bool **tj_temp_capable** = ``false``
 
 .. rst-class:: classref-property
 
-String **vendor**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **vendor**
 
 .. container:: contribute
 

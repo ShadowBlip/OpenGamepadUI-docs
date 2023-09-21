@@ -10,7 +10,7 @@
 NetworkManager.WifiAP
 =====================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Wireless Access Point
 
@@ -22,23 +22,23 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+----------------------------------------------------------------+
-   | String | :ref:`bssid<class_NetworkManager.WifiAP_property_bssid>`       |
-   +--------+----------------------------------------------------------------+
-   | int    | :ref:`channel<class_NetworkManager.WifiAP_property_channel>`   |
-   +--------+----------------------------------------------------------------+
-   | bool   | :ref:`in_use<class_NetworkManager.WifiAP_property_in_use>`     |
-   +--------+----------------------------------------------------------------+
-   | String | :ref:`mode<class_NetworkManager.WifiAP_property_mode>`         |
-   +--------+----------------------------------------------------------------+
-   | String | :ref:`rate<class_NetworkManager.WifiAP_property_rate>`         |
-   +--------+----------------------------------------------------------------+
-   | String | :ref:`security<class_NetworkManager.WifiAP_property_security>` |
-   +--------+----------------------------------------------------------------+
-   | String | :ref:`ssid<class_NetworkManager.WifiAP_property_ssid>`         |
-   +--------+----------------------------------------------------------------+
-   | int    | :ref:`strength<class_NetworkManager.WifiAP_property_strength>` |
-   +--------+----------------------------------------------------------------+
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`bssid<class_NetworkManager.WifiAP_property_bssid>`       |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`channel<class_NetworkManager.WifiAP_property_channel>`   |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`in_use<class_NetworkManager.WifiAP_property_in_use>`     |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`mode<class_NetworkManager.WifiAP_property_mode>`         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`rate<class_NetworkManager.WifiAP_property_rate>`         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`security<class_NetworkManager.WifiAP_property_security>` |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`ssid<class_NetworkManager.WifiAP_property_ssid>`         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`strength<class_NetworkManager.WifiAP_property_strength>` |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -53,7 +53,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **bssid**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **bssid**
 
 .. container:: contribute
 
@@ -67,7 +67,7 @@ String **bssid**
 
 .. rst-class:: classref-property
 
-int **channel**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **channel**
 
 .. container:: contribute
 
@@ -81,7 +81,7 @@ int **channel**
 
 .. rst-class:: classref-property
 
-bool **in_use**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **in_use**
 
 .. container:: contribute
 
@@ -95,7 +95,7 @@ bool **in_use**
 
 .. rst-class:: classref-property
 
-String **mode**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **mode**
 
 .. container:: contribute
 
@@ -109,7 +109,7 @@ String **mode**
 
 .. rst-class:: classref-property
 
-String **rate**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **rate**
 
 .. container:: contribute
 
@@ -123,7 +123,7 @@ String **rate**
 
 .. rst-class:: classref-property
 
-String **security**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **security**
 
 .. container:: contribute
 
@@ -137,7 +137,7 @@ String **security**
 
 .. rst-class:: classref-property
 
-String **ssid**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **ssid**
 
 .. container:: contribute
 
@@ -151,7 +151,7 @@ String **ssid**
 
 .. rst-class:: classref-property
 
-int **strength**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **strength**
 
 .. container:: contribute
 

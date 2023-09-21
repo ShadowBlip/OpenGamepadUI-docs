@@ -10,7 +10,7 @@
 EvdevRepEvent
 =============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+------------------------------------------------+
-   | String | :ref:`code<class_EvdevRepEvent_property_code>` |
-   +--------+------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`code<class_EvdevRepEvent_property_code>` |
+   +------------------------------------------------------------------------------+------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -53,7 +53,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **code**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **code**
 
 .. container:: contribute
 

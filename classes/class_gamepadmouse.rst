@@ -10,7 +10,7 @@
 GamepadMouse
 ============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | VirtualInputDevice                  | :ref:`device<class_GamepadMouse_property_device>`                   |                   |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_GamepadMouse_property_logger>`                   |                   |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | String                              | :ref:`mouse_path<class_GamepadMouse_property_mouse_path>`           |                   |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | Vector2                             | :ref:`mouse_position<class_GamepadMouse_property_mouse_position>`   | ``Vector2(0, 0)`` |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | Vector2                             | :ref:`mouse_remainder<class_GamepadMouse_property_mouse_remainder>` | ``Vector2(0, 0)`` |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | int                                 | :ref:`mouse_speed_pps<class_GamepadMouse_property_mouse_speed_pps>` | ``800``           |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
-   | bool                                | :ref:`should_process<class_GamepadMouse_property_should_process>`   | ``false``         |
-   +-------------------------------------+---------------------------------------------------------------------+-------------------+
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `VirtualInputDevice <https://docs.godotengine.org/en/stable/classes/class_virtualinputdevice.html>`_ | :ref:`device<class_GamepadMouse_property_device>`                   |                   |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                  | :ref:`logger<class_GamepadMouse_property_logger>`                   |                   |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                         | :ref:`mouse_path<class_GamepadMouse_property_mouse_path>`           |                   |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_                       | :ref:`mouse_position<class_GamepadMouse_property_mouse_position>`   | ``Vector2(0, 0)`` |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_                       | :ref:`mouse_remainder<class_GamepadMouse_property_mouse_remainder>` | ``Vector2(0, 0)`` |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`mouse_speed_pps<class_GamepadMouse_property_mouse_speed_pps>` | ``800``           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                             | :ref:`should_process<class_GamepadMouse_property_should_process>`   | ``false``         |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,17 +48,17 @@ Methods
 .. table::
    :widths: auto
 
-   +-------+--------------------------------------------------------------------------------------------------------------------+
-   | float | :ref:`_calculate_mouse_move<class_GamepadMouse_method__calculate_mouse_move>` **(** float delta, float value **)** |
-   +-------+--------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_move_mouse<class_GamepadMouse_method__move_mouse>` **(** float delta **)**                                  |
-   +-------+--------------------------------------------------------------------------------------------------------------------+
-   | int   | :ref:`open<class_GamepadMouse_method_open>` **(** **)**                                                            |
-   +-------+--------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`process<class_GamepadMouse_method_process>` **(** float delta **)**                                          |
-   +-------+--------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`process_mouse_event<class_GamepadMouse_method_process_mouse_event>` **(** InputEvent event **)**             |
-   +-------+--------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ | :ref:`_calculate_mouse_move<class_GamepadMouse_method__calculate_mouse_move>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)** |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_move_mouse<class_GamepadMouse_method__move_mouse>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**                                                                                                       |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`open<class_GamepadMouse_method_open>` **(** **)**                                                                                                                                                                                                      |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`process<class_GamepadMouse_method_process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**                                                                                                               |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`process_mouse_event<class_GamepadMouse_method_process_mouse_event>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                             |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -73,7 +73,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-VirtualInputDevice **device**
+`VirtualInputDevice <https://docs.godotengine.org/en/stable/classes/class_virtualinputdevice.html>`_ **device**
 
 .. container:: contribute
 
@@ -101,7 +101,7 @@ VirtualInputDevice **device**
 
 .. rst-class:: classref-property
 
-String **mouse_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **mouse_path**
 
 .. container:: contribute
 
@@ -115,7 +115,7 @@ String **mouse_path**
 
 .. rst-class:: classref-property
 
-Vector2 **mouse_position** = ``Vector2(0, 0)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **mouse_position** = ``Vector2(0, 0)``
 
 .. container:: contribute
 
@@ -129,7 +129,7 @@ Vector2 **mouse_position** = ``Vector2(0, 0)``
 
 .. rst-class:: classref-property
 
-Vector2 **mouse_remainder** = ``Vector2(0, 0)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **mouse_remainder** = ``Vector2(0, 0)``
 
 .. container:: contribute
 
@@ -143,7 +143,7 @@ Vector2 **mouse_remainder** = ``Vector2(0, 0)``
 
 .. rst-class:: classref-property
 
-int **mouse_speed_pps** = ``800``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **mouse_speed_pps** = ``800``
 
 .. container:: contribute
 
@@ -157,7 +157,7 @@ int **mouse_speed_pps** = ``800``
 
 .. rst-class:: classref-property
 
-bool **should_process** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **should_process** = ``false``
 
 .. container:: contribute
 
@@ -176,7 +176,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-float **_calculate_mouse_move** **(** float delta, float value **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **_calculate_mouse_move** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**
 
 .. container:: contribute
 
@@ -190,7 +190,7 @@ float **_calculate_mouse_move** **(** float delta, float value **)**
 
 .. rst-class:: classref-method
 
-void **_move_mouse** **(** float delta **)**
+void **_move_mouse** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Move the mouse based on the given input event translation
 
@@ -202,7 +202,7 @@ Move the mouse based on the given input event translation
 
 .. rst-class:: classref-method
 
-int **open** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **open** **(** **)**
 
 Creates and opens the gamepad mouse device
 
@@ -214,7 +214,7 @@ Creates and opens the gamepad mouse device
 
 .. rst-class:: classref-method
 
-void **process** **(** float delta **)**
+void **process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Should be called every input frame to move the mouse
 
@@ -226,7 +226,7 @@ Should be called every input frame to move the mouse
 
 .. rst-class:: classref-method
 
-void **process_mouse_event** **(** InputEvent event **)**
+void **process_mouse_event** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 Processes the given mouse motion or button input event.
 

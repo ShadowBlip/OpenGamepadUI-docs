@@ -10,7 +10,7 @@
 ThreadPool.Task
 ===============
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 A queued task to run in the thread pool
 
@@ -22,11 +22,11 @@ Properties
 .. table::
    :widths: auto
 
-   +----------+------------------------------------------------------+
-   | Callable | :ref:`method<class_ThreadPool.Task_property_method>` |
-   +----------+------------------------------------------------------+
-   | Variant  | :ref:`ret<class_ThreadPool.Task_property_ret>`       |
-   +----------+------------------------------------------------------+
+   +----------------------------------------------------------------------------------+------------------------------------------------------+
+   | `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ | :ref:`method<class_ThreadPool.Task_property_method>` |
+   +----------------------------------------------------------------------------------+------------------------------------------------------+
+   | `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_   | :ref:`ret<class_ThreadPool.Task_property_ret>`       |
+   +----------------------------------------------------------------------------------+------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -41,7 +41,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Callable **method**
+`Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ **method**
 
 .. container:: contribute
 
@@ -55,7 +55,7 @@ Callable **method**
 
 .. rst-class:: classref-property
 
-Variant **ret**
+`Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ **ret**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 PlatformAction
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 **Inherited By:** :ref:`ActionStartOpenSD<class_ActionStartOpenSD>`, :ref:`ActionTurboTakeover<class_ActionTurboTakeover>`
 

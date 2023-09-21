@@ -10,7 +10,7 @@
 FadeEffect
 ==========
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +---------+-------------------------------------------------------------------+---------+
-   | String  | :ref:`fade_out_signal<class_FadeEffect_property_fade_out_signal>` |         |
-   +---------+-------------------------------------------------------------------+---------+
-   | float   | :ref:`fade_speed<class_FadeEffect_property_fade_speed>`           | ``0.1`` |
-   +---------+-------------------------------------------------------------------+---------+
-   | Control | :ref:`target<class_FadeEffect_property_target>`                   |         |
-   +---------+-------------------------------------------------------------------+---------+
-   | Tween   | :ref:`tween<class_FadeEffect_property_tween>`                     |         |
-   +---------+-------------------------------------------------------------------+---------+
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`fade_out_signal<class_FadeEffect_property_fade_out_signal>` |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_     | :ref:`fade_speed<class_FadeEffect_property_fade_speed>`           | ``0.1`` |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`target<class_FadeEffect_property_target>`                   |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_     | :ref:`tween<class_FadeEffect_property_tween>`                     |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+---------+
 
 .. rst-class:: classref-reftable-group
 
@@ -86,7 +86,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **fade_out_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **fade_out_signal**
 
 Signal to connect to to trigger a fade out
 
@@ -98,7 +98,7 @@ Signal to connect to to trigger a fade out
 
 .. rst-class:: classref-property
 
-float **fade_speed** = ``0.1``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **fade_speed** = ``0.1``
 
 Fade speed in seconds
 
@@ -110,7 +110,7 @@ Fade speed in seconds
 
 .. rst-class:: classref-property
 
-Control **target**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **target**
 
 The target node to fade the opacity in/out
 
@@ -122,7 +122,7 @@ The target node to fade the opacity in/out
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 

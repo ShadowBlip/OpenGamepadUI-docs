@@ -10,7 +10,7 @@
 KeyboardRow
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Defines a row of keys in a :ref:`KeyboardLayout<class_KeyboardLayout>`
 
@@ -29,9 +29,9 @@ Properties
 .. table::
    :widths: auto
 
-   +-------+----------------------------------------------------+
-   | Array | :ref:`entries<class_KeyboardRow_property_entries>` |
-   +-------+----------------------------------------------------+
+   +----------------------------------------------------------------------------+----------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`entries<class_KeyboardRow_property_entries>` |
+   +----------------------------------------------------------------------------+----------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -46,7 +46,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **entries**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **entries**
 
 Keys to appear in this row of the on-screen keyboard
 

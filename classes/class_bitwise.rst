@@ -10,7 +10,7 @@
 Bitwise
 =======
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------+
-   | int  | :ref:`clear_flag<class_Bitwise_method_clear_flag>` **(** int value, int flag **)**                 |
-   +------+----------------------------------------------------------------------------------------------------+
-   | int  | :ref:`flags<class_Bitwise_method_flags>` **(** Array flags **)**                                   |
-   +------+----------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_flag<class_Bitwise_method_has_flag>` **(** int value, int flag **)**                     |
-   +------+----------------------------------------------------------------------------------------------------+
-   | int  | :ref:`set_flag<class_Bitwise_method_set_flag>` **(** int value, int flag **)**                     |
-   +------+----------------------------------------------------------------------------------------------------+
-   | int  | :ref:`set_flag_to<class_Bitwise_method_set_flag_to>` **(** int value, int flag, bool enabled **)** |
-   +------+----------------------------------------------------------------------------------------------------+
-   | int  | :ref:`toggle_flag<class_Bitwise_method_toggle_flag>` **(** int value, int flag **)**               |
-   +------+----------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`clear_flag<class_Bitwise_method_clear_flag>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**                                                                                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`flags<class_Bitwise_method_flags>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ flags **)**                                                                                                                                                                        |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_flag<class_Bitwise_method_has_flag>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**                                                                                         |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`set_flag<class_Bitwise_method_set_flag>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**                                                                                         |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`set_flag_to<class_Bitwise_method_set_flag_to>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ enabled **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`toggle_flag<class_Bitwise_method_toggle_flag>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**                                                                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -51,7 +51,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-int **clear_flag** **(** int value, int flag **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **clear_flag** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**
 
 .. container:: contribute
 
@@ -65,7 +65,7 @@ int **clear_flag** **(** int value, int flag **)**
 
 .. rst-class:: classref-method
 
-int **flags** **(** Array flags **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **flags** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ flags **)**
 
 .. container:: contribute
 
@@ -79,7 +79,7 @@ int **flags** **(** Array flags **)**
 
 .. rst-class:: classref-method
 
-bool **has_flag** **(** int value, int flag **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_flag** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**
 
 .. container:: contribute
 
@@ -93,7 +93,7 @@ bool **has_flag** **(** int value, int flag **)**
 
 .. rst-class:: classref-method
 
-int **set_flag** **(** int value, int flag **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_flag** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**
 
 .. container:: contribute
 
@@ -107,7 +107,7 @@ int **set_flag** **(** int value, int flag **)**
 
 .. rst-class:: classref-method
 
-int **set_flag_to** **(** int value, int flag, bool enabled **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_flag_to** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ enabled **)**
 
 .. container:: contribute
 
@@ -121,7 +121,7 @@ int **set_flag_to** **(** int value, int flag, bool enabled **)**
 
 .. rst-class:: classref-method
 
-int **toggle_flag** **(** int value, int flag **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **toggle_flag** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ flag **)**
 
 .. container:: contribute
 

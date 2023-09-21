@@ -10,7 +10,7 @@
 GamepadProfile
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 A gamepad profile is a managed gamepad profile that can remap inputs.
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | Dictionary                          | :ref:`_mapping_dict<class_GamepadProfile_property__mapping_dict>`     |         |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | Mutex                               | :ref:`_mutex<class_GamepadProfile_property__mutex>`                   |         |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_GamepadProfile_property_logger>`                   |         |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | Array                               | :ref:`mapping<class_GamepadProfile_property_mapping>`                 |         |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | int                                 | :ref:`mouse_speed_pps<class_GamepadProfile_property_mouse_speed_pps>` | ``800`` |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
-   | String                              | :ref:`name<class_GamepadProfile_property_name>`                       |         |
-   +-------------------------------------+-----------------------------------------------------------------------+---------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_mapping_dict<class_GamepadProfile_property__mapping_dict>`     |         |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_           | :ref:`_mutex<class_GamepadProfile_property__mutex>`                   |         |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_GamepadProfile_property_logger>`                   |         |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`mapping<class_GamepadProfile_property_mapping>`                 |         |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`mouse_speed_pps<class_GamepadProfile_property_mouse_speed_pps>` | ``800`` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`name<class_GamepadProfile_property_name>`                       |         |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+---------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,23 +51,23 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                | :ref:`add<class_GamepadProfile_method_add>` **(** :ref:`GamepadMapping<class_GamepadMapping>` m **)**                                                                              |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                | :ref:`erase<class_GamepadProfile_method_erase>` **(** :ref:`GamepadMapping<class_GamepadMapping>` m **)**                                                                          |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                | :ref:`erase_mapping_for<class_GamepadProfile_method_erase_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` source_event **)**                                         |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`GamepadMapping<class_GamepadMapping>`         | :ref:`find_mapping_for<class_GamepadProfile_method_find_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                  |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`GamepadAxesMapping<class_GamepadAxesMapping>` | :ref:`get_axes_mapping_for<class_GamepadProfile_method_get_axes_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` x, :ref:`MappableEvent<class_MappableEvent>` y **)** |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`GamepadMapping<class_GamepadMapping>`         | :ref:`get_mapping_for<class_GamepadProfile_method_get_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                    |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                | :ref:`has_mapping_for<class_GamepadProfile_method_has_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                    |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                | :ref:`load_mappings<class_GamepadProfile_method_load_mappings>` **(** **)**                                                                                                        |
-   +-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`add<class_GamepadProfile_method_add>` **(** :ref:`GamepadMapping<class_GamepadMapping>` m **)**                                                                              |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`erase<class_GamepadProfile_method_erase>` **(** :ref:`GamepadMapping<class_GamepadMapping>` m **)**                                                                          |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`erase_mapping_for<class_GamepadProfile_method_erase_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` source_event **)**                                         |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GamepadMapping<class_GamepadMapping>`                              | :ref:`find_mapping_for<class_GamepadProfile_method_find_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                  |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GamepadAxesMapping<class_GamepadAxesMapping>`                      | :ref:`get_axes_mapping_for<class_GamepadProfile_method_get_axes_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` x, :ref:`MappableEvent<class_MappableEvent>` y **)** |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GamepadMapping<class_GamepadMapping>`                              | :ref:`get_mapping_for<class_GamepadProfile_method_get_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                    |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_mapping_for<class_GamepadProfile_method_has_mapping_for>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                    |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`load_mappings<class_GamepadProfile_method_load_mappings>` **(** **)**                                                                                                        |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -101,7 +101,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **_mapping_dict**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_mapping_dict**
 
 .. container:: contribute
 
@@ -115,7 +115,7 @@ Dictionary **_mapping_dict**
 
 .. rst-class:: classref-property
 
-Mutex **_mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **_mutex**
 
 .. container:: contribute
 
@@ -143,7 +143,7 @@ Mutex **_mutex**
 
 .. rst-class:: classref-property
 
-Array **mapping**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **mapping**
 
 .. container:: contribute
 
@@ -157,7 +157,7 @@ Array **mapping**
 
 .. rst-class:: classref-property
 
-int **mouse_speed_pps** = ``800``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **mouse_speed_pps** = ``800``
 
 .. container:: contribute
 
@@ -171,7 +171,7 @@ int **mouse_speed_pps** = ``800``
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Name of the gamepad profile
 
@@ -260,7 +260,7 @@ Get the profile's gamepad mapping for the given event. This will return null if 
 
 .. rst-class:: classref-method
 
-bool **has_mapping_for** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_mapping_for** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 Returns true if the **GamepadProfile** as a :ref:`GamepadMapping<class_GamepadMapping>` for the given event
 

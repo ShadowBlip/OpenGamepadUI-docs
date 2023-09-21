@@ -10,7 +10,7 @@
 HTTPAPIClient.Response
 ======================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+-------------------------------------------------------------+
-   | PackedByteArray   | :ref:`body<class_HTTPAPIClient.Response_property_body>`     |
-   +-------------------+-------------------------------------------------------------+
-   | int               | :ref:`code<class_HTTPAPIClient.Response_property_code>`     |
-   +-------------------+-------------------------------------------------------------+
-   | PackedStringArray | :ref:`header<class_HTTPAPIClient.Response_property_header>` |
-   +-------------------+-------------------------------------------------------------+
-   | int               | :ref:`result<class_HTTPAPIClient.Response_property_result>` |
-   +-------------------+-------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_     | :ref:`body<class_HTTPAPIClient.Response_property_body>`     |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`code<class_HTTPAPIClient.Response_property_code>`     |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`header<class_HTTPAPIClient.Response_property_header>` |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`result<class_HTTPAPIClient.Response_property_result>` |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,11 +42,11 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-   | :ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` | :ref:`from_cached_result<class_HTTPAPIClient.Response_method_from_cached_result>` **(** Array result **)** |
-   +-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-   | void                                                        | :ref:`get_json<class_HTTPAPIClient.Response_method_get_json>` **(** **)**                                  |
-   +-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+   +-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` | :ref:`from_cached_result<class_HTTPAPIClient.Response_method_from_cached_result>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ result **)** |
+   +-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                        | :ref:`get_json<class_HTTPAPIClient.Response_method_get_json>` **(** **)**                                                                                                       |
+   +-------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-PackedByteArray **body**
+`PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ **body**
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ PackedByteArray **body**
 
 .. rst-class:: classref-property
 
-int **code**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **code**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ int **code**
 
 .. rst-class:: classref-property
 
-PackedStringArray **header**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **header**
 
 .. container:: contribute
 
@@ -103,7 +103,7 @@ PackedStringArray **header**
 
 .. rst-class:: classref-property
 
-int **result**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **result**
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` **from_cached_result** **(** Array result **)**
+:ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` **from_cached_result** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ result **)**
 
 .. container:: contribute
 

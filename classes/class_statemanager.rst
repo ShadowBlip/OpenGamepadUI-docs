@@ -10,7 +10,7 @@
 StateManager
 ============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------+-------------------------------------------------------------------+-------+
-   | Array                                 | :ref:`_state_stack<class_StateManager_property__state_stack>`     |       |
-   +---------------------------------------+-------------------------------------------------------------------+-------+
-   | :ref:`Log.Logger<class_Log.Logger>`   | :ref:`logger<class_StateManager_property_logger>`                 |       |
-   +---------------------------------------+-------------------------------------------------------------------+-------+
-   | :ref:`STATE<enum_StateManager_STATE>` | :ref:`starting_state<class_StateManager_property_starting_state>` | ``1`` |
-   +---------------------------------------+-------------------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_state_stack<class_StateManager_property__state_stack>`     |       |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_StateManager_property_logger>`                 |       |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
+   | :ref:`STATE<enum_StateManager_STATE>`                                      | :ref:`starting_state<class_StateManager_property_starting_state>` | ``1`` |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -40,31 +40,31 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_state_changed<class_StateManager_method__on_state_changed>` **(** int from, int to, Dictionary _data **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_push_unique<class_StateManager_method__push_unique>` **(** int state **)**                                    |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_StateManager_method__ready>` **(** **)**                                                          |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`current_state<class_StateManager_method_current_state>` **(** **)**                                            |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_state<class_StateManager_method_has_state>` **(** int state **)**                                          |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`pop_state<class_StateManager_method_pop_state>` **(** Dictionary data **)**                                    |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`push_state<class_StateManager_method_push_state>` **(** int state, bool unique, Dictionary data **)**          |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`push_state_front<class_StateManager_method_push_state_front>` **(** int state, Dictionary data **)**           |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`remove_state<class_StateManager_method_remove_state>` **(** int state, Dictionary data **)**                   |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`replace_state<class_StateManager_method_replace_state>` **(** int state, bool unique, Dictionary data **)**    |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_state<class_StateManager_method_set_state>` **(** Array stack, Dictionary data **)**                       |
-   +------+----------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`stack_length<class_StateManager_method_stack_length>` **(** **)**                                              |
-   +------+----------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_state_changed<class_StateManager_method__on_state_changed>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ _data **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_push_unique<class_StateManager_method__push_unique>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state **)**                                                                                                                                                                                 |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_StateManager_method__ready>` **(** **)**                                                                                                                                                                                                                                                                          |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`current_state<class_StateManager_method_current_state>` **(** **)**                                                                                                                                                                                                                                                            |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_state<class_StateManager_method_has_state>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state **)**                                                                                                                                                                                       |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`pop_state<class_StateManager_method_pop_state>` **(** `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**                                                                                                                                                                          |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`push_state<class_StateManager_method_push_state>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ unique, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**         |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`push_state_front<class_StateManager_method_push_state_front>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**                                                                              |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`remove_state<class_StateManager_method_remove_state>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**                                                                                      |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`replace_state<class_StateManager_method_replace_state>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ unique, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`set_state<class_StateManager_method_set_state>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ stack, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**                                                                                        |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`stack_length<class_StateManager_method_stack_length>` **(** **)**                                                                                                                                                                                                                                                              |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -79,7 +79,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**state_changed** **(** int from, int to, Dictionary data **)**
+**state_changed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -226,7 +226,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **_state_stack**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_state_stack**
 
 .. container:: contribute
 
@@ -273,7 +273,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_on_state_changed** **(** int from, int to, Dictionary _data **)**
+void **_on_state_changed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ _data **)**
 
 .. container:: contribute
 
@@ -287,7 +287,7 @@ void **_on_state_changed** **(** int from, int to, Dictionary _data **)**
 
 .. rst-class:: classref-method
 
-void **_push_unique** **(** int state **)**
+void **_push_unique** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state **)**
 
 .. container:: contribute
 
@@ -315,7 +315,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-int **current_state** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **current_state** **(** **)**
 
 .. container:: contribute
 
@@ -329,7 +329,7 @@ int **current_state** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **has_state** **(** int state **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_state** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state **)**
 
 .. container:: contribute
 
@@ -343,7 +343,7 @@ bool **has_state** **(** int state **)**
 
 .. rst-class:: classref-method
 
-int **pop_state** **(** Dictionary data **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **pop_state** **(** `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -357,7 +357,7 @@ int **pop_state** **(** Dictionary data **)**
 
 .. rst-class:: classref-method
 
-void **push_state** **(** int state, bool unique, Dictionary data **)**
+void **push_state** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ unique, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -371,7 +371,7 @@ void **push_state** **(** int state, bool unique, Dictionary data **)**
 
 .. rst-class:: classref-method
 
-void **push_state_front** **(** int state, Dictionary data **)**
+void **push_state_front** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -385,7 +385,7 @@ void **push_state_front** **(** int state, Dictionary data **)**
 
 .. rst-class:: classref-method
 
-void **remove_state** **(** int state, Dictionary data **)**
+void **remove_state** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -399,7 +399,7 @@ void **remove_state** **(** int state, Dictionary data **)**
 
 .. rst-class:: classref-method
 
-void **replace_state** **(** int state, bool unique, Dictionary data **)**
+void **replace_state** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ state, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ unique, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -413,7 +413,7 @@ void **replace_state** **(** int state, bool unique, Dictionary data **)**
 
 .. rst-class:: classref-method
 
-void **set_state** **(** Array stack, Dictionary data **)**
+void **set_state** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ stack, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ data **)**
 
 .. container:: contribute
 
@@ -427,7 +427,7 @@ void **set_state** **(** Array stack, Dictionary data **)**
 
 .. rst-class:: classref-method
 
-int **stack_length** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **stack_length** **(** **)**
 
 .. container:: contribute
 

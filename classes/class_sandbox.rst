@@ -10,7 +10,7 @@
 Sandbox
 =======
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray             | :ref:`get_command<class_Sandbox_method_get_command>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` app **)** |
-   +-------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Sandbox<class_Sandbox>` | :ref:`get_sandbox<class_Sandbox_method_get_sandbox>` **(** **)**                                                       |
-   +-------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | bool                          | :ref:`is_available<class_Sandbox_method_is_available>` **(** **)**                                                     |
-   +-------------------------------+------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_command<class_Sandbox_method_get_command>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` app **)** |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Sandbox<class_Sandbox>`                                                                      | :ref:`get_sandbox<class_Sandbox_method_get_sandbox>` **(** **)**                                                       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`is_available<class_Sandbox_method_is_available>` **(** **)**                                                     |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -45,7 +45,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_command** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` app **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_command** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` app **)**
 
 Returns an array defining the command line to launch the given application in a sandbox. E.g. ``"firejail", "--noprofile", "--"``
 
@@ -69,7 +69,7 @@ Returns the best sandbox to use for launching apps
 
 .. rst-class:: classref-method
 
-bool **is_available** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_available** **(** **)**
 
 Returns whether or not the given sandbox implementation is available
 

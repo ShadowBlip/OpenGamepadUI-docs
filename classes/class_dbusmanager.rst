@@ -10,7 +10,7 @@
 DBusManager
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 DBusManager is a helper class for using DBus
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | :ref:`BUS_TYPE<enum_DBusManager_BUS_TYPE>`                | :ref:`bus_type<class_DBusManager_property_bus_type>`                 | ``1`` |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | DBus                                                      | :ref:`dbus<class_DBusManager_property_dbus>`                         |       |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | :ref:`DBusManager.DBusProxy<class_DBusManager.DBusProxy>` | :ref:`dbus_proxy<class_DBusManager_property_dbus_proxy>`             |       |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | :ref:`Log.Logger<class_Log.Logger>`                       | :ref:`logger<class_DBusManager_property_logger>`                     |       |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | :ref:`SharedThread<class_SharedThread>`                   | :ref:`thread<class_DBusManager_property_thread>`                     |       |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
-   | Array                                                     | :ref:`well_known_names<class_DBusManager_property_well_known_names>` |       |
-   +-----------------------------------------------------------+----------------------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | :ref:`BUS_TYPE<enum_DBusManager_BUS_TYPE>`                                 | :ref:`bus_type<class_DBusManager_property_bus_type>`                 | ``1`` |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | `DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_   | :ref:`dbus<class_DBusManager_property_dbus>`                         |       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | :ref:`DBusManager.DBusProxy<class_DBusManager.DBusProxy>`                  | :ref:`dbus_proxy<class_DBusManager_property_dbus_proxy>`             |       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_DBusManager_property_logger>`                     |       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | :ref:`SharedThread<class_SharedThread>`                                    | :ref:`thread<class_DBusManager_property_thread>`                     |       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`well_known_names<class_DBusManager_property_well_known_names>` |       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,21 +51,21 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                              | :ref:`_init<class_DBusManager_method__init>` **(** **)**                                                     |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                              | :ref:`_process<class_DBusManager_method__process>` **(** float _delta **)**                                  |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                              | :ref:`_process_message<class_DBusManager_method__process_message>` **(** DBusMessage msg **)**               |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | bool                                              | :ref:`bus_exists<class_DBusManager_method_bus_exists>` **(** String name **)**                               |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` | :ref:`create_proxy<class_DBusManager_method_create_proxy>` **(** String bus, String path **)**               |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | Array                                             | :ref:`get_managed_objects<class_DBusManager_method_get_managed_objects>` **(** String bus, String path **)** |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray                                 | :ref:`get_names_for_owner<class_DBusManager_method_get_names_for_owner>` **(** String owner **)**            |
-   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_init<class_DBusManager_method__init>` **(** **)**                                                                                                                                                                                                 |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_process<class_DBusManager_method__process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**                                                                                                         |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_process_message<class_DBusManager_method__process_message>` **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**                                                                                |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`bus_exists<class_DBusManager_method_bus_exists>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**                                                                                                     |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                                                  | :ref:`create_proxy<class_DBusManager_method_create_proxy>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**               |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`get_managed_objects<class_DBusManager_method_get_managed_objects>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)** |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_names_for_owner<class_DBusManager_method_get_names_for_owner>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ owner **)**                                                                                  |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -180,7 +180,7 @@ Type of bus to connect to
 
 .. rst-class:: classref-property
 
-DBus **dbus**
+`DBus <https://docs.godotengine.org/en/stable/classes/class_dbus.html>`_ **dbus**
 
 .. container:: contribute
 
@@ -234,7 +234,7 @@ Shared thread to process DBus messages on
 
 .. rst-class:: classref-property
 
-Array **well_known_names**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **well_known_names**
 
 .. container:: contribute
 
@@ -267,7 +267,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_process** **(** float _delta **)**
+void **_process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**
 
 Process messages on the bus that are being watched and dispatch them.
 
@@ -279,7 +279,7 @@ Process messages on the bus that are being watched and dispatch them.
 
 .. rst-class:: classref-method
 
-void **_process_message** **(** DBusMessage msg **)**
+void **_process_message** **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**
 
 Dispatch the given message to any proxy objects
 
@@ -291,7 +291,7 @@ Dispatch the given message to any proxy objects
 
 .. rst-class:: classref-method
 
-bool **bus_exists** **(** String name **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **bus_exists** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Returns true if the given well-known name has an owner.
 
@@ -303,7 +303,7 @@ Returns true if the given well-known name has an owner.
 
 .. rst-class:: classref-method
 
-:ref:`DBusManager.Proxy<class_DBusManager.Proxy>` **create_proxy** **(** String bus, String path **)**
+:ref:`DBusManager.Proxy<class_DBusManager.Proxy>` **create_proxy** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 Creates a reference to a DBus object on the given bus at the given path. E.g. create_proxy("org.bluez", "/org/bluez/hci0")
 
@@ -315,7 +315,7 @@ Creates a reference to a DBus object on the given bus at the given path. E.g. cr
 
 .. rst-class:: classref-method
 
-Array **get_managed_objects** **(** String bus, String path **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_managed_objects** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 Returns a dictionary of manages objects for the given bus and path
 
@@ -327,7 +327,7 @@ Returns a dictionary of manages objects for the given bus and path
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_names_for_owner** **(** String owner **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_names_for_owner** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ owner **)**
 
 Tries to resolve well-known names (e.g. "org.bluez") from the given owner (e.g. ":1.5"). This will return an array of well-known names.
 

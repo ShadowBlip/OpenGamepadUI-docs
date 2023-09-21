@@ -10,7 +10,7 @@
 SlideEffect
 ===========
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Properties
 .. table::
    :widths: auto
 
-   +---------+----------------------------------------------------------------------+-------------+
-   | String  | :ref:`direction<class_SlideEffect_property_direction>`               | ``"right"`` |
-   +---------+----------------------------------------------------------------------+-------------+
-   | int     | :ref:`margin<class_SlideEffect_property_margin>`                     | ``20``      |
-   +---------+----------------------------------------------------------------------+-------------+
-   | String  | :ref:`slide_out_signal<class_SlideEffect_property_slide_out_signal>` |             |
-   +---------+----------------------------------------------------------------------+-------------+
-   | float   | :ref:`slide_speed<class_SlideEffect_property_slide_speed>`           | ``0.1``     |
-   +---------+----------------------------------------------------------------------+-------------+
-   | Control | :ref:`target<class_SlideEffect_property_target>`                     |             |
-   +---------+----------------------------------------------------------------------+-------------+
-   | Tween   | :ref:`tween<class_SlideEffect_property_tween>`                       |             |
-   +---------+----------------------------------------------------------------------+-------------+
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`direction<class_SlideEffect_property_direction>`               | ``"right"`` |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_         | :ref:`margin<class_SlideEffect_property_margin>`                     | ``20``      |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`slide_out_signal<class_SlideEffect_property_slide_out_signal>` |             |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_     | :ref:`slide_speed<class_SlideEffect_property_slide_speed>`           | ``0.1``     |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`target<class_SlideEffect_property_target>`                     |             |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_     | :ref:`tween<class_SlideEffect_property_tween>`                       |             |
+   +--------------------------------------------------------------------------------+----------------------------------------------------------------------+-------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -46,21 +46,21 @@ Methods
 .. table::
    :widths: auto
 
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`_get_property_list<class_SlideEffect_method__get_property_list>` **(** **)**      |
-   +---------+-----------------------------------------------------------------------------------------+
-   | Vector2 | :ref:`_get_target_pos<class_SlideEffect_method__get_target_pos>` **(** String dir **)** |
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`_on_out_signal<class_SlideEffect_method__on_out_signal>` **(** **)**              |
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`_on_signal<class_SlideEffect_method__on_signal>` **(** **)**                      |
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`_ready<class_SlideEffect_method__ready>` **(** **)**                              |
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`slide_in<class_SlideEffect_method_slide_in>` **(** **)**                          |
-   +---------+-----------------------------------------------------------------------------------------+
-   | void    | :ref:`slide_out<class_SlideEffect_method_slide_out>` **(** **)**                        |
-   +---------+-----------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_get_property_list<class_SlideEffect_method__get_property_list>` **(** **)**                                                                            |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ | :ref:`_get_target_pos<class_SlideEffect_method__get_target_pos>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ dir **)** |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_on_out_signal<class_SlideEffect_method__on_out_signal>` **(** **)**                                                                                    |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_on_signal<class_SlideEffect_method__on_signal>` **(** **)**                                                                                            |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_ready<class_SlideEffect_method__ready>` **(** **)**                                                                                                    |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`slide_in<class_SlideEffect_method_slide_in>` **(** **)**                                                                                                |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`slide_out<class_SlideEffect_method_slide_out>` **(** **)**                                                                                              |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -108,7 +108,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **direction** = ``"right"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **direction** = ``"right"``
 
 Direction to slide into view from.
 
@@ -120,7 +120,7 @@ Direction to slide into view from.
 
 .. rst-class:: classref-property
 
-int **margin** = ``20``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **margin** = ``20``
 
 Margin in pixels to start from
 
@@ -132,7 +132,7 @@ Margin in pixels to start from
 
 .. rst-class:: classref-property
 
-String **slide_out_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **slide_out_signal**
 
 .. container:: contribute
 
@@ -146,7 +146,7 @@ String **slide_out_signal**
 
 .. rst-class:: classref-property
 
-float **slide_speed** = ``0.1``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **slide_speed** = ``0.1``
 
 Time in seconds to complete the slide effect
 
@@ -158,7 +158,7 @@ Time in seconds to complete the slide effect
 
 .. rst-class:: classref-property
 
-Control **target**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **target**
 
 The target node to slide
 
@@ -170,7 +170,7 @@ The target node to slide
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 
@@ -203,7 +203,7 @@ void **_get_property_list** **(** **)**
 
 .. rst-class:: classref-method
 
-Vector2 **_get_target_pos** **(** String dir **)**
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **_get_target_pos** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ dir **)**
 
 .. container:: contribute
 

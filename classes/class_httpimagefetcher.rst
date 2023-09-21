@@ -10,7 +10,7 @@
 HTTPImageFetcher
 ================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -36,11 +36,11 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------+---------------------------------------------------------------------------------------------+
-   | void      | :ref:`_remove<class_HTTPImageFetcher_method__remove>` **(** Node child **)**                |
-   +-----------+---------------------------------------------------------------------------------------------+
-   | Texture2D | :ref:`fetch<class_HTTPImageFetcher_method_fetch>` **(** String url, int caching_flags **)** |
-   +-----------+---------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_remove<class_HTTPImageFetcher_method__remove>` **(** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ child **)**                                                                                     |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`fetch<class_HTTPImageFetcher_method_fetch>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ url, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ caching_flags **)** |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -91,7 +91,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_remove** **(** Node child **)**
+void **_remove** **(** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ child **)**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ void **_remove** **(** Node child **)**
 
 .. rst-class:: classref-method
 
-Texture2D **fetch** **(** String url, int caching_flags **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **fetch** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ url, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ caching_flags **)**
 
 .. container:: contribute
 

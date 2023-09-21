@@ -10,7 +10,7 @@
 FocusSetter
 ===========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+------------------------------------------------------------+
-   | :ref:`FocusStack<class_FocusStack>` | :ref:`focus_stack<class_FocusSetter_property_focus_stack>` |
-   +-------------------------------------+------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_FocusSetter_property_logger>`           |
-   +-------------------------------------+------------------------------------------------------------+
-   | String                              | :ref:`on_signal<class_FocusSetter_property_on_signal>`     |
-   +-------------------------------------+------------------------------------------------------------+
-   | Node                                | :ref:`target<class_FocusSetter_property_target>`           |
-   +-------------------------------------+------------------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------------------+
+   | :ref:`FocusStack<class_FocusStack>`                                          | :ref:`focus_stack<class_FocusSetter_property_focus_stack>` |
+   +------------------------------------------------------------------------------+------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_FocusSetter_property_logger>`           |
+   +------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`on_signal<class_FocusSetter_property_on_signal>`     |
+   +------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_     | :ref:`target<class_FocusSetter_property_target>`           |
+   +------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,15 +42,15 @@ Methods
 .. table::
    :widths: auto
 
-   +---------+------------------------------------------------------------------------------------------+
-   | Control | :ref:`_find_focusable<class_FocusSetter_method__find_focusable>` **(** Array nodes **)** |
-   +---------+------------------------------------------------------------------------------------------+
-   | void    | :ref:`_get_property_list<class_FocusSetter_method__get_property_list>` **(** **)**       |
-   +---------+------------------------------------------------------------------------------------------+
-   | void    | :ref:`_on_signal<class_FocusSetter_method__on_signal>` **(** **)**                       |
-   +---------+------------------------------------------------------------------------------------------+
-   | void    | :ref:`_ready<class_FocusSetter_method__ready>` **(** **)**                               |
-   +---------+------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`_find_focusable<class_FocusSetter_method__find_focusable>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes **)** |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_get_property_list<class_FocusSetter_method__get_property_list>` **(** **)**                                                                            |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_on_signal<class_FocusSetter_method__on_signal>` **(** **)**                                                                                            |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_ready<class_FocusSetter_method__ready>` **(** **)**                                                                                                    |
+   +--------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -91,7 +91,7 @@ Menus with multiple levels of focus can be part of a chain of focus
 
 .. rst-class:: classref-property
 
-String **on_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **on_signal**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ String **on_signal**
 
 .. rst-class:: classref-property
 
-Node **target**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **target**
 
 The node to try and discover the focusable node.
 
@@ -122,7 +122,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Control **_find_focusable** **(** Array nodes **)**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **_find_focusable** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes **)**
 
 .. container:: contribute
 

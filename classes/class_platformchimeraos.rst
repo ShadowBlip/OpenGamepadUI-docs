@@ -10,7 +10,7 @@
 PlatformChimeraOS
 =================
 
-**Inherits:** :ref:`OSPlatform<class_OSPlatform>` **<** :ref:`PlatformProvider<class_PlatformProvider>`
+**Inherits:** :ref:`OSPlatform<class_OSPlatform>` **<** :ref:`PlatformProvider<class_PlatformProvider>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+----------------------------------------------------------------------------------+----------------------------------+
-   | String | :ref:`SESSION_SELECT_PATH<class_PlatformChimeraOS_property_SESSION_SELECT_PATH>` | ``"/usr/lib/os-session-select"`` |
-   +--------+----------------------------------------------------------------------------------+----------------------------------+
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`SESSION_SELECT_PATH<class_PlatformChimeraOS_property_SESSION_SELECT_PATH>` | ``"/usr/lib/os-session-select"`` |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+----------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,17 +36,17 @@ Methods
 .. table::
    :widths: auto
 
-   +------+------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_add_session_switcher<class_PlatformChimeraOS_method__add_session_switcher>` **(** Window root **)** |
-   +------+------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`_has_session_switcher<class_PlatformChimeraOS_method__has_session_switcher>` **(** **)**             |
-   +------+------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_PlatformChimeraOS_method__init>` **(** **)**                                             |
-   +------+------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_switch_session<class_PlatformChimeraOS_method__switch_session>` **(** String name **)**             |
-   +------+------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`ready<class_PlatformChimeraOS_method_ready>` **(** Window root **)**                                 |
-   +------+------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_add_session_switcher<class_PlatformChimeraOS_method__add_session_switcher>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)** |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`_has_session_switcher<class_PlatformChimeraOS_method__has_session_switcher>` **(** **)**                                                                                   |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_init<class_PlatformChimeraOS_method__init>` **(** **)**                                                                                                                   |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_switch_session<class_PlatformChimeraOS_method__switch_session>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**             |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`ready<class_PlatformChimeraOS_method_ready>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**                                 |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **SESSION_SELECT_PATH** = ``"/usr/lib/os-session-select"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **SESSION_SELECT_PATH** = ``"/usr/lib/os-session-select"``
 
 .. container:: contribute
 
@@ -80,7 +80,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_add_session_switcher** **(** Window root **)**
+void **_add_session_switcher** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 Add a button to the power menu to allow session switching
 
@@ -92,7 +92,7 @@ Add a button to the power menu to allow session switching
 
 .. rst-class:: classref-method
 
-bool **_has_session_switcher** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_has_session_switcher** **(** **)**
 
 Returns true if we detect the session switching script
 
@@ -118,7 +118,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_switch_session** **(** String name **)**
+void **_switch_session** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Switch to the given session
 
@@ -130,7 +130,7 @@ Switch to the given session
 
 .. rst-class:: classref-method
 
-void **ready** **(** Window root **)**
+void **ready** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 .. container:: contribute
 

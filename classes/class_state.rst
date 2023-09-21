@@ -10,7 +10,7 @@
 State
 =====
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +------------+----------------------------------------+
-   | Dictionary | :ref:`data<class_State_property_data>` |
-   +------------+----------------------------------------+
-   | String     | :ref:`name<class_State_property_name>` |
-   +------------+----------------------------------------+
+   +--------------------------------------------------------------------------------------+----------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`data<class_State_property_data>` |
+   +--------------------------------------------------------------------------------------+----------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`name<class_State_property_name>` |
+   +--------------------------------------------------------------------------------------+----------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -90,7 +90,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **data**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **data**
 
 .. container:: contribute
 
@@ -104,7 +104,7 @@ Dictionary **data**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 ActionTurboTakeover
 ===================
 
-**Inherits:** :ref:`PlatformAction<class_PlatformAction>`
+**Inherits:** :ref:`PlatformAction<class_PlatformAction>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 

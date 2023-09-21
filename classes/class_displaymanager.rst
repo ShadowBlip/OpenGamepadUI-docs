@@ -10,7 +10,7 @@
 DisplayManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 DisplayManager is responsible for managing display settings
 
@@ -29,13 +29,13 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------------------------+-------------------------------------------------------------------------------+
-   | PackedStringArray                                                   | :ref:`backlights<class_DisplayManager_property_backlights>`                   |
-   +---------------------------------------------------------------------+-------------------------------------------------------------------------------+
-   | :ref:`BRIGHTNESS_PROVIDER<enum_DisplayManager_BRIGHTNESS_PROVIDER>` | :ref:`brightness_provider<class_DisplayManager_property_brightness_provider>` |
-   +---------------------------------------------------------------------+-------------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`                                 | :ref:`logger<class_DisplayManager_property_logger>`                           |
-   +---------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`backlights<class_DisplayManager_property_backlights>`                   |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`BRIGHTNESS_PROVIDER<enum_DisplayManager_BRIGHTNESS_PROVIDER>`                                | :ref:`brightness_provider<class_DisplayManager_property_brightness_provider>` |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_DisplayManager_property_logger>`                           |
+   +----------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -45,23 +45,23 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`BRIGHTNESS_PROVIDER<enum_DisplayManager_BRIGHTNESS_PROVIDER>` | :ref:`_get_brightness_provider<class_DisplayManager_method__get_brightness_provider>` **(** **)**                                       |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                                                 | :ref:`_steamos_priv_write<class_DisplayManager_method__steamos_priv_write>` **(** String path, int value **)**                          |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray                                                   | :ref:`get_backlight_paths<class_DisplayManager_method_get_backlight_paths>` **(** **)**                                                 |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | float                                                               | :ref:`get_brightness<class_DisplayManager_method_get_brightness>` **(** String backlight_path **)**                                     |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                                                 | :ref:`get_brightness_value<class_DisplayManager_method_get_brightness_value>` **(** String backlight_path **)**                         |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                                                 | :ref:`get_max_brightness_value<class_DisplayManager_method_get_max_brightness_value>` **(** String backlight_path **)**                 |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                                                 | :ref:`set_brightness<class_DisplayManager_method_set_brightness>` **(** float value, :ref:`VALUE<enum_DisplayManager_VALUE>` type **)** |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                                | :ref:`supports_brightness<class_DisplayManager_method_supports_brightness>` **(** **)**                                                 |
-   +---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`BRIGHTNESS_PROVIDER<enum_DisplayManager_BRIGHTNESS_PROVIDER>`                                | :ref:`_get_brightness_provider<class_DisplayManager_method__get_brightness_provider>` **(** **)**                                                                                                                                                       |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`_steamos_priv_write<class_DisplayManager_method__steamos_priv_write>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value **)** |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_backlight_paths<class_DisplayManager_method_get_backlight_paths>` **(** **)**                                                                                                                                                                 |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                         | :ref:`get_brightness<class_DisplayManager_method_get_brightness>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**                                                                               |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_brightness_value<class_DisplayManager_method_get_brightness_value>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**                                                                   |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_max_brightness_value<class_DisplayManager_method_get_max_brightness_value>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**                                                           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`set_brightness<class_DisplayManager_method_set_brightness>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, :ref:`VALUE<enum_DisplayManager_VALUE>` type **)**                                            |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`supports_brightness<class_DisplayManager_method_supports_brightness>` **(** **)**                                                                                                                                                                 |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -177,7 +177,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-PackedStringArray **backlights**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **backlights**
 
 .. container:: contribute
 
@@ -238,7 +238,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-int **_steamos_priv_write** **(** String path, int value **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_steamos_priv_write** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value **)**
 
 Write a value using steamos polkit helper
 
@@ -250,7 +250,7 @@ Write a value using steamos polkit helper
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_backlight_paths** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_backlight_paths** **(** **)**
 
 Returns a list of all detected backlight devices
 
@@ -262,7 +262,7 @@ Returns a list of all detected backlight devices
 
 .. rst-class:: classref-method
 
-float **get_brightness** **(** String backlight_path **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **get_brightness** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**
 
 Returns the current brightness level for the given backlight as a percent
 
@@ -274,7 +274,7 @@ Returns the current brightness level for the given backlight as a percent
 
 .. rst-class:: classref-method
 
-int **get_brightness_value** **(** String backlight_path **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_brightness_value** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**
 
 Returns the current brightness value for the given backlight
 
@@ -286,7 +286,7 @@ Returns the current brightness value for the given backlight
 
 .. rst-class:: classref-method
 
-int **get_max_brightness_value** **(** String backlight_path **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_max_brightness_value** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ backlight_path **)**
 
 Returns the maximum brightness for the given backlight
 
@@ -298,7 +298,7 @@ Returns the maximum brightness for the given backlight
 
 .. rst-class:: classref-method
 
-int **set_brightness** **(** float value, :ref:`VALUE<enum_DisplayManager_VALUE>` type **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_brightness** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, :ref:`VALUE<enum_DisplayManager_VALUE>` type **)**
 
 Sets the brightness on all discovered backlights to the given value as a percentage (e.g. 1.0 is 100% brightness)
 
@@ -310,7 +310,7 @@ Sets the brightness on all discovered backlights to the given value as a percent
 
 .. rst-class:: classref-method
 
-bool **supports_brightness** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_brightness** **(** **)**
 
 Returns true if OpenGamepadUI has access to adjust brightness
 

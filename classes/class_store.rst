@@ -10,7 +10,7 @@
 Store
 =====
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | :ref:`StoreManager<class_StoreManager>` | :ref:`StoreManager<class_Store_property_StoreManager>` |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | :ref:`LEVEL<enum_Log_LEVEL>`            | :ref:`log_level<class_Store_property_log_level>`       | ``3`` |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | :ref:`Log.Logger<class_Log.Logger>`     | :ref:`logger<class_Store_property_logger>`             |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | String                                  | :ref:`logger_name<class_Store_property_logger_name>`   |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | String                                  | :ref:`store_id<class_Store_property_store_id>`         |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | String                                  | :ref:`store_image<class_Store_property_store_image>`   |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
-   | String                                  | :ref:`store_name<class_Store_property_store_name>`     |       |
-   +-----------------------------------------+--------------------------------------------------------+-------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | :ref:`StoreManager<class_StoreManager>`                                      | :ref:`StoreManager<class_Store_property_StoreManager>` |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | :ref:`LEVEL<enum_Log_LEVEL>`                                                 | :ref:`log_level<class_Store_property_log_level>`       | ``3`` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_Store_property_logger>`             |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`logger_name<class_Store_property_logger_name>`   |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`store_id<class_Store_property_store_id>`         |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`store_image<class_Store_property_store_image>`   |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`store_name<class_Store_property_store_name>`     |       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,21 +48,21 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`_exit_tree<class_Store_method__exit_tree>` **(** **)**               |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`_init<class_Store_method__init>` **(** **)**                         |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_Store_method__ready>` **(** **)**                       |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`load_details<class_Store_method_load_details>` **(** String id **)** |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`load_home<class_Store_method_load_home>` **(** **)**                 |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`load_installed<class_Store_method_load_installed>` **(** **)**       |
-   +------+----------------------------------------------------------------------------+
-   | void | :ref:`search<class_Store_method_search>` **(** String str **)**            |
-   +------+----------------------------------------------------------------------------+
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_exit_tree<class_Store_method__exit_tree>` **(** **)**                                                                                     |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_Store_method__init>` **(** **)**                                                                                               |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_Store_method__ready>` **(** **)**                                                                                             |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`load_details<class_Store_method_load_details>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)** |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`load_home<class_Store_method_load_home>` **(** **)**                                                                                       |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`load_installed<class_Store_method_load_installed>` **(** **)**                                                                             |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`search<class_Store_method_search>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ str **)**            |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -91,7 +91,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**home_loaded** **(** Array results **)**
+**home_loaded** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ results **)**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**installed_loaded** **(** Array results **)**
+**installed_loaded** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ results **)**
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**search_completed** **(** Array results **)**
+**search_completed** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ results **)**
 
 .. container:: contribute
 
@@ -180,7 +180,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **logger_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **logger_name**
 
 .. container:: contribute
 
@@ -194,7 +194,7 @@ String **logger_name**
 
 .. rst-class:: classref-property
 
-String **store_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **store_id**
 
 .. container:: contribute
 
@@ -208,7 +208,7 @@ String **store_id**
 
 .. rst-class:: classref-property
 
-String **store_image**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **store_image**
 
 .. container:: contribute
 
@@ -222,7 +222,7 @@ String **store_image**
 
 .. rst-class:: classref-property
 
-String **store_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **store_name**
 
 .. container:: contribute
 
@@ -283,7 +283,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **load_details** **(** String id **)**
+void **load_details** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 .. container:: contribute
 
@@ -325,7 +325,7 @@ void **load_installed** **(** **)**
 
 .. rst-class:: classref-method
 
-void **search** **(** String str **)**
+void **search** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ str **)**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 APUEntry
 ========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-------------------------------------------------------+
-   | float  | :ref:`max_boost<class_APUEntry_property_max_boost>`   |
-   +--------+-------------------------------------------------------+
-   | float  | :ref:`max_tdp<class_APUEntry_property_max_tdp>`       |
-   +--------+-------------------------------------------------------+
-   | float  | :ref:`min_tdp<class_APUEntry_property_min_tdp>`       |
-   +--------+-------------------------------------------------------+
-   | String | :ref:`model_name<class_APUEntry_property_model_name>` |
-   +--------+-------------------------------------------------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`max_boost<class_APUEntry_property_max_boost>`   |
+   +------------------------------------------------------------------------------+-------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`max_tdp<class_APUEntry_property_max_tdp>`       |
+   +------------------------------------------------------------------------------+-------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`min_tdp<class_APUEntry_property_min_tdp>`       |
+   +------------------------------------------------------------------------------+-------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`model_name<class_APUEntry_property_model_name>` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -47,7 +47,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-float **max_boost**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **max_boost**
 
 .. container:: contribute
 
@@ -61,7 +61,7 @@ float **max_boost**
 
 .. rst-class:: classref-property
 
-float **max_tdp**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **max_tdp**
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ float **max_tdp**
 
 .. rst-class:: classref-property
 
-float **min_tdp**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **min_tdp**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ float **min_tdp**
 
 .. rst-class:: classref-property
 
-String **model_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **model_name**
 
 .. container:: contribute
 

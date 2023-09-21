@@ -10,7 +10,7 @@
 GameCard
 ========
 
-**Inherits:** 
+**Inherits:** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_
 
 .. container:: contribute
 
@@ -24,29 +24,29 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | :ref:`BoxArtManager<class_BoxArtManager>` | :ref:`BoxArtManager<class_GameCard_property_BoxArtManager>`   |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | :ref:`LibraryItem<class_LibraryItem>`     | :ref:`library_item<class_GameCard_property_library_item>`     |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | :ref:`Log.Logger<class_Log.Logger>`       | :ref:`logger<class_GameCard_property_logger>`                 |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | Node                                      | :ref:`name_container<class_GameCard_property_name_container>` |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | Node                                      | :ref:`name_label<class_GameCard_property_name_label>`         |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | ProgressBar                               | :ref:`progress<class_GameCard_property_progress>`             |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | bool                                      | :ref:`show_label<class_GameCard_property_show_label>`         | ``false``       |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | bool                                      | :ref:`show_progress<class_GameCard_property_show_progress>`   | ``false``       |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | String                                    | :ref:`text<class_GameCard_property_text>`                     | ``"Game Name"`` |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | Node                                      | :ref:`texture<class_GameCard_property_texture>`               |                 |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
-   | float                                     | :ref:`value<class_GameCard_property_value>`                   | ``50.0``        |
-   +-------------------------------------------+---------------------------------------------------------------+-----------------+
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | :ref:`BoxArtManager<class_BoxArtManager>`                                              | :ref:`BoxArtManager<class_GameCard_property_BoxArtManager>`   |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | :ref:`LibraryItem<class_LibraryItem>`                                                  | :ref:`library_item<class_GameCard_property_library_item>`     |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                    | :ref:`logger<class_GameCard_property_logger>`                 |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_               | :ref:`name_container<class_GameCard_property_name_container>` |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_               | :ref:`name_label<class_GameCard_property_name_label>`         |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `ProgressBar <https://docs.godotengine.org/en/stable/classes/class_progressbar.html>`_ | :ref:`progress<class_GameCard_property_progress>`             |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`show_label<class_GameCard_property_show_label>`         | ``false``       |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`show_progress<class_GameCard_property_show_progress>`   | ``false``       |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`text<class_GameCard_property_text>`                     | ``"Game Name"`` |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_               | :ref:`texture<class_GameCard_property_texture>`               |                 |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_             | :ref:`value<class_GameCard_property_value>`                   | ``50.0``        |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -56,19 +56,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_gui_input<class_GameCard_method__gui_input>` **(** InputEvent event **)**                                                            |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_focus<class_GameCard_method__on_focus>` **(** **)**                                                                               |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_unfocus<class_GameCard_method__on_unfocus>` **(** **)**                                                                           |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_GameCard_method__ready>` **(** **)**                                                                                     |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_library_item<class_GameCard_method_set_library_item>` **(** :ref:`LibraryItem<class_LibraryItem>` item, bool free_on_remove **)** |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_texture<class_GameCard_method_set_texture>` **(** Texture2D new_texture **)**                                                     |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_gui_input<class_GameCard_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                      |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_focus<class_GameCard_method__on_focus>` **(** **)**                                                                                                                                                   |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_unfocus<class_GameCard_method__on_unfocus>` **(** **)**                                                                                                                                               |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_GameCard_method__ready>` **(** **)**                                                                                                                                                         |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`set_library_item<class_GameCard_method_set_library_item>` **(** :ref:`LibraryItem<class_LibraryItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ free_on_remove **)** |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`set_texture<class_GameCard_method_set_texture>` **(** `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ new_texture **)**                                                |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -200,7 +200,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Node **name_container**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **name_container**
 
 .. container:: contribute
 
@@ -214,7 +214,7 @@ Node **name_container**
 
 .. rst-class:: classref-property
 
-Node **name_label**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **name_label**
 
 .. container:: contribute
 
@@ -228,7 +228,7 @@ Node **name_label**
 
 .. rst-class:: classref-property
 
-ProgressBar **progress**
+`ProgressBar <https://docs.godotengine.org/en/stable/classes/class_progressbar.html>`_ **progress**
 
 .. container:: contribute
 
@@ -242,7 +242,7 @@ ProgressBar **progress**
 
 .. rst-class:: classref-property
 
-bool **show_label** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **show_label** = ``false``
 
 .. container:: contribute
 
@@ -256,7 +256,7 @@ bool **show_label** = ``false``
 
 .. rst-class:: classref-property
 
-bool **show_progress** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **show_progress** = ``false``
 
 .. container:: contribute
 
@@ -270,7 +270,7 @@ bool **show_progress** = ``false``
 
 .. rst-class:: classref-property
 
-String **text** = ``"Game Name"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``"Game Name"``
 
 .. container:: contribute
 
@@ -284,7 +284,7 @@ String **text** = ``"Game Name"``
 
 .. rst-class:: classref-property
 
-Node **texture**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **texture**
 
 .. container:: contribute
 
@@ -298,7 +298,7 @@ Node **texture**
 
 .. rst-class:: classref-property
 
-float **value** = ``50.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **value** = ``50.0``
 
 .. container:: contribute
 
@@ -317,7 +317,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -373,7 +373,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **set_library_item** **(** :ref:`LibraryItem<class_LibraryItem>` item, bool free_on_remove **)**
+void **set_library_item** **(** :ref:`LibraryItem<class_LibraryItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ free_on_remove **)**
 
 Configures the card with the given library item.
 
@@ -385,7 +385,7 @@ Configures the card with the given library item.
 
 .. rst-class:: classref-method
 
-void **set_texture** **(** Texture2D new_texture **)**
+void **set_texture** **(** `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ new_texture **)**
 
 Sets the texture on the given card and sets the shader params
 

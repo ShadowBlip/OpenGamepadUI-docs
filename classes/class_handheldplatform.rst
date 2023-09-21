@@ -10,7 +10,7 @@
 HandheldPlatform
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 PC Handheld platform provider
 
@@ -22,25 +22,25 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Texture2D                             | :ref:`diagram<class_HandheldPlatform_property_diagram>`                         |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Array                                 | :ref:`filtered_events<class_HandheldPlatform_property_filtered_events>`         |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | :ref:`SysfsDevice<class_SysfsDevice>` | :ref:`gamepad<class_HandheldPlatform_property_gamepad>`                         |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Array                                 | :ref:`icon_mappings<class_HandheldPlatform_property_icon_mappings>`             |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Texture2D                             | :ref:`image<class_HandheldPlatform_property_image>`                             |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Array                                 | :ref:`key_map<class_HandheldPlatform_property_key_map>`                         |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Array                                 | :ref:`keypads<class_HandheldPlatform_property_keypads>`                         |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | Texture2D                             | :ref:`logo<class_HandheldPlatform_property_logo>`                               |
-   +---------------------------------------+---------------------------------------------------------------------------------+
-   | String                                | :ref:`thermal_policy_path<class_HandheldPlatform_property_thermal_policy_path>` |
-   +---------------------------------------+---------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`diagram<class_HandheldPlatform_property_diagram>`                         |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`filtered_events<class_HandheldPlatform_property_filtered_events>`         |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | :ref:`SysfsDevice<class_SysfsDevice>`                                              | :ref:`gamepad<class_HandheldPlatform_property_gamepad>`                         |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`icon_mappings<class_HandheldPlatform_property_icon_mappings>`             |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`image<class_HandheldPlatform_property_image>`                             |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`key_map<class_HandheldPlatform_property_key_map>`                         |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`keypads<class_HandheldPlatform_property_keypads>`                         |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`logo<class_HandheldPlatform_property_logo>`                               |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`thermal_policy_path<class_HandheldPlatform_property_thermal_policy_path>` |
+   +------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -50,11 +50,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_handheld_gamepad<class_HandheldPlatform_method_is_handheld_gamepad>` **(** InputDevice device **)**   |
-   +------+----------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_handheld_keyboard<class_HandheldPlatform_method_is_handheld_keyboard>` **(** InputDevice device **)** |
-   +------+----------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_handheld_gamepad<class_HandheldPlatform_method_is_handheld_gamepad>` **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)**   |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_handheld_keyboard<class_HandheldPlatform_method_is_handheld_keyboard>` **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)** |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -69,7 +69,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Texture2D **diagram**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **diagram**
 
 Image of the device as a diagram to show in the gamepad configuration menus.
 
@@ -81,7 +81,7 @@ Image of the device as a diagram to show in the gamepad configuration menus.
 
 .. rst-class:: classref-property
 
-Array **filtered_events**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **filtered_events**
 
 List of events to filter from the handheld keypads
 
@@ -105,7 +105,7 @@ Path and name of the gamepad device that is built-in to the handheld.
 
 .. rst-class:: classref-property
 
-Array **icon_mappings**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **icon_mappings**
 
 Custom icon images to use when displaying buttons/joysticks in the interface
 
@@ -117,7 +117,7 @@ Custom icon images to use when displaying buttons/joysticks in the interface
 
 .. rst-class:: classref-property
 
-Texture2D **image**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **image**
 
 Image of the device to show in the general settings menu
 
@@ -129,7 +129,7 @@ Image of the device to show in the general settings menu
 
 .. rst-class:: classref-property
 
-Array **key_map**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **key_map**
 
 List of MappedEvent's that are activated by a specific Array\ ``InputDeviceEvent``. that activates either an ogui_event or another Array\ ``InputDeviceEvent``
 
@@ -141,7 +141,7 @@ List of MappedEvent's that are activated by a specific Array\ ``InputDeviceEvent
 
 .. rst-class:: classref-property
 
-Array **keypads**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **keypads**
 
 One or more keyboard devices that the handheld device uses for extra buttons. The events from these devices will be watched and translated according to the key map.
 
@@ -153,7 +153,7 @@ One or more keyboard devices that the handheld device uses for extra buttons. Th
 
 .. rst-class:: classref-property
 
-Texture2D **logo**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **logo**
 
 Logo image of the platform
 
@@ -165,7 +165,7 @@ Logo image of the platform
 
 .. rst-class:: classref-property
 
-String **thermal_policy_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **thermal_policy_path**
 
 Optional path to the thermal policy file
 
@@ -182,7 +182,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **is_handheld_gamepad** **(** InputDevice device **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_handheld_gamepad** **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)**
 
 .. container:: contribute
 
@@ -196,7 +196,7 @@ bool **is_handheld_gamepad** **(** InputDevice device **)**
 
 .. rst-class:: classref-method
 
-bool **is_handheld_keyboard** **(** InputDevice device **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_handheld_keyboard** **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 Test.Assertion
 ==============
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Test assertion
 
@@ -22,15 +22,15 @@ Properties
 .. table::
    :widths: auto
 
-   +------------+-----------------------------------------------------+
-   | Dictionary | :ref:`caller<class_Test.Assertion_property_caller>` |
-   +------------+-----------------------------------------------------+
-   | String     | :ref:`reason<class_Test.Assertion_property_reason>` |
-   +------------+-----------------------------------------------------+
-   | Array      | :ref:`stack<class_Test.Assertion_property_stack>`   |
-   +------------+-----------------------------------------------------+
-   | String     | :ref:`test<class_Test.Assertion_property_test>`     |
-   +------------+-----------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`caller<class_Test.Assertion_property_caller>` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`reason<class_Test.Assertion_property_reason>` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`stack<class_Test.Assertion_property_stack>`   |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`test<class_Test.Assertion_property_test>`     |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **caller**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **caller**
 
 .. container:: contribute
 
@@ -59,7 +59,7 @@ Dictionary **caller**
 
 .. rst-class:: classref-property
 
-String **reason**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **reason**
 
 .. container:: contribute
 
@@ -73,7 +73,7 @@ String **reason**
 
 .. rst-class:: classref-property
 
-Array **stack**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **stack**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ Array **stack**
 
 .. rst-class:: classref-property
 
-String **test**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **test**
 
 .. container:: contribute
 

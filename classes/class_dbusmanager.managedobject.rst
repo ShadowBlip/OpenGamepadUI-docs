@@ -10,7 +10,7 @@
 DBusManager.ManagedObject
 =========================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 A ManagedObject is a simple structure used with GetManagedObjects
 
@@ -22,11 +22,11 @@ Properties
 .. table::
    :widths: auto
 
-   +------------+------------------------------------------------------------+
-   | Dictionary | :ref:`data<class_DBusManager.ManagedObject_property_data>` |
-   +------------+------------------------------------------------------------+
-   | String     | :ref:`path<class_DBusManager.ManagedObject_property_path>` |
-   +------------+------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`data<class_DBusManager.ManagedObject_property_data>` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`path<class_DBusManager.ManagedObject_property_path>` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,13 +36,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_DBusManager.ManagedObject_method__init>` **(** String obj_path, Dictionary obj_data **)**                |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_interface<class_DBusManager.ManagedObject_method_has_interface>` **(** String name **)**                         |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_interface_attr<class_DBusManager.ManagedObject_method_has_interface_attr>` **(** String iface, String name **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_init<class_DBusManager.ManagedObject_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ obj_path, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ obj_data **)**            |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_interface<class_DBusManager.ManagedObject_method_has_interface>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**                                                                                               |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_interface_attr<class_DBusManager.ManagedObject_method_has_interface_attr>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)** |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -57,7 +57,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **data**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **data**
 
 .. container:: contribute
 
@@ -71,7 +71,7 @@ Dictionary **data**
 
 .. rst-class:: classref-property
 
-String **path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **path**
 
 .. container:: contribute
 
@@ -90,7 +90,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** String obj_path, Dictionary obj_data **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ obj_path, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ obj_data **)**
 
 .. container:: contribute
 
@@ -104,7 +104,7 @@ void **_init** **(** String obj_path, Dictionary obj_data **)**
 
 .. rst-class:: classref-method
 
-bool **has_interface** **(** String name **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_interface** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 .. container:: contribute
 
@@ -118,7 +118,7 @@ bool **has_interface** **(** String name **)**
 
 .. rst-class:: classref-method
 
-bool **has_interface_attr** **(** String iface, String name **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_interface_attr** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 .. container:: contribute
 

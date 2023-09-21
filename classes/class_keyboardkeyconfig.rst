@@ -10,7 +10,7 @@
 KeyboardKeyConfig
 =================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Defines a single key configuration for the on-screen keyboard
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | :ref:`ACTION<enum_KeyboardKeyConfig_ACTION>` | :ref:`action<class_KeyboardKeyConfig_property_action>`                     | ``0``   |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | Texture2D                                    | :ref:`icon<class_KeyboardKeyConfig_property_icon>`                         |         |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | InputEventKey                                | :ref:`input<class_KeyboardKeyConfig_property_input>`                       |         |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | InputEventKey                                | :ref:`mode_shift_input<class_KeyboardKeyConfig_property_mode_shift_input>` |         |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | float                                        | :ref:`stretch_ratio<class_KeyboardKeyConfig_property_stretch_ratio>`       | ``1.0`` |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
-   | :ref:`TYPE<enum_KeyboardKeyConfig_TYPE>`     | :ref:`type<class_KeyboardKeyConfig_property_type>`                         | ``0``   |
-   +----------------------------------------------+----------------------------------------------------------------------------+---------+
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | :ref:`ACTION<enum_KeyboardKeyConfig_ACTION>`                                               | :ref:`action<class_KeyboardKeyConfig_property_action>`                     | ``0``   |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_         | :ref:`icon<class_KeyboardKeyConfig_property_icon>`                         |         |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | `InputEventKey <https://docs.godotengine.org/en/stable/classes/class_inputeventkey.html>`_ | :ref:`input<class_KeyboardKeyConfig_property_input>`                       |         |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | `InputEventKey <https://docs.godotengine.org/en/stable/classes/class_inputeventkey.html>`_ | :ref:`mode_shift_input<class_KeyboardKeyConfig_property_mode_shift_input>` |         |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                 | :ref:`stretch_ratio<class_KeyboardKeyConfig_property_stretch_ratio>`       | ``1.0`` |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
+   | :ref:`TYPE<enum_KeyboardKeyConfig_TYPE>`                                                   | :ref:`type<class_KeyboardKeyConfig_property_type>`                         | ``0``   |
+   +--------------------------------------------------------------------------------------------+----------------------------------------------------------------------------+---------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,9 +51,9 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+----------------------------------------------------------------------------------------+
-   | String | :ref:`get_text<class_KeyboardKeyConfig_method_get_text>` **(** bool mode_shifted **)** |
-   +--------+----------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_text<class_KeyboardKeyConfig_method_get_text>` **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ mode_shifted **)** |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -137,7 +137,7 @@ An action for TYPE.SPECIAL keys to take
 
 .. rst-class:: classref-property
 
-Texture2D **icon**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **icon**
 
 An icon to display for this key on the on-screen keyboard
 
@@ -149,7 +149,7 @@ An icon to display for this key on the on-screen keyboard
 
 .. rst-class:: classref-property
 
-InputEventKey **input**
+`InputEventKey <https://docs.godotengine.org/en/stable/classes/class_inputeventkey.html>`_ **input**
 
 The keyboard event associated with this key
 
@@ -161,7 +161,7 @@ The keyboard event associated with this key
 
 .. rst-class:: classref-property
 
-InputEventKey **mode_shift_input**
+`InputEventKey <https://docs.godotengine.org/en/stable/classes/class_inputeventkey.html>`_ **mode_shift_input**
 
 The keyboard event associated with this key when SHIFT is being held
 
@@ -173,7 +173,7 @@ The keyboard event associated with this key when SHIFT is being held
 
 .. rst-class:: classref-property
 
-float **stretch_ratio** = ``1.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **stretch_ratio** = ``1.0``
 
 How much space relative to other keys in the row to take up
 
@@ -202,7 +202,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **get_text** **(** bool mode_shifted **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_text** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ mode_shifted **)**
 
 .. container:: contribute
 

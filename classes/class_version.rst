@@ -10,7 +10,7 @@
 Version
 =======
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+------------------------------------------------------+-------------+
-   | String | :ref:`core<class_Version_property_core>`             | ``"0.0.0"`` |
-   +--------+------------------------------------------------------+-------------+
-   | String | :ref:`plugin_api<class_Version_property_plugin_api>` | ``"0.0.0"`` |
-   +--------+------------------------------------------------------+-------------+
+   +------------------------------------------------------------------------------+------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`core<class_Version_property_core>`             | ``"0.0.0"`` |
+   +------------------------------------------------------------------------------+------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`plugin_api<class_Version_property_plugin_api>` | ``"0.0.0"`` |
+   +------------------------------------------------------------------------------+------------------------------------------------------+-------------+
 
 .. rst-class:: classref-section-separator
 
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **core** = ``"0.0.0"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **core** = ``"0.0.0"``
 
 .. container:: contribute
 
@@ -57,7 +57,7 @@ String **core** = ``"0.0.0"``
 
 .. rst-class:: classref-property
 
-String **plugin_api** = ``"0.0.0"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **plugin_api** = ``"0.0.0"``
 
 .. container:: contribute
 

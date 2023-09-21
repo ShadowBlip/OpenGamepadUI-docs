@@ -10,7 +10,7 @@
 UserInterface
 =============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+------------------------------------------------+
-   | String | :ref:`name<class_UserInterface_property_name>` |
-   +--------+------------------------------------------------+
+   +------------------------------------------------------------------------------+------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_UserInterface_property_name>` |
+   +------------------------------------------------------------------------------+------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -41,7 +41,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 OSPlatform
 ==========
 
-**Inherits:** :ref:`PlatformProvider<class_PlatformProvider>`
+**Inherits:** :ref:`PlatformProvider<class_PlatformProvider>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 **Inherited By:** :ref:`PlatformChimeraOS<class_PlatformChimeraOS>`, :ref:`PlatformSteamOS<class_PlatformSteamOS>`
 
@@ -26,9 +26,9 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------+---------------------------------------------+
-   | Texture2D | :ref:`logo<class_OSPlatform_property_logo>` |
-   +-----------+---------------------------------------------+
+   +------------------------------------------------------------------------------------+---------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`logo<class_OSPlatform_property_logo>` |
+   +------------------------------------------------------------------------------------+---------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Texture2D **logo**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **logo**
 
 Logo of the OS
 

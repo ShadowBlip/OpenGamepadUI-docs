@@ -10,7 +10,7 @@
 ThemeSetter
 ===========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,17 +24,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
-   | :ref:`SettingsManager<class_SettingsManager>` | :ref:`SettingsManager<class_ThemeSetter_property_SettingsManager>` |            |
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
-   | String                                        | :ref:`node_group<class_ThemeSetter_property_node_group>`           | ``"main"`` |
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
-   | String                                        | :ref:`on_signal<class_ThemeSetter_property_on_signal>`             |            |
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
-   | bool                                          | :ref:`persist<class_ThemeSetter_property_persist>`                 | ``true``   |
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
-   | Theme                                         | :ref:`theme<class_ThemeSetter_property_theme>`                     |            |
-   +-----------------------------------------------+--------------------------------------------------------------------+------------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
+   | :ref:`SettingsManager<class_SettingsManager>`                                | :ref:`SettingsManager<class_ThemeSetter_property_SettingsManager>` |            |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`node_group<class_ThemeSetter_property_node_group>`           | ``"main"`` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`on_signal<class_ThemeSetter_property_on_signal>`             |            |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`persist<class_ThemeSetter_property_persist>`                 | ``true``   |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
+   | `Theme <https://docs.godotengine.org/en/stable/classes/class_theme.html>`_   | :ref:`theme<class_ThemeSetter_property_theme>`                     |            |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -81,7 +81,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **node_group** = ``"main"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **node_group** = ``"main"``
 
 .. container:: contribute
 
@@ -95,7 +95,7 @@ String **node_group** = ``"main"``
 
 .. rst-class:: classref-property
 
-String **on_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **on_signal**
 
 .. container:: contribute
 
@@ -109,7 +109,7 @@ String **on_signal**
 
 .. rst-class:: classref-property
 
-bool **persist** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **persist** = ``true``
 
 .. container:: contribute
 
@@ -123,7 +123,7 @@ bool **persist** = ``true``
 
 .. rst-class:: classref-property
 
-Theme **theme**
+`Theme <https://docs.godotengine.org/en/stable/classes/class_theme.html>`_ **theme**
 
 .. container:: contribute
 

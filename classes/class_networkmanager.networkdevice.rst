@@ -10,7 +10,7 @@
 NetworkManager.NetworkDevice
 ============================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Network device
 
@@ -22,15 +22,15 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+---------------------------------------------------------------------------+
-   | String | :ref:`connection<class_NetworkManager.NetworkDevice_property_connection>` |
-   +--------+---------------------------------------------------------------------------+
-   | String | :ref:`device<class_NetworkManager.NetworkDevice_property_device>`         |
-   +--------+---------------------------------------------------------------------------+
-   | String | :ref:`state<class_NetworkManager.NetworkDevice_property_state>`           |
-   +--------+---------------------------------------------------------------------------+
-   | String | :ref:`type<class_NetworkManager.NetworkDevice_property_type>`             |
-   +--------+---------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`connection<class_NetworkManager.NetworkDevice_property_connection>` |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`device<class_NetworkManager.NetworkDevice_property_device>`         |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`state<class_NetworkManager.NetworkDevice_property_state>`           |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`type<class_NetworkManager.NetworkDevice_property_type>`             |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **connection**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **connection**
 
 .. container:: contribute
 
@@ -59,7 +59,7 @@ String **connection**
 
 .. rst-class:: classref-property
 
-String **device**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **device**
 
 .. container:: contribute
 
@@ -73,7 +73,7 @@ String **device**
 
 .. rst-class:: classref-property
 
-String **state**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **state**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ String **state**
 
 .. rst-class:: classref-property
 
-String **type**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **type**
 
 .. container:: contribute
 

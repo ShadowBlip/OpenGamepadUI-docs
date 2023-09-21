@@ -10,7 +10,7 @@
 StoreManager
 ============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-----------------------------------------------------+
-   | Dictionary                          | :ref:`_stores<class_StoreManager_property__stores>` |
-   +-------------------------------------+-----------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_StoreManager_property_logger>`   |
-   +-------------------------------------+-----------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_stores<class_StoreManager_property__stores>` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_StoreManager_property_logger>`   |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -38,17 +38,17 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
-   | bool                      | :ref:`_is_valid_store<class_StoreManager_method__is_valid_store>` **(** :ref:`Store<class_Store>` store **)**   |
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
-   | :ref:`Store<class_Store>` | :ref:`get_store_by_id<class_StoreManager_method_get_store_by_id>` **(** String id **)**                         |
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
-   | Array                     | :ref:`get_stores<class_StoreManager_method_get_stores>` **(** **)**                                             |
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
-   | void                      | :ref:`register_store<class_StoreManager_method_register_store>` **(** :ref:`Store<class_Store>` store **)**     |
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
-   | void                      | :ref:`unregister_store<class_StoreManager_method_unregister_store>` **(** :ref:`Store<class_Store>` store **)** |
-   +---------------------------+-----------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`_is_valid_store<class_StoreManager_method__is_valid_store>` **(** :ref:`Store<class_Store>` store **)**                                                 |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Store<class_Store>`                                                  | :ref:`get_store_by_id<class_StoreManager_method_get_store_by_id>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)** |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_stores<class_StoreManager_method_get_stores>` **(** **)**                                                                                           |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`register_store<class_StoreManager_method_register_store>` **(** :ref:`Store<class_Store>` store **)**                                                   |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`unregister_store<class_StoreManager_method_unregister_store>` **(** :ref:`Store<class_Store>` store **)**                                               |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -77,7 +77,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**store_unregistered** **(** String store_id **)**
+**store_unregistered** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ store_id **)**
 
 .. container:: contribute
 
@@ -113,7 +113,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **_stores**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_stores**
 
 .. container:: contribute
 
@@ -146,7 +146,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **_is_valid_store** **(** :ref:`Store<class_Store>` store **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_valid_store** **(** :ref:`Store<class_Store>` store **)**
 
 .. container:: contribute
 
@@ -160,7 +160,7 @@ bool **_is_valid_store** **(** :ref:`Store<class_Store>` store **)**
 
 .. rst-class:: classref-method
 
-:ref:`Store<class_Store>` **get_store_by_id** **(** String id **)**
+:ref:`Store<class_Store>` **get_store_by_id** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 .. container:: contribute
 
@@ -174,7 +174,7 @@ bool **_is_valid_store** **(** :ref:`Store<class_Store>` store **)**
 
 .. rst-class:: classref-method
 
-Array **get_stores** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_stores** **(** **)**
 
 .. container:: contribute
 

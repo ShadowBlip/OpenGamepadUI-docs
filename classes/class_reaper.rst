@@ -10,7 +10,7 @@
 Reaper
 ======
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,29 +24,29 @@ Methods
 .. table::
    :widths: auto
 
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | int        | :ref:`create_process<class_Reaper_method_create_process>` **(** String cmd, PackedStringArray args **)** |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | Array      | :ref:`get_children_with_pgid<class_Reaper_method_get_children_with_pgid>` **(** int pid, int pgid **)**  |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | int        | :ref:`get_parent_pid<class_Reaper_method_get_parent_pid>` **(** int pid **)**                            |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | int        | :ref:`get_pid_group<class_Reaper_method_get_pid_group>` **(** int pid **)**                              |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | int        | :ref:`get_pid_property_int<class_Reaper_method_get_pid_property_int>` **(** int pid, String key **)**    |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | String     | :ref:`get_pid_state<class_Reaper_method_get_pid_state>` **(** int pid **)**                              |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | Dictionary | :ref:`get_pid_status<class_Reaper_method_get_pid_status>` **(** int pid **)**                            |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | bool       | :ref:`is_gamescope_pid<class_Reaper_method_is_gamescope_pid>` **(** int pid **)**                        |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | Array      | :ref:`pstree<class_Reaper_method_pstree>` **(** int pid **)**                                            |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`reap<class_Reaper_method_reap>` **(** int pid, :ref:`SIG<enum_Reaper_SIG>` sig **)**               |
-   +------------+----------------------------------------------------------------------------------------------------------+
-   | Array      | :ref:`to_int_array<class_Reaper_method_to_int_array>` **(** Array arr **)**                              |
-   +------------+----------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`create_process<class_Reaper_method_create_process>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ cmd, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ args **)** |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`get_children_with_pgid<class_Reaper_method_get_children_with_pgid>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pgid **)**                   |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`get_parent_pid<class_Reaper_method_get_parent_pid>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`get_pid_group<class_Reaper_method_get_pid_group>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                                  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`get_pid_property_int<class_Reaper_method_get_pid_property_int>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**                  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`get_pid_state<class_Reaper_method_get_pid_state>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                                  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`get_pid_status<class_Reaper_method_get_pid_status>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`is_gamescope_pid<class_Reaper_method_is_gamescope_pid>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                            |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`pstree<class_Reaper_method_pstree>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**                                                                                                                                |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`reap<class_Reaper_method_reap>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, :ref:`SIG<enum_Reaper_SIG>` sig **)**                                                                                                   |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`to_int_array<class_Reaper_method_to_int_array>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ arr **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -92,7 +92,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-int **create_process** **(** String cmd, PackedStringArray args **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **create_process** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ cmd, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ args **)**
 
 Spawn a process with PR_SET_CHILD_SUBREAPER set so child processes will reparent themselves to OpenGamepadUI. Returns the PID of the spawned process.
 
@@ -104,7 +104,7 @@ Spawn a process with PR_SET_CHILD_SUBREAPER set so child processes will reparent
 
 .. rst-class:: classref-method
 
-Array **get_children_with_pgid** **(** int pid, int pgid **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_children_with_pgid** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pgid **)**
 
 .. container:: contribute
 
@@ -118,7 +118,7 @@ Array **get_children_with_pgid** **(** int pid, int pgid **)**
 
 .. rst-class:: classref-method
 
-int **get_parent_pid** **(** int pid **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_parent_pid** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -132,7 +132,7 @@ int **get_parent_pid** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-int **get_pid_group** **(** int pid **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_pid_group** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -146,7 +146,7 @@ int **get_pid_group** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-int **get_pid_property_int** **(** int pid, String key **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_pid_property_int** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**
 
 .. container:: contribute
 
@@ -160,7 +160,7 @@ int **get_pid_property_int** **(** int pid, String key **)**
 
 .. rst-class:: classref-method
 
-String **get_pid_state** **(** int pid **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_pid_state** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -174,7 +174,7 @@ String **get_pid_state** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-Dictionary **get_pid_status** **(** int pid **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **get_pid_status** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -188,7 +188,7 @@ Dictionary **get_pid_status** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-bool **is_gamescope_pid** **(** int pid **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_gamescope_pid** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -202,7 +202,7 @@ bool **is_gamescope_pid** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-Array **pstree** **(** int pid **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **pstree** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid **)**
 
 .. container:: contribute
 
@@ -216,7 +216,7 @@ Array **pstree** **(** int pid **)**
 
 .. rst-class:: classref-method
 
-void **reap** **(** int pid, :ref:`SIG<enum_Reaper_SIG>` sig **)**
+void **reap** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ pid, :ref:`SIG<enum_Reaper_SIG>` sig **)**
 
 .. container:: contribute
 
@@ -230,7 +230,7 @@ void **reap** **(** int pid, :ref:`SIG<enum_Reaper_SIG>` sig **)**
 
 .. rst-class:: classref-method
 
-Array **to_int_array** **(** Array arr **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **to_int_array** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ arr **)**
 
 .. container:: contribute
 

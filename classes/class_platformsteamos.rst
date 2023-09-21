@@ -10,7 +10,7 @@
 PlatformSteamOS
 ===============
 
-**Inherits:** :ref:`OSPlatform<class_OSPlatform>` **<** :ref:`PlatformProvider<class_PlatformProvider>`
+**Inherits:** :ref:`OSPlatform<class_OSPlatform>` **<** :ref:`PlatformProvider<class_PlatformProvider>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_add_session_switcher<class_PlatformSteamOS_method__add_session_switcher>` **(** Window root **)** |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ensure_desktop_file<class_PlatformSteamOS_method__ensure_desktop_file>` **(** **)**               |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`_has_session_switcher<class_PlatformSteamOS_method__has_session_switcher>` **(** **)**             |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_PlatformSteamOS_method__init>` **(** **)**                                             |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_switch_session<class_PlatformSteamOS_method__switch_session>` **(** String name **)**             |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`ready<class_PlatformSteamOS_method_ready>` **(** Window root **)**                                 |
-   +------+----------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_add_session_switcher<class_PlatformSteamOS_method__add_session_switcher>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ensure_desktop_file<class_PlatformSteamOS_method__ensure_desktop_file>` **(** **)**                                                                                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`_has_session_switcher<class_PlatformSteamOS_method__has_session_switcher>` **(** **)**                                                                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_init<class_PlatformSteamOS_method__init>` **(** **)**                                                                                                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_switch_session<class_PlatformSteamOS_method__switch_session>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**             |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`ready<class_PlatformSteamOS_method_ready>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**                                 |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -76,7 +76,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_add_session_switcher** **(** Window root **)**
+void **_add_session_switcher** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 Add a button to the power menu to allow session switching
 
@@ -100,7 +100,7 @@ Ensure there is a "Return to OpenGamepadUI" desktop shortcut
 
 .. rst-class:: classref-method
 
-bool **_has_session_switcher** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_has_session_switcher** **(** **)**
 
 Returns true if we detect the session switching script
 
@@ -126,7 +126,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_switch_session** **(** String name **)**
+void **_switch_session** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Switch to the given session
 
@@ -138,7 +138,7 @@ Switch to the given session
 
 .. rst-class:: classref-method
 
-void **ready** **(** Window root **)**
+void **ready** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 .. container:: contribute
 

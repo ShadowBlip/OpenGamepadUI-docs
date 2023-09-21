@@ -10,7 +10,7 @@
 NodeThread
 ==========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Node that can run _thread_process on a separate thread
 
@@ -29,11 +29,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+-------------------------------------------------------------+----------+
-   | bool                                    | :ref:`autostart<class_NodeThread_property_autostart>`       | ``true`` |
-   +-----------------------------------------+-------------------------------------------------------------+----------+
-   | :ref:`SharedThread<class_SharedThread>` | :ref:`thread_group<class_NodeThread_property_thread_group>` |          |
-   +-----------------------------------------+-------------------------------------------------------------+----------+
+   +--------------------------------------------------------------------------+-------------------------------------------------------------+----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`autostart<class_NodeThread_property_autostart>`       | ``true`` |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------+----------+
+   | :ref:`SharedThread<class_SharedThread>`                                  | :ref:`thread_group<class_NodeThread_property_thread_group>` |          |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------+----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -43,15 +43,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_NodeThread_method__init>` **(** **)**                                 |
-   +------+-----------------------------------------------------------------------------------------+
-   | void | :ref:`_on_exiting_tree<class_NodeThread_method__on_exiting_tree>` **(** **)**           |
-   +------+-----------------------------------------------------------------------------------------+
-   | void | :ref:`_on_ready<class_NodeThread_method__on_ready>` **(** **)**                         |
-   +------+-----------------------------------------------------------------------------------------+
-   | void | :ref:`_thread_process<class_NodeThread_method__thread_process>` **(** float delta **)** |
-   +------+-----------------------------------------------------------------------------------------+
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_NodeThread_method__init>` **(** **)**                                                                                                      |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_exiting_tree<class_NodeThread_method__on_exiting_tree>` **(** **)**                                                                                |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_ready<class_NodeThread_method__on_ready>` **(** **)**                                                                                              |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_thread_process<class_NodeThread_method__thread_process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)** |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -66,7 +66,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **autostart** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **autostart** = ``true``
 
 Whether or not to automatically start the thread on ready
 
@@ -137,7 +137,7 @@ void **_on_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_thread_process** **(** float delta **)**
+void **_thread_process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Should be overriden in the child class. Will get executed by the thread every tick.
 

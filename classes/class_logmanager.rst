@@ -10,7 +10,7 @@
 LogManager
 ==========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Interface to control logging across an array of loggers
 
@@ -29,11 +29,11 @@ Properties
 .. table::
    :widths: auto
 
-   +------------+-------------------------------------------------------------------+
-   | Dictionary | :ref:`loggers_by_name<class_LogManager_property_loggers_by_name>` |
-   +------------+-------------------------------------------------------------------+
-   | Mutex      | :ref:`mutex<class_LogManager_property_mutex>`                     |
-   +------------+-------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`loggers_by_name<class_LogManager_property_loggers_by_name>` |
+   +--------------------------------------------------------------------------------------+-------------------------------------------------------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_           | :ref:`mutex<class_LogManager_property_mutex>`                     |
+   +--------------------------------------------------------------------------------------+-------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -43,17 +43,17 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`get_available_loggers<class_LogManager_method_get_available_loggers>` **(** **)**                                                              |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`register<class_LogManager_method_register>` **(** :ref:`Log.Logger<class_Log.Logger>` logger **)**                                             |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_global_log_level<class_LogManager_method_set_global_log_level>` **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**                             |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_log_level<class_LogManager_method_set_log_level>` **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**                              |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_log_level_from_env<class_LogManager_method_set_log_level_from_env>` **(** :ref:`Log.Logger<class_Log.Logger>` logger, String env_var **)** |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_available_loggers<class_LogManager_method_get_available_loggers>` **(** **)**                                                                                                                                    |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`register<class_LogManager_method_register>` **(** :ref:`Log.Logger<class_Log.Logger>` logger **)**                                                                                                                   |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_global_log_level<class_LogManager_method_set_global_log_level>` **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**                                                                                                   |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_log_level<class_LogManager_method_set_log_level>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**                              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_log_level_from_env<class_LogManager_method_set_log_level_from_env>` **(** :ref:`Log.Logger<class_Log.Logger>` logger, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ env_var **)** |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -115,7 +115,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **loggers_by_name**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **loggers_by_name**
 
 Mapping of loggers by their name. This is in the form of {"<logger name>": ``<logger>, ...``}
 
@@ -127,7 +127,7 @@ Mapping of loggers by their name. This is in the form of {"<logger name>": ``<lo
 
 .. rst-class:: classref-property
 
-Mutex **mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
 
 Mutex to allow register/unregister through threads
 
@@ -144,7 +144,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_available_loggers** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_available_loggers** **(** **)**
 
 Return a list of loggers that are currently registered
 
@@ -180,7 +180,7 @@ Set the given log level on all loggers
 
 .. rst-class:: classref-method
 
-void **set_log_level** **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
+void **set_log_level** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
 Sets the log level on loggers with the given name to the given level.
 
@@ -192,7 +192,7 @@ Sets the log level on loggers with the given name to the given level.
 
 .. rst-class:: classref-method
 
-void **set_log_level_from_env** **(** :ref:`Log.Logger<class_Log.Logger>` logger, String env_var **)**
+void **set_log_level_from_env** **(** :ref:`Log.Logger<class_Log.Logger>` logger, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ env_var **)**
 
 Looks up the given environment variable and sets the log level on the given logger if the variable exists.
 

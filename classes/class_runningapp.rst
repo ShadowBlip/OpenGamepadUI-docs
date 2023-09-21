@@ -10,7 +10,7 @@
 RunningApp
 ==========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Defines a running application
 
@@ -29,41 +29,41 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`app_id<class_RunningApp_property_app_id>`                           |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | PackedStringArray                                 | :ref:`command<class_RunningApp_property_command>`                         |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | bool                                              | :ref:`created_window<class_RunningApp_property_created_window>`           | ``false`` |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | String                                            | :ref:`display<class_RunningApp_property_display>`                         |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | Dictionary                                        | :ref:`environment<class_RunningApp_property_environment>`                 |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | bool                                              | :ref:`focused<class_RunningApp_property_focused>`                         | ``false`` |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | bool                                              | :ref:`is_ogui_managed<class_RunningApp_property_is_ogui_managed>`         | ``true``  |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` | :ref:`launch_item<class_RunningApp_property_launch_item>`                 |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>`               | :ref:`logger<class_RunningApp_property_logger>`                           |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`not_running_count<class_RunningApp_property_not_running_count>`     | ``0``     |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`num_created_windows<class_RunningApp_property_num_created_windows>` | ``0``     |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`pid<class_RunningApp_property_pid>`                                 |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`start_time<class_RunningApp_property_start_time>`                   |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | :ref:`STATE<enum_RunningApp_STATE>`               | :ref:`state<class_RunningApp_property_state>`                             | ``0``     |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`steam_close_tries<class_RunningApp_property_steam_close_tries>`     | ``0``     |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | int                                               | :ref:`window_id<class_RunningApp_property_window_id>`                     |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
-   | PackedInt32Array                                  | :ref:`window_ids<class_RunningApp_property_window_ids>`                   |           |
-   +---------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`app_id<class_RunningApp_property_app_id>`                           |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`command<class_RunningApp_property_command>`                         |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`created_window<class_RunningApp_property_created_window>`           | ``false`` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`display<class_RunningApp_property_display>`                         |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_               | :ref:`environment<class_RunningApp_property_environment>`                 |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`focused<class_RunningApp_property_focused>`                         | ``false`` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`is_ogui_managed<class_RunningApp_property_is_ogui_managed>`         | ``true``  |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                                                  | :ref:`launch_item<class_RunningApp_property_launch_item>`                 |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_RunningApp_property_logger>`                           |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`not_running_count<class_RunningApp_property_not_running_count>`     | ``0``     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`num_created_windows<class_RunningApp_property_num_created_windows>` | ``0``     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`pid<class_RunningApp_property_pid>`                                 |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`start_time<class_RunningApp_property_start_time>`                   |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | :ref:`STATE<enum_RunningApp_STATE>`                                                                | :ref:`state<class_RunningApp_property_state>`                             | ``0``     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`steam_close_tries<class_RunningApp_property_steam_close_tries>`     | ``0``     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`window_id<class_RunningApp_property_window_id>`                     |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_   | :ref:`window_ids<class_RunningApp_property_window_ids>`                   |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -73,41 +73,41 @@ Methods
 .. table::
    :widths: auto
 
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | int              | :ref:`_discover_window_id<class_RunningApp_method__discover_window_id>` **(** **)**                                                        |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void             | :ref:`_ensure_app_id<class_RunningApp_method__ensure_app_id>` **(** **)**                                                                  |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void             | :ref:`_init<class_RunningApp_method__init>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, int process_id, String dsp **)** |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool             | :ref:`can_focus<class_RunningApp_method_can_focus>` **(** **)**                                                                            |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | int              | :ref:`find_steam<class_RunningApp_method_find_steam>` **(** **)**                                                                          |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedInt32Array | :ref:`get_all_window_ids<class_RunningApp_method_get_all_window_ids>` **(** **)**                                                          |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedInt32Array | :ref:`get_child_pids<class_RunningApp_method_get_child_pids>` **(** **)**                                                                  |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | int              | :ref:`get_window_id_from_pid<class_RunningApp_method_get_window_id_from_pid>` **(** **)**                                                  |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | String           | :ref:`get_window_title<class_RunningApp_method_get_window_title>` **(** int win_id **)**                                                   |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void             | :ref:`grab_focus<class_RunningApp_method_grab_focus>` **(** **)**                                                                          |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool             | :ref:`is_focused<class_RunningApp_method_is_focused>` **(** **)**                                                                          |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool             | :ref:`is_running<class_RunningApp_method_is_running>` **(** **)**                                                                          |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool             | :ref:`is_steam_app<class_RunningApp_method_is_steam_app>` **(** **)**                                                                      |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void             | :ref:`kill<class_RunningApp_method_kill>` **(** :ref:`SIG<enum_Reaper_SIG>` sig **)**                                                      |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool             | :ref:`needs_window_id<class_RunningApp_method_needs_window_id>` **(** **)**                                                                |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | int              | :ref:`switch_window<class_RunningApp_method_switch_window>` **(** int win_id, bool focus **)**                                             |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void             | :ref:`update<class_RunningApp_method_update>` **(** **)**                                                                                  |
-   +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`_discover_window_id<class_RunningApp_method__discover_window_id>` **(** **)**                                                                                                                                                                                                 |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`_ensure_app_id<class_RunningApp_method__ensure_app_id>` **(** **)**                                                                                                                                                                                                           |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`_init<class_RunningApp_method__init>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ process_id, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ dsp **)** |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`can_focus<class_RunningApp_method_can_focus>` **(** **)**                                                                                                                                                                                                                     |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`find_steam<class_RunningApp_method_find_steam>` **(** **)**                                                                                                                                                                                                                   |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ | :ref:`get_all_window_ids<class_RunningApp_method_get_all_window_ids>` **(** **)**                                                                                                                                                                                                   |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ | :ref:`get_child_pids<class_RunningApp_method_get_child_pids>` **(** **)**                                                                                                                                                                                                           |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`get_window_id_from_pid<class_RunningApp_method_get_window_id_from_pid>` **(** **)**                                                                                                                                                                                           |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                     | :ref:`get_window_title<class_RunningApp_method_get_window_title>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ win_id **)**                                                                                                                         |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`grab_focus<class_RunningApp_method_grab_focus>` **(** **)**                                                                                                                                                                                                                   |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`is_focused<class_RunningApp_method_is_focused>` **(** **)**                                                                                                                                                                                                                   |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`is_running<class_RunningApp_method_is_running>` **(** **)**                                                                                                                                                                                                                   |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`is_steam_app<class_RunningApp_method_is_steam_app>` **(** **)**                                                                                                                                                                                                               |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`kill<class_RunningApp_method_kill>` **(** :ref:`SIG<enum_Reaper_SIG>` sig **)**                                                                                                                                                                                               |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`needs_window_id<class_RunningApp_method_needs_window_id>` **(** **)**                                                                                                                                                                                                         |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`switch_window<class_RunningApp_method_switch_window>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ win_id, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ focus **)**                                               |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`update<class_RunningApp_method_update>` **(** **)**                                                                                                                                                                                                                           |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -206,7 +206,7 @@ Emitted when the window id of the given app has changed
 
 .. rst-class:: classref-signal
 
-**window_ids_changed** **(** PackedInt32Array from, PackedInt32Array to **)**
+**window_ids_changed** **(** `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ from, `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ to **)**
 
 Emitted whenever the windows change for the app
 
@@ -295,7 +295,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-int **app_id**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **app_id**
 
 The current app ID of the application
 
@@ -307,7 +307,7 @@ The current app ID of the application
 
 .. rst-class:: classref-property
 
-PackedStringArray **command**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **command**
 
 The raw command that was used to launch the application
 
@@ -319,7 +319,7 @@ The raw command that was used to launch the application
 
 .. rst-class:: classref-property
 
-bool **created_window** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **created_window** = ``false``
 
 Whether or not the running app has created at least one valid window
 
@@ -331,7 +331,7 @@ Whether or not the running app has created at least one valid window
 
 .. rst-class:: classref-property
 
-String **display**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **display**
 
 The xwayland display that the application is running on (e.g. ":1")
 
@@ -343,7 +343,7 @@ The xwayland display that the application is running on (e.g. ":1")
 
 .. rst-class:: classref-property
 
-Dictionary **environment**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **environment**
 
 Environment variables that were set with the launched application
 
@@ -355,7 +355,7 @@ Environment variables that were set with the launched application
 
 .. rst-class:: classref-property
 
-bool **focused** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **focused** = ``false``
 
 Whether or not the app is currently focused
 
@@ -367,7 +367,7 @@ Whether or not the app is currently focused
 
 .. rst-class:: classref-property
 
-bool **is_ogui_managed** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_ogui_managed** = ``true``
 
 Flag for if OGUI should manage this app. Set to false if app is launched outside OGUI and we just want to track it.
 
@@ -405,7 +405,7 @@ The LibraryLaunchItem associated with the running application
 
 .. rst-class:: classref-property
 
-int **not_running_count** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **not_running_count** = ``0``
 
 Number of times this app has failed its "is_running" check
 
@@ -417,7 +417,7 @@ Number of times this app has failed its "is_running" check
 
 .. rst-class:: classref-property
 
-int **num_created_windows** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **num_created_windows** = ``0``
 
 The number of windows that have been discovered from this app
 
@@ -429,7 +429,7 @@ The number of windows that have been discovered from this app
 
 .. rst-class:: classref-property
 
-int **pid**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **pid**
 
 The PID of the launched application
 
@@ -441,7 +441,7 @@ The PID of the launched application
 
 .. rst-class:: classref-property
 
-int **start_time**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **start_time**
 
 Time in milliseconds when the app started
 
@@ -465,7 +465,7 @@ The state of the running app
 
 .. rst-class:: classref-property
 
-int **steam_close_tries** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **steam_close_tries** = ``0``
 
 When a steam-launched app has no window, count a few tries before trying to close Steam
 
@@ -477,7 +477,7 @@ When a steam-launched app has no window, count a few tries before trying to clos
 
 .. rst-class:: classref-property
 
-int **window_id**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **window_id**
 
 The currently detected window ID of the application
 
@@ -489,7 +489,7 @@ The currently detected window ID of the application
 
 .. rst-class:: classref-property
 
-PackedInt32Array **window_ids**
+`PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ **window_ids**
 
 A list of all detected window IDs related to the application
 
@@ -506,7 +506,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-int **_discover_window_id** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_discover_window_id** **(** **)**
 
 Tries to discover the window ID of the running app
 
@@ -530,7 +530,7 @@ Iterates through all windows related to the app and sets the app ID property so 
 
 .. rst-class:: classref-method
 
-void **_init** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, int process_id, String dsp **)**
+void **_init** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ process_id, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ dsp **)**
 
 .. container:: contribute
 
@@ -544,7 +544,7 @@ void **_init** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, int
 
 .. rst-class:: classref-method
 
-bool **can_focus** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **can_focus** **(** **)**
 
 Returns whether or not the app can be switched to/focused
 
@@ -556,7 +556,7 @@ Returns whether or not the app can be switched to/focused
 
 .. rst-class:: classref-method
 
-int **find_steam** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **find_steam** **(** **)**
 
 Finds the steam process so it can be killed when a game closes
 
@@ -568,7 +568,7 @@ Finds the steam process so it can be killed when a game closes
 
 .. rst-class:: classref-method
 
-PackedInt32Array **get_all_window_ids** **(** **)**
+`PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ **get_all_window_ids** **(** **)**
 
 Attempt to discover all window IDs from the PID of the given application and the PIDs of all processes in the same process group.
 
@@ -580,7 +580,7 @@ Attempt to discover all window IDs from the PID of the given application and the
 
 .. rst-class:: classref-method
 
-PackedInt32Array **get_child_pids** **(** **)**
+`PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ **get_child_pids** **(** **)**
 
 Return a list of child PIDs. When launching apps with :ref:`Reaper<class_Reaper>`, PR_SET_CHILD_SUBREAPER is set to prevent processes from re-parenting themselves to other processes.
 
@@ -592,7 +592,7 @@ Return a list of child PIDs. When launching apps with :ref:`Reaper<class_Reaper>
 
 .. rst-class:: classref-method
 
-int **get_window_id_from_pid** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_window_id_from_pid** **(** **)**
 
 Attempt to discover the window ID from the PID of the given application
 
@@ -604,7 +604,7 @@ Attempt to discover the window ID from the PID of the given application
 
 .. rst-class:: classref-method
 
-String **get_window_title** **(** int win_id **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_window_title** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ win_id **)**
 
 Returns the window title of the given window. If the window ID does not belong to this app, it will return an empty string.
 
@@ -628,7 +628,7 @@ Focuses to the app's window
 
 .. rst-class:: classref-method
 
-bool **is_focused** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_focused** **(** **)**
 
 Return true if the currently running app is focused
 
@@ -640,7 +640,7 @@ Return true if the currently running app is focused
 
 .. rst-class:: classref-method
 
-bool **is_running** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_running** **(** **)**
 
 Returns true if the app's PID is running or any decendents with the same process group.
 
@@ -652,7 +652,7 @@ Returns true if the app's PID is running or any decendents with the same process
 
 .. rst-class:: classref-method
 
-bool **is_steam_app** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_steam_app** **(** **)**
 
 Returns true if the running app was launched through Steam
 
@@ -676,7 +676,7 @@ Kill the running app
 
 .. rst-class:: classref-method
 
-bool **needs_window_id** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **needs_window_id** **(** **)**
 
 Returns whether or not the window id of the running app needs to be discovered
 
@@ -688,7 +688,7 @@ Returns whether or not the window id of the running app needs to be discovered
 
 .. rst-class:: classref-method
 
-int **switch_window** **(** int win_id, bool focus **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **switch_window** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ win_id, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ focus **)**
 
 Switches the app window to the given window ID. Returns an error if unable to switch to the window
 

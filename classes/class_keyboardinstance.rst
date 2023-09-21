@@ -10,7 +10,7 @@
 KeyboardInstance
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Globally accessible reference to an on-screen keyboard
 

@@ -10,7 +10,7 @@
 NotificationManager
 ===================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Resource API for displaying arbitrary notifications
 
@@ -42,19 +42,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | Array                                         | :ref:`_history<class_NotificationManager_property__history>`                 |           |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | int                                           | :ref:`_max_history<class_NotificationManager_property__max_history>`         |           |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | Array                                         | :ref:`_queue<class_NotificationManager_property__queue>`                     |           |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>`           | :ref:`logger<class_NotificationManager_property_logger>`                     |           |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`ready<class_NotificationManager_property_ready>`                       | ``false`` |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
-   | :ref:`SettingsManager<class_SettingsManager>` | :ref:`settings_manager<class_NotificationManager_property_settings_manager>` |           |
-   +-----------------------------------------------+------------------------------------------------------------------------------+-----------+
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_history<class_NotificationManager_property__history>`                 |           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`_max_history<class_NotificationManager_property__max_history>`         |           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_queue<class_NotificationManager_property__queue>`                     |           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_NotificationManager_property_logger>`                     |           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`ready<class_NotificationManager_property_ready>`                       | ``false`` |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+   | :ref:`SettingsManager<class_SettingsManager>`                              | :ref:`settings_manager<class_NotificationManager_property_settings_manager>` |           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -64,19 +64,19 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                    | :ref:`_queue_notification<class_NotificationManager_method__queue_notification>` **(** :ref:`Notification<class_Notification>` notify **)** |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                   | :ref:`get_notification_history<class_NotificationManager_method_get_notification_history>` **(** **)**                                      |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                    | :ref:`has_next<class_NotificationManager_method_has_next>` **(** **)**                                                                      |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Notification<class_Notification>` | :ref:`next<class_NotificationManager_method_next>` **(** **)**                                                                              |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                    | :ref:`show<class_NotificationManager_method_show>` **(** :ref:`Notification<class_Notification>` notify **)**                               |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                    | :ref:`show_notification<class_NotificationManager_method_show_notification>` **(** String text, Texture2D icon, float timeout_sec **)**     |
-   +-----------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_queue_notification<class_NotificationManager_method__queue_notification>` **(** :ref:`Notification<class_Notification>` notify **)**                                                                                                                                                                                                                 |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_notification_history<class_NotificationManager_method_get_notification_history>` **(** **)**                                                                                                                                                                                                                                                      |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`has_next<class_NotificationManager_method_has_next>` **(** **)**                                                                                                                                                                                                                                                                                      |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Notification<class_Notification>`                                    | :ref:`next<class_NotificationManager_method_next>` **(** **)**                                                                                                                                                                                                                                                                                              |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`show<class_NotificationManager_method_show>` **(** :ref:`Notification<class_Notification>` notify **)**                                                                                                                                                                                                                                               |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`show_notification<class_NotificationManager_method_show_notification>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ text, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ icon, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ timeout_sec **)** |
+   +----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -120,7 +120,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **_history**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_history**
 
 .. container:: contribute
 
@@ -134,7 +134,7 @@ Array **_history**
 
 .. rst-class:: classref-property
 
-int **_max_history**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_max_history**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ int **_max_history**
 
 .. rst-class:: classref-property
 
-Array **_queue**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_queue**
 
 .. container:: contribute
 
@@ -176,7 +176,7 @@ Array **_queue**
 
 .. rst-class:: classref-property
 
-bool **ready** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **ready** = ``false``
 
 .. container:: contribute
 
@@ -223,7 +223,7 @@ void **_queue_notification** **(** :ref:`Notification<class_Notification>` notif
 
 .. rst-class:: classref-method
 
-Array **get_notification_history** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_notification_history** **(** **)**
 
 Returns a list of notifications
 
@@ -235,7 +235,7 @@ Returns a list of notifications
 
 .. rst-class:: classref-method
 
-bool **has_next** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_next** **(** **)**
 
 Returns whether there are notifiations waiting in the queue
 
@@ -271,7 +271,7 @@ Queues the given notification to be shown
 
 .. rst-class:: classref-method
 
-void **show_notification** **(** String text, Texture2D icon, float timeout_sec **)**
+void **show_notification** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ text, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ icon, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ timeout_sec **)**
 
 .. container:: contribute
 

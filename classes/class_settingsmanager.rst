@@ -10,7 +10,7 @@
 SettingsManager
 ===============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Get and set user settings
 
@@ -29,13 +29,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------------------+---------------------------+
-   | ConfigFile                          | :ref:`_config<class_SettingsManager_property__config>`             |                           |
-   +-------------------------------------+--------------------------------------------------------------------+---------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_SettingsManager_property_logger>`               |                           |
-   +-------------------------------------+--------------------------------------------------------------------+---------------------------+
-   | String                              | :ref:`settings_file<class_SettingsManager_property_settings_file>` | ``"user://settings.cfg"`` |
-   +-------------------------------------+--------------------------------------------------------------------+---------------------------+
+   +--------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------------------------+
+   | `ConfigFile <https://docs.godotengine.org/en/stable/classes/class_configfile.html>`_ | :ref:`_config<class_SettingsManager_property__config>`             |                           |
+   +--------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_SettingsManager_property_logger>`               |                           |
+   +--------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`settings_file<class_SettingsManager_property_settings_file>` | ``"user://settings.cfg"`` |
+   +--------------------------------------------------------------------------------------+--------------------------------------------------------------------+---------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -45,25 +45,25 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_SettingsManager_method__init>` **(** **)**                                                                                                             |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`erase_library_key<class_SettingsManager_method_erase_library_key>` **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, bool persist **)**                |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`erase_section_key<class_SettingsManager_method_erase_section_key>` **(** String section, String key, bool persist **)**                                            |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`get_library_value<class_SettingsManager_method_get_library_value>` **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, Variant default **)**             |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`get_value<class_SettingsManager_method_get_value>` **(** String section, String key, Variant default **)**                                                         |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`reload<class_SettingsManager_method_reload>` **(** **)**                                                                                                           |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`save<class_SettingsManager_method_save>` **(** **)**                                                                                                               |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_library_value<class_SettingsManager_method_set_library_value>` **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, Variant value, bool persist **)** |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_value<class_SettingsManager_method_set_value>` **(** String section, String key, Variant value, bool persist **)**                                             |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_SettingsManager_method__init>` **(** **)**                                                                                                                                                                                                                                                                                                                                                        |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`erase_library_key<class_SettingsManager_method_erase_library_key>` **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**                                                                                                                 |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`erase_section_key<class_SettingsManager_method_erase_section_key>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**                                                                       |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`get_library_value<class_SettingsManager_method_get_library_value>` **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ default **)**                                                                                                           |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`get_value<class_SettingsManager_method_get_value>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ default **)**                                                                                 |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`reload<class_SettingsManager_method_reload>` **(** **)**                                                                                                                                                                                                                                                                                                                                                      |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`save<class_SettingsManager_method_save>` **(** **)**                                                                                                                                                                                                                                                                                                                                                          |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`set_library_value<class_SettingsManager_method_set_library_value>` **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**                           |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`set_value<class_SettingsManager_method_set_value>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)** |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -78,7 +78,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**setting_changed** **(** String section, String key, Variant value **)**
+**setting_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**
 
 .. container:: contribute
 
@@ -97,7 +97,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-ConfigFile **_config**
+`ConfigFile <https://docs.godotengine.org/en/stable/classes/class_configfile.html>`_ **_config**
 
 .. container:: contribute
 
@@ -125,7 +125,7 @@ ConfigFile **_config**
 
 .. rst-class:: classref-property
 
-String **settings_file** = ``"user://settings.cfg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **settings_file** = ``"user://settings.cfg"``
 
 .. container:: contribute
 
@@ -158,7 +158,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **erase_library_key** **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, bool persist **)**
+void **erase_library_key** **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**
 
 .. container:: contribute
 
@@ -172,7 +172,7 @@ void **erase_library_key** **(** :ref:`LibraryItem<class_LibraryItem>` item, Str
 
 .. rst-class:: classref-method
 
-void **erase_section_key** **(** String section, String key, bool persist **)**
+void **erase_section_key** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**
 
 .. container:: contribute
 
@@ -186,7 +186,7 @@ void **erase_section_key** **(** String section, String key, bool persist **)**
 
 .. rst-class:: classref-method
 
-void **get_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, Variant default **)**
+void **get_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ default **)**
 
 .. container:: contribute
 
@@ -200,7 +200,7 @@ void **get_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, Str
 
 .. rst-class:: classref-method
 
-void **get_value** **(** String section, String key, Variant default **)**
+void **get_value** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ default **)**
 
 .. container:: contribute
 
@@ -242,7 +242,7 @@ void **save** **(** **)**
 
 .. rst-class:: classref-method
 
-void **set_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, String key, Variant value, bool persist **)**
+void **set_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**
 
 .. container:: contribute
 
@@ -256,7 +256,7 @@ void **set_library_value** **(** :ref:`LibraryItem<class_LibraryItem>` item, Str
 
 .. rst-class:: classref-method
 
-void **set_value** **(** String section, String key, Variant value, bool persist **)**
+void **set_value** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ section, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ persist **)**
 
 .. container:: contribute
 

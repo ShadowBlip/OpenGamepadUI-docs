@@ -10,7 +10,7 @@
 SelectableText
 ==============
 
-**Inherits:** 
+**Inherits:** `VBoxContainer <https://docs.godotengine.org/en/stable/classes/class_vboxcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | String         | :ref:`description<class_SelectableText_property_description>`             | ``"Description"`` |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | Label          | :ref:`description_label<class_SelectableText_property_description_label>` |                   |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | Label          | :ref:`label<class_SelectableText_property_label>`                         |                   |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | PanelContainer | :ref:`panel<class_SelectableText_property_panel>`                         |                   |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | String         | :ref:`text<class_SelectableText_property_text>`                           | ``"Value"``       |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | String         | :ref:`title<class_SelectableText_property_title>`                         | ``"Setting"``     |
-   +----------------+---------------------------------------------------------------------------+-------------------+
-   | Label          | :ref:`value_label<class_SelectableText_property_value_label>`             |                   |
-   +----------------+---------------------------------------------------------------------------+-------------------+
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                 | :ref:`description<class_SelectableText_property_description>`             | ``"Description"`` |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                   | :ref:`description_label<class_SelectableText_property_description_label>` |                   |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                   | :ref:`label<class_SelectableText_property_label>`                         |                   |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_ | :ref:`panel<class_SelectableText_property_panel>`                         |                   |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                 | :ref:`text<class_SelectableText_property_text>`                           | ``"Value"``       |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                 | :ref:`title<class_SelectableText_property_title>`                         | ``"Setting"``     |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                   | :ref:`value_label<class_SelectableText_property_value_label>`             |                   |
+   +----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,13 +48,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-------------------------------------------------------------------------------------+
-   | void | :ref:`_on_focus<class_SelectableText_method__on_focus>` **(** bool focused **)**    |
-   +------+-------------------------------------------------------------------------------------+
-   | void | :ref:`_on_theme_changed<class_SelectableText_method__on_theme_changed>` **(** **)** |
-   +------+-------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_SelectableText_method__ready>` **(** **)**                       |
-   +------+-------------------------------------------------------------------------------------+
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_focus<class_SelectableText_method__on_focus>` **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ focused **)** |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_theme_changed<class_SelectableText_method__on_theme_changed>` **(** **)**                                                                  |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_SelectableText_method__ready>` **(** **)**                                                                                        |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -69,7 +69,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **description** = ``"Description"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **description** = ``"Description"``
 
 .. container:: contribute
 
@@ -83,7 +83,7 @@ String **description** = ``"Description"``
 
 .. rst-class:: classref-property
 
-Label **description_label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **description_label**
 
 .. container:: contribute
 
@@ -97,7 +97,7 @@ Label **description_label**
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -111,7 +111,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-PanelContainer **panel**
+`PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_ **panel**
 
 .. container:: contribute
 
@@ -125,7 +125,7 @@ PanelContainer **panel**
 
 .. rst-class:: classref-property
 
-String **text** = ``"Value"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``"Value"``
 
 .. container:: contribute
 
@@ -139,7 +139,7 @@ String **text** = ``"Value"``
 
 .. rst-class:: classref-property
 
-String **title** = ``"Setting"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **title** = ``"Setting"``
 
 .. container:: contribute
 
@@ -153,7 +153,7 @@ String **title** = ``"Setting"``
 
 .. rst-class:: classref-property
 
-Label **value_label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **value_label**
 
 .. container:: contribute
 
@@ -172,7 +172,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_on_focus** **(** bool focused **)**
+void **_on_focus** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ focused **)**
 
 .. container:: contribute
 

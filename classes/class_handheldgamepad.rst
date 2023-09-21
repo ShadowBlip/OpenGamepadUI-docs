@@ -10,7 +10,7 @@
 HandheldGamepad
 ===============
 
-**Inherits:** :ref:`ManagedGamepad<class_ManagedGamepad>`
+**Inherits:** :ref:`ManagedGamepad<class_ManagedGamepad>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------+------------------------------------------------------------------+
-   | Array                                 | :ref:`active_keys<class_HandheldGamepad_property_active_keys>`   |
-   +---------------------------------------+------------------------------------------------------------------+
-   | :ref:`DeviceHider<class_DeviceHider>` | :ref:`device_hider<class_HandheldGamepad_property_device_hider>` |
-   +---------------------------------------+------------------------------------------------------------------+
-   | Array                                 | :ref:`keypads<class_HandheldGamepad_property_keypads>`           |
-   +---------------------------------------+------------------------------------------------------------------+
-   | :ref:`Platform<class_Platform>`       | :ref:`platform<class_HandheldGamepad_property_platform>`         |
-   +---------------------------------------+------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`active_keys<class_HandheldGamepad_property_active_keys>`   |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------+
+   | :ref:`DeviceHider<class_DeviceHider>`                                      | :ref:`device_hider<class_HandheldGamepad_property_device_hider>` |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`keypads<class_HandheldGamepad_property_keypads>`           |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------+
+   | :ref:`Platform<class_Platform>`                                            | :ref:`platform<class_HandheldGamepad_property_platform>`         |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,31 +42,31 @@ Methods
 .. table::
    :widths: auto
 
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_check_mapped_events<class_HandheldGamepad_method__check_mapped_events>` **(** float value, float delta **)**                                               |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool  | :ref:`_filter_event<class_HandheldGamepad_method__filter_event>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                            |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int   | :ref:`_find_active_key<class_HandheldGamepad_method__find_active_key>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                      |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int   | :ref:`_find_updatable_key<class_HandheldGamepad_method__find_updatable_key>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_init<class_HandheldGamepad_method__init>` **(** **)**                                                                                                      |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_on_key_down<class_HandheldGamepad_method__on_key_down>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                              |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool  | :ref:`_on_key_up<class_HandheldGamepad_method__on_key_up>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event, float delta **)**                                     |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_process_event<class_HandheldGamepad_method__process_event>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event, float delta **)**                             |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool  | :ref:`_sort_events<class_HandheldGamepad_method__sort_events>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event1, :ref:`EvdevEvent<class_EvdevEvent>` event2 **)** |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array | :ref:`get_capabilities<class_HandheldGamepad_method_get_capabilities>` **(** **)**                                                                                |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`process_input<class_HandheldGamepad_method_process_input>` **(** **)**                                                                                      |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`setup<class_HandheldGamepad_method_setup>` **(** Array keyboards **)**                                                                                      |
-   +-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_check_mapped_events<class_HandheldGamepad_method__check_mapped_events>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)** |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`_filter_event<class_HandheldGamepad_method__filter_event>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                                                                                                                        |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`_find_active_key<class_HandheldGamepad_method__find_active_key>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                                                                                                                  |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`_find_updatable_key<class_HandheldGamepad_method__find_updatable_key>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                                                                                                            |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_init<class_HandheldGamepad_method__init>` **(** **)**                                                                                                                                                                                                  |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_on_key_down<class_HandheldGamepad_method__on_key_down>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**                                                                                                                                          |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`_on_key_up<class_HandheldGamepad_method__on_key_up>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**                                                            |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_process_event<class_HandheldGamepad_method__process_event>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**                                                    |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`_sort_events<class_HandheldGamepad_method__sort_events>` **(** :ref:`EvdevEvent<class_EvdevEvent>` event1, :ref:`EvdevEvent<class_EvdevEvent>` event2 **)**                                                                                             |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_capabilities<class_HandheldGamepad_method_get_capabilities>` **(** **)**                                                                                                                                                                            |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`process_input<class_HandheldGamepad_method_process_input>` **(** **)**                                                                                                                                                                                  |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`setup<class_HandheldGamepad_method_setup>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ keyboards **)**                                                                                                             |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -81,7 +81,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **active_keys**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **active_keys**
 
 List of keys and their values that are currently pressed.
 
@@ -107,7 +107,7 @@ List of keys and their values that are currently pressed.
 
 .. rst-class:: classref-property
 
-Array **keypads**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **keypads**
 
 The physical keyboard/mouse device we are mapping input from.
 
@@ -138,7 +138,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_check_mapped_events** **(** float value, float delta **)**
+void **_check_mapped_events** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Called after processing all events in the event loop. Checks if our current active_keys matches any of our mapped events.
 
@@ -150,7 +150,7 @@ Called after processing all events in the event loop. Checks if our current acti
 
 .. rst-class:: classref-method
 
-bool **_filter_event** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_filter_event** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
 
 .. container:: contribute
 
@@ -164,7 +164,7 @@ bool **_filter_event** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
 
 .. rst-class:: classref-method
 
-int **_find_active_key** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_find_active_key** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
 
 Returns the index of an active key.
 
@@ -176,7 +176,7 @@ Returns the index of an active key.
 
 .. rst-class:: classref-method
 
-int **_find_updatable_key** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_find_updatable_key** **(** :ref:`EvdevEvent<class_EvdevEvent>` event **)**
 
 Returns the index of an active key who's value does not match.
 
@@ -214,7 +214,7 @@ Called for key down events.
 
 .. rst-class:: classref-method
 
-bool **_on_key_up** **(** :ref:`EvdevEvent<class_EvdevEvent>` event, float delta **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_on_key_up** **(** :ref:`EvdevEvent<class_EvdevEvent>` event, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Called for key up events.
 
@@ -226,7 +226,7 @@ Called for key up events.
 
 .. rst-class:: classref-method
 
-void **_process_event** **(** :ref:`EvdevEvent<class_EvdevEvent>` event, float delta **)**
+void **_process_event** **(** :ref:`EvdevEvent<class_EvdevEvent>` event, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 Called to handle an individual event. Sets the active keys.
 
@@ -238,7 +238,7 @@ Called to handle an individual event. Sets the active keys.
 
 .. rst-class:: classref-method
 
-bool **_sort_events** **(** :ref:`EvdevEvent<class_EvdevEvent>` event1, :ref:`EvdevEvent<class_EvdevEvent>` event2 **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_sort_events** **(** :ref:`EvdevEvent<class_EvdevEvent>` event1, :ref:`EvdevEvent<class_EvdevEvent>` event2 **)**
 
 Custom sort method that returns true if the first EvdevEvent is less than the second EvdevEvent.  Checks type, then code, then value.
 
@@ -250,7 +250,7 @@ Custom sort method that returns true if the first EvdevEvent is less than the se
 
 .. rst-class:: classref-method
 
-Array **get_capabilities** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_capabilities** **(** **)**
 
 Returns the capabilities of the gamepad
 
@@ -274,7 +274,7 @@ Main process thread for input translation from one device to another.
 
 .. rst-class:: classref-method
 
-void **setup** **(** Array keyboards **)**
+void **setup** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ keyboards **)**
 
 Setup the given keyboard devices for the handheld gamepad
 

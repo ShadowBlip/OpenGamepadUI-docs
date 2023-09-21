@@ -10,7 +10,7 @@
 GamepadAxesMapping
 ==================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Structure for holding the X/Y event mappings for multi-axis pair
 
@@ -43,9 +43,9 @@ Methods
 .. table::
    :widths: auto
 
-   +------+---------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`matches<class_GamepadAxesMapping_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)** |
-   +------+---------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`matches<class_GamepadAxesMapping_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)** |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -89,7 +89,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **matches** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **matches** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 Returns true if the given event matches any axis
 

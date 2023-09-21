@@ -10,7 +10,7 @@
 PowerSaver
 ==========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 TODO: Use inputmanager to send power_save events for every input!!
 
@@ -22,43 +22,43 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`auto_suspend_enabled<class_PowerSaver_property_auto_suspend_enabled>`                   | ``true``  |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | Array                                         | :ref:`batteries<class_PowerSaver_property_batteries>`                                         |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | int                                           | :ref:`dim_after_inactivity_mins<class_PowerSaver_property_dim_after_inactivity_mins>`         | ``5``     |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | int                                           | :ref:`dim_percent<class_PowerSaver_property_dim_percent>`                                     | ``10``    |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`dim_screen_enabled<class_PowerSaver_property_dim_screen_enabled>`                       | ``true``  |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | Timer                                         | :ref:`dim_timer<class_PowerSaver_property_dim_timer>`                                         |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`dim_when_charging<class_PowerSaver_property_dim_when_charging>`                         | ``true``  |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`dimmed<class_PowerSaver_property_dimmed>`                                               | ``false`` |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | :ref:`DisplayManager<class_DisplayManager>`   | :ref:`display<class_PowerSaver_property_display>`                                             |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`has_battery<class_PowerSaver_property_has_battery>`                                     | ``false`` |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>`           | :ref:`logger<class_PowerSaver_property_logger>`                                               |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | :ref:`PowerManager<class_PowerManager>`       | :ref:`power_manager<class_PowerSaver_property_power_manager>`                                 |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | Dictionary                                    | :ref:`prev_brightness<class_PowerSaver_property_prev_brightness>`                             |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | :ref:`SettingsManager<class_SettingsManager>` | :ref:`settings<class_PowerSaver_property_settings>`                                           |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`supports_brightness<class_PowerSaver_property_supports_brightness>`                     |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | int                                           | :ref:`suspend_after_inactivity_mins<class_PowerSaver_property_suspend_after_inactivity_mins>` | ``20``    |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | Timer                                         | :ref:`suspend_timer<class_PowerSaver_property_suspend_timer>`                                 |           |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
-   | bool                                          | :ref:`suspend_when_charging<class_PowerSaver_property_suspend_when_charging>`                 | ``false`` |
-   +-----------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`auto_suspend_enabled<class_PowerSaver_property_auto_suspend_enabled>`                   | ``true``  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`batteries<class_PowerSaver_property_batteries>`                                         |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`dim_after_inactivity_mins<class_PowerSaver_property_dim_after_inactivity_mins>`         | ``5``     |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`dim_percent<class_PowerSaver_property_dim_percent>`                                     | ``10``    |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`dim_screen_enabled<class_PowerSaver_property_dim_screen_enabled>`                       | ``true``  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_           | :ref:`dim_timer<class_PowerSaver_property_dim_timer>`                                         |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`dim_when_charging<class_PowerSaver_property_dim_when_charging>`                         | ``true``  |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`dimmed<class_PowerSaver_property_dimmed>`                                               | ``false`` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`DisplayManager<class_DisplayManager>`                                          | :ref:`display<class_PowerSaver_property_display>`                                             |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`has_battery<class_PowerSaver_property_has_battery>`                                     | ``false`` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_PowerSaver_property_logger>`                                               |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`PowerManager<class_PowerManager>`                                              | :ref:`power_manager<class_PowerSaver_property_power_manager>`                                 |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`prev_brightness<class_PowerSaver_property_prev_brightness>`                             |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`SettingsManager<class_SettingsManager>`                                        | :ref:`settings<class_PowerSaver_property_settings>`                                           |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`supports_brightness<class_PowerSaver_property_supports_brightness>`                     |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`suspend_after_inactivity_mins<class_PowerSaver_property_suspend_after_inactivity_mins>` | ``20``    |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_           | :ref:`suspend_timer<class_PowerSaver_property_suspend_timer>`                                 |           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`suspend_when_charging<class_PowerSaver_property_suspend_when_charging>`                 | ``false`` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -68,15 +68,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_input<class_PowerSaver_method__input>` **(** InputEvent event **)**                      |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_dim_timer_timeout<class_PowerSaver_method__on_dim_timer_timeout>` **(** **)**         |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_suspend_timer_timeout<class_PowerSaver_method__on_suspend_timer_timeout>` **(** **)** |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_PowerSaver_method__ready>` **(** **)**                                       |
-   +------+-------------------------------------------------------------------------------------------------+
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_input<class_PowerSaver_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)** |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_dim_timer_timeout<class_PowerSaver_method__on_dim_timer_timeout>` **(** **)**                                                              |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_suspend_timer_timeout<class_PowerSaver_method__on_suspend_timer_timeout>` **(** **)**                                                      |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_PowerSaver_method__ready>` **(** **)**                                                                                            |
+   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -108,7 +108,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **auto_suspend_enabled** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **auto_suspend_enabled** = ``true``
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ bool **auto_suspend_enabled** = ``true``
 
 .. rst-class:: classref-property
 
-Array **batteries**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **batteries**
 
 .. container:: contribute
 
@@ -136,7 +136,7 @@ Array **batteries**
 
 .. rst-class:: classref-property
 
-int **dim_after_inactivity_mins** = ``5``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **dim_after_inactivity_mins** = ``5``
 
 .. container:: contribute
 
@@ -150,7 +150,7 @@ int **dim_after_inactivity_mins** = ``5``
 
 .. rst-class:: classref-property
 
-int **dim_percent** = ``10``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **dim_percent** = ``10``
 
 .. container:: contribute
 
@@ -164,7 +164,7 @@ int **dim_percent** = ``10``
 
 .. rst-class:: classref-property
 
-bool **dim_screen_enabled** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **dim_screen_enabled** = ``true``
 
 .. container:: contribute
 
@@ -178,7 +178,7 @@ bool **dim_screen_enabled** = ``true``
 
 .. rst-class:: classref-property
 
-Timer **dim_timer**
+`Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_ **dim_timer**
 
 .. container:: contribute
 
@@ -192,7 +192,7 @@ Timer **dim_timer**
 
 .. rst-class:: classref-property
 
-bool **dim_when_charging** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **dim_when_charging** = ``true``
 
 .. container:: contribute
 
@@ -206,7 +206,7 @@ bool **dim_when_charging** = ``true``
 
 .. rst-class:: classref-property
 
-bool **dimmed** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **dimmed** = ``false``
 
 .. container:: contribute
 
@@ -234,7 +234,7 @@ bool **dimmed** = ``false``
 
 .. rst-class:: classref-property
 
-bool **has_battery** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_battery** = ``false``
 
 .. container:: contribute
 
@@ -276,7 +276,7 @@ bool **has_battery** = ``false``
 
 .. rst-class:: classref-property
 
-Dictionary **prev_brightness**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **prev_brightness**
 
 .. container:: contribute
 
@@ -304,7 +304,7 @@ Dictionary **prev_brightness**
 
 .. rst-class:: classref-property
 
-bool **supports_brightness**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_brightness**
 
 .. container:: contribute
 
@@ -318,7 +318,7 @@ bool **supports_brightness**
 
 .. rst-class:: classref-property
 
-int **suspend_after_inactivity_mins** = ``20``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **suspend_after_inactivity_mins** = ``20``
 
 .. container:: contribute
 
@@ -332,7 +332,7 @@ int **suspend_after_inactivity_mins** = ``20``
 
 .. rst-class:: classref-property
 
-Timer **suspend_timer**
+`Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_ **suspend_timer**
 
 .. container:: contribute
 
@@ -346,7 +346,7 @@ Timer **suspend_timer**
 
 .. rst-class:: classref-property
 
-bool **suspend_when_charging** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **suspend_when_charging** = ``false``
 
 .. container:: contribute
 
@@ -365,7 +365,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_input** **(** InputEvent event **)**
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 

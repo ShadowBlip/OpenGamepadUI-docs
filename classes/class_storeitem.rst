@@ -10,7 +10,7 @@
 StoreItem
 =========
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +---------+--------------------------------------------------+
-   | String  | :ref:`id<class_StoreItem_property_id>`           |
-   +---------+--------------------------------------------------+
-   | String  | :ref:`image<class_StoreItem_property_image>`     |
-   +---------+--------------------------------------------------+
-   | String  | :ref:`name<class_StoreItem_property_name>`       |
-   +---------+--------------------------------------------------+
-   | Texture | :ref:`texture<class_StoreItem_property_texture>` |
-   +---------+--------------------------------------------------+
+   +--------------------------------------------------------------------------------+--------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`id<class_StoreItem_property_id>`           |
+   +--------------------------------------------------------------------------------+--------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`image<class_StoreItem_property_image>`     |
+   +--------------------------------------------------------------------------------+--------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`name<class_StoreItem_property_name>`       |
+   +--------------------------------------------------------------------------------+--------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`texture<class_StoreItem_property_texture>` |
+   +--------------------------------------------------------------------------------+--------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -47,7 +47,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **id**
 
 .. container:: contribute
 
@@ -61,7 +61,7 @@ String **id**
 
 .. rst-class:: classref-property
 
-String **image**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **image**
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ String **image**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ String **name**
 
 .. rst-class:: classref-property
 
-Texture **texture**
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **texture**
 
 .. container:: contribute
 

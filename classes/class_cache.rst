@@ -10,7 +10,7 @@
 Cache
 =====
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,29 +24,29 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`_ensure_cache_dir<class_Cache_method__ensure_cache_dir>` **(** String folder **)**                                     |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | bool      | :ref:`_is_cached_hash<class_Cache_method__is_cached_hash>` **(** String folder, String hash **)**                            |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | int       | :ref:`delete<class_Cache_method_delete>` **(** String folder, String key **)**                                               |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | String    | :ref:`get_cache_dir<class_Cache_method_get_cache_dir>` **(** **)**                                                           |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`get_data<class_Cache_method_get_data>` **(** String folder, String key **)**                                           |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D | :ref:`get_image<class_Cache_method_get_image>` **(** String folder, String key, String image_type **)**                      |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | void      | :ref:`get_json<class_Cache_method_get_json>` **(** String folder, String key **)**                                           |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | bool      | :ref:`is_cached<class_Cache_method_is_cached>` **(** String folder, String key **)**                                         |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | int       | :ref:`save_data<class_Cache_method_save_data>` **(** String folder, String key, PackedByteArray data, bool flush **)**       |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | int       | :ref:`save_image<class_Cache_method_save_image>` **(** String folder, String key, Texture2D texture, String image_type **)** |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
-   | int       | :ref:`save_json<class_Cache_method_save_json>` **(** String folder, String key, Variant data, bool flush **)**               |
-   +-----------+------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_ensure_cache_dir<class_Cache_method__ensure_cache_dir>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder **)**                                                                                                                                                                                                                                                          |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`_is_cached_hash<class_Cache_method__is_cached_hash>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ hash **)**                                                                                                                                                                           |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`delete<class_Cache_method_delete>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**                                                                                                                                                                                              |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`get_cache_dir<class_Cache_method_get_cache_dir>` **(** **)**                                                                                                                                                                                                                                                                                                                                                      |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`get_data<class_Cache_method_get_data>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**                                                                                                                                                                                          |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_image<class_Cache_method_get_image>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ image_type **)**                                                                                               |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`get_json<class_Cache_method_get_json>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**                                                                                                                                                                                          |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`is_cached<class_Cache_method_is_cached>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**                                                                                                                                                                                        |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`save_data<class_Cache_method_save_data>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ flush **)**   |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`save_image<class_Cache_method_save_image>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ texture, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ image_type **)** |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`save_json<class_Cache_method_save_json>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ data, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ flush **)**                   |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -125,7 +125,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_ensure_cache_dir** **(** String folder **)**
+void **_ensure_cache_dir** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder **)**
 
 .. container:: contribute
 
@@ -139,7 +139,7 @@ void **_ensure_cache_dir** **(** String folder **)**
 
 .. rst-class:: classref-method
 
-bool **_is_cached_hash** **(** String folder, String hash **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_cached_hash** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ hash **)**
 
 .. container:: contribute
 
@@ -153,7 +153,7 @@ bool **_is_cached_hash** **(** String folder, String hash **)**
 
 .. rst-class:: classref-method
 
-int **delete** **(** String folder, String key **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **delete** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**
 
 .. container:: contribute
 
@@ -167,7 +167,7 @@ int **delete** **(** String folder, String key **)**
 
 .. rst-class:: classref-method
 
-String **get_cache_dir** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_cache_dir** **(** **)**
 
 .. container:: contribute
 
@@ -181,7 +181,7 @@ String **get_cache_dir** **(** **)**
 
 .. rst-class:: classref-method
 
-void **get_data** **(** String folder, String key **)**
+void **get_data** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**
 
 .. container:: contribute
 
@@ -195,7 +195,7 @@ void **get_data** **(** String folder, String key **)**
 
 .. rst-class:: classref-method
 
-Texture2D **get_image** **(** String folder, String key, String image_type **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_image** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ image_type **)**
 
 .. container:: contribute
 
@@ -209,7 +209,7 @@ Texture2D **get_image** **(** String folder, String key, String image_type **)**
 
 .. rst-class:: classref-method
 
-void **get_json** **(** String folder, String key **)**
+void **get_json** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**
 
 .. container:: contribute
 
@@ -223,7 +223,7 @@ void **get_json** **(** String folder, String key **)**
 
 .. rst-class:: classref-method
 
-bool **is_cached** **(** String folder, String key **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_cached** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key **)**
 
 .. container:: contribute
 
@@ -237,7 +237,7 @@ bool **is_cached** **(** String folder, String key **)**
 
 .. rst-class:: classref-method
 
-int **save_data** **(** String folder, String key, PackedByteArray data, bool flush **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **save_data** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ flush **)**
 
 .. container:: contribute
 
@@ -251,7 +251,7 @@ int **save_data** **(** String folder, String key, PackedByteArray data, bool fl
 
 .. rst-class:: classref-method
 
-int **save_image** **(** String folder, String key, Texture2D texture, String image_type **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **save_image** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ texture, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ image_type **)**
 
 .. container:: contribute
 
@@ -265,7 +265,7 @@ int **save_image** **(** String folder, String key, Texture2D texture, String im
 
 .. rst-class:: classref-method
 
-int **save_json** **(** String folder, String key, Variant data, bool flush **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **save_json** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ folder, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ key, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ data, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ flush **)**
 
 .. container:: contribute
 

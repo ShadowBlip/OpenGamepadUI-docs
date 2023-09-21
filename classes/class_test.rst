@@ -10,7 +10,7 @@
 Test
 ====
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Base class for running tests
 
@@ -29,15 +29,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------------+------------+
-   | bool                                | :ref:`finish_after_ready<class_Test_property_finish_after_ready>` | ``true``   |
-   +-------------------------------------+-------------------------------------------------------------------+------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_Test_property_logger>`                         |            |
-   +-------------------------------------+-------------------------------------------------------------------+------------+
-   | bool                                | :ref:`print_assertions<class_Test_property_print_assertions>`     | ``false``  |
-   +-------------------------------------+-------------------------------------------------------------------+------------+
-   | String                              | :ref:`test_name<class_Test_property_test_name>`                   | ``"Test"`` |
-   +-------------------------------------+-------------------------------------------------------------------+------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`finish_after_ready<class_Test_property_finish_after_ready>` | ``true``   |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_Test_property_logger>`                         |            |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`print_assertions<class_Test_property_print_assertions>`     | ``false``  |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`test_name<class_Test_property_test_name>`                   | ``"Test"`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -47,23 +47,23 @@ Methods
 .. table::
    :widths: auto
 
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`_exit_tree<class_Test_method__exit_tree>` **(** **)**                                                                 |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | Dictionary | :ref:`_get_caller<class_Test_method__get_caller>` **(** **)**                                                               |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`_init<class_Test_method__init>` **(** **)**                                                                           |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | bool       | :ref:`_is_running_standalone<class_Test_method__is_running_standalone>` **(** **)**                                         |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`assert_equals<class_Test_method_assert_equals>` **(** Variant v1, Variant v2 **)**                                    |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`assert_true<class_Test_method_assert_true>` **(** bool expr **)**                                                     |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`finish<class_Test_method_finish>` **(** **)**                                                                         |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`print_assertion<class_Test_method_print_assertion>` **(** :ref:`Test.Assertion<class_Test.Assertion>` assertion **)** |
-   +------------+-----------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`_exit_tree<class_Test_method__exit_tree>` **(** **)**                                                                                                                                                                            |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_get_caller<class_Test_method__get_caller>` **(** **)**                                                                                                                                                                          |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`_init<class_Test_method__init>` **(** **)**                                                                                                                                                                                      |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`_is_running_standalone<class_Test_method__is_running_standalone>` **(** **)**                                                                                                                                                    |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`assert_equals<class_Test_method_assert_equals>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ v1, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ v2 **)** |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`assert_true<class_Test_method_assert_true>` **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ expr **)**                                                                                            |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`finish<class_Test_method_finish>` **(** **)**                                                                                                                                                                                    |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`print_assertion<class_Test_method_print_assertion>` **(** :ref:`Test.Assertion<class_Test.Assertion>` assertion **)**                                                                                                            |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -107,7 +107,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **finish_after_ready** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **finish_after_ready** = ``true``
 
 Whether or not to finish the test after _ready() returns. If this is false, you must call finish() to end the test.
 
@@ -133,7 +133,7 @@ Whether or not to finish the test after _ready() returns. If this is false, you 
 
 .. rst-class:: classref-property
 
-bool **print_assertions** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **print_assertions** = ``false``
 
 Whether or not to print assertions during the test run
 
@@ -145,7 +145,7 @@ Whether or not to print assertions during the test run
 
 .. rst-class:: classref-property
 
-String **test_name** = ``"Test"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **test_name** = ``"Test"``
 
 The name of the test
 
@@ -176,7 +176,7 @@ void **_exit_tree** **(** **)**
 
 .. rst-class:: classref-method
 
-Dictionary **_get_caller** **(** **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_get_caller** **(** **)**
 
 .. container:: contribute
 
@@ -204,7 +204,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **_is_running_standalone** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_running_standalone** **(** **)**
 
 .. container:: contribute
 
@@ -218,7 +218,7 @@ bool **_is_running_standalone** **(** **)**
 
 .. rst-class:: classref-method
 
-void **assert_equals** **(** Variant v1, Variant v2 **)**
+void **assert_equals** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ v1, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ v2 **)**
 
 Emits 'assert_failed' signal if the given variants are not equal
 
@@ -230,7 +230,7 @@ Emits 'assert_failed' signal if the given variants are not equal
 
 .. rst-class:: classref-method
 
-void **assert_true** **(** bool expr **)**
+void **assert_true** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ expr **)**
 
 Emits 'assert_failed' signal if the given expression is false
 

@@ -10,7 +10,7 @@
 HTTPAPIClient
 =============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 **Inherited By:** :ref:`GitHubClient<class_GitHubClient>`
 
@@ -26,15 +26,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+----------------------------------------------------------------+---------------------+
-   | String                              | :ref:`base_url<class_HTTPAPIClient_property_base_url>`         | ``""``              |
-   +-------------------------------------+----------------------------------------------------------------+---------------------+
-   | String                              | :ref:`cache_folder<class_HTTPAPIClient_property_cache_folder>` | ``"HTTPAPIClient"`` |
-   +-------------------------------------+----------------------------------------------------------------+---------------------+
-   | PackedStringArray                   | :ref:`headers<class_HTTPAPIClient_property_headers>`           |                     |
-   +-------------------------------------+----------------------------------------------------------------+---------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_HTTPAPIClient_property_logger>`             |                     |
-   +-------------------------------------+----------------------------------------------------------------+---------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`base_url<class_HTTPAPIClient_property_base_url>`         | ``""``              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cache_folder<class_HTTPAPIClient_property_cache_folder>` | ``"HTTPAPIClient"`` |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`headers<class_HTTPAPIClient_property_headers>`           |                     |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_HTTPAPIClient_property_logger>`             |                     |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -44,9 +44,9 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` | :ref:`request<class_HTTPAPIClient_method_request>` **(** String path, int caching_flags, PackedStringArray xtra_headers, HTTPClient.Method method, String data **)** |
-   +-------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` | :ref:`request<class_HTTPAPIClient_method_request>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ caching_flags, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ xtra_headers, `HTTPClient.Method <https://docs.godotengine.org/en/stable/classes/class_httpclient.html#enum-httpclient-method>`_ method, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ data **)** |
+   +-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **base_url** = ``""``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **base_url** = ``""``
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ String **base_url** = ``""``
 
 .. rst-class:: classref-property
 
-String **cache_folder** = ``"HTTPAPIClient"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **cache_folder** = ``"HTTPAPIClient"``
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ String **cache_folder** = ``"HTTPAPIClient"``
 
 .. rst-class:: classref-property
 
-PackedStringArray **headers**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **headers**
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` **request** **(** String path, int caching_flags, PackedStringArray xtra_headers, HTTPClient.Method method, String data **)**
+:ref:`HTTPAPIClient.Response<class_HTTPAPIClient.Response>` **request** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ caching_flags, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ xtra_headers, `HTTPClient.Method <https://docs.godotengine.org/en/stable/classes/class_httpclient.html#enum-httpclient-method>`_ method, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ data **)**
 
 .. container:: contribute
 

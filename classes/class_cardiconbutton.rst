@@ -10,7 +10,7 @@
 CardIconButton
 ==============
 
-**Inherits:** 
+**Inherits:** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_
 
 .. container:: contribute
 
@@ -24,25 +24,25 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | String      | :ref:`focus_audio<class_CardIconButton_property_focus_audio>`                 | ``"res://assets/audio/interface/glitch_004.ogg"`` |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | Resource    | :ref:`focus_audio_stream<class_CardIconButton_property_focus_audio_stream>`   |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextureRect | :ref:`highlight<class_CardIconButton_property_highlight>`                     |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | float       | :ref:`highlight_speed<class_CardIconButton_property_highlight_speed>`         | ``0.1``                                           |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextureRect | :ref:`icon<class_CardIconButton_property_icon>`                               |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | String      | :ref:`select_audio<class_CardIconButton_property_select_audio>`               | ``"res://assets/audio/interface/select_002.ogg"`` |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | Resource    | :ref:`select_audio_stream<class_CardIconButton_property_select_audio_stream>` |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | Texture2D   | :ref:`texture<class_CardIconButton_property_texture>`                         |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
-   | Tween       | :ref:`tween<class_CardIconButton_property_tween>`                             |                                                   |
-   +-------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`focus_audio<class_CardIconButton_property_focus_audio>`                 | ``"res://assets/audio/interface/glitch_004.ogg"`` |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_       | :ref:`focus_audio_stream<class_CardIconButton_property_focus_audio_stream>`   |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ | :ref:`highlight<class_CardIconButton_property_highlight>`                     |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_             | :ref:`highlight_speed<class_CardIconButton_property_highlight_speed>`         | ``0.1``                                           |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ | :ref:`icon<class_CardIconButton_property_icon>`                               |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`select_audio<class_CardIconButton_property_select_audio>`               | ``"res://assets/audio/interface/select_002.ogg"`` |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_       | :ref:`select_audio_stream<class_CardIconButton_property_select_audio_stream>` |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_     | :ref:`texture<class_CardIconButton_property_texture>`                         |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_             | :ref:`tween<class_CardIconButton_property_tween>`                             |                                                   |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -52,19 +52,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_gui_input<class_CardIconButton_method__gui_input>` **(** InputEvent event **)**     |
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_focus<class_CardIconButton_method__on_focus>` **(** **)**                        |
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_theme_changed<class_CardIconButton_method__on_theme_changed>` **(** **)**        |
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_unfocus<class_CardIconButton_method__on_unfocus>` **(** **)**                    |
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_play_sound<class_CardIconButton_method__play_sound>` **(** AudioStream stream **)** |
-   +------+--------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_CardIconButton_method__ready>` **(** **)**                              |
-   +------+--------------------------------------------------------------------------------------------+
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_gui_input<class_CardIconButton_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**      |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_focus<class_CardIconButton_method__on_focus>` **(** **)**                                                                                                   |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_theme_changed<class_CardIconButton_method__on_theme_changed>` **(** **)**                                                                                   |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_unfocus<class_CardIconButton_method__on_unfocus>` **(** **)**                                                                                               |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_play_sound<class_CardIconButton_method__play_sound>` **(** `AudioStream <https://docs.godotengine.org/en/stable/classes/class_audiostream.html>`_ stream **)** |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_CardIconButton_method__ready>` **(** **)**                                                                                                         |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -126,7 +126,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. container:: contribute
 
@@ -140,7 +140,7 @@ String **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. rst-class:: classref-property
 
-Resource **focus_audio_stream**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **focus_audio_stream**
 
 .. container:: contribute
 
@@ -154,7 +154,7 @@ Resource **focus_audio_stream**
 
 .. rst-class:: classref-property
 
-TextureRect **highlight**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **highlight**
 
 .. container:: contribute
 
@@ -168,7 +168,7 @@ TextureRect **highlight**
 
 .. rst-class:: classref-property
 
-float **highlight_speed** = ``0.1``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **highlight_speed** = ``0.1``
 
 .. container:: contribute
 
@@ -182,7 +182,7 @@ float **highlight_speed** = ``0.1``
 
 .. rst-class:: classref-property
 
-TextureRect **icon**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **icon**
 
 .. container:: contribute
 
@@ -196,7 +196,7 @@ TextureRect **icon**
 
 .. rst-class:: classref-property
 
-String **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
 
 .. container:: contribute
 
@@ -210,7 +210,7 @@ String **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
 
 .. rst-class:: classref-property
 
-Resource **select_audio_stream**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **select_audio_stream**
 
 .. container:: contribute
 
@@ -224,7 +224,7 @@ Resource **select_audio_stream**
 
 .. rst-class:: classref-property
 
-Texture2D **texture**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **texture**
 
 .. container:: contribute
 
@@ -238,7 +238,7 @@ Texture2D **texture**
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 
@@ -257,7 +257,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -313,7 +313,7 @@ void **_on_unfocus** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_play_sound** **(** AudioStream stream **)**
+void **_play_sound** **(** `AudioStream <https://docs.godotengine.org/en/stable/classes/class_audiostream.html>`_ stream **)**
 
 .. container:: contribute
 

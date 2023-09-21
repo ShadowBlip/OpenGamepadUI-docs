@@ -10,7 +10,7 @@
 FocusGroup
 ==========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Automatically manage focus for Control nodes in a container
 
@@ -29,27 +29,27 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | String                              | :ref:`back_action<class_FocusGroup_property_back_action>`                     | ``"ogui_east"`` |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | Control                             | :ref:`current_focus<class_FocusGroup_property_current_focus>`                 |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`focus_neighbor_bottom<class_FocusGroup_property_focus_neighbor_bottom>` |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`focus_neighbor_left<class_FocusGroup_property_focus_neighbor_left>`     |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`focus_neighbor_right<class_FocusGroup_property_focus_neighbor_right>`   |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`focus_neighbor_top<class_FocusGroup_property_focus_neighbor_top>`       |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusStack<class_FocusStack>` | :ref:`focus_stack<class_FocusGroup_property_focus_stack>`                     |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_FocusGroup_property_logger>`                               |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | Control                             | :ref:`neighbor_control<class_FocusGroup_property_neighbor_control>`           |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
-   | Control                             | :ref:`parent<class_FocusGroup_property_parent>`                               |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`back_action<class_FocusGroup_property_back_action>`                     | ``"ogui_east"`` |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`current_focus<class_FocusGroup_property_current_focus>`                 |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                            | :ref:`focus_neighbor_bottom<class_FocusGroup_property_focus_neighbor_bottom>` |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                            | :ref:`focus_neighbor_left<class_FocusGroup_property_focus_neighbor_left>`     |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                            | :ref:`focus_neighbor_right<class_FocusGroup_property_focus_neighbor_right>`   |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                            | :ref:`focus_neighbor_top<class_FocusGroup_property_focus_neighbor_top>`       |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusStack<class_FocusStack>`                                            | :ref:`focus_stack<class_FocusGroup_property_focus_stack>`                     |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                            | :ref:`logger<class_FocusGroup_property_logger>`                               |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`neighbor_control<class_FocusGroup_property_neighbor_control>`           |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`parent<class_FocusGroup_property_parent>`                               |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------+-----------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -59,45 +59,45 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`_find_child_focus_group<class_FocusGroup_method__find_child_focus_group>` **(** Array nodes, Node root **)**  |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | Node                                | :ref:`_find_focusable<class_FocusGroup_method__find_focusable>` **(** Array nodes, Node root **)**                  |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | Array                               | :ref:`_get_focusable_children<class_FocusGroup_method__get_focusable_children>` **(** Control node **)**            |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_grid_set_focus_tree<class_FocusGroup_method__grid_set_focus_tree>` **(** Array control_children **)**        |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_hbox_set_focus_tree<class_FocusGroup_method__hbox_set_focus_tree>` **(** Array control_children **)**        |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_hflow_set_focus_tree<class_FocusGroup_method__hflow_set_focus_tree>` **(** Array control_children **)**      |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_input<class_FocusGroup_method__input>` **(** InputEvent event **)**                                          |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`_is_focusable<class_FocusGroup_method__is_focusable>` **(** Node node **)**                                   |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | int                                 | :ref:`_nearest_neighbor<class_FocusGroup_method__nearest_neighbor>` **(** int idx, int from_size, int to_size **)** |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_child_focused<class_FocusGroup_method__on_child_focused>` **(** Control child **)**                       |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_child_tree_changed<class_FocusGroup_method__on_child_tree_changed>` **(** Variant _node **)**             |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_visibility_changed<class_FocusGroup_method__on_visibility_changed>` **(** **)**                           |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_ready<class_FocusGroup_method__ready>` **(** **)**                                                           |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_single_set_focus_tree<class_FocusGroup_method__single_set_focus_tree>` **(** Control child **)**             |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_vbox_set_focus_tree<class_FocusGroup_method__vbox_set_focus_tree>` **(** Array control_children **)**        |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`grab_focus<class_FocusGroup_method_grab_focus>` **(** **)**                                                   |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`is_focused<class_FocusGroup_method_is_focused>` **(** **)**                                                   |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`is_in_focus_stack<class_FocusGroup_method_is_in_focus_stack>` **(** **)**                                     |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`recalculate_focus<class_FocusGroup_method_recalculate_focus>` **(** **)**                                     |
-   +-------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                        | :ref:`_find_child_focus_group<class_FocusGroup_method__find_child_focus_group>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes, `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ root **)**                                                                  |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_   | :ref:`_find_focusable<class_FocusGroup_method__find_focusable>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes, `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ root **)**                                                                                  |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_get_focusable_children<class_FocusGroup_method__get_focusable_children>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ node **)**                                                                                                                                              |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_grid_set_focus_tree<class_FocusGroup_method__grid_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_hbox_set_focus_tree<class_FocusGroup_method__hbox_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_hflow_set_focus_tree<class_FocusGroup_method__hflow_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                          |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_input<class_FocusGroup_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                         |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`_is_focusable<class_FocusGroup_method__is_focusable>` **(** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ node **)**                                                                                                                                                                        |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`_nearest_neighbor<class_FocusGroup_method__nearest_neighbor>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from_size, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to_size **)** |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_on_child_focused<class_FocusGroup_method__on_child_focused>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**                                                                                                                                                         |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_on_child_tree_changed<class_FocusGroup_method__on_child_tree_changed>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ _node **)**                                                                                                                                               |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_on_visibility_changed<class_FocusGroup_method__on_visibility_changed>` **(** **)**                                                                                                                                                                                                                                    |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_ready<class_FocusGroup_method__ready>` **(** **)**                                                                                                                                                                                                                                                                    |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_single_set_focus_tree<class_FocusGroup_method__single_set_focus_tree>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**                                                                                                                                               |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_vbox_set_focus_tree<class_FocusGroup_method__vbox_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`grab_focus<class_FocusGroup_method_grab_focus>` **(** **)**                                                                                                                                                                                                                                                            |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`is_focused<class_FocusGroup_method_is_focused>` **(** **)**                                                                                                                                                                                                                                                            |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`is_in_focus_stack<class_FocusGroup_method_is_in_focus_stack>` **(** **)**                                                                                                                                                                                                                                              |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`recalculate_focus<class_FocusGroup_method_recalculate_focus>` **(** **)**                                                                                                                                                                                                                                              |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -112,7 +112,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **back_action** = ``"ogui_east"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **back_action** = ``"ogui_east"``
 
 The InputEvent that will trigger focusing a parent focus group
 
@@ -124,7 +124,7 @@ The InputEvent that will trigger focusing a parent focus group
 
 .. rst-class:: classref-property
 
-Control **current_focus**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **current_focus**
 
 The current focus of the focus group
 
@@ -218,7 +218,7 @@ Menus with multiple levels of focus groups can be part of a chain of focus
 
 .. rst-class:: classref-property
 
-Control **neighbor_control**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **neighbor_control**
 
 .. container:: contribute
 
@@ -232,7 +232,7 @@ Control **neighbor_control**
 
 .. rst-class:: classref-property
 
-Control **parent**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **parent**
 
 .. container:: contribute
 
@@ -251,7 +251,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`FocusGroup<class_FocusGroup>` **_find_child_focus_group** **(** Array nodes, Node root **)**
+:ref:`FocusGroup<class_FocusGroup>` **_find_child_focus_group** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes, `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ root **)**
 
 .. container:: contribute
 
@@ -265,7 +265,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Node **_find_focusable** **(** Array nodes, Node root **)**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **_find_focusable** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes, `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ root **)**
 
 .. container:: contribute
 
@@ -279,7 +279,7 @@ Node **_find_focusable** **(** Array nodes, Node root **)**
 
 .. rst-class:: classref-method
 
-Array **_get_focusable_children** **(** Control node **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_get_focusable_children** **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ node **)**
 
 .. container:: contribute
 
@@ -293,7 +293,7 @@ Array **_get_focusable_children** **(** Control node **)**
 
 .. rst-class:: classref-method
 
-void **_grid_set_focus_tree** **(** Array control_children **)**
+void **_grid_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -307,7 +307,7 @@ void **_grid_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_hbox_set_focus_tree** **(** Array control_children **)**
+void **_hbox_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -321,7 +321,7 @@ void **_hbox_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_hflow_set_focus_tree** **(** Array control_children **)**
+void **_hflow_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -335,7 +335,7 @@ void **_hflow_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_input** **(** InputEvent event **)**
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 Intercept and handle back input to refocus a parent focus group when back is pressed
 
@@ -347,7 +347,7 @@ Intercept and handle back input to refocus a parent focus group when back is pre
 
 .. rst-class:: classref-method
 
-bool **_is_focusable** **(** Node node **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_focusable** **(** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ node **)**
 
 .. container:: contribute
 
@@ -361,7 +361,7 @@ bool **_is_focusable** **(** Node node **)**
 
 .. rst-class:: classref-method
 
-int **_nearest_neighbor** **(** int idx, int from_size, int to_size **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_nearest_neighbor** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from_size, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to_size **)**
 
 .. container:: contribute
 
@@ -375,7 +375,7 @@ int **_nearest_neighbor** **(** int idx, int from_size, int to_size **)**
 
 .. rst-class:: classref-method
 
-void **_on_child_focused** **(** Control child **)**
+void **_on_child_focused** **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**
 
 Update the currently focused node on focus change
 
@@ -387,7 +387,7 @@ Update the currently focused node on focus change
 
 .. rst-class:: classref-method
 
-void **_on_child_tree_changed** **(** Variant _node **)**
+void **_on_child_tree_changed** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ _node **)**
 
 .. container:: contribute
 
@@ -427,7 +427,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_single_set_focus_tree** **(** Control child **)**
+void **_single_set_focus_tree** **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**
 
 .. container:: contribute
 
@@ -441,7 +441,7 @@ void **_single_set_focus_tree** **(** Control child **)**
 
 .. rst-class:: classref-method
 
-void **_vbox_set_focus_tree** **(** Array control_children **)**
+void **_vbox_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -467,7 +467,7 @@ Grab focus on the currently focused node in the group and push this group to the
 
 .. rst-class:: classref-method
 
-bool **is_focused** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_focused** **(** **)**
 
 Returns true if this focus group is the currently focus in the focus stack.
 
@@ -479,7 +479,7 @@ Returns true if this focus group is the currently focus in the focus stack.
 
 .. rst-class:: classref-method
 
-bool **is_in_focus_stack** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_in_focus_stack** **(** **)**
 
 Returns true if this focus group is anywhere in the focus stack.
 

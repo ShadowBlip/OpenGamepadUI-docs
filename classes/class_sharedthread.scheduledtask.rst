@@ -10,7 +10,7 @@
 SharedThread.ScheduledTask
 ==========================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Container for holding a scheduled task to run in a thread
 
@@ -22,13 +22,13 @@ Properties
 .. table::
    :widths: auto
 
-   +----------+-----------------------------------------------------------------------------+
-   | Callable | :ref:`method<class_SharedThread.ScheduledTask_property_method>`             |
-   +----------+-----------------------------------------------------------------------------+
-   | int      | :ref:`start_time<class_SharedThread.ScheduledTask_property_start_time>`     |
-   +----------+-----------------------------------------------------------------------------+
-   | int      | :ref:`wait_time_ms<class_SharedThread.ScheduledTask_property_wait_time_ms>` |
-   +----------+-----------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ | :ref:`method<class_SharedThread.ScheduledTask_property_method>`             |
+   +----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_           | :ref:`start_time<class_SharedThread.ScheduledTask_property_start_time>`     |
+   +----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_           | :ref:`wait_time_ms<class_SharedThread.ScheduledTask_property_wait_time_ms>` |
+   +----------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Callable **method**
+`Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ **method**
 
 .. container:: contribute
 
@@ -57,7 +57,7 @@ Callable **method**
 
 .. rst-class:: classref-property
 
-int **start_time**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **start_time**
 
 .. container:: contribute
 
@@ -71,7 +71,7 @@ int **start_time**
 
 .. rst-class:: classref-property
 
-int **wait_time_ms**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **wait_time_ms**
 
 .. container:: contribute
 

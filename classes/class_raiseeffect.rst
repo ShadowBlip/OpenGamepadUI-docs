@@ -10,7 +10,7 @@
 RaiseEffect
 ===========
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,29 +24,29 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | String         | :ref:`lower_signal<class_RaiseEffect_property_lower_signal>`                     |                         |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Color          | :ref:`orig_shadow_color<class_RaiseEffect_property_orig_shadow_color>`           |                         |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | int            | :ref:`orig_shadow_size<class_RaiseEffect_property_orig_shadow_size>`             | ``0``                   |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | float          | :ref:`raise_speed<class_RaiseEffect_property_raise_speed>`                       | ``0.2``                 |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Vector2        | :ref:`raise_to_position<class_RaiseEffect_property_raise_to_position>`           | ``Vector2(0, -40)``     |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Vector2        | :ref:`scale_on_raised<class_RaiseEffect_property_scale_on_raised>`               | ``Vector2(1.01, 1.01)`` |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | PanelContainer | :ref:`shadow<class_RaiseEffect_property_shadow>`                                 |                         |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Color          | :ref:`shadow_color_on_raised<class_RaiseEffect_property_shadow_color_on_raised>` | ``Color(0, 0, 0, 0.3)`` |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | int            | :ref:`shadow_size_on_raised<class_RaiseEffect_property_shadow_size_on_raised>`   | ``20``                  |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Control        | :ref:`target<class_RaiseEffect_property_target>`                                 |                         |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
-   | Tween          | :ref:`tween<class_RaiseEffect_property_tween>`                                   |                         |
-   +----------------+----------------------------------------------------------------------------------+-------------------------+
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                 | :ref:`lower_signal<class_RaiseEffect_property_lower_signal>`                     |                         |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Color <https://docs.godotengine.org/en/stable/classes/class_color.html>`_                   | :ref:`orig_shadow_color<class_RaiseEffect_property_orig_shadow_color>`           |                         |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                       | :ref:`orig_shadow_size<class_RaiseEffect_property_orig_shadow_size>`             | ``0``                   |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                   | :ref:`raise_speed<class_RaiseEffect_property_raise_speed>`                       | ``0.2``                 |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_               | :ref:`raise_to_position<class_RaiseEffect_property_raise_to_position>`           | ``Vector2(0, -40)``     |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_               | :ref:`scale_on_raised<class_RaiseEffect_property_scale_on_raised>`               | ``Vector2(1.01, 1.01)`` |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_ | :ref:`shadow<class_RaiseEffect_property_shadow>`                                 |                         |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Color <https://docs.godotengine.org/en/stable/classes/class_color.html>`_                   | :ref:`shadow_color_on_raised<class_RaiseEffect_property_shadow_color_on_raised>` | ``Color(0, 0, 0, 0.3)`` |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                       | :ref:`shadow_size_on_raised<class_RaiseEffect_property_shadow_size_on_raised>`   | ``20``                  |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_               | :ref:`target<class_RaiseEffect_property_target>`                                 |                         |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_                   | :ref:`tween<class_RaiseEffect_property_tween>`                                   |                         |
+   +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+-------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -83,7 +83,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **lower_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **lower_signal**
 
 .. container:: contribute
 
@@ -97,7 +97,7 @@ String **lower_signal**
 
 .. rst-class:: classref-property
 
-Color **orig_shadow_color**
+`Color <https://docs.godotengine.org/en/stable/classes/class_color.html>`_ **orig_shadow_color**
 
 .. container:: contribute
 
@@ -111,7 +111,7 @@ Color **orig_shadow_color**
 
 .. rst-class:: classref-property
 
-int **orig_shadow_size** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **orig_shadow_size** = ``0``
 
 .. container:: contribute
 
@@ -125,7 +125,7 @@ int **orig_shadow_size** = ``0``
 
 .. rst-class:: classref-property
 
-float **raise_speed** = ``0.2``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **raise_speed** = ``0.2``
 
 .. container:: contribute
 
@@ -139,7 +139,7 @@ float **raise_speed** = ``0.2``
 
 .. rst-class:: classref-property
 
-Vector2 **raise_to_position** = ``Vector2(0, -40)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **raise_to_position** = ``Vector2(0, -40)``
 
 .. container:: contribute
 
@@ -153,7 +153,7 @@ Vector2 **raise_to_position** = ``Vector2(0, -40)``
 
 .. rst-class:: classref-property
 
-Vector2 **scale_on_raised** = ``Vector2(1.01, 1.01)``
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **scale_on_raised** = ``Vector2(1.01, 1.01)``
 
 .. container:: contribute
 
@@ -167,7 +167,7 @@ Vector2 **scale_on_raised** = ``Vector2(1.01, 1.01)``
 
 .. rst-class:: classref-property
 
-PanelContainer **shadow**
+`PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_ **shadow**
 
 .. container:: contribute
 
@@ -181,7 +181,7 @@ PanelContainer **shadow**
 
 .. rst-class:: classref-property
 
-Color **shadow_color_on_raised** = ``Color(0, 0, 0, 0.3)``
+`Color <https://docs.godotengine.org/en/stable/classes/class_color.html>`_ **shadow_color_on_raised** = ``Color(0, 0, 0, 0.3)``
 
 .. container:: contribute
 
@@ -195,7 +195,7 @@ Color **shadow_color_on_raised** = ``Color(0, 0, 0, 0.3)``
 
 .. rst-class:: classref-property
 
-int **shadow_size_on_raised** = ``20``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **shadow_size_on_raised** = ``20``
 
 .. container:: contribute
 
@@ -209,7 +209,7 @@ int **shadow_size_on_raised** = ``20``
 
 .. rst-class:: classref-property
 
-Control **target**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **target**
 
 .. container:: contribute
 
@@ -223,7 +223,7 @@ Control **target**
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 

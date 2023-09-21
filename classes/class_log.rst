@@ -10,7 +10,7 @@
 Log
 ===
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+------------------------------------------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`get_logger<class_Log_method_get_logger>` **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)** |
-   +-------------------------------------+------------------------------------------------------------------------------------------------------------+
+   +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`get_logger<class_Log_method_get_logger>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)** |
+   +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -96,7 +96,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`Log.Logger<class_Log.Logger>` **get_logger** **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
+:ref:`Log.Logger<class_Log.Logger>` **get_logger** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
 .. container:: contribute
 

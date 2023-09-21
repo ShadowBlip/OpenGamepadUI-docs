@@ -10,7 +10,7 @@
 ComponentTextInput
 ==================
 
-**Inherits:** 
+**Inherits:** `BoxContainer <https://docs.godotengine.org/en/stable/classes/class_boxcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,31 +24,31 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | String                                          | :ref:`description<class_ComponentTextInput_property_description>`             | ``"Description"``                                        |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | Label                                           | :ref:`description_label<class_ComponentTextInput_property_description_label>` |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | bool                                            | :ref:`editable<class_ComponentTextInput_property_editable>`                   | ``true``                                                 |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | bool                                            | :ref:`enable_osk<class_ComponentTextInput_property_enable_osk>`               | ``true``                                                 |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | :ref:`KeyboardInstance<class_KeyboardInstance>` | :ref:`keyboard<class_ComponentTextInput_property_keyboard>`                   | ``Resource("res://core/global/keyboard_instance.tres")`` |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | :ref:`KeyboardContext<class_KeyboardContext>`   | :ref:`keyboard_context<class_ComponentTextInput_property_keyboard_context>`   |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | Label                                           | :ref:`label<class_ComponentTextInput_property_label>`                         |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | LineEdit                                        | :ref:`line_edit<class_ComponentTextInput_property_line_edit>`                 |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | String                                          | :ref:`placeholder_text<class_ComponentTextInput_property_placeholder_text>`   |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | bool                                            | :ref:`secret<class_ComponentTextInput_property_secret>`                       | ``false``                                                |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | String                                          | :ref:`text<class_ComponentTextInput_property_text>`                           |                                                          |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
-   | String                                          | :ref:`title<class_ComponentTextInput_property_title>`                         | ``"Setting"``                                            |
-   +-------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_     | :ref:`description<class_ComponentTextInput_property_description>`             | ``"Description"``                                        |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_       | :ref:`description_label<class_ComponentTextInput_property_description_label>` |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_         | :ref:`editable<class_ComponentTextInput_property_editable>`                   | ``true``                                                 |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_         | :ref:`enable_osk<class_ComponentTextInput_property_enable_osk>`               | ``true``                                                 |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`KeyboardInstance<class_KeyboardInstance>`                                  | :ref:`keyboard<class_ComponentTextInput_property_keyboard>`                   | ``Resource("res://core/global/keyboard_instance.tres")`` |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`KeyboardContext<class_KeyboardContext>`                                    | :ref:`keyboard_context<class_ComponentTextInput_property_keyboard_context>`   |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_       | :ref:`label<class_ComponentTextInput_property_label>`                         |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `LineEdit <https://docs.godotengine.org/en/stable/classes/class_lineedit.html>`_ | :ref:`line_edit<class_ComponentTextInput_property_line_edit>`                 |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_     | :ref:`placeholder_text<class_ComponentTextInput_property_placeholder_text>`   |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_         | :ref:`secret<class_ComponentTextInput_property_secret>`                       | ``false``                                                |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_     | :ref:`text<class_ComponentTextInput_property_text>`                           |                                                          |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_     | :ref:`title<class_ComponentTextInput_property_title>`                         | ``"Setting"``                                            |
+   +----------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -58,13 +58,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------+
-   | void | :ref:`_grab_focus<class_ComponentTextInput_method__grab_focus>` **(** **)**                      |
-   +------+--------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_gui_input<class_ComponentTextInput_method__on_gui_input>` **(** InputEvent event **)** |
-   +------+--------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_ComponentTextInput_method__ready>` **(** **)**                                |
-   +------+--------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_grab_focus<class_ComponentTextInput_method__grab_focus>` **(** **)**                                                                                                |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_gui_input<class_ComponentTextInput_method__on_gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_ComponentTextInput_method__ready>` **(** **)**                                                                                                          |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -79,7 +79,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**text_change_rejected** **(** String rejected_substring **)**
+**text_change_rejected** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ rejected_substring **)**
 
 .. container:: contribute
 
@@ -93,7 +93,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**text_changed** **(** String new_text **)**
+**text_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ new_text **)**
 
 .. container:: contribute
 
@@ -107,7 +107,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**text_submitted** **(** String new_text **)**
+**text_submitted** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ new_text **)**
 
 .. container:: contribute
 
@@ -126,7 +126,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **description** = ``"Description"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **description** = ``"Description"``
 
 .. container:: contribute
 
@@ -140,7 +140,7 @@ String **description** = ``"Description"``
 
 .. rst-class:: classref-property
 
-Label **description_label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **description_label**
 
 .. container:: contribute
 
@@ -154,7 +154,7 @@ Label **description_label**
 
 .. rst-class:: classref-property
 
-bool **editable** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **editable** = ``true``
 
 .. container:: contribute
 
@@ -168,7 +168,7 @@ bool **editable** = ``true``
 
 .. rst-class:: classref-property
 
-bool **enable_osk** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **enable_osk** = ``true``
 
 .. container:: contribute
 
@@ -210,7 +210,7 @@ bool **enable_osk** = ``true``
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -224,7 +224,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-LineEdit **line_edit**
+`LineEdit <https://docs.godotengine.org/en/stable/classes/class_lineedit.html>`_ **line_edit**
 
 .. container:: contribute
 
@@ -238,7 +238,7 @@ LineEdit **line_edit**
 
 .. rst-class:: classref-property
 
-String **placeholder_text**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **placeholder_text**
 
 .. container:: contribute
 
@@ -252,7 +252,7 @@ String **placeholder_text**
 
 .. rst-class:: classref-property
 
-bool **secret** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **secret** = ``false``
 
 .. container:: contribute
 
@@ -266,7 +266,7 @@ bool **secret** = ``false``
 
 .. rst-class:: classref-property
 
-String **text**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text**
 
 .. container:: contribute
 
@@ -280,7 +280,7 @@ String **text**
 
 .. rst-class:: classref-property
 
-String **title** = ``"Setting"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **title** = ``"Setting"``
 
 .. container:: contribute
 
@@ -313,7 +313,7 @@ void **_grab_focus** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_on_gui_input** **(** InputEvent event **)**
+void **_on_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 

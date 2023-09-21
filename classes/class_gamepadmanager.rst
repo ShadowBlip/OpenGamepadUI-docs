@@ -10,7 +10,7 @@
 GamepadManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Manages virtual controllers
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | String                                                                | :ref:`default_profile<class_GamepadManager_property_default_profile>` | ``"res://assets/gamepad/profiles/default.tres"`` |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`DeviceHider<class_DeviceHider>`                                 | :ref:`device_hider<class_GamepadManager_property_device_hider>`       |                                                  |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`GamepadManager.GamepadArray<class_GamepadManager.GamepadArray>` | :ref:`gamepads<class_GamepadManager_property_gamepads>`               |                                                  |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`SharedThread<class_SharedThread>`                               | :ref:`input_thread<class_GamepadManager_property_input_thread>`       |                                                  |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`                                   | :ref:`logger<class_GamepadManager_property_logger>`                   |                                                  |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`Platform<class_Platform>`                                       | :ref:`platform<class_GamepadManager_property_platform>`               |                                                  |
-   +-----------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`default_profile<class_GamepadManager_property_default_profile>` | ``"res://assets/gamepad/profiles/default.tres"`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`DeviceHider<class_DeviceHider>`                                        | :ref:`device_hider<class_GamepadManager_property_device_hider>`       |                                                  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`GamepadManager.GamepadArray<class_GamepadManager.GamepadArray>`        | :ref:`gamepads<class_GamepadManager_property_gamepads>`               |                                                  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`SharedThread<class_SharedThread>`                                      | :ref:`input_thread<class_GamepadManager_property_input_thread>`       |                                                  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_GamepadManager_property_logger>`                   |                                                  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`Platform<class_Platform>`                                              | :ref:`platform<class_GamepadManager_property_platform>`               |                                                  |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,31 +51,31 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`_get_event_from_phys<class_GamepadManager_method__get_event_from_phys>` **(** String phys_path **)**                                                 |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`_init<class_GamepadManager_method__init>` **(** **)**                                                                                                |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`_on_gamepad_change<class_GamepadManager_method__on_gamepad_change>` **(** int device, bool connected **)**                                           |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`_process_input<class_GamepadManager_method__process_input>` **(** float _delta **)**                                                                 |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array             | :ref:`discover_devices<class_GamepadManager_method_discover_devices>` **(** **)**                                                                          |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`discover_gamepad_paths<class_GamepadManager_method_discover_gamepad_paths>` **(** **)**                                                              |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`exit<class_GamepadManager_method_exit>` **(** **)**                                                                                                  |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array             | :ref:`get_gamepad_capabilities<class_GamepadManager_method_get_gamepad_capabilities>` **(** String device **)**                                            |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array             | :ref:`get_gamepad_paths<class_GamepadManager_method_get_gamepad_paths>` **(** **)**                                                                        |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_gamepad_profile<class_GamepadManager_method_set_gamepad_profile>` **(** String device, :ref:`GamepadProfile<class_GamepadProfile>` profile **)** |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_gamepads_profile<class_GamepadManager_method_set_gamepads_profile>` **(** :ref:`GamepadProfile<class_GamepadProfile>` profile **)**              |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_intercept<class_GamepadManager_method_set_intercept>` **(** :ref:`INTERCEPT_MODE<enum_ManagedGamepad_INTERCEPT_MODE>` mode **)**                 |
-   +-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_get_event_from_phys<class_GamepadManager_method__get_event_from_phys>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**                                                                        |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_init<class_GamepadManager_method__init>` **(** **)**                                                                                                                                                                                             |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_on_gamepad_change<class_GamepadManager_method__on_gamepad_change>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ device, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ connected **)** |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_process_input<class_GamepadManager_method__process_input>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**                                                                                         |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`discover_devices<class_GamepadManager_method_discover_devices>` **(** **)**                                                                                                                                                                       |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`discover_gamepad_paths<class_GamepadManager_method_discover_gamepad_paths>` **(** **)**                                                                                                                                                           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`exit<class_GamepadManager_method_exit>` **(** **)**                                                                                                                                                                                               |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`get_gamepad_capabilities<class_GamepadManager_method_get_gamepad_capabilities>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device **)**                                                                   |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`get_gamepad_paths<class_GamepadManager_method_get_gamepad_paths>` **(** **)**                                                                                                                                                                     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_gamepad_profile<class_GamepadManager_method_set_gamepad_profile>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device, :ref:`GamepadProfile<class_GamepadProfile>` profile **)**                        |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_gamepads_profile<class_GamepadManager_method_set_gamepads_profile>` **(** :ref:`GamepadProfile<class_GamepadProfile>` profile **)**                                                                                                           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_intercept<class_GamepadManager_method_set_intercept>` **(** :ref:`INTERCEPT_MODE<enum_ManagedGamepad_INTERCEPT_MODE>` mode **)**                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -137,7 +137,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **default_profile** = ``"res://assets/gamepad/profiles/default.tres"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **default_profile** = ``"res://assets/gamepad/profiles/default.tres"``
 
 .. container:: contribute
 
@@ -226,7 +226,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_get_event_from_phys** **(** String phys_path **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_get_event_from_phys** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**
 
 .. container:: contribute
 
@@ -252,7 +252,7 @@ Initializes the gamepad manager and starts the gamepad interecpt thread.
 
 .. rst-class:: classref-method
 
-void **_on_gamepad_change** **(** int device, bool connected **)**
+void **_on_gamepad_change** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ device, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ connected **)**
 
 Triggers whenever we detect any gamepad connect/disconnect events
 
@@ -264,7 +264,7 @@ Triggers whenever we detect any gamepad connect/disconnect events
 
 .. rst-class:: classref-method
 
-void **_process_input** **(** float _delta **)**
+void **_process_input** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ _delta **)**
 
 Runs evdev input processing in its own thread. We use mutexes to safely access variables from the main thread
 
@@ -276,7 +276,7 @@ Runs evdev input processing in its own thread. We use mutexes to safely access v
 
 .. rst-class:: classref-method
 
-Array **discover_devices** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **discover_devices** **(** **)**
 
 Returns an array of input devices discovered under '/dev/input'
 
@@ -288,7 +288,7 @@ Returns an array of input devices discovered under '/dev/input'
 
 .. rst-class:: classref-method
 
-PackedStringArray **discover_gamepad_paths** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **discover_gamepad_paths** **(** **)**
 
 Returns an array of discovered gamepad device paths. E.g. ``"/dev/input/event1", "/dev/input/event2"``
 
@@ -314,7 +314,7 @@ void **exit** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **get_gamepad_capabilities** **(** String device **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_gamepad_capabilities** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device **)**
 
 Returns a list of all supported output events provided by the given gamepad.
 
@@ -326,7 +326,7 @@ Returns a list of all supported output events provided by the given gamepad.
 
 .. rst-class:: classref-method
 
-Array **get_gamepad_paths** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_gamepad_paths** **(** **)**
 
 Returns a list of gamepad devices that are being exclusively managed.
 
@@ -338,7 +338,7 @@ Returns a list of gamepad devices that are being exclusively managed.
 
 .. rst-class:: classref-method
 
-void **set_gamepad_profile** **(** String device, :ref:`GamepadProfile<class_GamepadProfile>` profile **)**
+void **set_gamepad_profile** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device, :ref:`GamepadProfile<class_GamepadProfile>` profile **)**
 
 Sets the given gamepad profile on the given managed gamepad. E.g. set_gamepad_profile("/dev/input/event1", profile)
 

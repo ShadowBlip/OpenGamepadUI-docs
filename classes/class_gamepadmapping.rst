@@ -10,7 +10,7 @@
 GamepadMapping
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Defines a mapping of a single controller interface to another type of input
 
@@ -29,15 +29,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------------+-----------------------------------------------------------------------+-------+
-   | String                                                      | :ref:`name<class_GamepadMapping_property_name>`                       |       |
-   +-------------------------------------------------------------+-----------------------------------------------------------------------+-------+
-   | :ref:`OUTPUT_BEHAVIOR<enum_GamepadMapping_OUTPUT_BEHAVIOR>` | :ref:`output_behavior<class_GamepadMapping_property_output_behavior>` | ``0`` |
-   +-------------------------------------------------------------+-----------------------------------------------------------------------+-------+
-   | Array                                                       | :ref:`output_events<class_GamepadMapping_property_output_events>`     |       |
-   +-------------------------------------------------------------+-----------------------------------------------------------------------+-------+
-   | :ref:`MappableEvent<class_MappableEvent>`                   | :ref:`source_event<class_GamepadMapping_property_source_event>`       |       |
-   +-------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_GamepadMapping_property_name>`                       |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+   | :ref:`OUTPUT_BEHAVIOR<enum_GamepadMapping_OUTPUT_BEHAVIOR>`                  | :ref:`output_behavior<class_GamepadMapping_property_output_behavior>` | ``0`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`output_events<class_GamepadMapping_property_output_events>`     |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
+   | :ref:`MappableEvent<class_MappableEvent>`                                    | :ref:`source_event<class_GamepadMapping_property_source_event>`       |       |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -47,9 +47,9 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+-----------------------------------------------------------------------+
-   | String | :ref:`_to_string<class_GamepadMapping_method__to_string>` **(** **)** |
-   +--------+-----------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_GamepadMapping_method__to_string>` **(** **)** |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -95,7 +95,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Optional name of the gamepad mapping
 
@@ -119,7 +119,7 @@ Determines how output events should be executed during input translation
 
 .. rst-class:: classref-property
 
-Array **output_events**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **output_events**
 
 Mappable events to translate to
 
@@ -148,7 +148,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_to_string** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 

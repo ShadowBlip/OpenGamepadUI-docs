@@ -10,7 +10,7 @@
 InteractiveProcess
 ==================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Class for starting an interacting with a process through a psuedo terminal
 
@@ -29,17 +29,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------+
-   | PackedStringArray                   | :ref:`args<class_InteractiveProcess_property_args>`     |
-   +-------------------------------------+---------------------------------------------------------+
-   | String                              | :ref:`cmd<class_InteractiveProcess_property_cmd>`       |
-   +-------------------------------------+---------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_InteractiveProcess_property_logger>` |
-   +-------------------------------------+---------------------------------------------------------+
-   | int                                 | :ref:`pid<class_InteractiveProcess_property_pid>`       |
-   +-------------------------------------+---------------------------------------------------------+
-   | PTY                                 | :ref:`pty<class_InteractiveProcess_property_pty>`       |
-   +-------------------------------------+---------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`args<class_InteractiveProcess_property_args>`     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cmd<class_InteractiveProcess_property_cmd>`       |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_InteractiveProcess_property_logger>` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`pid<class_InteractiveProcess_property_pid>`       |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `PTY <https://docs.godotengine.org/en/stable/classes/class_pty.html>`_                             | :ref:`pty<class_InteractiveProcess_property_pty>`       |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -49,21 +49,21 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | void   | :ref:`_init<class_InteractiveProcess_method__init>` **(** String command, PackedStringArray cmd_args **)**                    |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | bool   | :ref:`is_running<class_InteractiveProcess_method_is_running>` **(** **)**                                                     |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | int    | :ref:`output_to_log_file<class_InteractiveProcess_method_output_to_log_file>` **(** FileAccess log_file, int chunk_size **)** |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | String | :ref:`read<class_InteractiveProcess_method_read>` **(** int chunk_size **)**                                                  |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | void   | :ref:`send<class_InteractiveProcess_method_send>` **(** String input **)**                                                    |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | int    | :ref:`start<class_InteractiveProcess_method_start>` **(** **)**                                                               |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
-   | void   | :ref:`stop<class_InteractiveProcess_method_stop>` **(** **)**                                                                 |
-   +--------+-------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`_init<class_InteractiveProcess_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ cmd_args **)**          |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`is_running<class_InteractiveProcess_method_is_running>` **(** **)**                                                                                                                                                                                                  |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`output_to_log_file<class_InteractiveProcess_method_output_to_log_file>` **(** `FileAccess <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>`_ log_file, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ chunk_size **)** |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`read<class_InteractiveProcess_method_read>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ chunk_size **)**                                                                                                                            |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`send<class_InteractiveProcess_method_send>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ input **)**                                                                                                                           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`start<class_InteractiveProcess_method_start>` **(** **)**                                                                                                                                                                                                            |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`stop<class_InteractiveProcess_method_stop>` **(** **)**                                                                                                                                                                                                              |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -78,7 +78,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-PackedStringArray **args**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **args**
 
 .. container:: contribute
 
@@ -92,7 +92,7 @@ PackedStringArray **args**
 
 .. rst-class:: classref-property
 
-String **cmd**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **cmd**
 
 .. container:: contribute
 
@@ -120,7 +120,7 @@ String **cmd**
 
 .. rst-class:: classref-property
 
-int **pid**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **pid**
 
 .. container:: contribute
 
@@ -134,7 +134,7 @@ int **pid**
 
 .. rst-class:: classref-property
 
-PTY **pty**
+`PTY <https://docs.godotengine.org/en/stable/classes/class_pty.html>`_ **pty**
 
 .. container:: contribute
 
@@ -153,7 +153,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** String command, PackedStringArray cmd_args **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ cmd_args **)**
 
 .. container:: contribute
 
@@ -167,7 +167,7 @@ void **_init** **(** String command, PackedStringArray cmd_args **)**
 
 .. rst-class:: classref-method
 
-bool **is_running** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_running** **(** **)**
 
 Returns whether or not the interactive process is still running
 
@@ -179,7 +179,7 @@ Returns whether or not the interactive process is still running
 
 .. rst-class:: classref-method
 
-int **output_to_log_file** **(** FileAccess log_file, int chunk_size **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **output_to_log_file** **(** `FileAccess <https://docs.godotengine.org/en/stable/classes/class_fileaccess.html>`_ log_file, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ chunk_size **)**
 
 .. container:: contribute
 
@@ -193,7 +193,7 @@ int **output_to_log_file** **(** FileAccess log_file, int chunk_size **)**
 
 .. rst-class:: classref-method
 
-String **read** **(** int chunk_size **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **read** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ chunk_size **)**
 
 Read from the stdout of the running process
 
@@ -205,7 +205,7 @@ Read from the stdout of the running process
 
 .. rst-class:: classref-method
 
-void **send** **(** String input **)**
+void **send** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ input **)**
 
 Send the given input to the running process
 
@@ -217,7 +217,7 @@ Send the given input to the running process
 
 .. rst-class:: classref-method
 
-int **start** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **start** **(** **)**
 
 Start the interactive process
 

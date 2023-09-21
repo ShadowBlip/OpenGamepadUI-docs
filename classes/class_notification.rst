@@ -10,7 +10,7 @@
 Notification
 ============
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | String                                | :ref:`action_text<class_Notification_property_action_text>` |         |
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | Texture2D                             | :ref:`icon<class_Notification_property_icon>`               |         |
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | :ref:`LEVEL<enum_Notification_LEVEL>` | :ref:`level<class_Notification_property_level>`             | ``1``   |
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | Variant                               | :ref:`metadata<class_Notification_property_metadata>`       |         |
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | String                                | :ref:`text<class_Notification_property_text>`               |         |
-   +---------------------------------------+-------------------------------------------------------------+---------+
-   | float                                 | :ref:`timeout<class_Notification_property_timeout>`         | ``5.0`` |
-   +---------------------------------------+-------------------------------------------------------------+---------+
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`action_text<class_Notification_property_action_text>` |         |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`icon<class_Notification_property_icon>`               |         |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | :ref:`LEVEL<enum_Notification_LEVEL>`                                              | :ref:`level<class_Notification_property_level>`             | ``1``   |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_     | :ref:`metadata<class_Notification_property_metadata>`       |         |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`text<class_Notification_property_text>`               |         |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_         | :ref:`timeout<class_Notification_property_timeout>`         | ``5.0`` |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------------+---------+
 
 .. rst-class:: classref-reftable-group
 
@@ -46,9 +46,9 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------+
-   | void | :ref:`_init<class_Notification_method__init>` **(** String txt **)** |
-   +------+----------------------------------------------------------------------+
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_Notification_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ txt **)** |
+   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -135,7 +135,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **action_text**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **action_text**
 
 .. container:: contribute
 
@@ -149,7 +149,7 @@ String **action_text**
 
 .. rst-class:: classref-property
 
-Texture2D **icon**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **icon**
 
 .. container:: contribute
 
@@ -177,7 +177,7 @@ Texture2D **icon**
 
 .. rst-class:: classref-property
 
-Variant **metadata**
+`Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ **metadata**
 
 .. container:: contribute
 
@@ -191,7 +191,7 @@ Variant **metadata**
 
 .. rst-class:: classref-property
 
-String **text**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text**
 
 .. container:: contribute
 
@@ -205,7 +205,7 @@ String **text**
 
 .. rst-class:: classref-property
 
-float **timeout** = ``5.0``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **timeout** = ``5.0``
 
 .. container:: contribute
 
@@ -224,7 +224,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** String txt **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ txt **)**
 
 .. container:: contribute
 

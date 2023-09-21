@@ -10,7 +10,7 @@
 ActionStartOpenSD
 =================
 
-**Inherits:** :ref:`PlatformAction<class_PlatformAction>`
+**Inherits:** :ref:`PlatformAction<class_PlatformAction>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+--------------------------------------------------------+
-   | OpenSD | :ref:`opensd<class_ActionStartOpenSD_property_opensd>` |
-   +--------+--------------------------------------------------------+
-   | Thread | :ref:`thread<class_ActionStartOpenSD_property_thread>` |
-   +--------+--------------------------------------------------------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------+
+   | `OpenSD <https://docs.godotengine.org/en/stable/classes/class_opensd.html>`_ | :ref:`opensd<class_ActionStartOpenSD_property_opensd>` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+
+   | `Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ | :ref:`thread<class_ActionStartOpenSD_property_thread>` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -57,7 +57,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-OpenSD **opensd**
+`OpenSD <https://docs.godotengine.org/en/stable/classes/class_opensd.html>`_ **opensd**
 
 .. container:: contribute
 
@@ -71,7 +71,7 @@ OpenSD **opensd**
 
 .. rst-class:: classref-property
 
-Thread **thread**
+`Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ **thread**
 
 .. container:: contribute
 

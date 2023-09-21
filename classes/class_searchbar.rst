@@ -10,7 +10,7 @@
 SearchBar
 =========
 
-**Inherits:** 
+**Inherits:** `TextEdit <https://docs.godotengine.org/en/stable/classes/class_textedit.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
-   | :ref:`KeyboardInstance<class_KeyboardInstance>` | :ref:`keyboard<class_SearchBar_property_keyboard>`                 | ``Resource("res://core/global/keyboard_instance.tres")`` |
-   +-------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
-   | :ref:`KeyboardContext<class_KeyboardContext>`   | :ref:`keyboard_context<class_SearchBar_property_keyboard_context>` |                                                          |
-   +-------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
-   | Resource                                        | :ref:`library_state<class_SearchBar_property_library_state>`       |                                                          |
-   +-------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
-   | :ref:`StateMachine<class_StateMachine>`         | :ref:`state_machine<class_SearchBar_property_state_machine>`       |                                                          |
-   +-------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
+   +----------------------------------------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`KeyboardInstance<class_KeyboardInstance>`                                  | :ref:`keyboard<class_SearchBar_property_keyboard>`                 | ``Resource("res://core/global/keyboard_instance.tres")`` |
+   +----------------------------------------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`KeyboardContext<class_KeyboardContext>`                                    | :ref:`keyboard_context<class_SearchBar_property_keyboard_context>` |                                                          |
+   +----------------------------------------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ | :ref:`library_state<class_SearchBar_property_library_state>`       |                                                          |
+   +----------------------------------------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`StateMachine<class_StateMachine>`                                          | :ref:`state_machine<class_SearchBar_property_state_machine>`       |                                                          |
+   +----------------------------------------------------------------------------------+--------------------------------------------------------------------+----------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,13 +42,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`_gui_input<class_SearchBar_method__gui_input>` **(** InputEvent event **)** |
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`_on_text_changed<class_SearchBar_method__on_text_changed>` **(** **)**      |
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_SearchBar_method__ready>` **(** **)**                          |
-   +------+-----------------------------------------------------------------------------------+
+   +------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_gui_input<class_SearchBar_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)** |
+   +------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_text_changed<class_SearchBar_method__on_text_changed>` **(** **)**                                                                                |
+   +------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_SearchBar_method__ready>` **(** **)**                                                                                                    |
+   +------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -63,7 +63,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**search_submitted** **(** String text **)**
+**search_submitted** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ text **)**
 
 .. container:: contribute
 
@@ -110,7 +110,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Resource **library_state**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **library_state**
 
 .. container:: contribute
 
@@ -143,7 +143,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 

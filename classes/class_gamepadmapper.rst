@@ -10,7 +10,7 @@
 GamepadMapper
 =============
 
-**Inherits:** 
+**Inherits:** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_
 
 .. container:: contribute
 
@@ -24,41 +24,41 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`State<class_State>`                       | :ref:`change_input_state<class_GamepadMapper_property_change_input_state>`           |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`clear_button<class_GamepadMapper_property_clear_button>`                       |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | TextureRect                                     | :ref:`input_texture_node<class_GamepadMapper_property_input_texture_node>`           |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`KeyboardInstance<class_KeyboardInstance>` | :ref:`keyboard<class_GamepadMapper_property_keyboard>`                               |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`keyboard_button<class_GamepadMapper_property_keyboard_button>`                 |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`KeyboardContext<class_KeyboardContext>`   | :ref:`keyboard_context<class_GamepadMapper_property_keyboard_context>`               |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | Array                                           | :ref:`mappings<class_GamepadMapper_property_mappings>`                               |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_button<class_GamepadMapper_property_mouse_button>`                       |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | Control                                         | :ref:`mouse_container<class_GamepadMapper_property_mouse_container>`                 |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`FocusGroup<class_FocusGroup>`             | :ref:`mouse_focus_group<class_GamepadMapper_property_mouse_focus_group>`             |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_left_button<class_GamepadMapper_property_mouse_left_button>`             |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_middle_button<class_GamepadMapper_property_mouse_middle_button>`         |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_motion_button<class_GamepadMapper_property_mouse_motion_button>`         |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_right_button<class_GamepadMapper_property_mouse_right_button>`           |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_wheel_down_button<class_GamepadMapper_property_mouse_wheel_down_button>` |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | :ref:`CardButton<class_CardButton>`             | :ref:`mouse_wheel_up_button<class_GamepadMapper_property_mouse_wheel_up_button>`     |       |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
-   | int                                             | :ref:`output_index<class_GamepadMapper_property_output_index>`                       | ``0`` |
-   +-------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`State<class_State>`                                                              | :ref:`change_input_state<class_GamepadMapper_property_change_input_state>`           |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`clear_button<class_GamepadMapper_property_clear_button>`                       |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ | :ref:`input_texture_node<class_GamepadMapper_property_input_texture_node>`           |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`KeyboardInstance<class_KeyboardInstance>`                                        | :ref:`keyboard<class_GamepadMapper_property_keyboard>`                               |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`keyboard_button<class_GamepadMapper_property_keyboard_button>`                 |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`KeyboardContext<class_KeyboardContext>`                                          | :ref:`keyboard_context<class_GamepadMapper_property_keyboard_context>`               |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_             | :ref:`mappings<class_GamepadMapper_property_mappings>`                               |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_button<class_GamepadMapper_property_mouse_button>`                       |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_         | :ref:`mouse_container<class_GamepadMapper_property_mouse_container>`                 |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                                    | :ref:`mouse_focus_group<class_GamepadMapper_property_mouse_focus_group>`             |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_left_button<class_GamepadMapper_property_mouse_left_button>`             |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_middle_button<class_GamepadMapper_property_mouse_middle_button>`         |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_motion_button<class_GamepadMapper_property_mouse_motion_button>`         |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_right_button<class_GamepadMapper_property_mouse_right_button>`           |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_wheel_down_button<class_GamepadMapper_property_mouse_wheel_down_button>` |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | :ref:`CardButton<class_CardButton>`                                                    | :ref:`mouse_wheel_up_button<class_GamepadMapper_property_mouse_wheel_up_button>`     |       |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                 | :ref:`output_index<class_GamepadMapper_property_output_index>`                       | ``0`` |
+   +----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -68,19 +68,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_key_selected<class_GamepadMapper_method__on_key_selected>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_mouse_button<class_GamepadMapper_method__on_mouse_button>` **(** MouseButton button **)**                              |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_mouse_motion<class_GamepadMapper_method__on_mouse_motion>` **(** **)**                                                 |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_state_entered<class_GamepadMapper_method__on_state_entered>` **(** :ref:`State<class_State>` _from **)**               |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_state_exited<class_GamepadMapper_method__on_state_exited>` **(** :ref:`State<class_State>` _to **)**                   |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_GamepadMapper_method__ready>` **(** **)**                                                                     |
-   +------+----------------------------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_key_selected<class_GamepadMapper_method__on_key_selected>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                                               |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_mouse_button<class_GamepadMapper_method__on_mouse_button>` **(** `MouseButton <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-mousebutton>`_ button **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_mouse_motion<class_GamepadMapper_method__on_mouse_motion>` **(** **)**                                                                                                                               |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_state_entered<class_GamepadMapper_method__on_state_entered>` **(** :ref:`State<class_State>` _from **)**                                                                                             |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_state_exited<class_GamepadMapper_method__on_state_exited>` **(** :ref:`State<class_State>` _to **)**                                                                                                 |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_GamepadMapper_method__ready>` **(** **)**                                                                                                                                                   |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -95,7 +95,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**mappings_selected** **(** Array mappings **)**
+**mappings_selected** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ mappings **)**
 
 .. container:: contribute
 
@@ -159,7 +159,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-TextureRect **input_texture_node**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **input_texture_node**
 
 .. container:: contribute
 
@@ -215,7 +215,7 @@ TextureRect **input_texture_node**
 
 .. rst-class:: classref-property
 
-Array **mappings**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **mappings**
 
 .. container:: contribute
 
@@ -243,7 +243,7 @@ Array **mappings**
 
 .. rst-class:: classref-property
 
-Control **mouse_container**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **mouse_container**
 
 .. container:: contribute
 
@@ -355,7 +355,7 @@ Control **mouse_container**
 
 .. rst-class:: classref-property
 
-int **output_index** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **output_index** = ``0``
 
 .. container:: contribute
 
@@ -388,7 +388,7 @@ void **_on_key_selected** **(** :ref:`MappableEvent<class_MappableEvent>` event 
 
 .. rst-class:: classref-method
 
-void **_on_mouse_button** **(** MouseButton button **)**
+void **_on_mouse_button** **(** `MouseButton <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-mousebutton>`_ button **)**
 
 .. container:: contribute
 

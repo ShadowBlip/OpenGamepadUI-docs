@@ -10,7 +10,7 @@
 BatteryManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,23 +24,23 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | String                              | :ref:`battery_path<class_BatteryManager_property_battery_path>`   |                                                            |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_charging<class_BatteryManager_property_icon_charging>` | ``Resource("res://assets/ui/icons/battery-charging.svg")`` |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_empty<class_BatteryManager_property_icon_empty>`       | ``Resource("res://assets/ui/icons/battery-empty.svg")``    |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_full<class_BatteryManager_property_icon_full>`         | ``Resource("res://assets/ui/icons/battery-full.svg")``     |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_half<class_BatteryManager_property_icon_half>`         | ``Resource("res://assets/ui/icons/battery-half.svg")``     |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_high<class_BatteryManager_property_icon_high>`         | ``Resource("res://assets/ui/icons/battery-75.svg")``       |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | Texture                             | :ref:`icon_low<class_BatteryManager_property_icon_low>`           | ``Resource("res://assets/ui/icons/battery-low.svg")``      |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_BatteryManager_property_logger>`               |                                                            |
-   +-------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`battery_path<class_BatteryManager_property_battery_path>`   |                                                            |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_charging<class_BatteryManager_property_icon_charging>` | ``Resource("res://assets/ui/icons/battery-charging.svg")`` |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_empty<class_BatteryManager_property_icon_empty>`       | ``Resource("res://assets/ui/icons/battery-empty.svg")``    |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_full<class_BatteryManager_property_icon_full>`         | ``Resource("res://assets/ui/icons/battery-full.svg")``     |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_half<class_BatteryManager_property_icon_half>`         | ``Resource("res://assets/ui/icons/battery-half.svg")``     |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_high<class_BatteryManager_property_icon_high>`         | ``Resource("res://assets/ui/icons/battery-75.svg")``       |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | `Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ | :ref:`icon_low<class_BatteryManager_property_icon_low>`           | ``Resource("res://assets/ui/icons/battery-low.svg")``      |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                            | :ref:`logger<class_BatteryManager_property_logger>`               |                                                            |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -50,15 +50,15 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                      | :ref:`find_battery_path<class_BatteryManager_method_find_battery_path>` **(** **)**                                                                      |
-   +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int                                       | :ref:`get_capacity<class_BatteryManager_method_get_capacity>` **(** **)**                                                                                |
-   +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                 | :ref:`get_capacity_texture<class_BatteryManager_method_get_capacity_texture>` **(** int capacity, :ref:`STATUS<enum_BatteryManager_STATUS>` status **)** |
-   +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`STATUS<enum_BatteryManager_STATUS>` | :ref:`get_status<class_BatteryManager_method_get_status>` **(** **)**                                                                                    |
-   +-------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`find_battery_path<class_BatteryManager_method_find_battery_path>` **(** **)**                                                                                                                                         |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`get_capacity<class_BatteryManager_method_get_capacity>` **(** **)**                                                                                                                                                   |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_capacity_texture<class_BatteryManager_method_get_capacity_texture>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ capacity, :ref:`STATUS<enum_BatteryManager_STATUS>` status **)** |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`STATUS<enum_BatteryManager_STATUS>`                                          | :ref:`get_status<class_BatteryManager_method_get_status>` **(** **)**                                                                                                                                                       |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -145,7 +145,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **battery_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **battery_path**
 
 .. container:: contribute
 
@@ -159,7 +159,7 @@ String **battery_path**
 
 .. rst-class:: classref-property
 
-Texture **icon_charging** = ``Resource("res://assets/ui/icons/battery-charging.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_charging** = ``Resource("res://assets/ui/icons/battery-charging.svg")``
 
 .. container:: contribute
 
@@ -173,7 +173,7 @@ Texture **icon_charging** = ``Resource("res://assets/ui/icons/battery-charging.s
 
 .. rst-class:: classref-property
 
-Texture **icon_empty** = ``Resource("res://assets/ui/icons/battery-empty.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_empty** = ``Resource("res://assets/ui/icons/battery-empty.svg")``
 
 .. container:: contribute
 
@@ -187,7 +187,7 @@ Texture **icon_empty** = ``Resource("res://assets/ui/icons/battery-empty.svg")``
 
 .. rst-class:: classref-property
 
-Texture **icon_full** = ``Resource("res://assets/ui/icons/battery-full.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_full** = ``Resource("res://assets/ui/icons/battery-full.svg")``
 
 .. container:: contribute
 
@@ -201,7 +201,7 @@ Texture **icon_full** = ``Resource("res://assets/ui/icons/battery-full.svg")``
 
 .. rst-class:: classref-property
 
-Texture **icon_half** = ``Resource("res://assets/ui/icons/battery-half.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_half** = ``Resource("res://assets/ui/icons/battery-half.svg")``
 
 .. container:: contribute
 
@@ -215,7 +215,7 @@ Texture **icon_half** = ``Resource("res://assets/ui/icons/battery-half.svg")``
 
 .. rst-class:: classref-property
 
-Texture **icon_high** = ``Resource("res://assets/ui/icons/battery-75.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_high** = ``Resource("res://assets/ui/icons/battery-75.svg")``
 
 .. container:: contribute
 
@@ -229,7 +229,7 @@ Texture **icon_high** = ``Resource("res://assets/ui/icons/battery-75.svg")``
 
 .. rst-class:: classref-property
 
-Texture **icon_low** = ``Resource("res://assets/ui/icons/battery-low.svg")``
+`Texture <https://docs.godotengine.org/en/stable/classes/class_texture.html>`_ **icon_low** = ``Resource("res://assets/ui/icons/battery-low.svg")``
 
 .. container:: contribute
 
@@ -274,7 +274,7 @@ Finds the battery path. If none is found, returns an empty string.
 
 .. rst-class:: classref-method
 
-int **get_capacity** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_capacity** **(** **)**
 
 Returns the current battery capacity as a percentage. Returns -1 if no battery was discovered.
 
@@ -286,7 +286,7 @@ Returns the current battery capacity as a percentage. Returns -1 if no battery w
 
 .. rst-class:: classref-method
 
-Texture2D **get_capacity_texture** **(** int capacity, :ref:`STATUS<enum_BatteryManager_STATUS>` status **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_capacity_texture** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ capacity, :ref:`STATUS<enum_BatteryManager_STATUS>` status **)**
 
 Returns the texture reflecting the given battery capacity
 

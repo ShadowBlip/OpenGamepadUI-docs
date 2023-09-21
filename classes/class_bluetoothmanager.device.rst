@@ -10,7 +10,7 @@
 BluetoothManager.Device
 =======================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Container for a bluetooth device https://github.com/luetzel/bluez/blob/master/doc/device-api.txt
 
@@ -22,27 +22,27 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` | :ref:`_proxy<class_BluetoothManager.Device_property__proxy>`       |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | String                                            | :ref:`adapter<class_BluetoothManager.Device_property_adapter>`     |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | String                                            | :ref:`address<class_BluetoothManager.Device_property_address>`     |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | String                                            | :ref:`alias<class_BluetoothManager.Device_property_alias>`         |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | bool                                              | :ref:`blocked<class_BluetoothManager.Device_property_blocked>`     |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | bool                                              | :ref:`connected<class_BluetoothManager.Device_property_connected>` |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | String                                            | :ref:`icon<class_BluetoothManager.Device_property_icon>`           |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | String                                            | :ref:`name<class_BluetoothManager.Device_property_name>`           |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | bool                                              | :ref:`paired<class_BluetoothManager.Device_property_paired>`       |
-   +---------------------------------------------------+--------------------------------------------------------------------+
-   | bool                                              | :ref:`trusted<class_BluetoothManager.Device_property_trusted>`     |
-   +---------------------------------------------------+--------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                            | :ref:`_proxy<class_BluetoothManager.Device_property__proxy>`       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`adapter<class_BluetoothManager.Device_property_adapter>`     |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`address<class_BluetoothManager.Device_property_address>`     |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`alias<class_BluetoothManager.Device_property_alias>`         |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`blocked<class_BluetoothManager.Device_property_blocked>`     |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`connected<class_BluetoothManager.Device_property_connected>` |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`icon<class_BluetoothManager.Device_property_icon>`           |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_BluetoothManager.Device_property_name>`           |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`paired<class_BluetoothManager.Device_property_paired>`       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`trusted<class_BluetoothManager.Device_property_trusted>`     |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -52,23 +52,23 @@ Methods
 .. table::
    :widths: auto
 
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_BluetoothManager.Device_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**          |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_properties_changed<class_BluetoothManager.Device_method__on_properties_changed>` **(** String iface, Dictionary props **)** |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`cancel_pairing<class_BluetoothManager.Device_method_cancel_pairing>` **(** **)**                                                |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`connect_profile<class_BluetoothManager.Device_method_connect_profile>` **(** String uuid **)**                                  |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`connect_to<class_BluetoothManager.Device_method_connect_to>` **(** **)**                                                        |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`disconnect_from<class_BluetoothManager.Device_method_disconnect_from>` **(** **)**                                              |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`disconnect_profile<class_BluetoothManager.Device_method_disconnect_profile>` **(** String uuid **)**                            |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`pair<class_BluetoothManager.Device_method_pair>` **(** **)**                                                                    |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------+
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_BluetoothManager.Device_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**                                                                                                                                                          |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_properties_changed<class_BluetoothManager.Device_method__on_properties_changed>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)** |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`cancel_pairing<class_BluetoothManager.Device_method_cancel_pairing>` **(** **)**                                                                                                                                                                                                |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`connect_profile<class_BluetoothManager.Device_method_connect_profile>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ uuid **)**                                                                                                            |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`connect_to<class_BluetoothManager.Device_method_connect_to>` **(** **)**                                                                                                                                                                                                        |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`disconnect_from<class_BluetoothManager.Device_method_disconnect_from>` **(** **)**                                                                                                                                                                                              |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`disconnect_profile<class_BluetoothManager.Device_method_disconnect_profile>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ uuid **)**                                                                                                      |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`pair<class_BluetoothManager.Device_method_pair>` **(** **)**                                                                                                                                                                                                                    |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -83,7 +83,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**connection_changed** **(** bool is_connected **)**
+**connection_changed** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ is_connected **)**
 
 .. container:: contribute
 
@@ -97,7 +97,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**paired_changed** **(** bool is_paired **)**
+**paired_changed** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ is_paired **)**
 
 .. container:: contribute
 
@@ -144,7 +144,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **adapter**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **adapter**
 
 .. container:: contribute
 
@@ -158,7 +158,7 @@ String **adapter**
 
 .. rst-class:: classref-property
 
-String **address**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **address**
 
 .. container:: contribute
 
@@ -172,7 +172,7 @@ String **address**
 
 .. rst-class:: classref-property
 
-String **alias**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **alias**
 
 .. container:: contribute
 
@@ -186,7 +186,7 @@ String **alias**
 
 .. rst-class:: classref-property
 
-bool **blocked**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **blocked**
 
 .. container:: contribute
 
@@ -200,7 +200,7 @@ bool **blocked**
 
 .. rst-class:: classref-property
 
-bool **connected**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **connected**
 
 .. container:: contribute
 
@@ -214,7 +214,7 @@ bool **connected**
 
 .. rst-class:: classref-property
 
-String **icon**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **icon**
 
 .. container:: contribute
 
@@ -228,7 +228,7 @@ String **icon**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 
@@ -242,7 +242,7 @@ String **name**
 
 .. rst-class:: classref-property
 
-bool **paired**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **paired**
 
 .. container:: contribute
 
@@ -256,7 +256,7 @@ bool **paired**
 
 .. rst-class:: classref-property
 
-bool **trusted**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **trusted**
 
 .. container:: contribute
 
@@ -289,7 +289,7 @@ void **_init** **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)
 
 .. rst-class:: classref-method
 
-void **_on_properties_changed** **(** String iface, Dictionary props **)**
+void **_on_properties_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)**
 
 .. container:: contribute
 
@@ -317,7 +317,7 @@ void **cancel_pairing** **(** **)**
 
 .. rst-class:: classref-method
 
-void **connect_profile** **(** String uuid **)**
+void **connect_profile** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ uuid **)**
 
 .. container:: contribute
 
@@ -359,7 +359,7 @@ void **disconnect_from** **(** **)**
 
 .. rst-class:: classref-method
 
-void **disconnect_profile** **(** String uuid **)**
+void **disconnect_profile** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ uuid **)**
 
 .. container:: contribute
 

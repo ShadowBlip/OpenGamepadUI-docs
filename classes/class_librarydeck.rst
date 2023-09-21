@@ -10,7 +10,7 @@
 LibraryDeck
 ===========
 
-**Inherits:** 
+**Inherits:** `MarginContainer <https://docs.godotengine.org/en/stable/classes/class_margincontainer.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------+--------------------------------------------------+
-   | :ref:`GameCard<class_GameCard>` | :ref:`card_1<class_LibraryDeck_property_card_1>` |
-   +---------------------------------+--------------------------------------------------+
-   | :ref:`GameCard<class_GameCard>` | :ref:`card_2<class_LibraryDeck_property_card_2>` |
-   +---------------------------------+--------------------------------------------------+
-   | :ref:`GameCard<class_GameCard>` | :ref:`card_3<class_LibraryDeck_property_card_3>` |
-   +---------------------------------+--------------------------------------------------+
-   | Timer                           | :ref:`timer<class_LibraryDeck_property_timer>`   |
-   +---------------------------------+--------------------------------------------------+
+   +----------------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`GameCard<class_GameCard>`                                            | :ref:`card_1<class_LibraryDeck_property_card_1>` |
+   +----------------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`GameCard<class_GameCard>`                                            | :ref:`card_2<class_LibraryDeck_property_card_2>` |
+   +----------------------------------------------------------------------------+--------------------------------------------------+
+   | :ref:`GameCard<class_GameCard>`                                            | :ref:`card_3<class_LibraryDeck_property_card_3>` |
+   +----------------------------------------------------------------------------+--------------------------------------------------+
+   | `Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_ | :ref:`timer<class_LibraryDeck_property_timer>`   |
+   +----------------------------------------------------------------------------+--------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,17 +42,17 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_gui_input<class_LibraryDeck_method__gui_input>` **(** InputEvent event **)**             |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_focus<class_LibraryDeck_method__on_focus>` **(** **)**                                |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_unfocus<class_LibraryDeck_method__on_unfocus>` **(** **)**                            |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_LibraryDeck_method__ready>` **(** **)**                                      |
-   +------+-------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_texture<class_LibraryDeck_method_set_texture>` **(** int idx, Texture2D texture **)** |
-   +------+-------------------------------------------------------------------------------------------------+
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_gui_input<class_LibraryDeck_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                               |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_focus<class_LibraryDeck_method__on_focus>` **(** **)**                                                                                                                                                                            |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_unfocus<class_LibraryDeck_method__on_unfocus>` **(** **)**                                                                                                                                                                        |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_LibraryDeck_method__ready>` **(** **)**                                                                                                                                                                                  |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`set_texture<class_LibraryDeck_method_set_texture>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ texture **)** |
+   +------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -184,7 +184,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Timer **timer**
+`Timer <https://docs.godotengine.org/en/stable/classes/class_timer.html>`_ **timer**
 
 .. container:: contribute
 
@@ -203,7 +203,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -259,7 +259,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **set_texture** **(** int idx, Texture2D texture **)**
+void **set_texture** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ texture **)**
 
 Set the texture on one of the cards in the library deck
 

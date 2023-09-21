@@ -10,7 +10,7 @@
 PerformanceProfile
 ==================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,31 +24,31 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | bool   | :ref:`cpu_boost_enabled<class_PerformanceProfile_property_cpu_boost_enabled>`           |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | int    | :ref:`cpu_core_count_current<class_PerformanceProfile_property_cpu_core_count_current>` |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | bool   | :ref:`cpu_smt_enabled<class_PerformanceProfile_property_cpu_smt_enabled>`               |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | float  | :ref:`gpu_freq_max_current<class_PerformanceProfile_property_gpu_freq_max_current>`     |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | float  | :ref:`gpu_freq_min_current<class_PerformanceProfile_property_gpu_freq_min_current>`     |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | bool   | :ref:`gpu_manual_enabled<class_PerformanceProfile_property_gpu_manual_enabled>`         |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | int    | :ref:`gpu_power_profile<class_PerformanceProfile_property_gpu_power_profile>`           |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | float  | :ref:`gpu_temp_current<class_PerformanceProfile_property_gpu_temp_current>`             |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | String | :ref:`name<class_PerformanceProfile_property_name>`                                     | ``"default"`` |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | float  | :ref:`tdp_boost_current<class_PerformanceProfile_property_tdp_boost_current>`           |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | float  | :ref:`tdp_current<class_PerformanceProfile_property_tdp_current>`                       |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
-   | int    | :ref:`thermal_profile<class_PerformanceProfile_property_thermal_profile>`               |               |
-   +--------+-----------------------------------------------------------------------------------------+---------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`cpu_boost_enabled<class_PerformanceProfile_property_cpu_boost_enabled>`           |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`cpu_core_count_current<class_PerformanceProfile_property_cpu_core_count_current>` |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`cpu_smt_enabled<class_PerformanceProfile_property_cpu_smt_enabled>`               |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`gpu_freq_max_current<class_PerformanceProfile_property_gpu_freq_max_current>`     |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`gpu_freq_min_current<class_PerformanceProfile_property_gpu_freq_min_current>`     |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`gpu_manual_enabled<class_PerformanceProfile_property_gpu_manual_enabled>`         |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`gpu_power_profile<class_PerformanceProfile_property_gpu_power_profile>`           |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`gpu_temp_current<class_PerformanceProfile_property_gpu_temp_current>`             |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_PerformanceProfile_property_name>`                                     | ``"default"`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`tdp_boost_current<class_PerformanceProfile_property_tdp_boost_current>`           |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`tdp_current<class_PerformanceProfile_property_tdp_current>`                       |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`thermal_profile<class_PerformanceProfile_property_thermal_profile>`               |               |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+---------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -58,9 +58,9 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+---------------------------------------------------------------------------+
-   | String | :ref:`_to_string<class_PerformanceProfile_method__to_string>` **(** **)** |
-   +--------+---------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_PerformanceProfile_method__to_string>` **(** **)** |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -75,7 +75,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **cpu_boost_enabled**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **cpu_boost_enabled**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ bool **cpu_boost_enabled**
 
 .. rst-class:: classref-property
 
-int **cpu_core_count_current**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **cpu_core_count_current**
 
 .. container:: contribute
 
@@ -103,7 +103,7 @@ int **cpu_core_count_current**
 
 .. rst-class:: classref-property
 
-bool **cpu_smt_enabled**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **cpu_smt_enabled**
 
 .. container:: contribute
 
@@ -117,7 +117,7 @@ bool **cpu_smt_enabled**
 
 .. rst-class:: classref-property
 
-float **gpu_freq_max_current**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **gpu_freq_max_current**
 
 .. container:: contribute
 
@@ -131,7 +131,7 @@ float **gpu_freq_max_current**
 
 .. rst-class:: classref-property
 
-float **gpu_freq_min_current**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **gpu_freq_min_current**
 
 .. container:: contribute
 
@@ -145,7 +145,7 @@ float **gpu_freq_min_current**
 
 .. rst-class:: classref-property
 
-bool **gpu_manual_enabled**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **gpu_manual_enabled**
 
 .. container:: contribute
 
@@ -159,7 +159,7 @@ bool **gpu_manual_enabled**
 
 .. rst-class:: classref-property
 
-int **gpu_power_profile**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **gpu_power_profile**
 
 .. container:: contribute
 
@@ -173,7 +173,7 @@ int **gpu_power_profile**
 
 .. rst-class:: classref-property
 
-float **gpu_temp_current**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **gpu_temp_current**
 
 .. container:: contribute
 
@@ -187,7 +187,7 @@ float **gpu_temp_current**
 
 .. rst-class:: classref-property
 
-String **name** = ``"default"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name** = ``"default"``
 
 .. container:: contribute
 
@@ -201,7 +201,7 @@ String **name** = ``"default"``
 
 .. rst-class:: classref-property
 
-float **tdp_boost_current**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **tdp_boost_current**
 
 .. container:: contribute
 
@@ -215,7 +215,7 @@ float **tdp_boost_current**
 
 .. rst-class:: classref-property
 
-float **tdp_current**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **tdp_current**
 
 .. container:: contribute
 
@@ -229,7 +229,7 @@ float **tdp_current**
 
 .. rst-class:: classref-property
 
-int **thermal_profile**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **thermal_profile**
 
 .. container:: contribute
 
@@ -248,7 +248,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_to_string** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 

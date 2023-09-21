@@ -10,7 +10,7 @@
 Command
 =======
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Convienience class for executing OS commands in a thread
 
@@ -22,17 +22,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------+-------+
-   | PackedStringArray                   | :ref:`args<class_Command_property_args>`               |       |
-   +-------------------------------------+--------------------------------------------------------+-------+
-   | String                              | :ref:`cmd<class_Command_property_cmd>`                 |       |
-   +-------------------------------------+--------------------------------------------------------+-------+
-   | int                                 | :ref:`code<class_Command_property_code>`               | ``0`` |
-   +-------------------------------------+--------------------------------------------------------+-------+
-   | String                              | :ref:`stdout<class_Command_property_stdout>`           |       |
-   +-------------------------------------+--------------------------------------------------------+-------+
-   | :ref:`ThreadPool<class_ThreadPool>` | :ref:`thread_pool<class_Command_property_thread_pool>` |       |
-   +-------------------------------------+--------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`args<class_Command_property_args>`               |       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cmd<class_Command_property_cmd>`                 |       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`code<class_Command_property_code>`               | ``0`` |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`stdout<class_Command_property_stdout>`           |       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   | :ref:`ThreadPool<class_ThreadPool>`                                                                | :ref:`thread_pool<class_Command_property_thread_pool>` |       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,11 +42,11 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_Command_method__init>` **(** String command, PackedStringArray arguments **)** |
-   +------+--------------------------------------------------------------------------------------------------+
-   | int  | :ref:`execute<class_Command_method_execute>` **(** **)**                                         |
-   +------+--------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_init<class_Command_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments **)** |
+   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`execute<class_Command_method_execute>` **(** **)**                                                                                                                                                                                                |
+   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-PackedStringArray **args**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **args**
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ PackedStringArray **args**
 
 .. rst-class:: classref-property
 
-String **cmd**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **cmd**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ String **cmd**
 
 .. rst-class:: classref-property
 
-int **code** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **code** = ``0``
 
 .. container:: contribute
 
@@ -103,7 +103,7 @@ int **code** = ``0``
 
 .. rst-class:: classref-property
 
-String **stdout**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **stdout**
 
 .. container:: contribute
 
@@ -136,7 +136,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** String command, PackedStringArray arguments **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments **)**
 
 .. container:: contribute
 
@@ -150,7 +150,7 @@ void **_init** **(** String command, PackedStringArray arguments **)**
 
 .. rst-class:: classref-method
 
-int **execute** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **execute** **(** **)**
 
 .. container:: contribute
 

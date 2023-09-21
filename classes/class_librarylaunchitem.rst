@@ -10,7 +10,7 @@
 LibraryLaunchItem
 =================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 LibraryLaunchItem is a library provider-specific structure that describes how to launch a game.
 
@@ -29,33 +29,33 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`_id<class_LibraryLaunchItem_property__id>`                         |
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`_provider_id<class_LibraryLaunchItem_property__provider_id>`       |
-   +-------------------+--------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`args<class_LibraryLaunchItem_property_args>`                       |
-   +-------------------+--------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`categories<class_LibraryLaunchItem_property_categories>`           |
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`command<class_LibraryLaunchItem_property_command>`                 |
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`cwd<class_LibraryLaunchItem_property_cwd>`                         |
-   +-------------------+--------------------------------------------------------------------------+
-   | Dictionary        | :ref:`env<class_LibraryLaunchItem_property_env>`                         |
-   +-------------------+--------------------------------------------------------------------------+
-   | bool              | :ref:`hidden<class_LibraryLaunchItem_property_hidden>`                   |
-   +-------------------+--------------------------------------------------------------------------+
-   | bool              | :ref:`installed<class_LibraryLaunchItem_property_installed>`             |
-   +-------------------+--------------------------------------------------------------------------+
-   | Dictionary        | :ref:`metadata<class_LibraryLaunchItem_property_metadata>`               |
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`name<class_LibraryLaunchItem_property_name>`                       |
-   +-------------------+--------------------------------------------------------------------------+
-   | String            | :ref:`provider_app_id<class_LibraryLaunchItem_property_provider_app_id>` |
-   +-------------------+--------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`tags<class_LibraryLaunchItem_property_tags>`                       |
-   +-------------------+--------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_id<class_LibraryLaunchItem_property__id>`                         |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_provider_id<class_LibraryLaunchItem_property__provider_id>`       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`args<class_LibraryLaunchItem_property_args>`                       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`categories<class_LibraryLaunchItem_property_categories>`           |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`command<class_LibraryLaunchItem_property_command>`                 |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cwd<class_LibraryLaunchItem_property_cwd>`                         |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_               | :ref:`env<class_LibraryLaunchItem_property_env>`                         |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`hidden<class_LibraryLaunchItem_property_hidden>`                   |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`installed<class_LibraryLaunchItem_property_installed>`             |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_               | :ref:`metadata<class_LibraryLaunchItem_property_metadata>`               |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`name<class_LibraryLaunchItem_property_name>`                       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`provider_app_id<class_LibraryLaunchItem_property_provider_app_id>` |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`tags<class_LibraryLaunchItem_property_tags>`                       |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -65,11 +65,11 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` | :ref:`from_dict<class_LibraryLaunchItem_method_from_dict>` **(** Dictionary d **)** |
-   +---------------------------------------------------+-------------------------------------------------------------------------------------+
-   | Dictionary                                        | :ref:`to_dict<class_LibraryLaunchItem_method_to_dict>` **(** **)**                  |
-   +---------------------------------------------------+-------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                                    | :ref:`from_dict<class_LibraryLaunchItem_method_from_dict>` **(** `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ d **)** |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`to_dict<class_LibraryLaunchItem_method_to_dict>` **(** **)**                                                                                            |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -117,7 +117,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_id**
 
 .. container:: contribute
 
@@ -131,7 +131,7 @@ String **_id**
 
 .. rst-class:: classref-property
 
-String **_provider_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_provider_id**
 
 .. container:: contribute
 
@@ -145,7 +145,7 @@ String **_provider_id**
 
 .. rst-class:: classref-property
 
-PackedStringArray **args**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **args**
 
 .. container:: contribute
 
@@ -159,7 +159,7 @@ PackedStringArray **args**
 
 .. rst-class:: classref-property
 
-PackedStringArray **categories**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **categories**
 
 .. container:: contribute
 
@@ -173,7 +173,7 @@ PackedStringArray **categories**
 
 .. rst-class:: classref-property
 
-String **command**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **command**
 
 .. container:: contribute
 
@@ -187,7 +187,7 @@ String **command**
 
 .. rst-class:: classref-property
 
-String **cwd**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **cwd**
 
 .. container:: contribute
 
@@ -201,7 +201,7 @@ String **cwd**
 
 .. rst-class:: classref-property
 
-Dictionary **env**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **env**
 
 .. container:: contribute
 
@@ -215,7 +215,7 @@ Dictionary **env**
 
 .. rst-class:: classref-property
 
-bool **hidden**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **hidden**
 
 .. container:: contribute
 
@@ -229,7 +229,7 @@ bool **hidden**
 
 .. rst-class:: classref-property
 
-bool **installed**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **installed**
 
 .. container:: contribute
 
@@ -243,7 +243,7 @@ bool **installed**
 
 .. rst-class:: classref-property
 
-Dictionary **metadata**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **metadata**
 
 .. container:: contribute
 
@@ -257,7 +257,7 @@ Dictionary **metadata**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 
@@ -271,7 +271,7 @@ String **name**
 
 .. rst-class:: classref-property
 
-String **provider_app_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **provider_app_id**
 
 .. container:: contribute
 
@@ -285,7 +285,7 @@ String **provider_app_id**
 
 .. rst-class:: classref-property
 
-PackedStringArray **tags**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **tags**
 
 .. container:: contribute
 
@@ -304,7 +304,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`LibraryLaunchItem<class_LibraryLaunchItem>` **from_dict** **(** Dictionary d **)**
+:ref:`LibraryLaunchItem<class_LibraryLaunchItem>` **from_dict** **(** `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ d **)**
 
 .. container:: contribute
 
@@ -318,7 +318,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Dictionary **to_dict** **(** **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **to_dict** **(** **)**
 
 .. container:: contribute
 

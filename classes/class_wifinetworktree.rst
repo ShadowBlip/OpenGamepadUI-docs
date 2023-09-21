@@ -10,7 +10,7 @@
 WifiNetworkTree
 ===============
 
-**Inherits:** 
+**Inherits:** `Tree <https://docs.godotengine.org/en/stable/classes/class_tree.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------------+-----------+
-   | bool                                | :ref:`connecting<class_WifiNetworkTree_property_connecting>` | ``false`` |
-   +-------------------------------------+--------------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_WifiNetworkTree_property_logger>`         |           |
-   +-------------------------------------+--------------------------------------------------------------+-----------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`connecting<class_WifiNetworkTree_property_connecting>` | ``false`` |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                      | :ref:`logger<class_WifiNetworkTree_property_logger>`         |           |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -38,15 +38,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+---------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_wifi_selected<class_WifiNetworkTree_method__on_wifi_selected>` **(** **)**                          |
-   +------+---------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_WifiNetworkTree_method__ready>` **(** **)**                                                |
-   +------+---------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`network_connect<class_WifiNetworkTree_method_network_connect>` **(** String password, String ssid **)** |
-   +------+---------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`refresh_networks<class_WifiNetworkTree_method_refresh_networks>` **(** **)**                            |
-   +------+---------------------------------------------------------------------------------------------------------------+
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_wifi_selected<class_WifiNetworkTree_method__on_wifi_selected>` **(** **)**                                                                                                                                                                      |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_WifiNetworkTree_method__ready>` **(** **)**                                                                                                                                                                                            |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`network_connect<class_WifiNetworkTree_method_network_connect>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ password, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ ssid **)** |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`refresh_networks<class_WifiNetworkTree_method_refresh_networks>` **(** **)**                                                                                                                                                                        |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -61,7 +61,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**challenge_required** **(** Callable callback **)**
+**challenge_required** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ callback **)**
 
 Emitted when a password is needed to connect. The given callable should be invoked by a listener with the password. E.g. callback.call(password)
 
@@ -123,7 +123,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **connecting** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **connecting** = ``false``
 
 .. container:: contribute
 
@@ -184,7 +184,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **network_connect** **(** String password, String ssid **)**
+void **network_connect** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ password, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ ssid **)**
 
 Connect to the given wireless network
 

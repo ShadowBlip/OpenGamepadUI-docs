@@ -10,7 +10,7 @@
 TransitionContainer
 ===================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 DEPRECATED - Add transitions to VisibilityManager instead
 
@@ -22,11 +22,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+----------------------------------------------------------------------+
-   | Array                               | :ref:`_transitions<class_TransitionContainer_property__transitions>` |
-   +-------------------------------------+----------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_TransitionContainer_property_logger>`             |
-   +-------------------------------------+----------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`_transitions<class_TransitionContainer_property__transitions>` |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                        | :ref:`logger<class_TransitionContainer_property_logger>`             |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -118,7 +118,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **_transitions**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_transitions**
 
 .. container:: contribute
 

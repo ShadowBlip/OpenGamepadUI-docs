@@ -10,7 +10,7 @@
 PlatformProvider
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 **Inherited By:** :ref:`OSPlatform<class_OSPlatform>`
 
@@ -31,15 +31,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_PlatformProvider_property_logger>`                     |
-   +-------------------------------------+---------------------------------------------------------------------------+
-   | String                              | :ref:`name<class_PlatformProvider_property_name>`                         |
-   +-------------------------------------+---------------------------------------------------------------------------+
-   | Array                               | :ref:`shutdown_actions<class_PlatformProvider_property_shutdown_actions>` |
-   +-------------------------------------+---------------------------------------------------------------------------+
-   | Array                               | :ref:`startup_actions<class_PlatformProvider_property_startup_actions>`   |
-   +-------------------------------------+---------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_PlatformProvider_property_logger>`                     |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_PlatformProvider_property_name>`                         |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`shutdown_actions<class_PlatformProvider_property_shutdown_actions>` |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`startup_actions<class_PlatformProvider_property_startup_actions>`   |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -49,11 +49,11 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------------+---------------------------------------------------------------------------------------------+
-   | :ref:`HandheldGamepad<class_HandheldGamepad>` | :ref:`get_handheld_gamepad<class_PlatformProvider_method_get_handheld_gamepad>` **(** **)** |
-   +-----------------------------------------------+---------------------------------------------------------------------------------------------+
-   | void                                          | :ref:`ready<class_PlatformProvider_method_ready>` **(** Window root **)**                   |
-   +-----------------------------------------------+---------------------------------------------------------------------------------------------+
+   +-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`HandheldGamepad<class_HandheldGamepad>` | :ref:`get_handheld_gamepad<class_PlatformProvider_method_get_handheld_gamepad>` **(** **)**                                                     |
+   +-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                          | :ref:`ready<class_PlatformProvider_method_ready>` **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)** |
+   +-----------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -82,7 +82,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Name of the platform
 
@@ -94,7 +94,7 @@ Name of the platform
 
 .. rst-class:: classref-property
 
-Array **shutdown_actions**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **shutdown_actions**
 
 Actions to take upon shutdown
 
@@ -106,7 +106,7 @@ Actions to take upon shutdown
 
 .. rst-class:: classref-property
 
-Array **startup_actions**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **startup_actions**
 
 Actions to take upon startup
 
@@ -135,7 +135,7 @@ DEPRECATED If implemented, return a HandheldGamepad implementation for hardware 
 
 .. rst-class:: classref-method
 
-void **ready** **(** Window root **)**
+void **ready** **(** `Window <https://docs.godotengine.org/en/stable/classes/class_window.html>`_ root **)**
 
 Ready will be called after the scene tree has initialized. This should be overridden in the child class if the platform wants to make changes to the scene tree.
 

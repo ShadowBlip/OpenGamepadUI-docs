@@ -10,7 +10,7 @@
 KeyboardContext
 ===============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Route on-screen keyboard input
 
@@ -29,15 +29,15 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------------------------------+------------------------------------------------------------------------+----------+
-   | bool                                   | :ref:`close_on_submit<class_KeyboardContext_property_close_on_submit>` | ``true`` |
-   +----------------------------------------+------------------------------------------------------------------------+----------+
-   | Array                                  | :ref:`mappings<class_KeyboardContext_property_mappings>`               |          |
-   +----------------------------------------+------------------------------------------------------------------------+----------+
-   | Control                                | :ref:`target<class_KeyboardContext_property_target>`                   |          |
-   +----------------------------------------+------------------------------------------------------------------------+----------+
-   | :ref:`TYPE<enum_KeyboardContext_TYPE>` | :ref:`type<class_KeyboardContext_property_type>`                       |          |
-   +----------------------------------------+------------------------------------------------------------------------+----------+
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------+----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_       | :ref:`close_on_submit<class_KeyboardContext_property_close_on_submit>` | ``true`` |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------+----------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_     | :ref:`mappings<class_KeyboardContext_property_mappings>`               |          |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------+----------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`target<class_KeyboardContext_property_target>`                   |          |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------+----------+
+   | :ref:`TYPE<enum_KeyboardContext_TYPE>`                                         | :ref:`type<class_KeyboardContext_property_type>`                       |          |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------+----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -47,9 +47,9 @@ Methods
 .. table::
    :widths: auto
 
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_KeyboardContext_method__init>` **(** :ref:`TYPE<enum_KeyboardContext_TYPE>` t, Control tgt, bool close_after_submit **)** |
-   +------+---------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_KeyboardContext_method__init>` **(** :ref:`TYPE<enum_KeyboardContext_TYPE>` t, `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ tgt, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ close_after_submit **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -156,7 +156,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **close_on_submit** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **close_on_submit** = ``true``
 
 Whether or not the keyboard should close after submition
 
@@ -168,7 +168,7 @@ Whether or not the keyboard should close after submition
 
 .. rst-class:: classref-property
 
-Array **mappings**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **mappings**
 
 If this is a TYPE.INPUT_MAPPER, then it is the GamepadMappings to update
 
@@ -180,7 +180,7 @@ If this is a TYPE.INPUT_MAPPER, then it is the GamepadMappings to update
 
 .. rst-class:: classref-property
 
-Control **target**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **target**
 
 For non-TYPE.X11 contexts, which node to send text input to
 
@@ -209,7 +209,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** :ref:`TYPE<enum_KeyboardContext_TYPE>` t, Control tgt, bool close_after_submit **)**
+void **_init** **(** :ref:`TYPE<enum_KeyboardContext_TYPE>` t, `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ tgt, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ close_after_submit **)**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 ThreadGroup
 ===========
 
-**Inherits:** :ref:`SharedThread<class_SharedThread>`
+**Inherits:** :ref:`SharedThread<class_SharedThread>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 DEPRECATED - Renamed to SharedThread
 

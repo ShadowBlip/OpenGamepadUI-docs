@@ -10,7 +10,7 @@
 HandheldGamepad.Keypad
 ======================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Structure representing a handheld keypad device
 
@@ -22,11 +22,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------+---------------------------------------------------------------------+
-   | InputDevice | :ref:`device<class_HandheldGamepad.Keypad_property_device>`         |
-   +-------------+---------------------------------------------------------------------+
-   | String      | :ref:`event_path<class_HandheldGamepad.Keypad_property_event_path>` |
-   +-------------+---------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ | :ref:`device<class_HandheldGamepad.Keypad_property_device>`         |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`event_path<class_HandheldGamepad.Keypad_property_event_path>` |
+   +----------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -41,7 +41,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-InputDevice **device**
+`InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ **device**
 
 .. container:: contribute
 
@@ -55,7 +55,7 @@ InputDevice **device**
 
 .. rst-class:: classref-property
 
-String **event_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **event_path**
 
 .. container:: contribute
 

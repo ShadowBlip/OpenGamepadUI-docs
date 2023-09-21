@@ -10,7 +10,7 @@
 BluetoothManager.Adapter
 ========================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Container for a bluetooth adapter https://github.com/luetzel/bluez/blob/master/doc/adapter-api.txt
 
@@ -22,17 +22,17 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+-------------------------------------------------------------------------+
-   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` | :ref:`_proxy<class_BluetoothManager.Adapter_property__proxy>`           |
-   +---------------------------------------------------+-------------------------------------------------------------------------+
-   | String                                            | :ref:`address<class_BluetoothManager.Adapter_property_address>`         |
-   +---------------------------------------------------+-------------------------------------------------------------------------+
-   | bool                                              | :ref:`discovering<class_BluetoothManager.Adapter_property_discovering>` |
-   +---------------------------------------------------+-------------------------------------------------------------------------+
-   | String                                            | :ref:`name<class_BluetoothManager.Adapter_property_name>`               |
-   +---------------------------------------------------+-------------------------------------------------------------------------+
-   | bool                                              | :ref:`powered<class_BluetoothManager.Adapter_property_powered>`         |
-   +---------------------------------------------------+-------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                            | :ref:`_proxy<class_BluetoothManager.Adapter_property__proxy>`           |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`address<class_BluetoothManager.Adapter_property_address>`         |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`discovering<class_BluetoothManager.Adapter_property_discovering>` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_BluetoothManager.Adapter_property_name>`               |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`powered<class_BluetoothManager.Adapter_property_powered>`         |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,15 +42,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_BluetoothManager.Adapter_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**          |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_properties_changed<class_BluetoothManager.Adapter_method__on_properties_changed>` **(** String iface, Dictionary props **)** |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`start_discovery<class_BluetoothManager.Adapter_method_start_discovery>` **(** **)**                                              |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`stop_discovery<class_BluetoothManager.Adapter_method_stop_discovery>` **(** **)**                                                |
-   +------+----------------------------------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_BluetoothManager.Adapter_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**                                                                                                                                                          |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_properties_changed<class_BluetoothManager.Adapter_method__on_properties_changed>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`start_discovery<class_BluetoothManager.Adapter_method_start_discovery>` **(** **)**                                                                                                                                                                                              |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`stop_discovery<class_BluetoothManager.Adapter_method_stop_discovery>` **(** **)**                                                                                                                                                                                                |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -98,7 +98,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **address**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **address**
 
 .. container:: contribute
 
@@ -112,7 +112,7 @@ String **address**
 
 .. rst-class:: classref-property
 
-bool **discovering**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **discovering**
 
 .. container:: contribute
 
@@ -126,7 +126,7 @@ bool **discovering**
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 .. container:: contribute
 
@@ -140,7 +140,7 @@ String **name**
 
 .. rst-class:: classref-property
 
-bool **powered**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **powered**
 
 .. container:: contribute
 
@@ -173,7 +173,7 @@ void **_init** **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)
 
 .. rst-class:: classref-method
 
-void **_on_properties_changed** **(** String iface, Dictionary props **)**
+void **_on_properties_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)**
 
 .. container:: contribute
 

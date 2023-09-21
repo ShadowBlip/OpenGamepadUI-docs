@@ -10,7 +10,7 @@
 NativeEvent
 ===========
 
-**Inherits:** :ref:`MappableEvent<class_MappableEvent>`
+**Inherits:** :ref:`MappableEvent<class_MappableEvent>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +------------+------------------------------------------------+
-   | InputEvent | :ref:`event<class_NativeEvent_property_event>` |
-   +------------+------------------------------------------------+
+   +--------------------------------------------------------------------------------------+------------------------------------------------+
+   | `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ | :ref:`event<class_NativeEvent_property_event>` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,19 +36,19 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | String | :ref:`_to_string<class_NativeEvent_method__to_string>` **(** **)**                                                 |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | String | :ref:`get_signature<class_NativeEvent_method_get_signature>` **(** **)**                                           |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | float  | :ref:`get_value<class_NativeEvent_method_get_value>` **(** **)**                                                   |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | bool   | :ref:`is_binary_event<class_NativeEvent_method_is_binary_event>` **(** **)**                                       |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | bool   | :ref:`matches<class_NativeEvent_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` check_event **)** |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
-   | void   | :ref:`set_value<class_NativeEvent_method_set_value>` **(** float value **)**                                       |
-   +--------+--------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_NativeEvent_method__to_string>` **(** **)**                                                                                |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`get_signature<class_NativeEvent_method_get_signature>` **(** **)**                                                                          |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`get_value<class_NativeEvent_method_get_value>` **(** **)**                                                                                  |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`is_binary_event<class_NativeEvent_method_is_binary_event>` **(** **)**                                                                      |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`matches<class_NativeEvent_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` check_event **)**                                |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`set_value<class_NativeEvent_method_set_value>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)** |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -63,7 +63,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-InputEvent **event**
+`InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ **event**
 
 .. container:: contribute
 
@@ -82,7 +82,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_to_string** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 
@@ -96,7 +96,7 @@ String **_to_string** **(** **)**
 
 .. rst-class:: classref-method
 
-String **get_signature** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_signature** **(** **)**
 
 Returns a signature of the event to aid with faster matching. This signature should return a unique string based on the kind of event but not the value.
 
@@ -108,7 +108,7 @@ Returns a signature of the event to aid with faster matching. This signature sho
 
 .. rst-class:: classref-method
 
-float **get_value** **(** **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **get_value** **(** **)**
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ float **get_value** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **is_binary_event** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_binary_event** **(** **)**
 
 .. container:: contribute
 
@@ -136,7 +136,7 @@ bool **is_binary_event** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **matches** **(** :ref:`MappableEvent<class_MappableEvent>` check_event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **matches** **(** :ref:`MappableEvent<class_MappableEvent>` check_event **)**
 
 .. container:: contribute
 
@@ -150,7 +150,7 @@ bool **matches** **(** :ref:`MappableEvent<class_MappableEvent>` check_event **)
 
 .. rst-class:: classref-method
 
-void **set_value** **(** float value **)**
+void **set_value** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**
 
 Set the given value on the event. How this gets set depends on the underlying Godot event.
 

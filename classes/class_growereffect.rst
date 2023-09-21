@@ -10,7 +10,7 @@
 GrowerEffect
 ============
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Grow the given target's custom minimum size to the size of the given content
 
@@ -29,21 +29,21 @@ Properties
 .. table::
    :widths: auto
 
-   +---------+-------------------------------------------------------------------------+---------+
-   | Control | :ref:`content_container<class_GrowerEffect_property_content_container>` |         |
-   +---------+-------------------------------------------------------------------------+---------+
-   | float   | :ref:`grow_speed<class_GrowerEffect_property_grow_speed>`               | ``0.2`` |
-   +---------+-------------------------------------------------------------------------+---------+
-   | Control | :ref:`inside_panel<class_GrowerEffect_property_inside_panel>`           |         |
-   +---------+-------------------------------------------------------------------------+---------+
-   | Control | :ref:`separator<class_GrowerEffect_property_separator>`                 |         |
-   +---------+-------------------------------------------------------------------------+---------+
-   | String  | :ref:`shrink_signal<class_GrowerEffect_property_shrink_signal>`         |         |
-   +---------+-------------------------------------------------------------------------+---------+
-   | Control | :ref:`target<class_GrowerEffect_property_target>`                       |         |
-   +---------+-------------------------------------------------------------------------+---------+
-   | Tween   | :ref:`tween<class_GrowerEffect_property_tween>`                         |         |
-   +---------+-------------------------------------------------------------------------+---------+
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`content_container<class_GrowerEffect_property_content_container>` |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_     | :ref:`grow_speed<class_GrowerEffect_property_grow_speed>`               | ``0.2`` |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`inside_panel<class_GrowerEffect_property_inside_panel>`           |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`separator<class_GrowerEffect_property_separator>`                 |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`shrink_signal<class_GrowerEffect_property_shrink_signal>`         |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`target<class_GrowerEffect_property_target>`                       |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_     | :ref:`tween<class_GrowerEffect_property_tween>`                         |         |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------+---------+
 
 .. rst-class:: classref-reftable-group
 
@@ -99,7 +99,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Control **content_container**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **content_container**
 
 .. container:: contribute
 
@@ -113,7 +113,7 @@ Control **content_container**
 
 .. rst-class:: classref-property
 
-float **grow_speed** = ``0.2``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **grow_speed** = ``0.2``
 
 .. container:: contribute
 
@@ -127,7 +127,7 @@ float **grow_speed** = ``0.2``
 
 .. rst-class:: classref-property
 
-Control **inside_panel**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **inside_panel**
 
 .. container:: contribute
 
@@ -141,7 +141,7 @@ Control **inside_panel**
 
 .. rst-class:: classref-property
 
-Control **separator**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **separator**
 
 .. container:: contribute
 
@@ -155,7 +155,7 @@ Control **separator**
 
 .. rst-class:: classref-property
 
-String **shrink_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **shrink_signal**
 
 .. container:: contribute
 
@@ -169,7 +169,7 @@ String **shrink_signal**
 
 .. rst-class:: classref-property
 
-Control **target**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **target**
 
 .. container:: contribute
 
@@ -183,7 +183,7 @@ Control **target**
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 

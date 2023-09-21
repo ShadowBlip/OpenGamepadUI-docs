@@ -10,7 +10,7 @@
 BluetoothManager
 ================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 BluetoothManager interfaces with the bluetooth system
 
@@ -41,13 +41,13 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-   | :ref:`BluetoothManager.Adapter<class_BluetoothManager.Adapter>` | :ref:`get_adapter<class_BluetoothManager_method_get_adapter>` **(** String adapter_name **)**   |
-   +-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-   | Array                                                           | :ref:`get_discovered_devices<class_BluetoothManager_method_get_discovered_devices>` **(** **)** |
-   +-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
-   | bool                                                            | :ref:`supports_bluetooth<class_BluetoothManager_method_supports_bluetooth>` **(** **)**         |
-   +-----------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`BluetoothManager.Adapter<class_BluetoothManager.Adapter>`            | :ref:`get_adapter<class_BluetoothManager_method_get_adapter>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ adapter_name **)** |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_discovered_devices<class_BluetoothManager_method_get_discovered_devices>` **(** **)**                                                                     |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`supports_bluetooth<class_BluetoothManager_method_supports_bluetooth>` **(** **)**                                                                             |
+   +----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -122,7 +122,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`BluetoothManager.Adapter<class_BluetoothManager.Adapter>` **get_adapter** **(** String adapter_name **)**
+:ref:`BluetoothManager.Adapter<class_BluetoothManager.Adapter>` **get_adapter** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ adapter_name **)**
 
 Returns the bluetooth adapter with the given name.
 
@@ -134,7 +134,7 @@ Returns the bluetooth adapter with the given name.
 
 .. rst-class:: classref-method
 
-Array **get_discovered_devices** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_discovered_devices** **(** **)**
 
 Return a list of currently discovered devices
 
@@ -146,7 +146,7 @@ Return a list of currently discovered devices
 
 .. rst-class:: classref-method
 
-bool **supports_bluetooth** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_bluetooth** **(** **)**
 
 Returns true if bluetooth can be used on this system
 

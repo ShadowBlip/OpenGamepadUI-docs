@@ -10,7 +10,7 @@
 LibraryItem
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 LibraryItem is a high-level structure that contains data about a game.
 
@@ -29,17 +29,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+--------------------------------------------------------------+
-   | String            | :ref:`_id<class_LibraryItem_property__id>`                   |
-   +-------------------+--------------------------------------------------------------+
-   | PackedStringArray | :ref:`categories<class_LibraryItem_property_categories>`     |
-   +-------------------+--------------------------------------------------------------+
-   | Array             | :ref:`launch_items<class_LibraryItem_property_launch_items>` |
-   +-------------------+--------------------------------------------------------------+
-   | String            | :ref:`name<class_LibraryItem_property_name>`                 |
-   +-------------------+--------------------------------------------------------------+
-   | PackedStringArray | :ref:`tags<class_LibraryItem_property_tags>`                 |
-   +-------------------+--------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_id<class_LibraryItem_property__id>`                   |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`categories<class_LibraryItem_property_categories>`     |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`launch_items<class_LibraryItem_property_launch_items>` |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`name<class_LibraryItem_property_name>`                 |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`tags<class_LibraryItem_property_tags>`                 |
+   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -49,17 +49,17 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                              | :ref:`erase_launch_item<class_LibraryItem_method_erase_launch_item>` **(** String provider_id **)**                                                  |
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` | :ref:`get_launch_item<class_LibraryItem_method_get_launch_item>` **(** String provider_id **)**                                                      |
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                              | :ref:`has_launch_item<class_LibraryItem_method_has_launch_item>` **(** String provider_id **)**                                                      |
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                              | :ref:`is_installed<class_LibraryItem_method_is_installed>` **(** **)**                                                                               |
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`LibraryItem<class_LibraryItem>`             | :ref:`new_from_launch_item<class_LibraryItem_method_new_from_launch_item>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` launch_item **)** |
-   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`erase_launch_item<class_LibraryItem_method_erase_launch_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)** |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                        | :ref:`get_launch_item<class_LibraryItem_method_get_launch_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**     |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_launch_item<class_LibraryItem_method_has_launch_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**     |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_installed<class_LibraryItem_method_is_installed>` **(** **)**                                                                                                    |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`LibraryItem<class_LibraryItem>`                                    | :ref:`new_from_launch_item<class_LibraryItem_method_new_from_launch_item>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` launch_item **)**                      |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -151,7 +151,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_id**
 
 The unique ID of the library item
 
@@ -163,7 +163,7 @@ The unique ID of the library item
 
 .. rst-class:: classref-property
 
-PackedStringArray **categories**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **categories**
 
 An array of categories the game belongs to
 
@@ -175,7 +175,7 @@ An array of categories the game belongs to
 
 .. rst-class:: classref-property
 
-Array **launch_items**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **launch_items**
 
 An array of :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` resources that this game supports
 
@@ -187,7 +187,7 @@ An array of :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` resources that thi
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Name of the game
 
@@ -199,7 +199,7 @@ Name of the game
 
 .. rst-class:: classref-property
 
-PackedStringArray **tags**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **tags**
 
 An array of tags associated with this game
 
@@ -216,7 +216,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **erase_launch_item** **(** String provider_id **)**
+void **erase_launch_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**
 
 Removes the :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` associated with the given launch provider.
 
@@ -228,7 +228,7 @@ Removes the :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` associated with th
 
 .. rst-class:: classref-method
 
-:ref:`LibraryLaunchItem<class_LibraryLaunchItem>` **get_launch_item** **(** String provider_id **)**
+:ref:`LibraryLaunchItem<class_LibraryLaunchItem>` **get_launch_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**
 
 Returns the library launch item for the given provider. Returns null if the given provider doesn't manage this game.
 
@@ -240,7 +240,7 @@ Returns the library launch item for the given provider. Returns null if the give
 
 .. rst-class:: classref-method
 
-bool **has_launch_item** **(** String provider_id **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_launch_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**
 
 Returns true if the **LibraryItem** has a :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` from the given provider
 
@@ -252,7 +252,7 @@ Returns true if the **LibraryItem** has a :ref:`LibraryLaunchItem<class_LibraryL
 
 .. rst-class:: classref-method
 
-bool **is_installed** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_installed** **(** **)**
 
 Returns true if at least one library provider has this item installed.
 

@@ -10,7 +10,7 @@
 WebsocketRPCClient
 ==================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+---------------------------------------------------------------+-----------+
-   | bool                                | :ref:`connected<class_WebsocketRPCClient_property_connected>` | ``false`` |
-   +-------------------------------------+---------------------------------------------------------------+-----------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_WebsocketRPCClient_property_logger>`       |           |
-   +-------------------------------------+---------------------------------------------------------------+-----------+
-   | WebSocketPeer                       | :ref:`socket<class_WebsocketRPCClient_property_socket>`       |           |
-   +-------------------------------------+---------------------------------------------------------------+-----------+
+   +--------------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                   | :ref:`connected<class_WebsocketRPCClient_property_connected>` | ``false`` |
+   +--------------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                        | :ref:`logger<class_WebsocketRPCClient_property_logger>`       |           |
+   +--------------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------+
+   | `WebSocketPeer <https://docs.godotengine.org/en/stable/classes/class_websocketpeer.html>`_ | :ref:`socket<class_WebsocketRPCClient_property_socket>`       |           |
+   +--------------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -40,17 +40,17 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_process<class_WebsocketRPCClient_method__process>` **(** Variant delta **)**                          |
-   +------+--------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_process_response<class_WebsocketRPCClient_method__process_response>` **(** PackedByteArray data **)** |
-   +------+--------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`close<class_WebsocketRPCClient_method_close>` **(** **)**                                              |
-   +------+--------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`make_request<class_WebsocketRPCClient_method_make_request>` **(** String method, Array args **)**      |
-   +------+--------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`open<class_WebsocketRPCClient_method_open>` **(** String url **)**                                     |
-   +------+--------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_process<class_WebsocketRPCClient_method__process>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ delta **)**                                                                                         |
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_process_response<class_WebsocketRPCClient_method__process_response>` **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data **)**                                                        |
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`close<class_WebsocketRPCClient_method_close>` **(** **)**                                                                                                                                                                                    |
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`make_request<class_WebsocketRPCClient_method_make_request>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ method, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args **)** |
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`open<class_WebsocketRPCClient_method_open>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ url **)**                                                                                                     |
+   +------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -65,7 +65,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**request_completed** **(** int status, Variant data, String id **)**
+**request_completed** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ status, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ data, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 .. container:: contribute
 
@@ -112,7 +112,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **connected** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **connected** = ``false``
 
 .. container:: contribute
 
@@ -140,7 +140,7 @@ bool **connected** = ``false``
 
 .. rst-class:: classref-property
 
-WebSocketPeer **socket**
+`WebSocketPeer <https://docs.godotengine.org/en/stable/classes/class_websocketpeer.html>`_ **socket**
 
 .. container:: contribute
 
@@ -159,7 +159,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_process** **(** Variant delta **)**
+void **_process** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ delta **)**
 
 .. container:: contribute
 
@@ -173,7 +173,7 @@ void **_process** **(** Variant delta **)**
 
 .. rst-class:: classref-method
 
-void **_process_response** **(** PackedByteArray data **)**
+void **_process_response** **(** `PackedByteArray <https://docs.godotengine.org/en/stable/classes/class_packedbytearray.html>`_ data **)**
 
 .. container:: contribute
 
@@ -201,7 +201,7 @@ void **close** **(** **)**
 
 .. rst-class:: classref-method
 
-void **make_request** **(** String method, Array args **)**
+void **make_request** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ method, `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ args **)**
 
 .. container:: contribute
 
@@ -215,7 +215,7 @@ void **make_request** **(** String method, Array args **)**
 
 .. rst-class:: classref-method
 
-int **open** **(** String url **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **open** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ url **)**
 
 .. container:: contribute
 

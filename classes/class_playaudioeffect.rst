@@ -10,7 +10,7 @@
 PlayAudioEffect
 ===============
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,13 +24,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+------------------------------------------------------------------+---------------------------------------------------+
-   | String            | :ref:`audio<class_PlayAudioEffect_property_audio>`               | ``"res://assets/audio/interface/glitch_004.ogg"`` |
-   +-------------------+------------------------------------------------------------------+---------------------------------------------------+
-   | AudioStreamPlayer | :ref:`audio_player<class_PlayAudioEffect_property_audio_player>` |                                                   |
-   +-------------------+------------------------------------------------------------------+---------------------------------------------------+
-   | Variant           | :ref:`stream<class_PlayAudioEffect_property_stream>`             |                                                   |
-   +-------------------+------------------------------------------------------------------+---------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`audio<class_PlayAudioEffect_property_audio>`               | ``"res://assets/audio/interface/glitch_004.ogg"`` |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+---------------------------------------------------+
+   | `AudioStreamPlayer <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>`_ | :ref:`audio_player<class_PlayAudioEffect_property_audio_player>` |                                                   |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+---------------------------------------------------+
+   | `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_                     | :ref:`stream<class_PlayAudioEffect_property_stream>`             |                                                   |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------+---------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -61,7 +61,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. container:: contribute
 
@@ -75,7 +75,7 @@ String **audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. rst-class:: classref-property
 
-AudioStreamPlayer **audio_player**
+`AudioStreamPlayer <https://docs.godotengine.org/en/stable/classes/class_audiostreamplayer.html>`_ **audio_player**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ AudioStreamPlayer **audio_player**
 
 .. rst-class:: classref-property
 
-Variant **stream**
+`Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ **stream**
 
 .. container:: contribute
 

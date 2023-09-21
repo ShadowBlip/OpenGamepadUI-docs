@@ -10,7 +10,7 @@
 SysfsDevice
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Container for sysfs input devices
 
@@ -29,21 +29,21 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------+----------------------------------------------------------+
-   | Array                                       | :ref:`bitmaps<class_SysfsDevice_property_bitmaps>`       |
-   +---------------------------------------------+----------------------------------------------------------+
-   | PackedStringArray                           | :ref:`handlers<class_SysfsDevice_property_handlers>`     |
-   +---------------------------------------------+----------------------------------------------------------+
-   | :ref:`SysfsDevice.ID<class_SysfsDevice.ID>` | :ref:`id<class_SysfsDevice_property_id>`                 |
-   +---------------------------------------------+----------------------------------------------------------+
-   | String                                      | :ref:`name<class_SysfsDevice_property_name>`             |
-   +---------------------------------------------+----------------------------------------------------------+
-   | String                                      | :ref:`phys_path<class_SysfsDevice_property_phys_path>`   |
-   +---------------------------------------------+----------------------------------------------------------+
-   | String                                      | :ref:`sysfs_path<class_SysfsDevice_property_sysfs_path>` |
-   +---------------------------------------------+----------------------------------------------------------+
-   | String                                      | :ref:`unique_id<class_SysfsDevice_property_unique_id>`   |
-   +---------------------------------------------+----------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`bitmaps<class_SysfsDevice_property_bitmaps>`       |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`handlers<class_SysfsDevice_property_handlers>`     |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | :ref:`SysfsDevice.ID<class_SysfsDevice.ID>`                                                        | :ref:`id<class_SysfsDevice_property_id>`                 |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`name<class_SysfsDevice_property_name>`             |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`phys_path<class_SysfsDevice_property_phys_path>`   |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`sysfs_path<class_SysfsDevice_property_sysfs_path>` |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`unique_id<class_SysfsDevice_property_unique_id>`   |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -53,11 +53,11 @@ Methods
 .. table::
    :widths: auto
 
-   +--------+--------------------------------------------------------------------+
-   | String | :ref:`_to_string<class_SysfsDevice_method__to_string>` **(** **)** |
-   +--------+--------------------------------------------------------------------+
-   | Array  | :ref:`get_all<class_SysfsDevice_method_get_all>` **(** **)**       |
-   +--------+--------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_SysfsDevice_method__to_string>` **(** **)** |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`get_all<class_SysfsDevice_method_get_all>` **(** **)**       |
+   +------------------------------------------------------------------------------+--------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -72,7 +72,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Array **bitmaps**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **bitmaps**
 
 Bitmaps E.g. B: KEY=7cdb000000000000 0 0 0 0
 
@@ -84,7 +84,7 @@ Bitmaps E.g. B: KEY=7cdb000000000000 0 0 0 0
 
 .. rst-class:: classref-property
 
-PackedStringArray **handlers**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **handlers**
 
 List of input handlers associated with the device (e.g. ``"event17", "js0"``) E.g. H: Handlers=kbd event13
 
@@ -108,7 +108,7 @@ ID of the device E.g. I: Bus=0003 Vendor=045e Product=028e Version=0120
 
 .. rst-class:: classref-property
 
-String **name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name**
 
 Name of the device in sysfs ATTR{name}
 
@@ -120,7 +120,7 @@ Name of the device in sysfs ATTR{name}
 
 .. rst-class:: classref-property
 
-String **phys_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **phys_path**
 
 Path of the device in sysfs ATTR{phys} cat /proc/bus/input/devices
 
@@ -132,7 +132,7 @@ Path of the device in sysfs ATTR{phys} cat /proc/bus/input/devices
 
 .. rst-class:: classref-property
 
-String **sysfs_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **sysfs_path**
 
 Sysfs path E.g. S: Sysfs=/devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-4/1-4:1.0/input/input117
 
@@ -144,7 +144,7 @@ Sysfs path E.g. S: Sysfs=/devices/pci0000:00/0000:00:08.1/0000:03:00.3/usb1/1-4/
 
 .. rst-class:: classref-property
 
-String **unique_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **unique_id**
 
 Unique identification code for the device (if device has it) E.g. U: Uniq=abc
 
@@ -161,7 +161,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_to_string** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 
@@ -175,7 +175,7 @@ String **_to_string** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **get_all** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_all** **(** **)**
 
 Returns a list of sysfs input devices that are currently detected. This function parses the file at /proc/bus/input/devices
 

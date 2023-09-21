@@ -10,7 +10,7 @@
 SharedThread
 ============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 **Inherited By:** :ref:`ThreadGroup<class_ThreadGroup>`
 
@@ -31,33 +31,33 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | int                                 | :ref:`last_time<class_SharedThread_property_last_time>`               |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_SharedThread_property_logger>`                     |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Mutex                               | :ref:`mutex<class_SharedThread_property_mutex>`                       |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | String                              | :ref:`name<class_SharedThread_property_name>`                         | ``"SharedThread"`` |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | int                                 | :ref:`niceness<class_SharedThread_property_niceness>`                 | ``0``              |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Array                               | :ref:`nodes<class_SharedThread_property_nodes>`                       |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Array                               | :ref:`one_shots<class_SharedThread_property_one_shots>`               |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Array                               | :ref:`process_funcs<class_SharedThread_property_process_funcs>`       |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | bool                                | :ref:`running<class_SharedThread_property_running>`                   | ``false``          |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Array                               | :ref:`scheduled_funcs<class_SharedThread_property_scheduled_funcs>`   |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | int                                 | :ref:`target_tick_rate<class_SharedThread_property_target_tick_rate>` | ``60``             |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | Thread                              | :ref:`thread<class_SharedThread_property_thread>`                     |                    |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
-   | int                                 | :ref:`tid<class_SharedThread_property_tid>`                           | ``-1``             |
-   +-------------------------------------+-----------------------------------------------------------------------+--------------------+
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`last_time<class_SharedThread_property_last_time>`               |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_SharedThread_property_logger>`                     |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_   | :ref:`mutex<class_SharedThread_property_mutex>`                       |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_SharedThread_property_name>`                         | ``"SharedThread"`` |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`niceness<class_SharedThread_property_niceness>`                 | ``0``              |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`nodes<class_SharedThread_property_nodes>`                       |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`one_shots<class_SharedThread_property_one_shots>`               |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`process_funcs<class_SharedThread_property_process_funcs>`       |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`running<class_SharedThread_property_running>`                   | ``false``          |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`scheduled_funcs<class_SharedThread_property_scheduled_funcs>`   |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`target_tick_rate<class_SharedThread_property_target_tick_rate>` | ``60``             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ | :ref:`thread<class_SharedThread_property_thread>`                     |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`tid<class_SharedThread_property_tid>`                           | ``-1``             |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -67,41 +67,41 @@ Methods
 .. table::
    :widths: auto
 
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_async_call<class_SharedThread_method__async_call>` **(** Callable method **)**                                                                              |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_init<class_SharedThread_method__init>` **(** **)**                                                                                                          |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_notification<class_SharedThread_method__notification>` **(** int what **)**                                                                                 |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_process<class_SharedThread_method__process>` **(** float delta **)**                                                                                        |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_run<class_SharedThread_method__run>` **(** **)**                                                                                                            |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`add_node<class_SharedThread_method_add_node>` **(** :ref:`NodeThread<class_NodeThread>` node **)**                                                           |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`add_process<class_SharedThread_method_add_process>` **(** Callable method **)**                                                                              |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`cancel_scheduled_exec<class_SharedThread_method_cancel_scheduled_exec>` **(** :ref:`SharedThread.ScheduledTask<class_SharedThread.ScheduledTask>` task **)** |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`exec<class_SharedThread_method_exec>` **(** Callable method **)**                                                                                            |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array | :ref:`find_scheduled_exec<class_SharedThread_method_find_scheduled_exec>` **(** Callable method **)**                                                              |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int   | :ref:`get_target_frame_time<class_SharedThread_method_get_target_frame_time>` **(** **)**                                                                          |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`remove_node<class_SharedThread_method_remove_node>` **(** :ref:`NodeThread<class_NodeThread>` node, bool stop_on_empty **)**                                 |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`remove_process<class_SharedThread_method_remove_process>` **(** Callable method **)**                                                                        |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`scheduled_exec<class_SharedThread_method_scheduled_exec>` **(** Callable method, int wait_time_ms **)**                                                      |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | int   | :ref:`set_priority<class_SharedThread_method_set_priority>` **(** int value **)**                                                                                  |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`start<class_SharedThread_method_start>` **(** **)**                                                                                                          |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`stop<class_SharedThread_method_stop>` **(** **)**                                                                                                            |
-   +-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_async_call<class_SharedThread_method__async_call>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                            |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_init<class_SharedThread_method__init>` **(** **)**                                                                                                                                                                                                |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_notification<class_SharedThread_method__notification>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**                                                                                                    |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_process<class_SharedThread_method__process>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**                                                                                                         |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_run<class_SharedThread_method__run>` **(** **)**                                                                                                                                                                                                  |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`add_node<class_SharedThread_method_add_node>` **(** :ref:`NodeThread<class_NodeThread>` node **)**                                                                                                                                                 |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`add_process<class_SharedThread_method_add_process>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                            |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`cancel_scheduled_exec<class_SharedThread_method_cancel_scheduled_exec>` **(** :ref:`SharedThread.ScheduledTask<class_SharedThread.ScheduledTask>` task **)**                                                                                       |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`exec<class_SharedThread_method_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                                          |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`find_scheduled_exec<class_SharedThread_method_find_scheduled_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                            |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`get_target_frame_time<class_SharedThread_method_get_target_frame_time>` **(** **)**                                                                                                                                                                |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`remove_node<class_SharedThread_method_remove_node>` **(** :ref:`NodeThread<class_NodeThread>` node, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ stop_on_empty **)**                                                   |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`remove_process<class_SharedThread_method_remove_process>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                      |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`scheduled_exec<class_SharedThread_method_scheduled_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ wait_time_ms **)** |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`set_priority<class_SharedThread_method_set_priority>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value **)**                                                                                                     |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`start<class_SharedThread_method_start>` **(** **)**                                                                                                                                                                                                |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`stop<class_SharedThread_method_stop>` **(** **)**                                                                                                                                                                                                  |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -116,7 +116,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**exec_completed** **(** Callable method, Variant ret **)**
+**exec_completed** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ ret **)**
 
 .. container:: contribute
 
@@ -152,7 +152,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-int **last_time**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **last_time**
 
 .. container:: contribute
 
@@ -180,7 +180,7 @@ int **last_time**
 
 .. rst-class:: classref-property
 
-Mutex **mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
 
 .. container:: contribute
 
@@ -194,7 +194,7 @@ Mutex **mutex**
 
 .. rst-class:: classref-property
 
-String **name** = ``"SharedThread"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name** = ``"SharedThread"``
 
 Name of the thread group
 
@@ -206,7 +206,7 @@ Name of the thread group
 
 .. rst-class:: classref-property
 
-int **niceness** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **niceness** = ``0``
 
 Priority (niceness) of the thread
 
@@ -218,7 +218,7 @@ Priority (niceness) of the thread
 
 .. rst-class:: classref-property
 
-Array **nodes**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **nodes**
 
 .. container:: contribute
 
@@ -232,7 +232,7 @@ Array **nodes**
 
 .. rst-class:: classref-property
 
-Array **one_shots**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **one_shots**
 
 .. container:: contribute
 
@@ -246,7 +246,7 @@ Array **one_shots**
 
 .. rst-class:: classref-property
 
-Array **process_funcs**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **process_funcs**
 
 .. container:: contribute
 
@@ -260,7 +260,7 @@ Array **process_funcs**
 
 .. rst-class:: classref-property
 
-bool **running** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **running** = ``false``
 
 .. container:: contribute
 
@@ -274,7 +274,7 @@ bool **running** = ``false``
 
 .. rst-class:: classref-property
 
-Array **scheduled_funcs**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **scheduled_funcs**
 
 .. container:: contribute
 
@@ -288,7 +288,7 @@ Array **scheduled_funcs**
 
 .. rst-class:: classref-property
 
-int **target_tick_rate** = ``60``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **target_tick_rate** = ``60``
 
 Target rate to run at in ticks per second
 
@@ -300,7 +300,7 @@ Target rate to run at in ticks per second
 
 .. rst-class:: classref-property
 
-Thread **thread**
+`Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ **thread**
 
 .. container:: contribute
 
@@ -314,7 +314,7 @@ Thread **thread**
 
 .. rst-class:: classref-property
 
-int **tid** = ``-1``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **tid** = ``-1``
 
 .. container:: contribute
 
@@ -333,7 +333,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_async_call** **(** Callable method **)**
+void **_async_call** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 .. container:: contribute
 
@@ -361,7 +361,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_notification** **(** int what **)**
+void **_notification** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**
 
 .. container:: contribute
 
@@ -375,7 +375,7 @@ void **_notification** **(** int what **)**
 
 .. rst-class:: classref-method
 
-void **_process** **(** float delta **)**
+void **_process** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ delta **)**
 
 .. container:: contribute
 
@@ -415,7 +415,7 @@ Add the given :ref:`NodeThread<class_NodeThread>` to the list of nodes to proces
 
 .. rst-class:: classref-method
 
-void **add_process** **(** Callable method **)**
+void **add_process** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Adds the given method to the thread process loop. This method will be called every thread tick.
 
@@ -439,7 +439,7 @@ Cancels a given Sheduled Task before it is executed.
 
 .. rst-class:: classref-method
 
-void **exec** **(** Callable method **)**
+void **exec** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Calls the given method from the thread. Internally, this queues the given method and awaits it to be called during the process loop. You should await this method if your method returns something. E.g. ``var result = await thread_group.exec(myfund.bind("myarg"))``
 
@@ -451,7 +451,7 @@ Calls the given method from the thread. Internally, this queues the given method
 
 .. rst-class:: classref-method
 
-Array **find_scheduled_exec** **(** Callable method **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **find_scheduled_exec** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Finds all SheduledTask's who's method matches the given method.
 
@@ -463,7 +463,7 @@ Finds all SheduledTask's who's method matches the given method.
 
 .. rst-class:: classref-method
 
-int **get_target_frame_time** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_target_frame_time** **(** **)**
 
 Returns the target frame time in microseconds of the SharedThread
 
@@ -475,7 +475,7 @@ Returns the target frame time in microseconds of the SharedThread
 
 .. rst-class:: classref-method
 
-void **remove_node** **(** :ref:`NodeThread<class_NodeThread>` node, bool stop_on_empty **)**
+void **remove_node** **(** :ref:`NodeThread<class_NodeThread>` node, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ stop_on_empty **)**
 
 Remove the given :ref:`NodeThread<class_NodeThread>` from the list of nodes to process. This should happen automatically when the :ref:`NodeThread<class_NodeThread>` exits the scene tree.
 
@@ -487,7 +487,7 @@ Remove the given :ref:`NodeThread<class_NodeThread>` from the list of nodes to p
 
 .. rst-class:: classref-method
 
-void **remove_process** **(** Callable method **)**
+void **remove_process** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Removes the given method from the thread process loop.
 
@@ -499,7 +499,7 @@ Removes the given method from the thread process loop.
 
 .. rst-class:: classref-method
 
-void **scheduled_exec** **(** Callable method, int wait_time_ms **)**
+void **scheduled_exec** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ wait_time_ms **)**
 
 Calls the given method from the thread after 'wait_time_ms' has passed.
 
@@ -511,7 +511,7 @@ Calls the given method from the thread after 'wait_time_ms' has passed.
 
 .. rst-class:: classref-method
 
-int **set_priority** **(** int value **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_priority** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ value **)**
 
 Set the given thread niceness to the given value. Note: in order to set negative nice value, this must be run: setcap 'cap_sys_nice=eip' <opengamepadui binary>
 

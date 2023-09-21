@@ -10,7 +10,7 @@
 PowerManager
 ============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -38,15 +38,15 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`PowerManager.Device<class_PowerManager.Device>` | :ref:`get_device<class_PowerManager_method_get_device>` **(** String device_name **)**                                                       |
-   +-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                 | :ref:`get_devices<class_PowerManager_method_get_devices>` **(** **)**                                                                        |
-   +-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                 | :ref:`get_devices_by_type<class_PowerManager_method_get_devices_by_type>` **(** :ref:`DEVICE_TYPE<enum_PowerManager_DEVICE_TYPE>` type **)** |
-   +-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                  | :ref:`supports_power<class_PowerManager_method_supports_power>` **(** **)**                                                                  |
-   +-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PowerManager.Device<class_PowerManager.Device>`                      | :ref:`get_device<class_PowerManager_method_get_device>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device_name **)** |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_devices<class_PowerManager_method_get_devices>` **(** **)**                                                                                        |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_devices_by_type<class_PowerManager_method_get_devices_by_type>` **(** :ref:`DEVICE_TYPE<enum_PowerManager_DEVICE_TYPE>` type **)**                 |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`supports_power<class_PowerManager_method_supports_power>` **(** **)**                                                                                  |
+   +----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -494,7 +494,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`PowerManager.Device<class_PowerManager.Device>` **get_device** **(** String device_name **)**
+:ref:`PowerManager.Device<class_PowerManager.Device>` **get_device** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device_name **)**
 
 .. container:: contribute
 
@@ -508,7 +508,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Array **get_devices** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_devices** **(** **)**
 
 .. container:: contribute
 
@@ -522,7 +522,7 @@ Array **get_devices** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **get_devices_by_type** **(** :ref:`DEVICE_TYPE<enum_PowerManager_DEVICE_TYPE>` type **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_devices_by_type** **(** :ref:`DEVICE_TYPE<enum_PowerManager_DEVICE_TYPE>` type **)**
 
 .. container:: contribute
 
@@ -536,7 +536,7 @@ Array **get_devices_by_type** **(** :ref:`DEVICE_TYPE<enum_PowerManager_DEVICE_T
 
 .. rst-class:: classref-method
 
-bool **supports_power** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_power** **(** **)**
 
 Returns true if bluetooth can be used on this system
 

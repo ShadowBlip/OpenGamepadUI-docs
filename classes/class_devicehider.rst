@@ -10,7 +10,7 @@
 DeviceHider
 ===========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Hide yo wife, hide yo devices
 
@@ -34,19 +34,19 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`_manage_event_path<class_DeviceHider_method__manage_event_path>` **(** String action, String event_name **)** |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`get_event_from_phys<class_DeviceHider_method_get_event_from_phys>` **(** String phys_path **)**               |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`get_hidden_devices<class_DeviceHider_method_get_hidden_devices>` **(** **)**                                  |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`hide_event_device<class_DeviceHider_method_hide_event_device>` **(** String phys_path **)**                   |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`restore_all_hidden<class_DeviceHider_method_restore_all_hidden>` **(** **)**                                  |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`restore_event_device<class_DeviceHider_method_restore_event_device>` **(** String phys_path **)**             |
-   +-------------------+---------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_manage_event_path<class_DeviceHider_method__manage_event_path>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ event_name **)** |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_event_from_phys<class_DeviceHider_method_get_event_from_phys>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**                                                                                     |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_hidden_devices<class_DeviceHider_method_get_hidden_devices>` **(** **)**                                                                                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`hide_event_device<class_DeviceHider_method_hide_event_device>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**                                                                                         |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`restore_all_hidden<class_DeviceHider_method_restore_all_hidden>` **(** **)**                                                                                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`restore_event_device<class_DeviceHider_method_restore_event_device>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**                                                                                   |
+   +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -105,7 +105,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_manage_event_path** **(** String action, String event_name **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_manage_event_path** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ event_name **)**
 
 .. container:: contribute
 
@@ -119,7 +119,7 @@ String **_manage_event_path** **(** String action, String event_name **)**
 
 .. rst-class:: classref-method
 
-String **get_event_from_phys** **(** String phys_path **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_event_from_phys** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**
 
 Return the event filename from the given path
 
@@ -131,7 +131,7 @@ Return the event filename from the given path
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_hidden_devices** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_hidden_devices** **(** **)**
 
 Return the file names of any hidden devices (e.g. "event1")
 
@@ -143,7 +143,7 @@ Return the file names of any hidden devices (e.g. "event1")
 
 .. rst-class:: classref-method
 
-String **hide_event_device** **(** String phys_path **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **hide_event_device** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**
 
 Try to hide the given event device
 
@@ -167,7 +167,7 @@ Unhide all hidden devices
 
 .. rst-class:: classref-method
 
-String **restore_event_device** **(** String phys_path **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **restore_event_device** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ phys_path **)**
 
 Try to unhide the given event device
 

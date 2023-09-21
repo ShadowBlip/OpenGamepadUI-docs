@@ -10,7 +10,7 @@
 BoxArtManager
 =============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Fetch and manage artwork from registered :ref:`BoxArtProvider<class_BoxArtProvider>` nodes
 
@@ -40,13 +40,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+------------------------------------------------------------------------------------+
-   | Dictionary                          | :ref:`_providers<class_BoxArtManager_property__providers>`                         |
-   +-------------------------------------+------------------------------------------------------------------------------------+
-   | Array                               | :ref:`_providers_by_priority<class_BoxArtManager_property__providers_by_priority>` |
-   +-------------------------------------+------------------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_BoxArtManager_property_logger>`                                 |
-   +-------------------------------------+------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_providers<class_BoxArtManager_property__providers>`                         |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`_providers_by_priority<class_BoxArtManager_property__providers_by_priority>` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_BoxArtManager_property_logger>`                                 |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -56,29 +56,29 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                   | :ref:`_get_boxart_sync<class_BoxArtManager_method__get_boxart_sync>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                   |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                        | :ref:`_init<class_BoxArtManager_method__init>` **(** **)**                                                                                                                                    |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                        | :ref:`_is_valid_provider<class_BoxArtManager_method__is_valid_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                     |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                   | :ref:`get_boxart<class_BoxArtManager_method_get_boxart>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                               |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                   | :ref:`get_boxart_or_placeholder<class_BoxArtManager_method_get_boxart_or_placeholder>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)** |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                   | :ref:`get_placeholder<class_BoxArtManager_method_get_placeholder>` **(** :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                                                                 |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`BoxArtProvider<class_BoxArtProvider>` | :ref:`get_provider_by_id<class_BoxArtManager_method_get_provider_by_id>` **(** String id **)**                                                                                                |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                       | :ref:`get_provider_ids<class_BoxArtManager_method_get_provider_ids>` **(** **)**                                                                                                              |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                       | :ref:`get_providers<class_BoxArtManager_method_get_providers>` **(** **)**                                                                                                                    |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                        | :ref:`register_provider<class_BoxArtManager_method_register_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                       |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                        | :ref:`unregister_provider<class_BoxArtManager_method_unregister_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                   |
-   +---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`_get_boxart_sync<class_BoxArtManager_method__get_boxart_sync>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                   |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`_init<class_BoxArtManager_method__init>` **(** **)**                                                                                                                                    |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`_is_valid_provider<class_BoxArtManager_method__is_valid_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                     |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_boxart<class_BoxArtManager_method_get_boxart>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                               |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_boxart_or_placeholder<class_BoxArtManager_method_get_boxart_or_placeholder>` **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)** |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_placeholder<class_BoxArtManager_method_get_placeholder>` **(** :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**                                                                 |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`BoxArtProvider<class_BoxArtProvider>`                                        | :ref:`get_provider_by_id<class_BoxArtManager_method_get_provider_by_id>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**                          |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`get_provider_ids<class_BoxArtManager_method_get_provider_ids>` **(** **)**                                                                                                              |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`get_providers<class_BoxArtManager_method_get_providers>` **(** **)**                                                                                                                    |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`register_provider<class_BoxArtManager_method_register_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                       |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                               | :ref:`unregister_provider<class_BoxArtManager_method_unregister_provider>` **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**                                                   |
+   +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -105,7 +105,7 @@ Emitted when a boxart provider is added to the scene tree and registers
 
 .. rst-class:: classref-signal
 
-**provider_unregistered** **(** String provider_id **)**
+**provider_unregistered** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ provider_id **)**
 
 Emitted when a boxart provider is removed from the scene tree
 
@@ -163,7 +163,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **_providers**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_providers**
 
 .. container:: contribute
 
@@ -177,7 +177,7 @@ Dictionary **_providers**
 
 .. rst-class:: classref-property
 
-Array **_providers_by_priority**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_providers_by_priority**
 
 .. container:: contribute
 
@@ -210,7 +210,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Texture2D **_get_boxart_sync** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **_get_boxart_sync** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
 
 .. container:: contribute
 
@@ -238,7 +238,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **_is_valid_provider** **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_valid_provider** **(** :ref:`BoxArtProvider<class_BoxArtProvider>` provider **)**
 
 .. container:: contribute
 
@@ -252,7 +252,7 @@ bool **_is_valid_provider** **(** :ref:`BoxArtProvider<class_BoxArtProvider>` pr
 
 .. rst-class:: classref-method
 
-Texture2D **get_boxart** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_boxart** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
 
 Returns the boxart of the given kind for the given library item.
 
@@ -264,7 +264,7 @@ Returns the boxart of the given kind for the given library item.
 
 .. rst-class:: classref-method
 
-Texture2D **get_boxart_or_placeholder** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_boxart_or_placeholder** **(** :ref:`LibraryItem<class_LibraryItem>` item, :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
 
 Returns the boxart of the given kind for the given library item. If one is not found, a placeholder texture will be returned
 
@@ -276,7 +276,7 @@ Returns the boxart of the given kind for the given library item. If one is not f
 
 .. rst-class:: classref-method
 
-Texture2D **get_placeholder** **(** :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_placeholder** **(** :ref:`LAYOUT<enum_BoxArtProvider_LAYOUT>` kind **)**
 
 Returns a boxart placeholder for the given layout
 
@@ -288,7 +288,7 @@ Returns a boxart placeholder for the given layout
 
 .. rst-class:: classref-method
 
-:ref:`BoxArtProvider<class_BoxArtProvider>` **get_provider_by_id** **(** String id **)**
+:ref:`BoxArtProvider<class_BoxArtProvider>` **get_provider_by_id** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 Returns the given boxart implementation by id
 
@@ -300,7 +300,7 @@ Returns the given boxart implementation by id
 
 .. rst-class:: classref-method
 
-Array **get_provider_ids** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_provider_ids** **(** **)**
 
 Returns a list of all registered boxart provider ids
 
@@ -312,7 +312,7 @@ Returns a list of all registered boxart provider ids
 
 .. rst-class:: classref-method
 
-Array **get_providers** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_providers** **(** **)**
 
 Returns a list of all registered boxart providers
 

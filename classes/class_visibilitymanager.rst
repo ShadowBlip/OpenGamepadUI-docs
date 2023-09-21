@@ -10,7 +10,7 @@
 VisibilityManager
 =================
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Update visibility based on :ref:`State<class_State>` changes to a :ref:`StateMachine<class_StateMachine>`
 
@@ -29,19 +29,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | CanvasItem                              | :ref:`_parent<class_VisibilityManager_property__parent>`               |                                                                             |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | Array                                   | :ref:`_transitions<class_VisibilityManager_property__transitions>`     |                                                                             |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`     | :ref:`logger<class_VisibilityManager_property_logger>`                 |                                                                             |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`               | :ref:`state<class_VisibilityManager_property_state>`                   |                                                                             |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`StateMachine<class_StateMachine>` | :ref:`state_machine<class_VisibilityManager_property_state_machine>`   | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | Array                                   | :ref:`visible_during<class_VisibilityManager_property_visible_during>` |                                                                             |
-   +-----------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `CanvasItem <https://docs.godotengine.org/en/stable/classes/class_canvasitem.html>`_ | :ref:`_parent<class_VisibilityManager_property__parent>`               |                                                                             |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`_transitions<class_VisibilityManager_property__transitions>`     |                                                                             |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_VisibilityManager_property_logger>`                 |                                                                             |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`                                                            | :ref:`state<class_VisibilityManager_property_state>`                   |                                                                             |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`StateMachine<class_StateMachine>`                                              | :ref:`state_machine<class_VisibilityManager_property_state_machine>`   | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`visible_during<class_VisibilityManager_property_visible_during>` |                                                                             |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -51,19 +51,19 @@ Methods
 .. table::
    :widths: auto
 
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_state_changed<class_VisibilityManager_method__on_state_changed>` **(** :ref:`State<class_State>` _from, :ref:`State<class_State>` to **)** |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_VisibilityManager_method__ready>` **(** **)**                                                                                     |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_transition<class_VisibilityManager_method__transition>` **(** bool visibility **)**                                                           |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`enter<class_VisibilityManager_method_enter>` **(** **)**                                                                                       |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`exit<class_VisibilityManager_method_exit>` **(** **)**                                                                                         |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_transitions<class_VisibilityManager_method_has_transitions>` **(** **)**                                                                   |
-   +------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_state_changed<class_VisibilityManager_method__on_state_changed>` **(** :ref:`State<class_State>` _from, :ref:`State<class_State>` to **)**           |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_VisibilityManager_method__ready>` **(** **)**                                                                                               |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_transition<class_VisibilityManager_method__transition>` **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ visibility **)** |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`enter<class_VisibilityManager_method_enter>` **(** **)**                                                                                                 |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`exit<class_VisibilityManager_method_exit>` **(** **)**                                                                                                   |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_transitions<class_VisibilityManager_method_has_transitions>` **(** **)**                                                                             |
+   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -139,7 +139,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-CanvasItem **_parent**
+`CanvasItem <https://docs.godotengine.org/en/stable/classes/class_canvasitem.html>`_ **_parent**
 
 .. container:: contribute
 
@@ -153,7 +153,7 @@ CanvasItem **_parent**
 
 .. rst-class:: classref-property
 
-Array **_transitions**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_transitions**
 
 .. container:: contribute
 
@@ -205,7 +205,7 @@ The state machine instance to use for managing state changes
 
 .. rst-class:: classref-property
 
-Array **visible_during**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **visible_during**
 
 Toggles visibility when any of these states are entered, but the main state exists in the state stack
 
@@ -250,7 +250,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_transition** **(** bool visibility **)**
+void **_transition** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ visibility **)**
 
 .. container:: contribute
 
@@ -292,7 +292,7 @@ void **exit** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **has_transitions** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_transitions** **(** **)**
 
 .. container:: contribute
 

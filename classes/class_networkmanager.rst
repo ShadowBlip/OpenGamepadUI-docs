@@ -10,7 +10,7 @@
 NetworkManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 Manage and interact with the system network settings
 
@@ -29,23 +29,23 @@ Methods
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                     | :ref:`_parse_nmcli<class_NetworkManager_method__parse_nmcli>` **(** String output **)**                                |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                     | :ref:`_run_nmcli<class_NetworkManager_method__run_nmcli>` **(** PackedStringArray args **)**                           |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | int                                                       | :ref:`connect_access_point<class_NetworkManager_method_connect_access_point>` **(** String ssid, String password **)** |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                     | :ref:`get_access_points<class_NetworkManager_method_get_access_points>` **(** **)**                                    |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`NetworkManager.WifiAP<class_NetworkManager.WifiAP>` | :ref:`get_current_access_point<class_NetworkManager_method_get_current_access_point>` **(** **)**                      |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | Array                                                     | :ref:`get_devices<class_NetworkManager_method_get_devices>` **(** **)**                                                |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | Texture2D                                                 | :ref:`get_strength_texture<class_NetworkManager_method_get_strength_texture>` **(** int strength **)**                 |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-   | bool                                                      | :ref:`supports_network<class_NetworkManager_method_supports_network>` **(** **)**                                      |
-   +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`_parse_nmcli<class_NetworkManager_method__parse_nmcli>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ output **)**                                                                                                      |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`_run_nmcli<class_NetworkManager_method__run_nmcli>` **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ args **)**                                                                                      |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`connect_access_point<class_NetworkManager_method_connect_access_point>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ ssid, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ password **)** |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`get_access_points<class_NetworkManager_method_get_access_points>` **(** **)**                                                                                                                                                                                |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`NetworkManager.WifiAP<class_NetworkManager.WifiAP>`                          | :ref:`get_current_access_point<class_NetworkManager_method_get_current_access_point>` **(** **)**                                                                                                                                                                  |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`get_devices<class_NetworkManager_method_get_devices>` **(** **)**                                                                                                                                                                                            |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`get_strength_texture<class_NetworkManager_method_get_strength_texture>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ strength **)**                                                                                          |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`supports_network<class_NetworkManager_method_supports_network>` **(** **)**                                                                                                                                                                                  |
+   +------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -109,7 +109,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-Array **_parse_nmcli** **(** String output **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_parse_nmcli** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ output **)**
 
 .. container:: contribute
 
@@ -123,7 +123,7 @@ Array **_parse_nmcli** **(** String output **)**
 
 .. rst-class:: classref-method
 
-Array **_run_nmcli** **(** PackedStringArray args **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **_run_nmcli** **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ args **)**
 
 .. container:: contribute
 
@@ -137,7 +137,7 @@ Array **_run_nmcli** **(** PackedStringArray args **)**
 
 .. rst-class:: classref-method
 
-int **connect_access_point** **(** String ssid, String password **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **connect_access_point** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ ssid, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ password **)**
 
 Connect to the given wifi access point
 
@@ -149,7 +149,7 @@ Connect to the given wifi access point
 
 .. rst-class:: classref-method
 
-Array **get_access_points** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_access_points** **(** **)**
 
 .. container:: contribute
 
@@ -175,7 +175,7 @@ Returns the currently connected access point
 
 .. rst-class:: classref-method
 
-Array **get_devices** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_devices** **(** **)**
 
 .. container:: contribute
 
@@ -189,7 +189,7 @@ Array **get_devices** **(** **)**
 
 .. rst-class:: classref-method
 
-Texture2D **get_strength_texture** **(** int strength **)**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **get_strength_texture** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ strength **)**
 
 Returns the texture reflecting the given wifi strength
 
@@ -201,7 +201,7 @@ Returns the texture reflecting the given wifi strength
 
 .. rst-class:: classref-method
 
-bool **supports_network** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_network** **(** **)**
 
 Returns true if the system has network controls we support
 

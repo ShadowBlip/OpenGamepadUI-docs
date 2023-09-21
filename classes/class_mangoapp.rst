@@ -10,7 +10,7 @@
 MangoApp
 ========
 
-**Inherits:** 
+**Inherits:** `Object <https://docs.godotengine.org/en/stable/classes/class_object.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------+-------------------------------------------------------------------------------------------+
-   | bool              | :ref:`exists<class_MangoApp_method_exists>` **(** **)**                                   |
-   +-------------------+-------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`get_config<class_MangoApp_method_get_config>` **(** **)**                           |
-   +-------------------+-------------------------------------------------------------------------------------------+
-   | String            | :ref:`get_config_path<class_MangoApp_method_get_config_path>` **(** **)**                 |
-   +-------------------+-------------------------------------------------------------------------------------------+
-   | void              | :ref:`set_config<class_MangoApp_method_set_config>` **(** PackedStringArray options **)** |
-   +-------------------+-------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`exists<class_MangoApp_method_exists>` **(** **)**                                                                                                                    |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_config<class_MangoApp_method_get_config>` **(** **)**                                                                                                            |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_config_path<class_MangoApp_method_get_config_path>` **(** **)**                                                                                                  |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_config<class_MangoApp_method_set_config>` **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ options **)** |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -120,7 +120,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **exists** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **exists** **(** **)**
 
 .. container:: contribute
 
@@ -134,7 +134,7 @@ bool **exists** **(** **)**
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_config** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_config** **(** **)**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ PackedStringArray **get_config** **(** **)**
 
 .. rst-class:: classref-method
 
-String **get_config_path** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_config_path** **(** **)**
 
 .. container:: contribute
 
@@ -162,7 +162,7 @@ String **get_config_path** **(** **)**
 
 .. rst-class:: classref-method
 
-void **set_config** **(** PackedStringArray options **)**
+void **set_config** **(** `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ options **)**
 
 .. container:: contribute
 

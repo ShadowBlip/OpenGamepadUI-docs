@@ -10,7 +10,7 @@
 SysfsDevice.Bitmap
 ==================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Container representing a device bitmap E.g. B: KEY=7cdb000000000000 0 0 0 0
 
@@ -22,11 +22,11 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+---------------------------------------------------------+
-   | String            | :ref:`type<class_SysfsDevice.Bitmap_property_type>`     |
-   +-------------------+---------------------------------------------------------+
-   | PackedStringArray | :ref:`values<class_SysfsDevice.Bitmap_property_values>` |
-   +-------------------+---------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`type<class_SysfsDevice.Bitmap_property_type>`     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`values<class_SysfsDevice.Bitmap_property_values>` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -41,7 +41,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **type**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **type**
 
 .. container:: contribute
 
@@ -55,7 +55,7 @@ String **type**
 
 .. rst-class:: classref-property
 
-PackedStringArray **values**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **values**
 
 .. container:: contribute
 

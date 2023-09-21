@@ -10,7 +10,7 @@
 LibraryManager
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Unified interface to manage games from multiple sources
 
@@ -43,13 +43,13 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-----------------------------------------------------------------------+
-   | Dictionary                          | :ref:`_available_apps<class_LibraryManager_property__available_apps>` |
-   +-------------------------------------+-----------------------------------------------------------------------+
-   | Dictionary                          | :ref:`_libraries<class_LibraryManager_property__libraries>`           |
-   +-------------------------------------+-----------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_LibraryManager_property_logger>`                   |
-   +-------------------------------------+-----------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_available_apps<class_LibraryManager_property__available_apps>` |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_libraries<class_LibraryManager_property__libraries>`           |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_LibraryManager_property_logger>`                   |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -59,41 +59,41 @@ Methods
 .. table::
    :widths: auto
 
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                  | :ref:`_is_valid_library<class_LibraryManager_method__is_valid_library>` **(** :ref:`Library<class_Library>` library **)**                                                 |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`add_library_launch_item<class_LibraryManager_method_add_library_launch_item>` **(** String library_id, :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)** |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                 | :ref:`filter_by_library<class_LibraryManager_method_filter_by_library>` **(** Array apps, String library_id **)**                                                         |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                 | :ref:`filter_installed<class_LibraryManager_method_filter_installed>` **(** Array apps **)**                                                                              |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`LibraryItem<class_LibraryItem>` | :ref:`get_app_by_name<class_LibraryManager_method_get_app_by_name>` **(** String name **)**                                                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Dictionary                            | :ref:`get_available<class_LibraryManager_method_get_available>` **(** **)**                                                                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                 | :ref:`get_libraries<class_LibraryManager_method_get_libraries>` **(** **)**                                                                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Library<class_Library>`         | :ref:`get_library_by_id<class_LibraryManager_method_get_library_by_id>` **(** String id **)**                                                                             |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                 | :ref:`get_library_items<class_LibraryManager_method_get_library_items>` **(** Array modifiers **)**                                                                       |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                  | :ref:`has_app<class_LibraryManager_method_has_app>` **(** String name **)**                                                                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool                                  | :ref:`has_library<class_LibraryManager_method_has_library>` **(** String id **)**                                                                                         |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`load_library<class_LibraryManager_method_load_library>` **(** String library_id **)**                                                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`register_library<class_LibraryManager_method_register_library>` **(** :ref:`Library<class_Library>` library **)**                                                   |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`reload_library<class_LibraryManager_method_reload_library>` **(** **)**                                                                                             |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`remove_library_launch_item<class_LibraryManager_method_remove_library_launch_item>` **(** String library_id, String name **)**                                      |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Array                                 | :ref:`sort_by_name<class_LibraryManager_method_sort_by_name>` **(** Array apps **)**                                                                                      |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                  | :ref:`unregister_library<class_LibraryManager_method_unregister_library>` **(** :ref:`Library<class_Library>` library **)**                                               |
-   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`_is_valid_library<class_LibraryManager_method__is_valid_library>` **(** :ref:`Library<class_Library>` library **)**                                                                                                                                                        |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`add_library_launch_item<class_LibraryManager_method_add_library_launch_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id, :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**                                  |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`filter_by_library<class_LibraryManager_method_filter_by_library>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**                     |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`filter_installed<class_LibraryManager_method_filter_installed>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`LibraryItem<class_LibraryItem>`                                                | :ref:`get_app_by_name<class_LibraryManager_method_get_app_by_name>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`get_available<class_LibraryManager_method_get_available>` **(** **)**                                                                                                                                                                                                      |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`get_libraries<class_LibraryManager_method_get_libraries>` **(** **)**                                                                                                                                                                                                      |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Library<class_Library>`                                                        | :ref:`get_library_by_id<class_LibraryManager_method_get_library_by_id>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**                                                                                                              |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`get_library_items<class_LibraryManager_method_get_library_items>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ modifiers **)**                                                                                                         |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`has_app<class_LibraryManager_method_has_app>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**                                                                                                                                |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`has_library<class_LibraryManager_method_has_library>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**                                                                                                                          |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`load_library<class_LibraryManager_method_load_library>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**                                                                                                                |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`register_library<class_LibraryManager_method_register_library>` **(** :ref:`Library<class_Library>` library **)**                                                                                                                                                          |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`reload_library<class_LibraryManager_method_reload_library>` **(** **)**                                                                                                                                                                                                    |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`remove_library_launch_item<class_LibraryManager_method_remove_library_launch_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)** |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`sort_by_name<class_LibraryManager_method_sort_by_name>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps **)**                                                                                                                        |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`unregister_library<class_LibraryManager_method_unregister_library>` **(** :ref:`Library<class_Library>` library **)**                                                                                                                                                      |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -156,7 +156,7 @@ Emitted when a :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` is removed from
 
 .. rst-class:: classref-signal
 
-**library_loaded** **(** String library_id **)**
+**library_loaded** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**
 
 Emitted when a :ref:`Library<class_Library>` has finished loading
 
@@ -192,7 +192,7 @@ Emitted when 'reload_library()' is called
 
 .. rst-class:: classref-signal
 
-**library_unregistered** **(** String library_id **)**
+**library_unregistered** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**
 
 Emitted when a :ref:`Library<class_Library>` unregisters with the **LibraryManager**
 
@@ -226,7 +226,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **_available_apps**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_available_apps**
 
 .. container:: contribute
 
@@ -240,7 +240,7 @@ Dictionary **_available_apps**
 
 .. rst-class:: classref-property
 
-Dictionary **_libraries**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_libraries**
 
 .. container:: contribute
 
@@ -273,7 +273,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-bool **_is_valid_library** **(** :ref:`Library<class_Library>` library **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_is_valid_library** **(** :ref:`Library<class_Library>` library **)**
 
 .. container:: contribute
 
@@ -287,7 +287,7 @@ bool **_is_valid_library** **(** :ref:`Library<class_Library>` library **)**
 
 .. rst-class:: classref-method
 
-void **add_library_launch_item** **(** String library_id, :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
+void **add_library_launch_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id, :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
 
 Add the given library launch item to the list of available apps.
 
@@ -299,7 +299,7 @@ Add the given library launch item to the list of available apps.
 
 .. rst-class:: classref-method
 
-Array **filter_by_library** **(** Array apps, String library_id **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **filter_by_library** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**
 
 Filter the given array of apps by library provider
 
@@ -311,7 +311,7 @@ Filter the given array of apps by library provider
 
 .. rst-class:: classref-method
 
-Array **filter_installed** **(** Array apps **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **filter_installed** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps **)**
 
 Filters the given array of apps by installed status
 
@@ -323,7 +323,7 @@ Filters the given array of apps by installed status
 
 .. rst-class:: classref-method
 
-:ref:`LibraryItem<class_LibraryItem>` **get_app_by_name** **(** String name **)**
+:ref:`LibraryItem<class_LibraryItem>` **get_app_by_name** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Returns the library item for the given app for all library providers
 
@@ -335,7 +335,7 @@ Returns the library item for the given app for all library providers
 
 .. rst-class:: classref-method
 
-Dictionary **get_available** **(** **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **get_available** **(** **)**
 
 Returns an dictionary of all available apps
 
@@ -347,7 +347,7 @@ Returns an dictionary of all available apps
 
 .. rst-class:: classref-method
 
-Array **get_libraries** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_libraries** **(** **)**
 
 Returns a list of all registered libraries
 
@@ -359,7 +359,7 @@ Returns a list of all registered libraries
 
 .. rst-class:: classref-method
 
-:ref:`Library<class_Library>` **get_library_by_id** **(** String id **)**
+:ref:`Library<class_Library>` **get_library_by_id** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 Returns the given library implementation by id
 
@@ -371,7 +371,7 @@ Returns the given library implementation by id
 
 .. rst-class:: classref-method
 
-Array **get_library_items** **(** Array modifiers **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_library_items** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ modifiers **)**
 
 Returns library items based on the given modifiers. A modifier is a ``Callable`` that takes an array of :ref:`LibraryItem<class_LibraryItem>` objects and returns an array of those items that may be sorted or filtered out.
 
@@ -398,7 +398,7 @@ Returns library items based on the given modifiers. A modifier is a ``Callable``
 
 .. rst-class:: classref-method
 
-bool **has_app** **(** String name **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_app** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Returns true if the app with the given name exists in the library.
 
@@ -410,7 +410,7 @@ Returns true if the app with the given name exists in the library.
 
 .. rst-class:: classref-method
 
-bool **has_library** **(** String id **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_library** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 Returns true if the library with the given id is registered
 
@@ -422,7 +422,7 @@ Returns true if the library with the given id is registered
 
 .. rst-class:: classref-method
 
-void **load_library** **(** String library_id **)**
+void **load_library** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id **)**
 
 Loads the launch items from the given library
 
@@ -458,7 +458,7 @@ Loads all library items from each provider and sorts them. This can take a while
 
 .. rst-class:: classref-method
 
-void **remove_library_launch_item** **(** String library_id, String name **)**
+void **remove_library_launch_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ library_id, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**
 
 Remove the given library launch item from the list of available apps.
 
@@ -470,7 +470,7 @@ Remove the given library launch item from the list of available apps.
 
 .. rst-class:: classref-method
 
-Array **sort_by_name** **(** Array apps **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **sort_by_name** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ apps **)**
 
 Sorts the given array of apps by name
 

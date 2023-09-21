@@ -10,7 +10,7 @@
 WatchdogThread
 ==============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,23 +24,23 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_WatchdogThread_property_logger>`                                             |                      |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | Mutex                               | :ref:`mutex<class_WatchdogThread_property_mutex>`                                               |                      |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | String                              | :ref:`name<class_WatchdogThread_property_name>`                                                 | ``"WatchdogThread"`` |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | bool                                | :ref:`running<class_WatchdogThread_property_running>`                                           | ``true``             |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | int                                 | :ref:`target_tick_rate<class_WatchdogThread_property_target_tick_rate>`                         | ``1``                |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | Thread                              | :ref:`thread<class_WatchdogThread_property_thread>`                                             |                      |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | Array                               | :ref:`threads_to_watch<class_WatchdogThread_property_threads_to_watch>`                         |                      |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
-   | int                                 | :ref:`warn_after_num_missed_frames<class_WatchdogThread_property_warn_after_num_missed_frames>` | ``20``               |
-   +-------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_WatchdogThread_property_logger>`                                             |                      |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_   | :ref:`mutex<class_WatchdogThread_property_mutex>`                                               |                      |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`name<class_WatchdogThread_property_name>`                                                 | ``"WatchdogThread"`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`running<class_WatchdogThread_property_running>`                                           | ``true``             |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`target_tick_rate<class_WatchdogThread_property_target_tick_rate>`                         | ``1``                |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ | :ref:`thread<class_WatchdogThread_property_thread>`                                             |                      |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`threads_to_watch<class_WatchdogThread_property_threads_to_watch>`                         |                      |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`warn_after_num_missed_frames<class_WatchdogThread_property_warn_after_num_missed_frames>` | ``20``               |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -50,23 +50,23 @@ Methods
 .. table::
    :widths: auto
 
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_check_frame_time<class_WatchdogThread_method__check_frame_time>` **(** :ref:`SharedThread<class_SharedThread>` thread **)** |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_WatchdogThread_method__init>` **(** **)**                                                                        |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_notification<class_WatchdogThread_method__notification>` **(** int what **)**                                               |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_process<class_WatchdogThread_method__process>` **(** **)**                                                                  |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_run<class_WatchdogThread_method__run>` **(** **)**                                                                          |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`add_thread<class_WatchdogThread_method_add_thread>` **(** :ref:`SharedThread<class_SharedThread>` thread **)**               |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`get_target_frame_time<class_WatchdogThread_method_get_target_frame_time>` **(** int tick_rate **)**                          |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`stop<class_WatchdogThread_method_stop>` **(** **)**                                                                          |
-   +------+------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_check_frame_time<class_WatchdogThread_method__check_frame_time>` **(** :ref:`SharedThread<class_SharedThread>` thread **)**                                           |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_init<class_WatchdogThread_method__init>` **(** **)**                                                                                                                  |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_notification<class_WatchdogThread_method__notification>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**                      |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_process<class_WatchdogThread_method__process>` **(** **)**                                                                                                            |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_run<class_WatchdogThread_method__run>` **(** **)**                                                                                                                    |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`add_thread<class_WatchdogThread_method_add_thread>` **(** :ref:`SharedThread<class_SharedThread>` thread **)**                                                         |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`get_target_frame_time<class_WatchdogThread_method_get_target_frame_time>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ tick_rate **)** |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`stop<class_WatchdogThread_method_stop>` **(** **)**                                                                                                                    |
+   +------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -95,7 +95,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Mutex **mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
 
 .. container:: contribute
 
@@ -109,7 +109,7 @@ Mutex **mutex**
 
 .. rst-class:: classref-property
 
-String **name** = ``"WatchdogThread"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name** = ``"WatchdogThread"``
 
 Name of the watchdog thread
 
@@ -121,7 +121,7 @@ Name of the watchdog thread
 
 .. rst-class:: classref-property
 
-bool **running** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **running** = ``true``
 
 .. container:: contribute
 
@@ -135,7 +135,7 @@ bool **running** = ``true``
 
 .. rst-class:: classref-property
 
-int **target_tick_rate** = ``1``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **target_tick_rate** = ``1``
 
 Target rate to run at in ticks per second
 
@@ -147,7 +147,7 @@ Target rate to run at in ticks per second
 
 .. rst-class:: classref-property
 
-Thread **thread**
+`Thread <https://docs.godotengine.org/en/stable/classes/class_thread.html>`_ **thread**
 
 .. container:: contribute
 
@@ -161,7 +161,7 @@ Thread **thread**
 
 .. rst-class:: classref-property
 
-Array **threads_to_watch**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **threads_to_watch**
 
 .. container:: contribute
 
@@ -175,7 +175,7 @@ Array **threads_to_watch**
 
 .. rst-class:: classref-property
 
-int **warn_after_num_missed_frames** = ``20``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **warn_after_num_missed_frames** = ``20``
 
 Number of missed frame times before logging a warning that a thread might be blocked
 
@@ -218,7 +218,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_notification** **(** int what **)**
+void **_notification** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**
 
 .. container:: contribute
 
@@ -272,7 +272,7 @@ Add the given shared thread
 
 .. rst-class:: classref-method
 
-int **get_target_frame_time** **(** int tick_rate **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_target_frame_time** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ tick_rate **)**
 
 Returns the target frame time in microseconds of the WatchdogThread
 

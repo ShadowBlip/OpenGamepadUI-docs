@@ -10,7 +10,7 @@
 StateChanger
 ============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | :ref:`Action<enum_StateChanger_Action>` | :ref:`action<class_StateChanger_property_action>`                         | ``0``                         |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | Dictionary                              | :ref:`data<class_StateChanger_property_data>`                             |                               |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | Node                                    | :ref:`parent<class_StateChanger_property_parent>`                         |                               |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | String                                  | :ref:`signal_name<class_StateChanger_property_signal_name>`               | ``"button_up"``               |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | int                                     | :ref:`state<class_StateChanger_property_state>`                           | ``0``                         |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
-   | String                                  | :ref:`state_manager_path<class_StateChanger_property_state_manager_path>` | ``"/root/Main/StateManager"`` |
-   +-----------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | :ref:`Action<enum_StateChanger_Action>`                                              | :ref:`action<class_StateChanger_property_action>`                         | ``0``                         |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`data<class_StateChanger_property_data>`                             |                               |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_             | :ref:`parent<class_StateChanger_property_parent>`                         |                               |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`signal_name<class_StateChanger_property_signal_name>`               | ``"button_up"``               |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_               | :ref:`state<class_StateChanger_property_state>`                           | ``0``                         |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`state_manager_path<class_StateChanger_property_state_manager_path>` | ``"/root/Main/StateManager"`` |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -126,7 +126,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **data**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **data**
 
 .. container:: contribute
 
@@ -140,7 +140,7 @@ Dictionary **data**
 
 .. rst-class:: classref-property
 
-Node **parent**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **parent**
 
 .. container:: contribute
 
@@ -154,7 +154,7 @@ Node **parent**
 
 .. rst-class:: classref-property
 
-String **signal_name** = ``"button_up"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **signal_name** = ``"button_up"``
 
 .. container:: contribute
 
@@ -168,7 +168,7 @@ String **signal_name** = ``"button_up"``
 
 .. rst-class:: classref-property
 
-int **state** = ``0``
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **state** = ``0``
 
 .. container:: contribute
 
@@ -182,7 +182,7 @@ int **state** = ``0``
 
 .. rst-class:: classref-property
 
-String **state_manager_path** = ``"/root/Main/StateManager"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **state_manager_path** = ``"/root/Main/StateManager"``
 
 .. container:: contribute
 

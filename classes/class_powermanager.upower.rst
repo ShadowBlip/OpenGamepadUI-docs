@@ -10,7 +10,7 @@
 PowerManager.UPower
 ===================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+------------------------------------------------------------------+
-   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` | :ref:`_proxy<class_PowerManager.UPower_property__proxy>`         |
-   +---------------------------------------------------+------------------------------------------------------------------+
-   | bool                                              | :ref:`on_battery<class_PowerManager.UPower_property_on_battery>` |
-   +---------------------------------------------------+------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+------------------------------------------------------------------+
+   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                        | :ref:`_proxy<class_PowerManager.UPower_property__proxy>`         |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`on_battery<class_PowerManager.UPower_property_on_battery>` |
+   +--------------------------------------------------------------------------+------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -38,13 +38,13 @@ Methods
 .. table::
    :widths: auto
 
-   +-------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_init<class_PowerManager.UPower_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**          |
-   +-------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_on_properties_changed<class_PowerManager.UPower_method__on_properties_changed>` **(** String iface, Dictionary props **)** |
-   +-------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | Array | :ref:`enumerate_devices<class_PowerManager.UPower_method_enumerate_devices>` **(** **)**                                          |
-   +-------+-----------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_init<class_PowerManager.UPower_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**                                                                                                                                                          |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_on_properties_changed<class_PowerManager.UPower_method__on_properties_changed>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)** |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`enumerate_devices<class_PowerManager.UPower_method_enumerate_devices>` **(** **)**                                                                                                                                                                                          |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -92,7 +92,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **on_battery**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **on_battery**
 
 .. container:: contribute
 
@@ -125,7 +125,7 @@ void **_init** **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)
 
 .. rst-class:: classref-method
 
-void **_on_properties_changed** **(** String iface, Dictionary props **)**
+void **_on_properties_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)**
 
 .. container:: contribute
 
@@ -139,7 +139,7 @@ void **_on_properties_changed** **(** String iface, Dictionary props **)**
 
 .. rst-class:: classref-method
 
-Array **enumerate_devices** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **enumerate_devices** **(** **)**
 
 .. container:: contribute
 

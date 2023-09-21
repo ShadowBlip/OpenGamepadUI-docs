@@ -10,7 +10,7 @@
 Log.Logger
 ==========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +-----+-------------------------------------------------+
-   | int | :ref:`_level<class_Log.Logger_property__level>` |
-   +-----+-------------------------------------------------+
+   +------------------------------------------------------------------------+-------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`_level<class_Log.Logger_property__level>` |
+   +------------------------------------------------------------------------+-------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,23 +36,23 @@ Methods
 .. table::
    :widths: auto
 
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | String     | :ref:`_format_prefix<class_Log.Logger_method__format_prefix>` **(** String level, Dictionary caller **)** |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | Dictionary | :ref:`_get_caller<class_Log.Logger_method__get_caller>` **(** **)**                                       |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`_init<class_Log.Logger_method__init>` **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**   |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`debug<class_Log.Logger_method_debug>` **(** Variant message **)**                                   |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`error<class_Log.Logger_method_error>` **(** Variant message **)**                                   |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`info<class_Log.Logger_method_info>` **(** Variant message **)**                                     |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`set_level<class_Log.Logger_method_set_level>` **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**        |
-   +------------+-----------------------------------------------------------------------------------------------------------+
-   | void       | :ref:`warn<class_Log.Logger_method_warn>` **(** Variant message **)**                                     |
-   +------------+-----------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`_format_prefix<class_Log.Logger_method__format_prefix>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ level, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ caller **)** |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`_get_caller<class_Log.Logger_method__get_caller>` **(** **)**                                                                                                                                                                                       |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`_init<class_Log.Logger_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**                                                                             |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`debug<class_Log.Logger_method_debug>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**                                                                                                            |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`error<class_Log.Logger_method_error>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**                                                                                                            |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`info<class_Log.Logger_method_info>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**                                                                                                              |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`set_level<class_Log.Logger_method_set_level>` **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**                                                                                                                                                        |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                 | :ref:`warn<class_Log.Logger_method_warn>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**                                                                                                              |
+   +--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -67,7 +67,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-int **_level**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_level**
 
 .. container:: contribute
 
@@ -86,7 +86,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-String **_format_prefix** **(** String level, Dictionary caller **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_format_prefix** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ level, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ caller **)**
 
 .. container:: contribute
 
@@ -100,7 +100,7 @@ String **_format_prefix** **(** String level, Dictionary caller **)**
 
 .. rst-class:: classref-method
 
-Dictionary **_get_caller** **(** **)**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **_get_caller** **(** **)**
 
 .. container:: contribute
 
@@ -114,7 +114,7 @@ Dictionary **_get_caller** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_init** **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
 .. container:: contribute
 
@@ -128,7 +128,7 @@ void **_init** **(** String name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
 .. rst-class:: classref-method
 
-void **debug** **(** Variant message **)**
+void **debug** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**
 
 .. container:: contribute
 
@@ -142,7 +142,7 @@ void **debug** **(** Variant message **)**
 
 .. rst-class:: classref-method
 
-void **error** **(** Variant message **)**
+void **error** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**
 
 .. container:: contribute
 
@@ -156,7 +156,7 @@ void **error** **(** Variant message **)**
 
 .. rst-class:: classref-method
 
-void **info** **(** Variant message **)**
+void **info** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**
 
 .. container:: contribute
 
@@ -184,7 +184,7 @@ void **set_level** **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
 .. rst-class:: classref-method
 
-void **warn** **(** Variant message **)**
+void **warn** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ message **)**
 
 .. container:: contribute
 

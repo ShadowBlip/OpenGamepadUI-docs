@@ -10,7 +10,7 @@
 InstallManager.Request
 ======================
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 An InstallManager Request defines a queued or in-progress app install
 
@@ -22,17 +22,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------------+-----------------------------------------------------------------+
-   | :ref:`REQUEST_TYPE<enum_InstallManager_REQUEST_TYPE>` | :ref:`_type<class_InstallManager.Request_property__type>`       |
-   +-------------------------------------------------------+-----------------------------------------------------------------+
-   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`     | :ref:`item<class_InstallManager.Request_property_item>`         |
-   +-------------------------------------------------------+-----------------------------------------------------------------+
-   | float                                                 | :ref:`progress<class_InstallManager.Request_property_progress>` |
-   +-------------------------------------------------------+-----------------------------------------------------------------+
-   | :ref:`Library<class_Library>`                         | :ref:`provider<class_InstallManager.Request_property_provider>` |
-   +-------------------------------------------------------+-----------------------------------------------------------------+
-   | bool                                                  | :ref:`success<class_InstallManager.Request_property_success>`   |
-   +-------------------------------------------------------+-----------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
+   | :ref:`REQUEST_TYPE<enum_InstallManager_REQUEST_TYPE>`                      | :ref:`_type<class_InstallManager.Request_property__type>`       |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
+   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                          | :ref:`item<class_InstallManager.Request_property_item>`         |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ | :ref:`progress<class_InstallManager.Request_property_progress>` |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
+   | :ref:`Library<class_Library>`                                              | :ref:`provider<class_InstallManager.Request_property_provider>` |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`success<class_InstallManager.Request_property_success>`   |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -59,7 +59,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**completed** **(** bool success **)**
+**completed** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)**
 
 .. container:: contribute
 
@@ -73,7 +73,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**progressed** **(** float progress **)**
+**progressed** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ progress **)**
 
 .. container:: contribute
 
@@ -120,7 +120,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-float **progress**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **progress**
 
 .. container:: contribute
 
@@ -148,7 +148,7 @@ float **progress**
 
 .. rst-class:: classref-property
 
-bool **success**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **success**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 Library
 =======
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 Base class for Library implementations
 
@@ -36,25 +36,25 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | :ref:`LibraryManager<class_LibraryManager>` | :ref:`LibraryManager<class_Library_property_LibraryManager>`         |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | String                                      | :ref:`_cache_dir<class_Library_property__cache_dir>`                 |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | Texture2D                                   | :ref:`library_icon<class_Library_property_library_icon>`             |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | String                                      | :ref:`library_id<class_Library_property_library_id>`                 |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | :ref:`LEVEL<enum_Log_LEVEL>`                | :ref:`log_level<class_Library_property_log_level>`                   | ``3``    |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | :ref:`Log.Logger<class_Log.Logger>`         | :ref:`logger<class_Library_property_logger>`                         |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | String                                      | :ref:`logger_name<class_Library_property_logger_name>`               |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | String                                      | :ref:`store_id<class_Library_property_store_id>`                     |          |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
-   | bool                                        | :ref:`supports_uninstall<class_Library_property_supports_uninstall>` | ``true`` |
-   +---------------------------------------------+----------------------------------------------------------------------+----------+
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | :ref:`LibraryManager<class_LibraryManager>`                                        | :ref:`LibraryManager<class_Library_property_LibraryManager>`         |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`_cache_dir<class_Library_property__cache_dir>`                 |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ | :ref:`library_icon<class_Library_property_library_icon>`             |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`library_id<class_Library_property_library_id>`                 |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | :ref:`LEVEL<enum_Log_LEVEL>`                                                       | :ref:`log_level<class_Library_property_log_level>`                   | ``3``    |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                | :ref:`logger<class_Library_property_logger>`                         |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`logger_name<class_Library_property_logger_name>`               |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`store_id<class_Library_property_store_id>`                     |          |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`supports_uninstall<class_Library_property_supports_uninstall>` | ``true`` |
+   +------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -64,23 +64,23 @@ Methods
 .. table::
    :widths: auto
 
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_exit_tree<class_Library_method__exit_tree>` **(** **)**                                                        |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_init<class_Library_method__init>` **(** **)**                                                                  |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`_ready<class_Library_method__ready>` **(** **)**                                                                |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | Array | :ref:`get_library_launch_items<class_Library_method_get_library_launch_items>` **(** **)**                            |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | bool  | :ref:`has_update<class_Library_method_has_update>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)** |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`install<class_Library_method_install>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**       |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`uninstall<class_Library_method_uninstall>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**   |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
-   | void  | :ref:`update<class_Library_method_update>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**         |
-   +-------+-----------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_exit_tree<class_Library_method__exit_tree>` **(** **)**                                                        |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_init<class_Library_method__init>` **(** **)**                                                                  |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_ready<class_Library_method__ready>` **(** **)**                                                                |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`get_library_launch_items<class_Library_method_get_library_launch_items>` **(** **)**                            |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_   | :ref:`has_update<class_Library_method_has_update>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)** |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`install<class_Library_method_install>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**       |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`uninstall<class_Library_method_uninstall>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**   |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`update<class_Library_method_update>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**         |
+   +----------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -95,7 +95,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**install_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, bool success **)**
+**install_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)**
 
 Should be emitted when a library item is installed
 
@@ -107,7 +107,7 @@ Should be emitted when a library item is installed
 
 .. rst-class:: classref-signal
 
-**install_progressed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, float percent_completed **)**
+**install_progressed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ percent_completed **)**
 
 Should be emitted when a library item install is progressing
 
@@ -143,7 +143,7 @@ Should be emitted when a library item was removed from the library
 
 .. rst-class:: classref-signal
 
-**uninstall_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, bool success **)**
+**uninstall_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)**
 
 Should be emitted when a library item is uninstalled
 
@@ -155,7 +155,7 @@ Should be emitted when a library item is uninstalled
 
 .. rst-class:: classref-signal
 
-**update_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, bool success **)**
+**update_completed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)**
 
 Should be emitted when a library item is updated
 
@@ -186,7 +186,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **_cache_dir**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_cache_dir**
 
 .. container:: contribute
 
@@ -200,7 +200,7 @@ String **_cache_dir**
 
 .. rst-class:: classref-property
 
-Texture2D **library_icon**
+`Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ **library_icon**
 
 Icon for library provider
 
@@ -212,7 +212,7 @@ Icon for library provider
 
 .. rst-class:: classref-property
 
-String **library_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **library_id**
 
 Unique identifier for the library
 
@@ -250,7 +250,7 @@ Log level of the logger.
 
 .. rst-class:: classref-property
 
-String **logger_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **logger_name**
 
 Logger name used for debug messages
 
@@ -262,7 +262,7 @@ Logger name used for debug messages
 
 .. rst-class:: classref-property
 
-String **store_id**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **store_id**
 
 Optional store that this library is linked to
 
@@ -274,7 +274,7 @@ Optional store that this library is linked to
 
 .. rst-class:: classref-property
 
-bool **supports_uninstall** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_uninstall** = ``true``
 
 Whether or not the library provider supports uninstalls
 
@@ -333,7 +333,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-Array **get_library_launch_items** **(** **)**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_library_launch_items** **(** **)**
 
 Returns an array of available library launch items that this library provides. This method should be overriden in the child class. Example:
 
@@ -358,7 +358,7 @@ Returns an array of available library launch items that this library provides. T
 
 .. rst-class:: classref-method
 
-bool **has_update** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_update** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item **)**
 
 Should return true if the given library item has an update available
 

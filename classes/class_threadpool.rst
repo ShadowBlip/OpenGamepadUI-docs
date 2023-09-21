@@ -10,7 +10,7 @@
 ThreadPool
 ==========
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Resource that allows executing methods in a thread pool
 
@@ -29,23 +29,23 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_ThreadPool_property_logger>`       |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | Mutex                               | :ref:`mutex<class_ThreadPool_property_mutex>`         |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | String                              | :ref:`name<class_ThreadPool_property_name>`           | ``"ThreadPool"`` |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | Array                               | :ref:`queue<class_ThreadPool_property_queue>`         |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | bool                                | :ref:`running<class_ThreadPool_property_running>`     | ``false``        |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | Semaphore                           | :ref:`semaphore<class_ThreadPool_property_semaphore>` |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | int                                 | :ref:`size<class_ThreadPool_property_size>`           |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
-   | Array                               | :ref:`threads<class_ThreadPool_property_threads>`     |                  |
-   +-------------------------------------+-------------------------------------------------------+------------------+
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                | :ref:`logger<class_ThreadPool_property_logger>`       |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_         | :ref:`mutex<class_ThreadPool_property_mutex>`         |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_       | :ref:`name<class_ThreadPool_property_name>`           | ``"ThreadPool"`` |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`queue<class_ThreadPool_property_queue>`         |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_           | :ref:`running<class_ThreadPool_property_running>`     | ``false``        |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `Semaphore <https://docs.godotengine.org/en/stable/classes/class_semaphore.html>`_ | :ref:`semaphore<class_ThreadPool_property_semaphore>` |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_             | :ref:`size<class_ThreadPool_property_size>`           |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_         | :ref:`threads<class_ThreadPool_property_threads>`     |                  |
+   +------------------------------------------------------------------------------------+-------------------------------------------------------+------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -55,21 +55,21 @@ Methods
 .. table::
    :widths: auto
 
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_async_call<class_ThreadPool_method__async_call>` **(** :ref:`ThreadPool.Task<class_ThreadPool.Task>` task **)** |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_notification<class_ThreadPool_method__notification>` **(** int what **)**                                       |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_process<class_ThreadPool_method__process>` **(** int id **)**                                                   |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`exec<class_ThreadPool_method_exec>` **(** Callable method **)**                                                  |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`is_running<class_ThreadPool_method_is_running>` **(** **)**                                                      |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`start<class_ThreadPool_method_start>` **(** **)**                                                                |
-   +------+------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`stop<class_ThreadPool_method_stop>` **(** **)**                                                                  |
-   +------+------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_async_call<class_ThreadPool_method__async_call>` **(** :ref:`ThreadPool.Task<class_ThreadPool.Task>` task **)**                              |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_notification<class_ThreadPool_method__notification>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)** |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_process<class_ThreadPool_method__process>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ id **)**             |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`exec<class_ThreadPool_method_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**       |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`is_running<class_ThreadPool_method_is_running>` **(** **)**                                                                                   |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`start<class_ThreadPool_method_start>` **(** **)**                                                                                             |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`stop<class_ThreadPool_method_stop>` **(** **)**                                                                                               |
+   +--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -117,7 +117,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Mutex **mutex**
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
 
 .. container:: contribute
 
@@ -131,7 +131,7 @@ Mutex **mutex**
 
 .. rst-class:: classref-property
 
-String **name** = ``"ThreadPool"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **name** = ``"ThreadPool"``
 
 Name of the thread pool
 
@@ -143,7 +143,7 @@ Name of the thread pool
 
 .. rst-class:: classref-property
 
-Array **queue**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **queue**
 
 .. container:: contribute
 
@@ -157,7 +157,7 @@ Array **queue**
 
 .. rst-class:: classref-property
 
-bool **running** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **running** = ``false``
 
 .. container:: contribute
 
@@ -171,7 +171,7 @@ bool **running** = ``false``
 
 .. rst-class:: classref-property
 
-Semaphore **semaphore**
+`Semaphore <https://docs.godotengine.org/en/stable/classes/class_semaphore.html>`_ **semaphore**
 
 .. container:: contribute
 
@@ -185,7 +185,7 @@ Semaphore **semaphore**
 
 .. rst-class:: classref-property
 
-int **size**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **size**
 
 Number of threads to create in the thread pool
 
@@ -197,7 +197,7 @@ Number of threads to create in the thread pool
 
 .. rst-class:: classref-property
 
-Array **threads**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **threads**
 
 .. container:: contribute
 
@@ -230,7 +230,7 @@ void **_async_call** **(** :ref:`ThreadPool.Task<class_ThreadPool.Task>` task **
 
 .. rst-class:: classref-method
 
-void **_notification** **(** int what **)**
+void **_notification** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ what **)**
 
 .. container:: contribute
 
@@ -244,7 +244,7 @@ void **_notification** **(** int what **)**
 
 .. rst-class:: classref-method
 
-void **_process** **(** int id **)**
+void **_process** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ id **)**
 
 Each thread in the pool waits for tasks and executes methods from the queue
 
@@ -256,7 +256,7 @@ Each thread in the pool waits for tasks and executes methods from the queue
 
 .. rst-class:: classref-method
 
-void **exec** **(** Callable method **)**
+void **exec** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Calls the given method from the thread pool. Internally, this queues the given method and awaits it to be called during the process loop. You should await this method if your method returns something. E.g. ``var result = await thread_pool.exec(myfund.bind("myarg"))``
 
@@ -268,7 +268,7 @@ Calls the given method from the thread pool. Internally, this queues the given m
 
 .. rst-class:: classref-method
 
-bool **is_running** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_running** **(** **)**
 
 Returns whether or not the thread pool is running
 

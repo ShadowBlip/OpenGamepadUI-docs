@@ -10,7 +10,7 @@
 EvdevEvent
 ==========
 
-**Inherits:** :ref:`MappableEvent<class_MappableEvent>`
+**Inherits:** :ref:`MappableEvent<class_MappableEvent>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,9 +24,9 @@ Properties
 .. table::
    :widths: auto
 
-   +------------------+-------------------------------------------------------------------------+
-   | InputDeviceEvent | :ref:`input_device_event<class_EvdevEvent_property_input_device_event>` |
-   +------------------+-------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ | :ref:`input_device_event<class_EvdevEvent_property_input_device_event>` |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -36,31 +36,31 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_init<class_EvdevEvent_method__init>` **(** **)**                                                            |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | String                              | :ref:`_to_string<class_EvdevEvent_method__to_string>` **(** **)**                                                  |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`equals<class_EvdevEvent_method_equals>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**          |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | :ref:`EvdevEvent<class_EvdevEvent>` | :ref:`from_input_device_event<class_EvdevEvent_method_from_input_device_event>` **(** InputDeviceEvent event **)** |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | int                                 | :ref:`get_event_code<class_EvdevEvent_method_get_event_code>` **(** **)**                                          |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | int                                 | :ref:`get_event_type<class_EvdevEvent_method_get_event_type>` **(** **)**                                          |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | int                                 | :ref:`get_event_value<class_EvdevEvent_method_get_event_value>` **(** **)**                                        |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | String                              | :ref:`get_signature<class_EvdevEvent_method_get_signature>` **(** **)**                                            |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | float                               | :ref:`get_value<class_EvdevEvent_method_get_value>` **(** **)**                                                    |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | bool                                | :ref:`matches<class_EvdevEvent_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**        |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`set_value<class_EvdevEvent_method_set_value>` **(** float value **)**                                        |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
-   | InputDeviceEvent                    | :ref:`to_input_device_event<class_EvdevEvent_method_to_input_device_event>` **(** **)**                            |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`_init<class_EvdevEvent_method__init>` **(** **)**                                                                                                                                            |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                     | :ref:`_to_string<class_EvdevEvent_method__to_string>` **(** **)**                                                                                                                                  |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`equals<class_EvdevEvent_method_equals>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                                                          |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`EvdevEvent<class_EvdevEvent>`                                                              | :ref:`from_input_device_event<class_EvdevEvent_method_from_input_device_event>` **(** `InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ event **)** |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`get_event_code<class_EvdevEvent_method_get_event_code>` **(** **)**                                                                                                                          |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`get_event_type<class_EvdevEvent_method_get_event_type>` **(** **)**                                                                                                                          |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`get_event_value<class_EvdevEvent_method_get_event_value>` **(** **)**                                                                                                                        |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                     | :ref:`get_signature<class_EvdevEvent_method_get_signature>` **(** **)**                                                                                                                            |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                       | :ref:`get_value<class_EvdevEvent_method_get_value>` **(** **)**                                                                                                                                    |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`matches<class_EvdevEvent_method_matches>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                                                        |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`set_value<class_EvdevEvent_method_set_value>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**                                                   |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ | :ref:`to_input_device_event<class_EvdevEvent_method_to_input_device_event>` **(** **)**                                                                                                            |
+   +--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -75,7 +75,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-InputDeviceEvent **input_device_event**
+`InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ **input_device_event**
 
 .. container:: contribute
 
@@ -108,7 +108,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-String **_to_string** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ String **_to_string** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **equals** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **equals** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 .. container:: contribute
 
@@ -136,7 +136,7 @@ bool **equals** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 .. rst-class:: classref-method
 
-:ref:`EvdevEvent<class_EvdevEvent>` **from_input_device_event** **(** InputDeviceEvent event **)**
+:ref:`EvdevEvent<class_EvdevEvent>` **from_input_device_event** **(** `InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ event **)**
 
 Create a new **EvdevEvent** from the given ``InputDeviceEvent``
 
@@ -148,7 +148,7 @@ Create a new **EvdevEvent** from the given ``InputDeviceEvent``
 
 .. rst-class:: classref-method
 
-int **get_event_code** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_event_code** **(** **)**
 
 .. container:: contribute
 
@@ -162,7 +162,7 @@ int **get_event_code** **(** **)**
 
 .. rst-class:: classref-method
 
-int **get_event_type** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_event_type** **(** **)**
 
 .. container:: contribute
 
@@ -176,7 +176,7 @@ int **get_event_type** **(** **)**
 
 .. rst-class:: classref-method
 
-int **get_event_value** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_event_value** **(** **)**
 
 .. container:: contribute
 
@@ -190,7 +190,7 @@ int **get_event_value** **(** **)**
 
 .. rst-class:: classref-method
 
-String **get_signature** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_signature** **(** **)**
 
 Returns a signature of the event to aid with faster matching. This signature should return a unique string based on the kind of event but not the value. E.g. "Evdev:1,215"
 
@@ -202,7 +202,7 @@ Returns a signature of the event to aid with faster matching. This signature sho
 
 .. rst-class:: classref-method
 
-float **get_value** **(** **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **get_value** **(** **)**
 
 .. container:: contribute
 
@@ -216,7 +216,7 @@ float **get_value** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **matches** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **matches** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 .. container:: contribute
 
@@ -230,7 +230,7 @@ bool **matches** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 .. rst-class:: classref-method
 
-void **set_value** **(** float value **)**
+void **set_value** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**
 
 .. container:: contribute
 
@@ -244,7 +244,7 @@ void **set_value** **(** float value **)**
 
 .. rst-class:: classref-method
 
-InputDeviceEvent **to_input_device_event** **(** **)**
+`InputDeviceEvent <https://docs.godotengine.org/en/stable/classes/class_inputdeviceevent.html>`_ **to_input_device_event** **(** **)**
 
 .. container:: contribute
 

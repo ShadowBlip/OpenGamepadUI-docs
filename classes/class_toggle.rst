@@ -10,7 +10,7 @@
 Toggle
 ======
 
-**Inherits:** 
+**Inherits:** `BoxContainer <https://docs.godotengine.org/en/stable/classes/class_boxcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,27 +24,27 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------+-------------------------------------------------------------------+---------------+
-   | bool        | :ref:`button_pressed<class_Toggle_property_button_pressed>`       | ``false``     |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | CheckButton | :ref:`check_button<class_Toggle_property_check_button>`           |               |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | String      | :ref:`description<class_Toggle_property_description>`             | ``""``        |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | Label       | :ref:`description_label<class_Toggle_property_description_label>` |               |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | bool        | :ref:`disabled<class_Toggle_property_disabled>`                   | ``false``     |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | HSeparator  | :ref:`hsep<class_Toggle_property_hsep>`                           |               |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | Label       | :ref:`label<class_Toggle_property_label>`                         |               |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | bool        | :ref:`separator_visible<class_Toggle_property_separator_visible>` | ``false``     |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | bool        | :ref:`show_label<class_Toggle_property_show_label>`               | ``true``      |
-   +-------------+-------------------------------------------------------------------+---------------+
-   | String      | :ref:`text<class_Toggle_property_text>`                           | ``"Setting"`` |
-   +-------------+-------------------------------------------------------------------+---------------+
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`button_pressed<class_Toggle_property_button_pressed>`       | ``false``     |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `CheckButton <https://docs.godotengine.org/en/stable/classes/class_checkbutton.html>`_ | :ref:`check_button<class_Toggle_property_check_button>`           |               |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`description<class_Toggle_property_description>`             | ``""``        |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_             | :ref:`description_label<class_Toggle_property_description_label>` |               |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`disabled<class_Toggle_property_disabled>`                   | ``false``     |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `HSeparator <https://docs.godotengine.org/en/stable/classes/class_hseparator.html>`_   | :ref:`hsep<class_Toggle_property_hsep>`                           |               |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_             | :ref:`label<class_Toggle_property_label>`                         |               |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`separator_visible<class_Toggle_property_separator_visible>` | ``false``     |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_               | :ref:`show_label<class_Toggle_property_show_label>`               | ``true``      |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_           | :ref:`text<class_Toggle_property_text>`                           | ``"Setting"`` |
+   +----------------------------------------------------------------------------------------+-------------------------------------------------------------------+---------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -54,15 +54,15 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------+
-   | void | :ref:`_grab_focus<class_Toggle_method__grab_focus>` **(** **)**                      |
-   +------+--------------------------------------------------------------------------------------+
-   | void | :ref:`_on_theme_changed<class_Toggle_method__on_theme_changed>` **(** **)**          |
-   +------+--------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_Toggle_method__ready>` **(** **)**                                |
-   +------+--------------------------------------------------------------------------------------+
-   | bool | :ref:`_set<class_Toggle_method__set>` **(** StringName property, Variant value **)** |
-   +------+--------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_grab_focus<class_Toggle_method__grab_focus>` **(** **)**                                                                                                                                                                       |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_theme_changed<class_Toggle_method__on_theme_changed>` **(** **)**                                                                                                                                                           |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_Toggle_method__ready>` **(** **)**                                                                                                                                                                                 |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`_set<class_Toggle_method__set>` **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)** |
+   +--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -119,7 +119,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**toggled** **(** bool pressed **)**
+**toggled** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ pressed **)**
 
 .. container:: contribute
 
@@ -138,7 +138,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-bool **button_pressed** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **button_pressed** = ``false``
 
 .. container:: contribute
 
@@ -152,7 +152,7 @@ bool **button_pressed** = ``false``
 
 .. rst-class:: classref-property
 
-CheckButton **check_button**
+`CheckButton <https://docs.godotengine.org/en/stable/classes/class_checkbutton.html>`_ **check_button**
 
 .. container:: contribute
 
@@ -166,7 +166,7 @@ CheckButton **check_button**
 
 .. rst-class:: classref-property
 
-String **description** = ``""``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **description** = ``""``
 
 .. container:: contribute
 
@@ -180,7 +180,7 @@ String **description** = ``""``
 
 .. rst-class:: classref-property
 
-Label **description_label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **description_label**
 
 .. container:: contribute
 
@@ -194,7 +194,7 @@ Label **description_label**
 
 .. rst-class:: classref-property
 
-bool **disabled** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **disabled** = ``false``
 
 .. container:: contribute
 
@@ -208,7 +208,7 @@ bool **disabled** = ``false``
 
 .. rst-class:: classref-property
 
-HSeparator **hsep**
+`HSeparator <https://docs.godotengine.org/en/stable/classes/class_hseparator.html>`_ **hsep**
 
 .. container:: contribute
 
@@ -222,7 +222,7 @@ HSeparator **hsep**
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -236,7 +236,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-bool **separator_visible** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **separator_visible** = ``false``
 
 .. container:: contribute
 
@@ -250,7 +250,7 @@ bool **separator_visible** = ``false``
 
 .. rst-class:: classref-property
 
-bool **show_label** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **show_label** = ``true``
 
 .. container:: contribute
 
@@ -264,7 +264,7 @@ bool **show_label** = ``true``
 
 .. rst-class:: classref-property
 
-String **text** = ``"Setting"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``"Setting"``
 
 .. container:: contribute
 
@@ -325,7 +325,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **_set** **(** StringName property, Variant value **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_set** **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**
 
 .. container:: contribute
 

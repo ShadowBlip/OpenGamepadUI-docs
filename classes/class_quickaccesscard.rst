@@ -10,7 +10,7 @@
 QuickAccessCard
 ===============
 
-**Inherits:** 
+**Inherits:** `Container <https://docs.godotengine.org/en/stable/classes/class_container.html>`_
 
 .. container:: contribute
 
@@ -24,23 +24,23 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | Node                                            | :ref:`content_container<class_QuickAccessCard_property_content_container>`   |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | :ref:`FocusGroup<class_FocusGroup>`             | :ref:`focus_group<class_QuickAccessCard_property_focus_group>`               |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | :ref:`FocusGroupSetter<class_FocusGroupSetter>` | :ref:`focus_group_setter<class_QuickAccessCard_property_focus_group_setter>` |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | Node                                            | :ref:`highlight<class_QuickAccessCard_property_highlight>`                   |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | bool                                            | :ref:`is_toggled<class_QuickAccessCard_property_is_toggled>`                 | ``false``     |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | Node                                            | :ref:`label<class_QuickAccessCard_property_label>`                           |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | :ref:`Log.Logger<class_Log.Logger>`             | :ref:`logger<class_QuickAccessCard_property_logger>`                         |               |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
-   | String                                          | :ref:`title<class_QuickAccessCard_property_title>`                           | ``"Section"`` |
-   +-------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_     | :ref:`content_container<class_QuickAccessCard_property_content_container>`   |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | :ref:`FocusGroup<class_FocusGroup>`                                          | :ref:`focus_group<class_QuickAccessCard_property_focus_group>`               |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | :ref:`FocusGroupSetter<class_FocusGroupSetter>`                              | :ref:`focus_group_setter<class_QuickAccessCard_property_focus_group_setter>` |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_     | :ref:`highlight<class_QuickAccessCard_property_highlight>`                   |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`is_toggled<class_QuickAccessCard_property_is_toggled>`                 | ``false``     |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_     | :ref:`label<class_QuickAccessCard_property_label>`                           |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_QuickAccessCard_property_logger>`                         |               |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`title<class_QuickAccessCard_property_title>`                           | ``"Section"`` |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -50,21 +50,21 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`_find_child_focus_group<class_QuickAccessCard_method__find_child_focus_group>` **(** Array nodes **)** |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_gui_input<class_QuickAccessCard_method__gui_input>` **(** InputEvent event **)**                      |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_focus<class_QuickAccessCard_method__on_focus>` **(** **)**                                         |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_pressed<class_QuickAccessCard_method__on_pressed>` **(** **)**                                     |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_theme_changed<class_QuickAccessCard_method__on_theme_changed>` **(** **)**                         |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_on_unfocus<class_QuickAccessCard_method__on_unfocus>` **(** **)**                                     |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
-   | void                                | :ref:`_ready<class_QuickAccessCard_method__ready>` **(** **)**                                               |
-   +-------------------------------------+--------------------------------------------------------------------------------------------------------------+
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`FocusGroup<class_FocusGroup>` | :ref:`_find_child_focus_group<class_QuickAccessCard_method__find_child_focus_group>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes **)** |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_gui_input<class_QuickAccessCard_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                 |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_on_focus<class_QuickAccessCard_method__on_focus>` **(** **)**                                                                                                              |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_on_pressed<class_QuickAccessCard_method__on_pressed>` **(** **)**                                                                                                          |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_on_theme_changed<class_QuickAccessCard_method__on_theme_changed>` **(** **)**                                                                                              |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_on_unfocus<class_QuickAccessCard_method__on_unfocus>` **(** **)**                                                                                                          |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                | :ref:`_ready<class_QuickAccessCard_method__ready>` **(** **)**                                                                                                                    |
+   +-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -135,7 +135,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**toggled** **(** bool pressed **)**
+**toggled** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ pressed **)**
 
 .. container:: contribute
 
@@ -182,7 +182,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Node **content_container**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **content_container**
 
 .. container:: contribute
 
@@ -224,7 +224,7 @@ Node **content_container**
 
 .. rst-class:: classref-property
 
-Node **highlight**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **highlight**
 
 .. container:: contribute
 
@@ -238,7 +238,7 @@ Node **highlight**
 
 .. rst-class:: classref-property
 
-bool **is_toggled** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_toggled** = ``false``
 
 .. container:: contribute
 
@@ -252,7 +252,7 @@ bool **is_toggled** = ``false``
 
 .. rst-class:: classref-property
 
-Node **label**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **label**
 
 .. container:: contribute
 
@@ -280,7 +280,7 @@ Node **label**
 
 .. rst-class:: classref-property
 
-String **title** = ``"Section"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **title** = ``"Section"``
 
 .. container:: contribute
 
@@ -299,7 +299,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`FocusGroup<class_FocusGroup>` **_find_child_focus_group** **(** Array nodes **)**
+:ref:`FocusGroup<class_FocusGroup>` **_find_child_focus_group** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ nodes **)**
 
 .. container:: contribute
 
@@ -313,7 +313,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 

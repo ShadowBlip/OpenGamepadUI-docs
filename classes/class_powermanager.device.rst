@@ -10,7 +10,7 @@
 PowerManager.Device
 ===================
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 
@@ -24,69 +24,69 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` | :ref:`_proxy<class_PowerManager.Device_property__proxy>`                         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`battery_level<class_PowerManager.Device_property_battery_level>`           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`capacity<class_PowerManager.Device_property_capacity>`                     |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`charge_cycles<class_PowerManager.Device_property_charge_cycles>`           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`energy<class_PowerManager.Device_property_energy>`                         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`energy_empty<class_PowerManager.Device_property_energy_empty>`             |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`energy_full<class_PowerManager.Device_property_energy_full>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`energy_full_design<class_PowerManager.Device_property_energy_full_design>` |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`energy_rate<class_PowerManager.Device_property_energy_rate>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`has_history<class_PowerManager.Device_property_has_history>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`has_statistics<class_PowerManager.Device_property_has_statistics>`         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | String                                            | :ref:`icon_name<class_PowerManager.Device_property_icon_name>`                   |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`is_present<class_PowerManager.Device_property_is_present>`                 |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`is_rechargable<class_PowerManager.Device_property_is_rechargable>`         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`luminosity<class_PowerManager.Device_property_luminosity>`                 |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | String                                            | :ref:`model<class_PowerManager.Device_property_model>`                           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | String                                            | :ref:`native_path<class_PowerManager.Device_property_native_path>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`online<class_PowerManager.Device_property_online>`                         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`percentage<class_PowerManager.Device_property_percentage>`                 |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | bool                                              | :ref:`power_supply<class_PowerManager.Device_property_power_supply>`             |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | String                                            | :ref:`serial<class_PowerManager.Device_property_serial>`                         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`state<class_PowerManager.Device_property_state>`                           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`technology<class_PowerManager.Device_property_technology>`                 |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`temperature<class_PowerManager.Device_property_temperature>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`time_to_empty<class_PowerManager.Device_property_time_to_empty>`           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`time_to_full<class_PowerManager.Device_property_time_to_full>`             |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`type<class_PowerManager.Device_property_type>`                             |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`update_time<class_PowerManager.Device_property_update_time>`               |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | String                                            | :ref:`vendor<class_PowerManager.Device_property_vendor>`                         |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | float                                             | :ref:`voltage<class_PowerManager.Device_property_voltage>`                       |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
-   | int                                               | :ref:`warning_level<class_PowerManager.Device_property_warning_level>`           |
-   +---------------------------------------------------+----------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                            | :ref:`_proxy<class_PowerManager.Device_property__proxy>`                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`battery_level<class_PowerManager.Device_property_battery_level>`           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`capacity<class_PowerManager.Device_property_capacity>`                     |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`charge_cycles<class_PowerManager.Device_property_charge_cycles>`           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`energy<class_PowerManager.Device_property_energy>`                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`energy_empty<class_PowerManager.Device_property_energy_empty>`             |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`energy_full<class_PowerManager.Device_property_energy_full>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`energy_full_design<class_PowerManager.Device_property_energy_full_design>` |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`energy_rate<class_PowerManager.Device_property_energy_rate>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`has_history<class_PowerManager.Device_property_has_history>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`has_statistics<class_PowerManager.Device_property_has_statistics>`         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`icon_name<class_PowerManager.Device_property_icon_name>`                   |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`is_present<class_PowerManager.Device_property_is_present>`                 |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`is_rechargable<class_PowerManager.Device_property_is_rechargable>`         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`luminosity<class_PowerManager.Device_property_luminosity>`                 |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`model<class_PowerManager.Device_property_model>`                           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`native_path<class_PowerManager.Device_property_native_path>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`online<class_PowerManager.Device_property_online>`                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`percentage<class_PowerManager.Device_property_percentage>`                 |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`power_supply<class_PowerManager.Device_property_power_supply>`             |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`serial<class_PowerManager.Device_property_serial>`                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`state<class_PowerManager.Device_property_state>`                           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`technology<class_PowerManager.Device_property_technology>`                 |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`temperature<class_PowerManager.Device_property_temperature>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`time_to_empty<class_PowerManager.Device_property_time_to_empty>`           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`time_to_full<class_PowerManager.Device_property_time_to_full>`             |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`type<class_PowerManager.Device_property_type>`                             |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`update_time<class_PowerManager.Device_property_update_time>`               |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_PowerManager.Device_property_vendor>`                         |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_   | :ref:`voltage<class_PowerManager.Device_property_voltage>`                       |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`warning_level<class_PowerManager.Device_property_warning_level>`           |
+   +------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -96,13 +96,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_init<class_PowerManager.Device_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**          |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_properties_changed<class_PowerManager.Device_method__on_properties_changed>` **(** String iface, Dictionary props **)** |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`refresh<class_PowerManager.Device_method_refresh>` **(** **)**                                                              |
-   +------+-----------------------------------------------------------------------------------------------------------------------------------+
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_init<class_PowerManager.Device_method__init>` **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)**                                                                                                                                                          |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_properties_changed<class_PowerManager.Device_method__on_properties_changed>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)** |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`refresh<class_PowerManager.Device_method_refresh>` **(** **)**                                                                                                                                                                                                              |
+   +------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -164,7 +164,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-int **battery_level**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **battery_level**
 
 .. container:: contribute
 
@@ -178,7 +178,7 @@ int **battery_level**
 
 .. rst-class:: classref-property
 
-float **capacity**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **capacity**
 
 .. container:: contribute
 
@@ -192,7 +192,7 @@ float **capacity**
 
 .. rst-class:: classref-property
 
-int **charge_cycles**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **charge_cycles**
 
 .. container:: contribute
 
@@ -206,7 +206,7 @@ int **charge_cycles**
 
 .. rst-class:: classref-property
 
-float **energy**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **energy**
 
 .. container:: contribute
 
@@ -220,7 +220,7 @@ float **energy**
 
 .. rst-class:: classref-property
 
-float **energy_empty**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **energy_empty**
 
 .. container:: contribute
 
@@ -234,7 +234,7 @@ float **energy_empty**
 
 .. rst-class:: classref-property
 
-float **energy_full**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **energy_full**
 
 .. container:: contribute
 
@@ -248,7 +248,7 @@ float **energy_full**
 
 .. rst-class:: classref-property
 
-float **energy_full_design**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **energy_full_design**
 
 .. container:: contribute
 
@@ -262,7 +262,7 @@ float **energy_full_design**
 
 .. rst-class:: classref-property
 
-float **energy_rate**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **energy_rate**
 
 .. container:: contribute
 
@@ -276,7 +276,7 @@ float **energy_rate**
 
 .. rst-class:: classref-property
 
-bool **has_history**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_history**
 
 .. container:: contribute
 
@@ -290,7 +290,7 @@ bool **has_history**
 
 .. rst-class:: classref-property
 
-bool **has_statistics**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_statistics**
 
 .. container:: contribute
 
@@ -304,7 +304,7 @@ bool **has_statistics**
 
 .. rst-class:: classref-property
 
-String **icon_name**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **icon_name**
 
 .. container:: contribute
 
@@ -318,7 +318,7 @@ String **icon_name**
 
 .. rst-class:: classref-property
 
-bool **is_present**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_present**
 
 .. container:: contribute
 
@@ -332,7 +332,7 @@ bool **is_present**
 
 .. rst-class:: classref-property
 
-bool **is_rechargable**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_rechargable**
 
 .. container:: contribute
 
@@ -346,7 +346,7 @@ bool **is_rechargable**
 
 .. rst-class:: classref-property
 
-float **luminosity**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **luminosity**
 
 .. container:: contribute
 
@@ -360,7 +360,7 @@ float **luminosity**
 
 .. rst-class:: classref-property
 
-String **model**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **model**
 
 .. container:: contribute
 
@@ -374,7 +374,7 @@ String **model**
 
 .. rst-class:: classref-property
 
-String **native_path**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **native_path**
 
 .. container:: contribute
 
@@ -388,7 +388,7 @@ String **native_path**
 
 .. rst-class:: classref-property
 
-bool **online**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **online**
 
 .. container:: contribute
 
@@ -402,7 +402,7 @@ bool **online**
 
 .. rst-class:: classref-property
 
-float **percentage**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **percentage**
 
 .. container:: contribute
 
@@ -416,7 +416,7 @@ float **percentage**
 
 .. rst-class:: classref-property
 
-bool **power_supply**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **power_supply**
 
 .. container:: contribute
 
@@ -430,7 +430,7 @@ bool **power_supply**
 
 .. rst-class:: classref-property
 
-String **serial**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **serial**
 
 .. container:: contribute
 
@@ -444,7 +444,7 @@ String **serial**
 
 .. rst-class:: classref-property
 
-int **state**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **state**
 
 .. container:: contribute
 
@@ -458,7 +458,7 @@ int **state**
 
 .. rst-class:: classref-property
 
-int **technology**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **technology**
 
 .. container:: contribute
 
@@ -472,7 +472,7 @@ int **technology**
 
 .. rst-class:: classref-property
 
-float **temperature**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **temperature**
 
 .. container:: contribute
 
@@ -486,7 +486,7 @@ float **temperature**
 
 .. rst-class:: classref-property
 
-int **time_to_empty**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **time_to_empty**
 
 .. container:: contribute
 
@@ -500,7 +500,7 @@ int **time_to_empty**
 
 .. rst-class:: classref-property
 
-int **time_to_full**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **time_to_full**
 
 .. container:: contribute
 
@@ -514,7 +514,7 @@ int **time_to_full**
 
 .. rst-class:: classref-property
 
-int **type**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **type**
 
 .. container:: contribute
 
@@ -528,7 +528,7 @@ int **type**
 
 .. rst-class:: classref-property
 
-int **update_time**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **update_time**
 
 .. container:: contribute
 
@@ -542,7 +542,7 @@ int **update_time**
 
 .. rst-class:: classref-property
 
-String **vendor**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **vendor**
 
 .. container:: contribute
 
@@ -556,7 +556,7 @@ String **vendor**
 
 .. rst-class:: classref-property
 
-float **voltage**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **voltage**
 
 .. container:: contribute
 
@@ -570,7 +570,7 @@ float **voltage**
 
 .. rst-class:: classref-property
 
-int **warning_level**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **warning_level**
 
 .. container:: contribute
 
@@ -603,7 +603,7 @@ void **_init** **(** :ref:`DBusManager.Proxy<class_DBusManager.Proxy>` proxy **)
 
 .. rst-class:: classref-method
 
-void **_on_properties_changed** **(** String iface, Dictionary props **)**
+void **_on_properties_changed** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ iface, `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ props **)**
 
 .. container:: contribute
 

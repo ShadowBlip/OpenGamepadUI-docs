@@ -10,7 +10,7 @@
 Transition
 ==========
 
-**Inherits:** 
+**Inherits:** `AnimationPlayer <https://docs.godotengine.org/en/stable/classes/class_animationplayer.html>`_
 
 .. container:: contribute
 
@@ -24,11 +24,11 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+-------------------------------------------------------------------+-------------+
-   | String | :ref:`enter_animation<class_Transition_property_enter_animation>` | ``"enter"`` |
-   +--------+-------------------------------------------------------------------+-------------+
-   | String | :ref:`exit_animation<class_Transition_property_exit_animation>`   | ``"exit"``  |
-   +--------+-------------------------------------------------------------------+-------------+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`enter_animation<class_Transition_property_enter_animation>` | ``"enter"`` |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`exit_animation<class_Transition_property_exit_animation>`   | ``"exit"``  |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------+
 
 .. rst-class:: classref-section-separator
 
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **enter_animation** = ``"enter"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **enter_animation** = ``"enter"``
 
 .. container:: contribute
 
@@ -57,7 +57,7 @@ String **enter_animation** = ``"enter"``
 
 .. rst-class:: classref-property
 
-String **exit_animation** = ``"exit"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **exit_animation** = ``"exit"``
 
 .. container:: contribute
 

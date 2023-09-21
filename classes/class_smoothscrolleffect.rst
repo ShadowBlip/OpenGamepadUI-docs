@@ -10,7 +10,7 @@
 SmoothScrollEffect
 ==================
 
-**Inherits:** :ref:`Effect<class_Effect>`
+**Inherits:** :ref:`Effect<class_Effect>` **<** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,15 +24,15 @@ Properties
 .. table::
    :widths: auto
 
-   +-----------------+---------------------------------------------------------------------+------------+
-   | float           | :ref:`scroll_speed<class_SmoothScrollEffect_property_scroll_speed>` | ``0.25``   |
-   +-----------------+---------------------------------------------------------------------+------------+
-   | String          | :ref:`scroll_type<class_SmoothScrollEffect_property_scroll_type>`   | ``"both"`` |
-   +-----------------+---------------------------------------------------------------------+------------+
-   | ScrollContainer | :ref:`target<class_SmoothScrollEffect_property_target>`             |            |
-   +-----------------+---------------------------------------------------------------------+------------+
-   | Tween           | :ref:`tween<class_SmoothScrollEffect_property_tween>`               |            |
-   +-----------------+---------------------------------------------------------------------+------------+
+   +------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                     | :ref:`scroll_speed<class_SmoothScrollEffect_property_scroll_speed>` | ``0.25``   |
+   +------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                   | :ref:`scroll_type<class_SmoothScrollEffect_property_scroll_type>`   | ``"both"`` |
+   +------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+------------+
+   | `ScrollContainer <https://docs.godotengine.org/en/stable/classes/class_scrollcontainer.html>`_ | :ref:`target<class_SmoothScrollEffect_property_target>`             |            |
+   +------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+------------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_                     | :ref:`tween<class_SmoothScrollEffect_property_tween>`               |            |
+   +------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,13 +42,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`_on_signal<class_SmoothScrollEffect_method__on_signal>` **(** **)**         |
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_SmoothScrollEffect_method__ready>` **(** **)**                 |
-   +------+-----------------------------------------------------------------------------------+
-   | void | :ref:`scroll<class_SmoothScrollEffect_method_scroll>` **(** Control to_node **)** |
-   +------+-----------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_signal<class_SmoothScrollEffect_method__on_signal>` **(** **)**                                                                                |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_SmoothScrollEffect_method__ready>` **(** **)**                                                                                        |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`scroll<class_SmoothScrollEffect_method_scroll>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ to_node **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -63,7 +63,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-float **scroll_speed** = ``0.25``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **scroll_speed** = ``0.25``
 
 .. container:: contribute
 
@@ -77,7 +77,7 @@ float **scroll_speed** = ``0.25``
 
 .. rst-class:: classref-property
 
-String **scroll_type** = ``"both"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **scroll_type** = ``"both"``
 
 .. container:: contribute
 
@@ -91,7 +91,7 @@ String **scroll_type** = ``"both"``
 
 .. rst-class:: classref-property
 
-ScrollContainer **target**
+`ScrollContainer <https://docs.godotengine.org/en/stable/classes/class_scrollcontainer.html>`_ **target**
 
 .. container:: contribute
 
@@ -105,7 +105,7 @@ ScrollContainer **target**
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 
@@ -152,7 +152,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **scroll** **(** Control to_node **)**
+void **scroll** **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ to_node **)**
 
 .. container:: contribute
 

@@ -10,7 +10,7 @@
 Dropdown
 ========
 
-**Inherits:** 
+**Inherits:** `BoxContainer <https://docs.godotengine.org/en/stable/classes/class_boxcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,19 +24,19 @@ Properties
 .. table::
    :widths: auto
 
-   +--------------+---------------------------------------------------------------------+
-   | String       | :ref:`description<class_Dropdown_property_description>`             |
-   +--------------+---------------------------------------------------------------------+
-   | Label        | :ref:`description_label<class_Dropdown_property_description_label>` |
-   +--------------+---------------------------------------------------------------------+
-   | bool         | :ref:`disabled<class_Dropdown_property_disabled>`                   |
-   +--------------+---------------------------------------------------------------------+
-   | Label        | :ref:`label<class_Dropdown_property_label>`                         |
-   +--------------+---------------------------------------------------------------------+
-   | OptionButton | :ref:`option_button<class_Dropdown_property_option_button>`         |
-   +--------------+---------------------------------------------------------------------+
-   | String       | :ref:`title<class_Dropdown_property_title>`                         |
-   +--------------+---------------------------------------------------------------------+
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_             | :ref:`description<class_Dropdown_property_description>`             |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_               | :ref:`description_label<class_Dropdown_property_description_label>` |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                 | :ref:`disabled<class_Dropdown_property_disabled>`                   |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_               | :ref:`label<class_Dropdown_property_label>`                         |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `OptionButton <https://docs.godotengine.org/en/stable/classes/class_optionbutton.html>`_ | :ref:`option_button<class_Dropdown_property_option_button>`         |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_             | :ref:`title<class_Dropdown_property_title>`                         |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -46,21 +46,21 @@ Methods
 .. table::
    :widths: auto
 
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_grab_focus<class_Dropdown_method__grab_focus>` **(** **)**                                        |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_Dropdown_method__ready>` **(** **)**                                                  |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`_set<class_Dropdown_method__set>` **(** StringName property, Variant value **)**                   |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`add_item<class_Dropdown_method_add_item>` **(** String text, int id **)**                          |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`clear<class_Dropdown_method_clear>` **(** **)**                                                    |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`select<class_Dropdown_method_select>` **(** int idx **)**                                          |
-   +------+----------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_option_disabled<class_Dropdown_method_set_option_disabled>` **(** int idx, bool disabled **)** |
-   +------+----------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_grab_focus<class_Dropdown_method__grab_focus>` **(** **)**                                                                                                                                                                               |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_Dropdown_method__ready>` **(** **)**                                                                                                                                                                                         |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`_set<class_Dropdown_method__set>` **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**         |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`add_item<class_Dropdown_method_add_item>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ text, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ id **)**                        |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`clear<class_Dropdown_method_clear>` **(** **)**                                                                                                                                                                                           |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`select<class_Dropdown_method_select>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx **)**                                                                                                              |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`set_option_disabled<class_Dropdown_method_set_option_disabled>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ disabled **)** |
+   +--------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -75,7 +75,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**item_focused** **(** int index **)**
+**item_focused** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ index **)**
 
 .. container:: contribute
 
@@ -89,7 +89,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**item_selected** **(** int index **)**
+**item_selected** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ index **)**
 
 .. container:: contribute
 
@@ -108,7 +108,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **description**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **description**
 
 .. container:: contribute
 
@@ -122,7 +122,7 @@ String **description**
 
 .. rst-class:: classref-property
 
-Label **description_label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **description_label**
 
 .. container:: contribute
 
@@ -136,7 +136,7 @@ Label **description_label**
 
 .. rst-class:: classref-property
 
-bool **disabled**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **disabled**
 
 .. container:: contribute
 
@@ -150,7 +150,7 @@ bool **disabled**
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -164,7 +164,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-OptionButton **option_button**
+`OptionButton <https://docs.godotengine.org/en/stable/classes/class_optionbutton.html>`_ **option_button**
 
 .. container:: contribute
 
@@ -178,7 +178,7 @@ OptionButton **option_button**
 
 .. rst-class:: classref-property
 
-String **title**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **title**
 
 .. container:: contribute
 
@@ -225,7 +225,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **_set** **(** StringName property, Variant value **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_set** **(** `StringName <https://docs.godotengine.org/en/stable/classes/class_stringname.html>`_ property, `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ value **)**
 
 .. container:: contribute
 
@@ -239,7 +239,7 @@ bool **_set** **(** StringName property, Variant value **)**
 
 .. rst-class:: classref-method
 
-void **add_item** **(** String text, int id **)**
+void **add_item** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ text, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ id **)**
 
 .. container:: contribute
 
@@ -267,7 +267,7 @@ void **clear** **(** **)**
 
 .. rst-class:: classref-method
 
-void **select** **(** int idx **)**
+void **select** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx **)**
 
 .. container:: contribute
 
@@ -281,7 +281,7 @@ void **select** **(** int idx **)**
 
 .. rst-class:: classref-method
 
-void **set_option_disabled** **(** int idx, bool disabled **)**
+void **set_option_disabled** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ disabled **)**
 
 .. container:: contribute
 

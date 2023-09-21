@@ -10,7 +10,7 @@
 AudioManager
 ============
 
-**Inherits:** 
+**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 Manage system volume and audio devices
 
@@ -29,17 +29,17 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------+---------------------------------------------------------------------+-----------+
-   | String            | :ref:`_current_output<class_AudioManager_property__current_output>` | ``""``    |
-   +-------------------+---------------------------------------------------------------------+-----------+
-   | bool              | :ref:`_muted<class_AudioManager_property__muted>`                   | ``false`` |
-   +-------------------+---------------------------------------------------------------------+-----------+
-   | PackedStringArray | :ref:`_output_devices<class_AudioManager_property__output_devices>` |           |
-   +-------------------+---------------------------------------------------------------------+-----------+
-   | float             | :ref:`current_volume<class_AudioManager_property_current_volume>`   |           |
-   +-------------------+---------------------------------------------------------------------+-----------+
-   | Resource          | :ref:`thread<class_AudioManager_property_thread>`                   |           |
-   +-------------------+---------------------------------------------------------------------+-----------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_current_output<class_AudioManager_property__current_output>` | ``""``    |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`_muted<class_AudioManager_property__muted>`                   | ``false`` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`_output_devices<class_AudioManager_property__output_devices>` |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                         | :ref:`current_volume<class_AudioManager_property_current_volume>`   |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_                   | :ref:`thread<class_AudioManager_property_thread>`                   |           |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -49,31 +49,31 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | float             | :ref:`_get_current_volume<class_AudioManager_method__get_current_volume>` **(** **)**                                         |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`_get_output_devices<class_AudioManager_method__get_output_devices>` **(** **)**                                         |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`_get_wpctl_object_ids<class_AudioManager_method__get_wpctl_object_ids>` **(** **)**                                     |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | void              | :ref:`_init<class_AudioManager_method__init>` **(** **)**                                                                     |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`_wpctl_inspect<class_AudioManager_method__wpctl_inspect>` **(** String id **)**                                         |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | String            | :ref:`get_current_output_device<class_AudioManager_method_get_current_output_device>` **(** **)**                             |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | float             | :ref:`get_current_volume<class_AudioManager_method_get_current_volume>` **(** **)**                                           |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | PackedStringArray | :ref:`get_output_devices<class_AudioManager_method_get_output_devices>` **(** **)**                                           |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | int               | :ref:`set_output_device<class_AudioManager_method_set_output_device>` **(** String device **)**                               |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | int               | :ref:`set_volume<class_AudioManager_method_set_volume>` **(** float value, :ref:`VOLUME<enum_AudioManager_VOLUME>` type **)** |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | bool              | :ref:`supports_audio<class_AudioManager_method_supports_audio>` **(** **)**                                                   |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
-   | int               | :ref:`toggle_mute<class_AudioManager_method_toggle_mute>` **(** **)**                                                         |
-   +-------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                         | :ref:`_get_current_volume<class_AudioManager_method__get_current_volume>` **(** **)**                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`_get_output_devices<class_AudioManager_method__get_output_devices>` **(** **)**                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`_get_wpctl_object_ids<class_AudioManager_method__get_wpctl_object_ids>` **(** **)**                                                                                                          |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`_init<class_AudioManager_method__init>` **(** **)**                                                                                                                                          |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`_wpctl_inspect<class_AudioManager_method__wpctl_inspect>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**                                        |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_current_output_device<class_AudioManager_method_get_current_output_device>` **(** **)**                                                                                                  |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                         | :ref:`get_current_volume<class_AudioManager_method_get_current_volume>` **(** **)**                                                                                                                |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_output_devices<class_AudioManager_method_get_output_devices>` **(** **)**                                                                                                                |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`set_output_device<class_AudioManager_method_set_output_device>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device **)**                              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`set_volume<class_AudioManager_method_set_volume>` **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, :ref:`VOLUME<enum_AudioManager_VOLUME>` type **)** |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`supports_audio<class_AudioManager_method_supports_audio>` **(** **)**                                                                                                                        |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`toggle_mute<class_AudioManager_method_toggle_mute>` **(** **)**                                                                                                                              |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -88,7 +88,7 @@ Signals
 
 .. rst-class:: classref-signal
 
-**volume_changed** **(** float value **)**
+**volume_changed** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value **)**
 
 .. container:: contribute
 
@@ -169,7 +169,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **_current_output** = ``""``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_current_output** = ``""``
 
 .. container:: contribute
 
@@ -183,7 +183,7 @@ String **_current_output** = ``""``
 
 .. rst-class:: classref-property
 
-bool **_muted** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **_muted** = ``false``
 
 .. container:: contribute
 
@@ -197,7 +197,7 @@ bool **_muted** = ``false``
 
 .. rst-class:: classref-property
 
-PackedStringArray **_output_devices**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **_output_devices**
 
 .. container:: contribute
 
@@ -211,7 +211,7 @@ PackedStringArray **_output_devices**
 
 .. rst-class:: classref-property
 
-float **current_volume**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **current_volume**
 
 Current volume
 
@@ -223,7 +223,7 @@ Current volume
 
 .. rst-class:: classref-property
 
-Resource **thread**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **thread**
 
 Thread to run audio changes on
 
@@ -240,7 +240,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-float **_get_current_volume** **(** **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **_get_current_volume** **(** **)**
 
 Fetch the volume for the current output device
 
@@ -252,7 +252,7 @@ Fetch the volume for the current output device
 
 .. rst-class:: classref-method
 
-PackedStringArray **_get_output_devices** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **_get_output_devices** **(** **)**
 
 .. container:: contribute
 
@@ -266,7 +266,7 @@ PackedStringArray **_get_output_devices** **(** **)**
 
 .. rst-class:: classref-method
 
-PackedStringArray **_get_wpctl_object_ids** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **_get_wpctl_object_ids** **(** **)**
 
 .. container:: contribute
 
@@ -294,7 +294,7 @@ void **_init** **(** **)**
 
 .. rst-class:: classref-method
 
-PackedStringArray **_wpctl_inspect** **(** String id **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **_wpctl_inspect** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ id **)**
 
 .. container:: contribute
 
@@ -308,7 +308,7 @@ PackedStringArray **_wpctl_inspect** **(** String id **)**
 
 .. rst-class:: classref-method
 
-String **get_current_output_device** **(** **)**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_current_output_device** **(** **)**
 
 Returns the currently set output device
 
@@ -320,7 +320,7 @@ Returns the currently set output device
 
 .. rst-class:: classref-method
 
-float **get_current_volume** **(** **)**
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **get_current_volume** **(** **)**
 
 Returns the current volume as a percentage. E.g. 0.52 is 52%
 
@@ -332,7 +332,7 @@ Returns the current volume as a percentage. E.g. 0.52 is 52%
 
 .. rst-class:: classref-method
 
-PackedStringArray **get_output_devices** **(** **)**
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_output_devices** **(** **)**
 
 Returns a list of audio output devices
 
@@ -344,7 +344,7 @@ Returns a list of audio output devices
 
 .. rst-class:: classref-method
 
-int **set_output_device** **(** String device **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_output_device** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device **)**
 
 Sets the current output device to the given device
 
@@ -356,7 +356,7 @@ Sets the current output device to the given device
 
 .. rst-class:: classref-method
 
-int **set_volume** **(** float value, :ref:`VOLUME<enum_AudioManager_VOLUME>` type **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **set_volume** **(** `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ value, :ref:`VOLUME<enum_AudioManager_VOLUME>` type **)**
 
 Sets the current audio device volume based on the given value. The volume value should be in the form of a percent where 1.0 equals 100%. The type can be either absolute (default) or relative volume values.
 
@@ -380,7 +380,7 @@ Sets the current audio device volume based on the given value. The volume value 
 
 .. rst-class:: classref-method
 
-bool **supports_audio** **(** **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **supports_audio** **(** **)**
 
 Returns true if the system has audio controls we support
 
@@ -392,7 +392,7 @@ Returns true if the system has audio controls we support
 
 .. rst-class:: classref-method
 
-int **toggle_mute** **(** **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **toggle_mute** **(** **)**
 
 Toggles mute on the current audio device
 

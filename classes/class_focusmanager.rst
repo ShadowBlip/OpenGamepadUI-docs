@@ -10,7 +10,7 @@
 FocusManager
 ============
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | Control                             | :ref:`current_focus<class_FocusManager_property_current_focus>`                     |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | :ref:`FocusStack<class_FocusStack>` | :ref:`focus_stack<class_FocusManager_property_focus_stack>`                         |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | bool                                | :ref:`intercept_children_only<class_FocusManager_property_intercept_children_only>` | ``false``       |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`logger<class_FocusManager_property_logger>`                                   |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | Control                             | :ref:`parent<class_FocusManager_property_parent>`                                   |                 |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | bool                                | :ref:`process_input<class_FocusManager_property_process_input>`                     | ``false``       |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
-   | String                              | :ref:`refocus_on<class_FocusManager_property_refocus_on>`                           | ``"ogui_east"`` |
-   +-------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`current_focus<class_FocusManager_property_current_focus>`                     |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | :ref:`FocusStack<class_FocusStack>`                                            | :ref:`focus_stack<class_FocusManager_property_focus_stack>`                         |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_       | :ref:`intercept_children_only<class_FocusManager_property_intercept_children_only>` | ``false``       |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                            | :ref:`logger<class_FocusManager_property_logger>`                                   |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ | :ref:`parent<class_FocusManager_property_parent>`                                   |                 |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_       | :ref:`process_input<class_FocusManager_property_process_input>`                     | ``false``       |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`refocus_on<class_FocusManager_property_refocus_on>`                           | ``"ogui_east"`` |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+-----------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,29 +48,29 @@ Methods
 .. table::
    :widths: auto
 
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_grid_set_focus_tree<class_FocusManager_method__grid_set_focus_tree>` **(** Array control_children **)**        |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_hbox_set_focus_tree<class_FocusManager_method__hbox_set_focus_tree>` **(** Array control_children **)**        |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_hflow_set_focus_tree<class_FocusManager_method__hflow_set_focus_tree>` **(** Array control_children **)**      |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_input<class_FocusManager_method__input>` **(** InputEvent event **)**                                          |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | int  | :ref:`_nearest_neighbor<class_FocusManager_method__nearest_neighbor>` **(** int idx, int from_size, int to_size **)** |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_child_focused<class_FocusManager_method__on_child_focused>` **(** Control child **)**                       |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_child_tree_changed<class_FocusManager_method__on_child_tree_changed>` **(** Variant _node **)**             |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_visibility_changed<class_FocusManager_method__on_visibility_changed>` **(** **)**                           |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_FocusManager_method__ready>` **(** **)**                                                           |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_vbox_set_focus_tree<class_FocusManager_method__vbox_set_focus_tree>` **(** Array control_children **)**        |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`recalculate_focus<class_FocusManager_method_recalculate_focus>` **(** **)**                                     |
-   +------+-----------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_grid_set_focus_tree<class_FocusManager_method__grid_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_hbox_set_focus_tree<class_FocusManager_method__hbox_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_hflow_set_focus_tree<class_FocusManager_method__hflow_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                          |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_input<class_FocusManager_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                         |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`_nearest_neighbor<class_FocusManager_method__nearest_neighbor>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from_size, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to_size **)** |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_on_child_focused<class_FocusManager_method__on_child_focused>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**                                                                                                                                                         |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_on_child_tree_changed<class_FocusManager_method__on_child_tree_changed>` **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ _node **)**                                                                                                                                               |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_on_visibility_changed<class_FocusManager_method__on_visibility_changed>` **(** **)**                                                                                                                                                                                                                                    |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_ready<class_FocusManager_method__ready>` **(** **)**                                                                                                                                                                                                                                                                    |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`_vbox_set_focus_tree<class_FocusManager_method__vbox_set_focus_tree>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**                                                                                                                                            |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                   | :ref:`recalculate_focus<class_FocusManager_method_recalculate_focus>` **(** **)**                                                                                                                                                                                                                                              |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -85,7 +85,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Control **current_focus**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **current_focus**
 
 .. container:: contribute
 
@@ -111,7 +111,7 @@ Menus with multiple levels of focus can be part of a chain of focus
 
 .. rst-class:: classref-property
 
-bool **intercept_children_only** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **intercept_children_only** = ``false``
 
 If true, only intercept input and refocus if a descendent node has focus
 
@@ -137,7 +137,7 @@ If true, only intercept input and refocus if a descendent node has focus
 
 .. rst-class:: classref-property
 
-Control **parent**
+`Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ **parent**
 
 .. container:: contribute
 
@@ -151,7 +151,7 @@ Control **parent**
 
 .. rst-class:: classref-property
 
-bool **process_input** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **process_input** = ``false``
 
 If enabled, will intercept input and refocus on the current focus node instead
 
@@ -163,7 +163,7 @@ If enabled, will intercept input and refocus on the current focus node instead
 
 .. rst-class:: classref-property
 
-String **refocus_on** = ``"ogui_east"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **refocus_on** = ``"ogui_east"``
 
 The InputEvent that will trigger refocusing the current focus node
 
@@ -180,7 +180,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_grid_set_focus_tree** **(** Array control_children **)**
+void **_grid_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -194,7 +194,7 @@ void **_grid_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_hbox_set_focus_tree** **(** Array control_children **)**
+void **_hbox_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -208,7 +208,7 @@ void **_hbox_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_hflow_set_focus_tree** **(** Array control_children **)**
+void **_hflow_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 
@@ -222,7 +222,7 @@ void **_hflow_set_focus_tree** **(** Array control_children **)**
 
 .. rst-class:: classref-method
 
-void **_input** **(** InputEvent event **)**
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -236,7 +236,7 @@ void **_input** **(** InputEvent event **)**
 
 .. rst-class:: classref-method
 
-int **_nearest_neighbor** **(** int idx, int from_size, int to_size **)**
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_nearest_neighbor** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ idx, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from_size, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to_size **)**
 
 .. container:: contribute
 
@@ -250,7 +250,7 @@ int **_nearest_neighbor** **(** int idx, int from_size, int to_size **)**
 
 .. rst-class:: classref-method
 
-void **_on_child_focused** **(** Control child **)**
+void **_on_child_focused** **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ child **)**
 
 .. container:: contribute
 
@@ -264,7 +264,7 @@ void **_on_child_focused** **(** Control child **)**
 
 .. rst-class:: classref-method
 
-void **_on_child_tree_changed** **(** Variant _node **)**
+void **_on_child_tree_changed** **(** `Variant <https://docs.godotengine.org/en/stable/classes/class_variant.html>`_ _node **)**
 
 .. container:: contribute
 
@@ -306,7 +306,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_vbox_set_focus_tree** **(** Array control_children **)**
+void **_vbox_set_focus_tree** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ control_children **)**
 
 .. container:: contribute
 

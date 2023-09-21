@@ -10,7 +10,7 @@
 Launcher
 ========
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 .. container:: contribute
 
@@ -24,21 +24,21 @@ Properties
 .. table::
    :widths: auto
 
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`LibraryManager<class_LibraryManager>`       | :ref:`LibraryManager<class_Launcher_property_LibraryManager>` | ``Resource("res://core/global/library_manager.tres")``                      |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                         | :ref:`in_game_state<class_Launcher_property_in_game_state>`   | ``Resource("res://assets/state/states/in_game.tres")``                      |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | Dictionary                                        | :ref:`installing<class_Launcher_property_installing>`         |                                                                             |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` | :ref:`launch_item<class_Launcher_property_launch_item>`       |                                                                             |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | Node                                              | :ref:`parent<class_Launcher_property_parent>`                 |                                                                             |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | String                                            | :ref:`signal_name<class_Launcher_property_signal_name>`       | ``"button_up"``                                                             |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`StateMachine<class_StateMachine>`           | :ref:`state_machine<class_Launcher_property_state_machine>`   | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
-   +---------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`LibraryManager<class_LibraryManager>`                                          | :ref:`LibraryManager<class_Launcher_property_LibraryManager>` | ``Resource("res://core/global/library_manager.tres")``                      |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`                                                            | :ref:`in_game_state<class_Launcher_property_in_game_state>`   | ``Resource("res://assets/state/states/in_game.tres")``                      |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`installing<class_Launcher_property_installing>`         |                                                                             |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                                    | :ref:`launch_item<class_Launcher_property_launch_item>`       |                                                                             |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_             | :ref:`parent<class_Launcher_property_parent>`                 |                                                                             |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`signal_name<class_Launcher_property_signal_name>`       | ``"button_up"``                                                             |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`StateMachine<class_StateMachine>`                                              | :ref:`state_machine<class_Launcher_property_state_machine>`   | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
+   +--------------------------------------------------------------------------------------+---------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -48,13 +48,13 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_installed<class_Launcher_method__on_installed>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, bool success **)** |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_launch<class_Launcher_method__on_launch>` **(** **)**                                                                            |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_Launcher_method__ready>` **(** **)**                                                                                    |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_installed<class_Launcher_method__on_installed>` **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_on_launch<class_Launcher_method__on_launch>` **(** **)**                                                                                                                                                |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_Launcher_method__ready>` **(** **)**                                                                                                                                                        |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -122,7 +122,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-Dictionary **installing**
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **installing**
 
 .. container:: contribute
 
@@ -150,7 +150,7 @@ Dictionary **installing**
 
 .. rst-class:: classref-property
 
-Node **parent**
+`Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_ **parent**
 
 .. container:: contribute
 
@@ -164,7 +164,7 @@ Node **parent**
 
 .. rst-class:: classref-property
 
-String **signal_name** = ``"button_up"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **signal_name** = ``"button_up"``
 
 .. container:: contribute
 
@@ -197,7 +197,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_on_installed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, bool success **)**
+void **_on_installed** **(** :ref:`LibraryLaunchItem<class_LibraryLaunchItem>` item, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ success **)**
 
 .. container:: contribute
 

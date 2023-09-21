@@ -10,7 +10,7 @@
 SysfsDevice.ID
 ==============
 
-**Inherits:** 
+**Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
 Container for a sysfs ID E.g. I: Bus=0003 Vendor=045e Product=028e Version=0120
 
@@ -22,15 +22,15 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+---------------------------------------------------------+
-   | String | :ref:`bus_type<class_SysfsDevice.ID_property_bus_type>` |
-   +--------+---------------------------------------------------------+
-   | String | :ref:`product<class_SysfsDevice.ID_property_product>`   |
-   +--------+---------------------------------------------------------+
-   | String | :ref:`vendor<class_SysfsDevice.ID_property_vendor>`     |
-   +--------+---------------------------------------------------------+
-   | String | :ref:`version<class_SysfsDevice.ID_property_version>`   |
-   +--------+---------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`bus_type<class_SysfsDevice.ID_property_bus_type>` |
+   +------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`product<class_SysfsDevice.ID_property_product>`   |
+   +------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_SysfsDevice.ID_property_vendor>`     |
+   +------------------------------------------------------------------------------+---------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`version<class_SysfsDevice.ID_property_version>`   |
+   +------------------------------------------------------------------------------+---------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **bus_type**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **bus_type**
 
 .. container:: contribute
 
@@ -59,7 +59,7 @@ String **bus_type**
 
 .. rst-class:: classref-property
 
-String **product**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **product**
 
 .. container:: contribute
 
@@ -73,7 +73,7 @@ String **product**
 
 .. rst-class:: classref-property
 
-String **vendor**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **vendor**
 
 .. container:: contribute
 
@@ -87,7 +87,7 @@ String **vendor**
 
 .. rst-class:: classref-property
 
-String **version**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **version**
 
 .. container:: contribute
 

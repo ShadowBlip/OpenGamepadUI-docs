@@ -10,7 +10,7 @@
 Effect
 ======
 
-**Inherits:** 
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
 **Inherited By:** :ref:`FadeEffect<class_FadeEffect>`, :ref:`GrowerEffect<class_GrowerEffect>`, :ref:`PlayAudioEffect<class_PlayAudioEffect>`, :ref:`RaiseEffect<class_RaiseEffect>`, :ref:`SlideEffect<class_SlideEffect>`, :ref:`SmoothScrollEffect<class_SmoothScrollEffect>`
 
@@ -31,9 +31,9 @@ Properties
 .. table::
    :widths: auto
 
-   +--------+---------------------------------------------------+
-   | String | :ref:`on_signal<class_Effect_property_on_signal>` |
-   +--------+---------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`on_signal<class_Effect_property_on_signal>` |
+   +------------------------------------------------------------------------------+---------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -95,7 +95,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-String **on_signal**
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **on_signal**
 
 Signal on our parent node to connect to
 

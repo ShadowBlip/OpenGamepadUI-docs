@@ -10,7 +10,7 @@
 CardMappingButton
 =================
 
-**Inherits:** 
+**Inherits:** `PanelContainer <https://docs.godotengine.org/en/stable/classes/class_panelcontainer.html>`_
 
 .. container:: contribute
 
@@ -24,49 +24,49 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextServer.AutowrapMode                            | :ref:`autowrap_mode<class_CardMappingButton_property_autowrap_mode>`               |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | :ref:`AXIS_TYPE<enum_CardMappingButton_AXIS_TYPE>` | :ref:`axis<class_CardMappingButton_property_axis>`                                 | ``0``                                             |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | bool                                               | :ref:`click_focuses<class_CardMappingButton_property_click_focuses>`               | ``true``                                          |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextureRect                                        | :ref:`direction_arrow<class_CardMappingButton_property_direction_arrow>`           |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextureRect                                        | :ref:`direction_arrow2<class_CardMappingButton_property_direction_arrow2>`         |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | bool                                               | :ref:`disabled<class_CardMappingButton_property_disabled>`                         | ``false``                                         |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | String                                             | :ref:`focus_audio<class_CardMappingButton_property_focus_audio>`                   | ``"res://assets/audio/interface/glitch_004.ogg"`` |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | Resource                                           | :ref:`focus_audio_stream<class_CardMappingButton_property_focus_audio_stream>`     |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | TextureRect                                        | :ref:`highlight<class_CardMappingButton_property_highlight>`                       |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | float                                              | :ref:`highlight_speed<class_CardMappingButton_property_highlight_speed>`           | ``0.1``                                           |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | HorizontalAlignment                                | :ref:`horizontal_alignment<class_CardMappingButton_property_horizontal_alignment>` | ``1``                                             |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | Label                                              | :ref:`label<class_CardMappingButton_property_label>`                               |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | LabelSettings                                      | :ref:`label_settings<class_CardMappingButton_property_label_settings>`             |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | Array                                              | :ref:`mappings<class_CardMappingButton_property_mappings>`                         |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | String                                             | :ref:`select_audio<class_CardMappingButton_property_select_audio>`                 | ``"res://assets/audio/interface/select_002.ogg"`` |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | Resource                                           | :ref:`select_audio_stream<class_CardMappingButton_property_select_audio_stream>`   |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | String                                             | :ref:`text<class_CardMappingButton_property_text>`                                 | ``"Button"``                                      |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | ControllerTextureRect                              | :ref:`texture<class_CardMappingButton_property_texture>`                           |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | Tween                                              | :ref:`tween<class_CardMappingButton_property_tween>`                               |                                                   |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | bool                                               | :ref:`uppercase<class_CardMappingButton_property_uppercase>`                       | ``true``                                          |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
-   | VerticalAlignment                                  | :ref:`vertical_alignment<class_CardMappingButton_property_vertical_alignment>`     | ``1``                                             |
-   +----------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextServer.AutowrapMode <https://docs.godotengine.org/en/stable/classes/class_textserver.html#enum-textserver-autowrapmode>`_         | :ref:`autowrap_mode<class_CardMappingButton_property_autowrap_mode>`               |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | :ref:`AXIS_TYPE<enum_CardMappingButton_AXIS_TYPE>`                                                                                     | :ref:`axis<class_CardMappingButton_property_axis>`                                 | ``0``                                             |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                                                               | :ref:`click_focuses<class_CardMappingButton_property_click_focuses>`               | ``true``                                          |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_                                                 | :ref:`direction_arrow<class_CardMappingButton_property_direction_arrow>`           |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_                                                 | :ref:`direction_arrow2<class_CardMappingButton_property_direction_arrow2>`         |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                                                               | :ref:`disabled<class_CardMappingButton_property_disabled>`                         | ``false``                                         |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                                                           | :ref:`focus_audio<class_CardMappingButton_property_focus_audio>`                   | ``"res://assets/audio/interface/glitch_004.ogg"`` |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_                                                       | :ref:`focus_audio_stream<class_CardMappingButton_property_focus_audio_stream>`     |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_                                                 | :ref:`highlight<class_CardMappingButton_property_highlight>`                       |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_                                                             | :ref:`highlight_speed<class_CardMappingButton_property_highlight_speed>`           | ``0.1``                                           |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `HorizontalAlignment <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-horizontalalignment>`_ | :ref:`horizontal_alignment<class_CardMappingButton_property_horizontal_alignment>` | ``1``                                             |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_                                                             | :ref:`label<class_CardMappingButton_property_label>`                               |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `LabelSettings <https://docs.godotengine.org/en/stable/classes/class_labelsettings.html>`_                                             | :ref:`label_settings<class_CardMappingButton_property_label_settings>`             |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                                                             | :ref:`mappings<class_CardMappingButton_property_mappings>`                         |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                                                           | :ref:`select_audio<class_CardMappingButton_property_select_audio>`                 | ``"res://assets/audio/interface/select_002.ogg"`` |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_                                                       | :ref:`select_audio_stream<class_CardMappingButton_property_select_audio_stream>`   |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                                                           | :ref:`text<class_CardMappingButton_property_text>`                                 | ``"Button"``                                      |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `ControllerTextureRect <https://docs.godotengine.org/en/stable/classes/class_controllertexturerect.html>`_                             | :ref:`texture<class_CardMappingButton_property_texture>`                           |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_                                                             | :ref:`tween<class_CardMappingButton_property_tween>`                               |                                                   |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                                                               | :ref:`uppercase<class_CardMappingButton_property_uppercase>`                       | ``true``                                          |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
+   | `VerticalAlignment <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-verticalalignment>`_     | :ref:`vertical_alignment<class_CardMappingButton_property_vertical_alignment>`     | ``1``                                             |
+   +----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+---------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -76,27 +76,27 @@ Methods
 .. table::
    :widths: auto
 
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_gui_input<class_CardMappingButton_method__gui_input>` **(** InputEvent event **)**                                                  |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_focus<class_CardMappingButton_method__on_focus>` **(** **)**                                                                     |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_theme_changed<class_CardMappingButton_method__on_theme_changed>` **(** **)**                                                     |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_on_unfocus<class_CardMappingButton_method__on_unfocus>` **(** **)**                                                                 |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_play_sound<class_CardMappingButton_method__play_sound>` **(** AudioStream stream **)**                                              |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_ready<class_CardMappingButton_method__ready>` **(** **)**                                                                           |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | bool | :ref:`has_controller_icon<class_CardMappingButton_method_has_controller_icon>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)** |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_axis_type<class_CardMappingButton_method_set_axis_type>` **(** :ref:`AXIS_TYPE<enum_CardMappingButton_AXIS_TYPE>` type **)**     |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_icon<class_CardMappingButton_method_set_icon>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                       |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`set_mapping<class_CardMappingButton_method_set_mapping>` **(** Array events **)**                                                    |
-   +------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_gui_input<class_CardMappingButton_method__gui_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**      |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_focus<class_CardMappingButton_method__on_focus>` **(** **)**                                                                                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_theme_changed<class_CardMappingButton_method__on_theme_changed>` **(** **)**                                                                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_on_unfocus<class_CardMappingButton_method__on_unfocus>` **(** **)**                                                                                               |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_play_sound<class_CardMappingButton_method__play_sound>` **(** `AudioStream <https://docs.godotengine.org/en/stable/classes/class_audiostream.html>`_ stream **)** |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`_ready<class_CardMappingButton_method__ready>` **(** **)**                                                                                                         |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`has_controller_icon<class_CardMappingButton_method_has_controller_icon>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                               |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`set_axis_type<class_CardMappingButton_method_set_axis_type>` **(** :ref:`AXIS_TYPE<enum_CardMappingButton_AXIS_TYPE>` type **)**                                   |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`set_icon<class_CardMappingButton_method_set_icon>` **(** :ref:`MappableEvent<class_MappableEvent>` event **)**                                                     |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                     | :ref:`set_mapping<class_CardMappingButton_method_set_mapping>` **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ events **)**             |
+   +--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -229,7 +229,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-TextServer.AutowrapMode **autowrap_mode**
+`TextServer.AutowrapMode <https://docs.godotengine.org/en/stable/classes/class_textserver.html#enum-textserver-autowrapmode>`_ **autowrap_mode**
 
 .. container:: contribute
 
@@ -257,7 +257,7 @@ TextServer.AutowrapMode **autowrap_mode**
 
 .. rst-class:: classref-property
 
-bool **click_focuses** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **click_focuses** = ``true``
 
 .. container:: contribute
 
@@ -271,7 +271,7 @@ bool **click_focuses** = ``true``
 
 .. rst-class:: classref-property
 
-TextureRect **direction_arrow**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **direction_arrow**
 
 .. container:: contribute
 
@@ -285,7 +285,7 @@ TextureRect **direction_arrow**
 
 .. rst-class:: classref-property
 
-TextureRect **direction_arrow2**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **direction_arrow2**
 
 .. container:: contribute
 
@@ -299,7 +299,7 @@ TextureRect **direction_arrow2**
 
 .. rst-class:: classref-property
 
-bool **disabled** = ``false``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **disabled** = ``false``
 
 .. container:: contribute
 
@@ -313,7 +313,7 @@ bool **disabled** = ``false``
 
 .. rst-class:: classref-property
 
-String **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. container:: contribute
 
@@ -327,7 +327,7 @@ String **focus_audio** = ``"res://assets/audio/interface/glitch_004.ogg"``
 
 .. rst-class:: classref-property
 
-Resource **focus_audio_stream**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **focus_audio_stream**
 
 .. container:: contribute
 
@@ -341,7 +341,7 @@ Resource **focus_audio_stream**
 
 .. rst-class:: classref-property
 
-TextureRect **highlight**
+`TextureRect <https://docs.godotengine.org/en/stable/classes/class_texturerect.html>`_ **highlight**
 
 .. container:: contribute
 
@@ -355,7 +355,7 @@ TextureRect **highlight**
 
 .. rst-class:: classref-property
 
-float **highlight_speed** = ``0.1``
+`float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ **highlight_speed** = ``0.1``
 
 .. container:: contribute
 
@@ -369,7 +369,7 @@ float **highlight_speed** = ``0.1``
 
 .. rst-class:: classref-property
 
-HorizontalAlignment **horizontal_alignment** = ``1``
+`HorizontalAlignment <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-horizontalalignment>`_ **horizontal_alignment** = ``1``
 
 .. container:: contribute
 
@@ -383,7 +383,7 @@ HorizontalAlignment **horizontal_alignment** = ``1``
 
 .. rst-class:: classref-property
 
-Label **label**
+`Label <https://docs.godotengine.org/en/stable/classes/class_label.html>`_ **label**
 
 .. container:: contribute
 
@@ -397,7 +397,7 @@ Label **label**
 
 .. rst-class:: classref-property
 
-LabelSettings **label_settings**
+`LabelSettings <https://docs.godotengine.org/en/stable/classes/class_labelsettings.html>`_ **label_settings**
 
 .. container:: contribute
 
@@ -411,7 +411,7 @@ LabelSettings **label_settings**
 
 .. rst-class:: classref-property
 
-Array **mappings**
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **mappings**
 
 .. container:: contribute
 
@@ -425,7 +425,7 @@ Array **mappings**
 
 .. rst-class:: classref-property
 
-String **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
 
 .. container:: contribute
 
@@ -439,7 +439,7 @@ String **select_audio** = ``"res://assets/audio/interface/select_002.ogg"``
 
 .. rst-class:: classref-property
 
-Resource **select_audio_stream**
+`Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_ **select_audio_stream**
 
 .. container:: contribute
 
@@ -453,7 +453,7 @@ Resource **select_audio_stream**
 
 .. rst-class:: classref-property
 
-String **text** = ``"Button"``
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **text** = ``"Button"``
 
 .. container:: contribute
 
@@ -467,7 +467,7 @@ String **text** = ``"Button"``
 
 .. rst-class:: classref-property
 
-ControllerTextureRect **texture**
+`ControllerTextureRect <https://docs.godotengine.org/en/stable/classes/class_controllertexturerect.html>`_ **texture**
 
 .. container:: contribute
 
@@ -481,7 +481,7 @@ ControllerTextureRect **texture**
 
 .. rst-class:: classref-property
 
-Tween **tween**
+`Tween <https://docs.godotengine.org/en/stable/classes/class_tween.html>`_ **tween**
 
 .. container:: contribute
 
@@ -495,7 +495,7 @@ Tween **tween**
 
 .. rst-class:: classref-property
 
-bool **uppercase** = ``true``
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **uppercase** = ``true``
 
 .. container:: contribute
 
@@ -509,7 +509,7 @@ bool **uppercase** = ``true``
 
 .. rst-class:: classref-property
 
-VerticalAlignment **vertical_alignment** = ``1``
+`VerticalAlignment <https://docs.godotengine.org/en/stable/classes/class_%40globalscope.html#enum-globalscope-verticalalignment>`_ **vertical_alignment** = ``1``
 
 .. container:: contribute
 
@@ -528,7 +528,7 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_gui_input** **(** InputEvent event **)**
+void **_gui_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 .. container:: contribute
 
@@ -584,7 +584,7 @@ void **_on_unfocus** **(** **)**
 
 .. rst-class:: classref-method
 
-void **_play_sound** **(** AudioStream stream **)**
+void **_play_sound** **(** `AudioStream <https://docs.godotengine.org/en/stable/classes/class_audiostream.html>`_ stream **)**
 
 .. container:: contribute
 
@@ -612,7 +612,7 @@ void **_ready** **(** **)**
 
 .. rst-class:: classref-method
 
-bool **has_controller_icon** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **has_controller_icon** **(** :ref:`MappableEvent<class_MappableEvent>` event **)**
 
 Returns true if the given event has a controller icon
 
@@ -648,7 +648,7 @@ Configures the button for the given mappable event
 
 .. rst-class:: classref-method
 
-void **set_mapping** **(** Array events **)**
+void **set_mapping** **(** `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ events **)**
 
 Configures the button for the given mappable event
 
