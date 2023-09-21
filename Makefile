@@ -7,6 +7,10 @@ ALL_RST := $(shell find ./ -name '*.rst')
 IMAGE_NAME ?= docs-builder
 IMAGE_TAG ?= latest
 
+# Docker image variables
+BUILD_IMAGE_NAME ?= ghcr.io/shadowblip/opengamepadui-builder
+BUILD_IMAGE_TAG ?= latest
+
 ##@ General
 
 # The help target prints out all targets with their descriptions organized
@@ -33,7 +37,7 @@ image: ## Build the Sphinx documentation container
 .PHONY: classes
 classes: OpenGamepadUI ## Regenerate class documentation
 	cd OpenGamepadUI && git pull origin main
-	cd OpenGamepadUI && $(MAKE) import docs || true
+	cd OpenGamepadUI && make import docs || true
 	rm -rf classes/*
 	cp OpenGamepadUI/docs/api/_build/rst/* classes
 
@@ -57,3 +61,15 @@ preview: build ## Build and launch the documentation in a browser
 .PHONY: clean
 clean: ## Clean up generated documentation
 	rm -rf _build html
+
+# E.g. make in-docker TARGET=build
+.PHONY: in-docker
+in-docker:
+	@# Run the given make target inside Docker
+	docker run --rm \
+		-v $(PWD):/src \
+		--workdir /src \
+		-e HOME=/home/build \
+		--user $(shell id -u):$(shell id -g) \
+		$(BUILD_IMAGE_NAME):$(BUILD_IMAGE_TAG) \
+		make $(TARGET)

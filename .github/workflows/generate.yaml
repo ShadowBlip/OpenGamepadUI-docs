@@ -1,0 +1,19 @@
+name: generate
+on: [repository_dispatch]
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - run: |
+          make in-docker TARGET=classes
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add classes
+          git commit -m 'chore(docs): re-generate classes [automated]'
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
