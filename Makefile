@@ -30,6 +30,16 @@ help: ## Display this help.
 image: ## Build the Sphinx documentation container
 	docker build -t $(IMAGE_NAME):$(IMAGE_TAG) .
 
+.PHONY: classes
+classes: OpenGamepadUI ## Regenerate class documentation
+	cd OpenGamepadUI && git pull origin main
+	cd OpenGamepadUI && $(MAKE) import docs || true
+	rm -rf classes/*
+	cp OpenGamepadUI/docs/api/_build/rst/* classes
+
+OpenGamepadUI:
+	git clone --depth 1 https://github.com/ShadowBlip/OpenGamepadUI.git
+
 .PHONY: build
 build: image html/index.html ## Build the documentation HTML
 html/index.html: $(ALL_RST)
