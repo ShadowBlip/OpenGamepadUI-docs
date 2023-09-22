@@ -62,6 +62,7 @@ Nodes
     class_stateupdater
     class_statewatcher
     class_store
+    class_tablabel
     class_test
     class_themesetter
     class_toggle
@@ -92,7 +93,6 @@ Resources
     class_dbusmanager
     class_dbusmanager.proxy
     class_devicehider
-    class_dialogmanager
     class_displaymanager
     class_evdevabsevent
     class_evdevevent
@@ -183,7 +183,6 @@ Other objects
     class_command
     class_dbusmanager.dbusproxy
     class_dbusmanager.managedobject
-    class_dialogmanager.request
     class_gamepadmanager.gamepadarray
     class_handheldgamepad.keypad
     class_httpapiclient.response
