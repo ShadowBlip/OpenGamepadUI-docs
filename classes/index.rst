@@ -62,7 +62,6 @@ Nodes
     class_stateupdater
     class_statewatcher
     class_store
-    class_tablabel
     class_test
     class_themesetter
     class_toggle
