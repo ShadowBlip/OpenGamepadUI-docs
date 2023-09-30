@@ -10,3 +10,4 @@ This section contains tutorials for writing your own plugins for OpenGamepadUI.
    :name: toc-plugin-tutorials
 
    library_plugin
+   boxart_plugin
