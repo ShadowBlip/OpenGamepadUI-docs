@@ -31,4 +31,4 @@ contributors.
    writing_decoupled_code
    creating_a_menu
    adding_a_new_platform
-
+   deploying

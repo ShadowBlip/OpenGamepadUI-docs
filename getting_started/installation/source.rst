@@ -14,7 +14,7 @@ Build
 -----
 
 -  Ensure that you have the build dependencies from the `developer
-   guide <https://github.com/ShadowBlip/OpenGamepadUI/blob/main/docs/DEVELOPER.md#build-requirements>`__
+   guide <https://opengamepadui.readthedocs.io/en/latest/contributing/development/building_from_source.html#build-requirements>`__
    installed.
 
 -  Clone this repository locally

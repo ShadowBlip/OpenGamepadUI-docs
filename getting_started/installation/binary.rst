@@ -19,7 +19,7 @@ Installing OpenGamepadUI system-wide provides the most funtionality. Use
 the following steps to install OpenGamepadUI:
 
 -  Ensure you have the runtime dependencies listed in the `Install
-   Guide </docs/INSTALL.md>`__
+   Guide <https://opengamepadui.readthedocs.io/en/latest/getting_started/installation/index.html#requirements>`_
 
 -  Download the latest version of OpenGamepadUI from the
    `releases <https://github.com/ShadowBlip/OpenGamepadUI/releases>`__
