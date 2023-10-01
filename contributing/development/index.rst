@@ -29,5 +29,6 @@ contributors.
    code_style_guidelines
    core_systems_and_architecture
    writing_decoupled_code
+   creating_a_menu
    adding_a_new_platform
 
