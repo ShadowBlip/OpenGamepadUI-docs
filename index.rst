@@ -42,7 +42,7 @@ Submit an issue or pull request on the `GitHub repository <https://github.com/sh
 
    getting_started/introduction
    getting_started/installation/index
-   getting_started/usage
+   getting_started/usage/index
 
 
 .. toctree::
