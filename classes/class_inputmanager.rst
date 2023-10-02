@@ -10,36 +10,20 @@
 InputManager
 ============
 
-**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
+**Inherits:** `Node <https://docs.godotengine.org/en/stable/classes/class_node.html>`_
 
-Manages global input and virtual controllers
+Manages global input
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The InputManager class is responsible for handling global input that should happen everywhere in the application. The input manager discovers gamepads and interepts their input so OpenGamepadUI can control what inputs should get passed on to the game and what only OpenGamepadUI should process. This works by grabbing exclusive access to the physical gamepads and creating a virtual gamepad that games can see.
+The InputManager class is responsible for handling global input that should happen everywhere in the application, regardless of the current menu. Examples include opening up the main or quick access menus.
 
 
 
-This class should be loaded and managed by a single node in the scene tree. It requires to be initialized and passed input events:
-
-::
-
-        const InputManager := preload("res://core/global/input_manager.tres")
-    
-        func _ready() -> void:
-            InputManager.init()
-    
-        func _input(event: InputEvent) -> void:
-        	   if not InputManager.input(event):
-        	       return
-        	   get_viewport().set_input_as_handled()
-    
-        func _exit_tree() -> void:
-        	   InputManager.exit()
-    
+To include this functionality, add this as a node to the root node in the scene tree.
 
 .. rst-class:: classref-reftable-group
 
@@ -49,29 +33,21 @@ Properties
 .. table::
    :widths: auto
 
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`PID<class_InputManager_property_PID>`                               |                                                                             |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`AudioManager<class_AudioManager>`                                  | :ref:`audio_manager<class_InputManager_property_audio_manager>`           |                                                                             |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`guide_action<class_InputManager_property_guide_action>`             | ``false``                                                                   |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                                                | :ref:`in_game_menu_state<class_InputManager_property_in_game_menu_state>` | ``Resource("res://assets/state/states/in_game_menu.tres")``                 |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                                                | :ref:`in_game_state<class_InputManager_property_in_game_state>`           | ``Resource("res://assets/state/states/in_game.tres")``                      |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`                                      | :ref:`logger<class_InputManager_property_logger>`                         |                                                                             |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                                                | :ref:`main_menu_state<class_InputManager_property_main_menu_state>`       | ``Resource("res://assets/state/states/main_menu.tres")``                    |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                                                | :ref:`osk_state<class_InputManager_property_osk_state>`                   | ``Resource("res://assets/state/states/osk.tres")``                          |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_   | :ref:`overlay_window_id<class_InputManager_property_overlay_window_id>`   |                                                                             |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`                                                | :ref:`qam_state<class_InputManager_property_qam_state>`                   | ``Resource("res://assets/state/states/quick_access_menu.tres")``            |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`StateMachine<class_StateMachine>`                                  | :ref:`state_machine<class_InputManager_property_state_machine>`           | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
-   +--------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`AudioManager<class_AudioManager>` | :ref:`audio_manager<class_InputManager_property_audio_manager>`           |                                                                             |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`               | :ref:`in_game_menu_state<class_InputManager_property_in_game_menu_state>` | ``Resource("res://assets/state/states/in_game_menu.tres")``                 |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`     | :ref:`logger<class_InputManager_property_logger>`                         |                                                                             |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`               | :ref:`main_menu_state<class_InputManager_property_main_menu_state>`       | ``Resource("res://assets/state/states/main_menu.tres")``                    |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`               | :ref:`osk_state<class_InputManager_property_osk_state>`                   | ``Resource("res://assets/state/states/osk.tres")``                          |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`State<class_State>`               | :ref:`qam_state<class_InputManager_property_qam_state>`                   | ``Resource("res://assets/state/states/quick_access_menu.tres")``            |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
+   | :ref:`StateMachine<class_StateMachine>` | :ref:`state_machine<class_InputManager_property_state_machine>`           | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
+   +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -81,25 +57,27 @@ Methods
 .. table::
    :widths: auto
 
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_action_press<class_InputManager_method__action_press>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**                                                                               |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_action_release<class_InputManager_method__action_release>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**                                                                           |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_audio_input<class_InputManager_method__audio_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                               |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_guide_input<class_InputManager_method__guide_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                               |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_main_menu_input<class_InputManager_method__main_menu_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                       |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_osk_input<class_InputManager_method__osk_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_qam_input<class_InputManager_method__qam_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                     | :ref:`_send_input<class_InputManager_method__send_input>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ pressed, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)** |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ | :ref:`input<class_InputManager_method_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                             |
-   +--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_audio_input<class_InputManager_method__audio_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                               |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_guide_input<class_InputManager_method__guide_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                               |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_input<class_InputManager_method__input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                           |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_main_menu_input<class_InputManager_method__main_menu_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                       |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_osk_input<class_InputManager_method__osk_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_qam_input<class_InputManager_method__qam_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_ready<class_InputManager_method__ready>` **(** **)**                                                                                                                                                                                                                                                                      |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`_send_input<class_InputManager_method__send_input>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ pressed, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)** |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`action_press<class_InputManager_method_action_press>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**                                                                                 |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void | :ref:`action_release<class_InputManager_method_action_release>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**                                                                             |
+   +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -110,53 +88,13 @@ Methods
 Constants
 ---------
 
-.. _class_InputManager_constant_Gamescope:
-
-.. rst-class:: classref-constant
-
-**Gamescope** = ``platform-dependent``
-
-
-
 .. _class_InputManager_constant_osk:
 
 .. rst-class:: classref-constant
 
 **osk** = ``platform-dependent``
 
-
-
-.. _class_InputManager_constant_Platform:
-
-.. rst-class:: classref-constant
-
-**Platform** = ``platform-dependent``
-
-
-
-.. _class_InputManager_constant_input_thread:
-
-.. rst-class:: classref-constant
-
-**input_thread** = ``platform-dependent``
-
-
-
-.. _class_InputManager_constant_input_default_path:
-
-.. rst-class:: classref-constant
-
-**input_default_path** = ``/dev/input``
-
-
-
-.. _class_InputManager_constant_input_hidden_path:
-
-.. rst-class:: classref-constant
-
-**input_hidden_path** = ``/dev/input/.hidden``
-
-
+Reference to the on-screen keyboard instance to open when the OSK action is pressed.
 
 .. rst-class:: classref-section-separator
 
@@ -167,43 +105,13 @@ Constants
 Property Descriptions
 ---------------------
 
-.. _class_InputManager_property_PID:
-
-.. rst-class:: classref-property
-
-`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **PID**
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_InputManager_property_audio_manager:
 
 .. rst-class:: classref-property
 
 :ref:`AudioManager<class_AudioManager>` **audio_manager**
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_InputManager_property_guide_action:
-
-.. rst-class:: classref-property
-
-`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **guide_action** = ``false``
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+The audio manager to use to adjust the audio when audio input events happen.
 
 .. rst-class:: classref-item-separator
 
@@ -214,20 +122,6 @@ Property Descriptions
 .. rst-class:: classref-property
 
 :ref:`State<class_State>` **in_game_menu_state** = ``Resource("res://assets/state/states/in_game_menu.tres")``
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_InputManager_property_in_game_state:
-
-.. rst-class:: classref-property
-
-:ref:`State<class_State>` **in_game_state** = ``Resource("res://assets/state/states/in_game.tres")``
 
 .. container:: contribute
 
@@ -279,20 +173,6 @@ Property Descriptions
 
 ----
 
-.. _class_InputManager_property_overlay_window_id:
-
-.. rst-class:: classref-property
-
-`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **overlay_window_id**
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_InputManager_property_qam_state:
 
 .. rst-class:: classref-property
@@ -313,9 +193,7 @@ Property Descriptions
 
 :ref:`StateMachine<class_StateMachine>` **state_machine** = ``Resource("res://assets/state/state_machines/global_state_machine.tres")``
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+State machine to use to switch menu states in response to input events.
 
 .. rst-class:: classref-section-separator
 
@@ -326,43 +204,13 @@ Property Descriptions
 Method Descriptions
 -------------------
 
-.. _class_InputManager_method__action_press:
-
-.. rst-class:: classref-method
-
-void **_action_press** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**
-
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_InputManager_method__action_release:
-
-.. rst-class:: classref-method
-
-void **_action_release** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**
-
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_InputManager_method__audio_input:
 
 .. rst-class:: classref-method
 
 void **_audio_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Handle audio input events such as mute, volume up, and volume down
 
 .. rst-class:: classref-item-separator
 
@@ -374,9 +222,19 @@ void **_audio_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/
 
 void **_guide_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
-.. container:: contribute
+Handle guide button events and determine whether this is a guide action (e.g. guide + A to open the QAM), or if it's just a normal guide button press.
 
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_InputManager_method__input:
+
+.. rst-class:: classref-method
+
+void **_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
+
+Process all unhandled input, possibly preventing the input from propagating further. https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent.html#how-does-it-work
 
 .. rst-class:: classref-item-separator
 
@@ -388,9 +246,7 @@ void **_guide_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/
 
 void **_main_menu_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Handle main menu events to open the main menu
 
 .. rst-class:: classref-item-separator
 
@@ -402,9 +258,7 @@ void **_main_menu_input** **(** `InputEvent <https://docs.godotengine.org/en/sta
 
 void **_osk_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Handle OSK events for bringing up the on-screen keyboard
 
 .. rst-class:: classref-item-separator
 
@@ -415,6 +269,18 @@ void **_osk_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/cl
 .. rst-class:: classref-method
 
 void **_qam_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
+
+Handle quick access menu events to open the quick access menu
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_InputManager_method__ready:
+
+.. rst-class:: classref-method
+
+void **_ready** **(** **)**
 
 .. container:: contribute
 
@@ -436,13 +302,25 @@ Sends an input action to the event queue
 
 ----
 
-.. _class_InputManager_method_input:
+.. _class_InputManager_method_action_press:
 
 .. rst-class:: classref-method
 
-`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
+void **action_press** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**
 
-Returns whether or not get_viewport().set_input_as_handled() should be called https://docs.godotengine.org/en/latest/tutorials/inputs/inputevent.html#how-does-it-work
+Queue a pressed event for the given action
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_InputManager_method_action_release:
+
+.. rst-class:: classref-method
+
+void **action_release** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ action, `float <https://docs.godotengine.org/en/stable/classes/class_float.html>`_ strength **)**
+
+Queue a release event for the given action
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

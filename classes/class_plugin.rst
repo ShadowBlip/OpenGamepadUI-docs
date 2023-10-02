@@ -54,6 +54,8 @@ Methods
    +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                           | :ref:`add_library<class_Plugin_method_add_library>` **(** :ref:`Library<class_Library>` library **)**                                                                                                                                                                                                                                     |
    +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`add_overlay<class_Plugin_method_add_overlay>` **(** :ref:`OverlayProvider<class_OverlayProvider>` overlay **)**                                                                                                                                                                                                                     |
+   +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                           | :ref:`add_store<class_Plugin_method_add_store>` **(** :ref:`Store<class_Store>` store **)**                                                                                                                                                                                                                                               |
    +--------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                           | :ref:`add_to_qam<class_Plugin_method_add_to_qam>` **(** `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ qam_item, `Texture2D <https://docs.godotengine.org/en/stable/classes/class_texture2d.html>`_ icon, `Control <https://docs.godotengine.org/en/stable/classes/class_control.html>`_ focus_node **)** |
@@ -197,6 +199,18 @@ Adds the given boxart provider as a child of the plugin. A :ref:`BoxArtProvider<
 void **add_library** **(** :ref:`Library<class_Library>` library **)**
 
 Adds the given library implementation as a child of the plugin. A :ref:`Library<class_Library>` node will automatically register itself with the :ref:`LibraryManager<class_LibraryManager>` when it enters the scene tree.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Plugin_method_add_overlay:
+
+.. rst-class:: classref-method
+
+void **add_overlay** **(** :ref:`OverlayProvider<class_OverlayProvider>` overlay **)**
+
+Adds the given overlay
 
 .. rst-class:: classref-item-separator
 

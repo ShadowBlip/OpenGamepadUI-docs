@@ -236,14 +236,6 @@ Constants
 
 
 
-.. _class_LaunchManager_constant_InputManager:
-
-.. rst-class:: classref-constant
-
-**InputManager** = ``platform-dependent``
-
-
-
 .. _class_LaunchManager_constant_NotificationManager:
 
 .. rst-class:: classref-constant

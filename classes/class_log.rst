@@ -12,9 +12,28 @@ Log
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
-.. container:: contribute
+Interface to control logging across an array of loggers
 
-	There is currently no description for this class. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+.. rst-class:: classref-introduction-group
+
+Description
+-----------
+
+Log provides an interface to control the logging level of various components in OpenGamepadUI.
+
+.. rst-class:: classref-reftable-group
+
+Properties
+----------
+
+.. table::
+   :widths: auto
+
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`loggers_by_name<class_Log_property_loggers_by_name>` |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | `Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_           | :ref:`mutex<class_Log_property_mutex>`                     |
+   +--------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -24,9 +43,66 @@ Methods
 .. table::
    :widths: auto
 
-   +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>` | :ref:`get_logger<class_Log_method_get_logger>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)** |
-   +-------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_available_loggers<class_Log_method_get_available_loggers>` **(** **)**                                                                                                                                    |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`get_logger<class_Log_method_get_logger>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**                                    |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`register<class_Log_method_register>` **(** :ref:`Log.Logger<class_Log.Logger>` logger **)**                                                                                                                   |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_global_log_level<class_Log_method_set_global_log_level>` **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**                                                                                                   |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_log_level<class_Log_method_set_log_level>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**                              |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`set_log_level_from_env<class_Log_method_set_log_level_from_env>` **(** :ref:`Log.Logger<class_Log.Logger>` logger, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ env_var **)** |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Signals
+-------
+
+.. _class_Log_signal_logger_registered:
+
+.. rst-class:: classref-signal
+
+**logger_registered** **(** :ref:`Log.Logger<class_Log.Logger>` logger **)**
+
+.. container:: contribute
+
+	There is currently no description for this signal. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_signal_logger_unregistered:
+
+.. rst-class:: classref-signal
+
+**logger_unregistered** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this signal. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_signal_loggers_changed:
+
+.. rst-class:: classref-signal
+
+**loggers_changed** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this signal. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 .. rst-class:: classref-section-separator
 
@@ -49,7 +125,7 @@ enum **LEVEL**:
 
 :ref:`LEVEL<enum_Log_LEVEL>` **NONE** = ``0``
 
-
+Log nothing
 
 .. _class_Log_constant_ERROR:
 
@@ -57,7 +133,7 @@ enum **LEVEL**:
 
 :ref:`LEVEL<enum_Log_LEVEL>` **ERROR** = ``1``
 
-
+Only log errors
 
 .. _class_Log_constant_WARN:
 
@@ -65,7 +141,7 @@ enum **LEVEL**:
 
 :ref:`LEVEL<enum_Log_LEVEL>` **WARN** = ``2``
 
-
+Log warnings and errors
 
 .. _class_Log_constant_INFO:
 
@@ -73,7 +149,7 @@ enum **LEVEL**:
 
 :ref:`LEVEL<enum_Log_LEVEL>` **INFO** = ``3``
 
-
+Log info, warnings, and errors
 
 .. _class_Log_constant_DEBUG:
 
@@ -81,7 +157,36 @@ enum **LEVEL**:
 
 :ref:`LEVEL<enum_Log_LEVEL>` **DEBUG** = ``4``
 
+Log everything
 
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Property Descriptions
+---------------------
+
+.. _class_Log_property_loggers_by_name:
+
+.. rst-class:: classref-property
+
+`Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ **loggers_by_name**
+
+Mapping of loggers by their name. This is in the form of {"<logger name>": ``<logger>, ...``}
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_property_mutex:
+
+.. rst-class:: classref-property
+
+`Mutex <https://docs.godotengine.org/en/stable/classes/class_mutex.html>`_ **mutex**
+
+Mutex to allow register/unregister through threads
 
 .. rst-class:: classref-section-separator
 
@@ -92,15 +197,73 @@ enum **LEVEL**:
 Method Descriptions
 -------------------
 
+.. _class_Log_method_get_available_loggers:
+
+.. rst-class:: classref-method
+
+`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **get_available_loggers** **(** **)**
+
+Return a list of loggers that are currently registered
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_Log_method_get_logger:
 
 .. rst-class:: classref-method
 
 :ref:`Log.Logger<class_Log.Logger>` **get_logger** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
 
-.. container:: contribute
+Returns a named logger for logging
 
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_method_register:
+
+.. rst-class:: classref-method
+
+void **register** **(** :ref:`Log.Logger<class_Log.Logger>` logger **)**
+
+Register the given logger with the LogManager
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_method_set_global_log_level:
+
+.. rst-class:: classref-method
+
+void **set_global_log_level** **(** :ref:`LEVEL<enum_Log_LEVEL>` level **)**
+
+Set the given log level on all loggers
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_method_set_log_level:
+
+.. rst-class:: classref-method
+
+void **set_log_level** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name, :ref:`LEVEL<enum_Log_LEVEL>` level **)**
+
+Sets the log level on loggers with the given name to the given level.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Log_method_set_log_level_from_env:
+
+.. rst-class:: classref-method
+
+void **set_log_level_from_env** **(** :ref:`Log.Logger<class_Log.Logger>` logger, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ env_var **)**
+
+Looks up the given environment variable and sets the log level on the given logger if the variable exists.
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

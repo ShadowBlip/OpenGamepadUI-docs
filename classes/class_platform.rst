@@ -238,11 +238,19 @@ Loki Max
 
 Loki Zero
 
+.. _class_Platform_constant_AYN_GEN3:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **AYN_GEN3** = ``12``
+
+Loki MiniPro
+
 .. _class_Platform_constant_GENERIC:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **GENERIC** = ``12``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **GENERIC** = ``13``
 
 Generic platform doesn't do anything special
 
@@ -250,7 +258,7 @@ Generic platform doesn't do anything special
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN1** = ``13``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN1** = ``14``
 
 Win3
 
@@ -258,7 +266,7 @@ Win3
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN2** = ``14``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN2** = ``15``
 
 WinMax2
 
@@ -266,7 +274,7 @@ WinMax2
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN3** = ``15``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **GPD_GEN3** = ``16``
 
 Win4
 
@@ -274,7 +282,7 @@ Win4
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN1** = ``16``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN1** = ``17``
 
 Intel OXP Devices
 
@@ -282,7 +290,7 @@ Intel OXP Devices
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN2** = ``17``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN2** = ``18``
 
 AMD OXP Devices 5800U and older.
 
@@ -290,7 +298,7 @@ AMD OXP Devices 5800U and older.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN3** = ``18``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN3** = ``19``
 
 AMD OXP Mini A07.
 
@@ -298,7 +306,7 @@ AMD OXP Mini A07.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN4** = ``19``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN4** = ``20``
 
 AMD OXP Mini Pro 6800U.
 
@@ -306,7 +314,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMDECK** = ``20``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMDECK** = ``21``
 
 
 
@@ -314,7 +322,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **CHIMERAOS** = ``21``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **CHIMERAOS** = ``22``
 
 
 
@@ -322,7 +330,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMOS** = ``22``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMOS** = ``23``
 
 
 
@@ -330,7 +338,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ARCH_LIKE** = ``23``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ARCH_LIKE** = ``24``
 
 
 

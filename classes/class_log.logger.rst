@@ -12,9 +12,7 @@ Log.Logger
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
-.. container:: contribute
-
-	There is currently no description for this class. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Named logger that can log text with a prefix and a name
 
 .. rst-class:: classref-reftable-group
 

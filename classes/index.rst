@@ -38,6 +38,7 @@ Nodes
     class_growereffect
     class_httpapiclient
     class_httpimagefetcher
+    class_inputmanager
     class_launcher
     class_levelindicator
     class_library
@@ -45,6 +46,8 @@ Nodes
     class_multihttprequest
     class_nodethread
     class_notificationcontainer
+    class_overlaycontainer
+    class_overlayprovider
     class_playaudioeffect
     class_plugin
     class_pluginmanager
@@ -114,7 +117,6 @@ Resources
     class_handheldgamepad
     class_handheldiconmapping
     class_handheldplatform
-    class_inputmanager
     class_installmanager
     class_interactiveprocess
     class_keyboardcontext
@@ -128,7 +130,6 @@ Resources
     class_librarymanager
     class_log
     class_log.logger
-    class_logmanager
     class_managedgamepad
     class_mappableevent
     class_nativeevent
@@ -192,6 +193,8 @@ Other objects
     class_networkmanager.wifiap
     class_notification
     class_reaper
+    class_ryzenadj
+    class_ryzenadj.info
     class_semanticversion
     class_sharedthread.scheduledtask
     class_storeitem

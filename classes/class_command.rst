@@ -12,7 +12,24 @@ Command
 
 **Inherits:** `RefCounted <https://docs.godotengine.org/en/stable/classes/class_refcounted.html>`_
 
-Convienience class for executing OS commands in a thread
+Execute an OS command in a thread
+
+.. rst-class:: classref-introduction-group
+
+Description
+-----------
+
+The **Command** class allows you to asyncronously execute a command in a thread that does not block the main thread. Optionally a :ref:`SharedThread<class_SharedThread>` can be passed if you do not wish for the command to execute in the :ref:`ThreadPool<class_ThreadPool>`.
+
+Example:
+
+::
+
+    var cmd := Command.new("cat", ["/etc/issue"])
+    if cmd.execute() != OK:
+        print("Command failed with exit code: ", cmd.code)
+    
+    print(cmd.stdout)
 
 .. rst-class:: classref-reftable-group
 
@@ -22,17 +39,19 @@ Properties
 .. table::
    :widths: auto
 
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
-   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`args<class_Command_property_args>`               |       |
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
-   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cmd<class_Command_property_cmd>`                 |       |
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
-   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`code<class_Command_property_code>`               | ``0`` |
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
-   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`stdout<class_Command_property_stdout>`           |       |
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
-   | :ref:`ThreadPool<class_ThreadPool>`                                                                | :ref:`thread_pool<class_Command_property_thread_pool>` |       |
-   +----------------------------------------------------------------------------------------------------+--------------------------------------------------------+-------+
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`args<class_Command_property_args>`                   |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`cmd<class_Command_property_cmd>`                     |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`code<class_Command_property_code>`                   | ``0`` |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | :ref:`SharedThread<class_SharedThread>`                                                            | :ref:`shared_thread<class_Command_property_shared_thread>` |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`stdout<class_Command_property_stdout>`               |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
+   | :ref:`ThreadPool<class_ThreadPool>`                                                                | :ref:`thread_pool<class_Command_property_thread_pool>`     |       |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+-------+
 
 .. rst-class:: classref-reftable-group
 
@@ -42,11 +61,17 @@ Methods
 .. table::
    :widths: auto
 
-   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                                                                   | :ref:`_init<class_Command_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments **)** |
-   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ | :ref:`execute<class_Command_method_execute>` **(** **)**                                                                                                                                                                                                |
-   +------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                         | :ref:`_init<class_Command_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments, :ref:`SharedThread<class_SharedThread>` thread **)** |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`_shared_thread_exec<class_Command_method__shared_thread_exec>` **(** **)**                                                                                                                                                                                                                        |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`_thread_pool_exec<class_Command_method__thread_pool_exec>` **(** **)**                                                                                                                                                                                                                            |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_Command_method__to_string>` **(** **)**                                                                                                                                                                                                                                          |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`execute<class_Command_method_execute>` **(** **)**                                                                                                                                                                                                                                                |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -63,9 +88,7 @@ Property Descriptions
 
 `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **args**
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Array of arguments to pass to the command
 
 .. rst-class:: classref-item-separator
 
@@ -77,9 +100,7 @@ Property Descriptions
 
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **cmd**
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Path to the command to execute
 
 .. rst-class:: classref-item-separator
 
@@ -91,9 +112,19 @@ Property Descriptions
 
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **code** = ``0``
 
-.. container:: contribute
+The exit code of the command after execution
 
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Command_property_shared_thread:
+
+.. rst-class:: classref-property
+
+:ref:`SharedThread<class_SharedThread>` **shared_thread**
+
+Optional :ref:`SharedThread<class_SharedThread>` to execute the command in
 
 .. rst-class:: classref-item-separator
 
@@ -105,9 +136,7 @@ Property Descriptions
 
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **stdout**
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+The command output after execution
 
 .. rst-class:: classref-item-separator
 
@@ -119,9 +148,7 @@ Property Descriptions
 
 :ref:`ThreadPool<class_ThreadPool>` **thread_pool**
 
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+The :ref:`ThreadPool<class_ThreadPool>` to execute the command in
 
 .. rst-class:: classref-section-separator
 
@@ -136,7 +163,49 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments **)**
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ command, `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ arguments, :ref:`SharedThread<class_SharedThread>` thread **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Command_method__shared_thread_exec:
+
+.. rst-class:: classref-method
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_shared_thread_exec** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Command_method__thread_pool_exec:
+
+.. rst-class:: classref-method
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **_thread_pool_exec** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Command_method__to_string:
+
+.. rst-class:: classref-method
+
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
 
 .. container:: contribute
 
@@ -152,9 +221,7 @@ void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/cla
 
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **execute** **(** **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Execute the command in a thread and return the command's exit code.
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -53,6 +53,8 @@ Properties
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`profile_state<class_PerformanceManager_property_profile_state>`                 |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | :ref:`RyzenAdj<class_RyzenAdj>`                                              | :ref:`ryzenadj<class_PerformanceManager_property_ryzenadj>`                           |           |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -600,6 +602,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **profile_state**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_PerformanceManager_property_ryzenadj:
+
+.. rst-class:: classref-property
+
+:ref:`RyzenAdj<class_RyzenAdj>` **ryzenadj**
 
 .. container:: contribute
 

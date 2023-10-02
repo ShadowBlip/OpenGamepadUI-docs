@@ -147,6 +147,8 @@ Methods
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_focused_app<class_Gamescope_method_get_focused_app>` **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**                                                                                                                                                                                                                                                                                                                 |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_focused_app_gfx<class_Gamescope_method_get_focused_app_gfx>` **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**                                                                                                                                                                                                                                                                                                         |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_focused_window<class_Gamescope_method_get_focused_window>` **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**                                                                                                                                                                                                                                                                                                           |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                             | :ref:`get_fps_limit<class_Gamescope_method_get_fps_limit>` **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**                                                                                                                                                                                                                                                                                                                     |
@@ -268,6 +270,20 @@ Signals
 .. rst-class:: classref-signal
 
 **focusable_windows_updated** **(** `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ from, `PackedInt32Array <https://docs.godotengine.org/en/stable/classes/class_packedint32array.html>`_ to **)**
+
+.. container:: contribute
+
+	There is currently no description for this signal. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Gamescope_signal_focused_app_gfx_updated:
+
+.. rst-class:: classref-signal
+
+**focused_app_gfx_updated** **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ from, `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ to **)**
 
 .. container:: contribute
 
@@ -1001,6 +1017,18 @@ Returns a list of focusable window ids
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_focused_app** **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**
 
 Return the currently focused app id.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Gamescope_method_get_focused_app_gfx:
+
+.. rst-class:: classref-method
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **get_focused_app_gfx** **(** :ref:`XWAYLAND<enum_Gamescope_XWAYLAND>` display **)**
+
+Return the currently focused gfx app id.
 
 .. rst-class:: classref-item-separator
 
