@@ -139,6 +139,7 @@ Resources
     class_performancemanager
     class_performanceprofile
     class_platform
+    class_platform.cardinfo
     class_platform.cpuinfo
     class_platform.gpuinfo
     class_platform.osinfo

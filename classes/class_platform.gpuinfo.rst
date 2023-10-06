@@ -23,6 +23,8 @@ Properties
    :widths: auto
 
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
+   | :ref:`Platform.CardInfo<class_Platform.CardInfo>`                            | :ref:`card<class_Platform.GPUInfo_property_card>`                                       |           |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
    | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`clk_capable<class_Platform.GPUInfo_property_clk_capable>`                         | ``false`` |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`driver<class_Platform.GPUInfo_property_driver>`                                   |           |
@@ -50,6 +52,18 @@ Properties
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_Platform.GPUInfo_property_vendor>`                                   |           |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+-----------+
 
+.. rst-class:: classref-reftable-group
+
+Methods
+-------
+
+.. table::
+   :widths: auto
+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_Platform.GPUInfo_method__to_string>` **(** **)** |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -58,6 +72,20 @@ Properties
 
 Property Descriptions
 ---------------------
+
+.. _class_Platform.GPUInfo_property_card:
+
+.. rst-class:: classref-property
+
+:ref:`Platform.CardInfo<class_Platform.CardInfo>` **card**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_Platform.GPUInfo_property_clk_capable:
 
@@ -236,6 +264,25 @@ Property Descriptions
 .. container:: contribute
 
 	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Method Descriptions
+-------------------
+
+.. _class_Platform.GPUInfo_method__to_string:
+
+.. rst-class:: classref-method
+
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

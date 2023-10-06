@@ -36,6 +36,18 @@ Properties
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor<class_Platform.CPUInfo_property_vendor>`                   |           |
    +------------------------------------------------------------------------------+-------------------------------------------------------------------------+-----------+
 
+.. rst-class:: classref-reftable-group
+
+Methods
+-------
+
+.. table::
+   :widths: auto
+
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_Platform.CPUInfo_method__to_string>` **(** **)** |
+   +------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -124,6 +136,25 @@ Property Descriptions
 .. container:: contribute
 
 	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Method Descriptions
+-------------------
+
+.. _class_Platform.CPUInfo_method__to_string:
+
+.. rst-class:: classref-method
+
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`
