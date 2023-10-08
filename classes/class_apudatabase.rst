@@ -24,15 +24,17 @@ Properties
 .. table::
    :widths: auto
 
-   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
-   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`apu_list<class_APUDatabase_property_apu_list>`           |
-   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
-   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`apu_map<class_APUDatabase_property_apu_map>`             |
-   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
-   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`database_name<class_APUDatabase_property_database_name>` |
-   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
-   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_APUDatabase_property_logger>`               |
-   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_           | :ref:`apu_list<class_APUDatabase_property_apu_list>`           |           |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
+   | `Dictionary <https://docs.godotengine.org/en/stable/classes/class_dictionary.html>`_ | :ref:`apu_map<class_APUDatabase_property_apu_map>`             |           |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_         | :ref:`database_name<class_APUDatabase_property_database_name>` |           |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_             | :ref:`loaded<class_APUDatabase_property_loaded>`               | ``false`` |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
+   | :ref:`Log.Logger<class_Log.Logger>`                                                  | :ref:`logger<class_APUDatabase_property_logger>`               |           |
+   +--------------------------------------------------------------------------------------+----------------------------------------------------------------+-----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -45,25 +47,8 @@ Methods
    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`APUEntry<class_APUEntry>` | :ref:`get_apu<class_APUDatabase_method_get_apu>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ apu_name **)** |
    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void                            | :ref:`init<class_APUDatabase_method_init>` **(** **)**                                                                                             |
+   | void                            | :ref:`load_db<class_APUDatabase_method_load_db>` **(** **)**                                                                                       |
    +---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. rst-class:: classref-section-separator
-
-----
-
-.. rst-class:: classref-descriptions-group
-
-Constants
----------
-
-.. _class_APUDatabase_constant_APUEntry:
-
-.. rst-class:: classref-constant
-
-**APUEntry** = ``platform-dependent``
-
-
 
 .. rst-class:: classref-section-separator
 
@@ -116,6 +101,20 @@ Property Descriptions
 
 ----
 
+.. _class_APUDatabase_property_loaded:
+
+.. rst-class:: classref-property
+
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **loaded** = ``false``
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_APUDatabase_property_logger:
 
 .. rst-class:: classref-property
@@ -141,23 +140,19 @@ Method Descriptions
 
 :ref:`APUEntry<class_APUEntry>` **get_apu** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ apu_name **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Returns an :ref:`APUEntry<class_APUEntry>` of the given APU
 
 .. rst-class:: classref-item-separator
 
 ----
 
-.. _class_APUDatabase_method_init:
+.. _class_APUDatabase_method_load_db:
 
 .. rst-class:: classref-method
 
-void **init** **(** **)**
+void **load_db** **(** **)**
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Load entries that are set in the APUDatabase resource file into a map. NOTE: This needs to be called after _init() in order for the exported apu_list to be populated.
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -96,6 +96,8 @@ Resources
     class_dbusmanager.proxy
     class_devicehider
     class_displaymanager
+    class_drmcardinfo
+    class_drmcardinfo.port
     class_evdevabsevent
     class_evdevevent
     class_evdevkeyevent
@@ -117,6 +119,9 @@ Resources
     class_handheldgamepad
     class_handheldiconmapping
     class_handheldplatform
+    class_hardwaremanager
+    class_hardwaremanager.cpuinfo
+    class_hardwaremanager.gpuinfo
     class_installmanager
     class_interactiveprocess
     class_keyboardcontext
@@ -139,9 +144,6 @@ Resources
     class_performancemanager
     class_performanceprofile
     class_platform
-    class_platform.cardinfo
-    class_platform.cpuinfo
-    class_platform.gpuinfo
     class_platform.osinfo
     class_platformaction
     class_platformchimeraos

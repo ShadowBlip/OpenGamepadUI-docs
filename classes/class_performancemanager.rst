@@ -25,6 +25,8 @@ Properties
    :widths: auto
 
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | :ref:`HardwareManager<class_HardwareManager>`                                | :ref:`_hardware_manager<class_PerformanceManager_property__hardware_manager>`         |           |
+   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | :ref:`NotificationManager<class_NotificationManager>`                        | :ref:`_notification_manager<class_PerformanceManager_property__notification_manager>` |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | :ref:`Platform<class_Platform>`                                              | :ref:`_platform<class_PerformanceManager_property__platform>`                         |           |
@@ -37,17 +39,11 @@ Properties
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`batteries<class_PerformanceManager_property_batteries>`                         |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
-   | :ref:`Platform.CPUInfo<class_Platform.CPUInfo>`                              | :ref:`cpu<class_PerformanceManager_property_cpu>`                                     |           |
-   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
-   | :ref:`Platform.GPUInfo<class_Platform.GPUInfo>`                              | :ref:`gpu<class_PerformanceManager_property_gpu>`                                     |           |
-   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_     | :ref:`initialized<class_PerformanceManager_property_initialized>`                     | ``false`` |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                            | :ref:`library_item<class_PerformanceManager_property_library_item>`                   |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_PerformanceManager_property_logger>`                               |           |
-   +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
-   | :ref:`PlatformProvider<class_PlatformProvider>`                              | :ref:`platform_provider<class_PerformanceManager_property_platform_provider>`         |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | :ref:`PerformanceProfile<class_PerformanceProfile>`                          | :ref:`profile<class_PerformanceManager_property_profile>`                             |           |
    +------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
@@ -415,6 +411,20 @@ Constants
 Property Descriptions
 ---------------------
 
+.. _class_PerformanceManager_property__hardware_manager:
+
+.. rst-class:: classref-property
+
+:ref:`HardwareManager<class_HardwareManager>` **_hardware_manager**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_PerformanceManager_property__notification_manager:
 
 .. rst-class:: classref-property
@@ -499,34 +509,6 @@ Property Descriptions
 
 ----
 
-.. _class_PerformanceManager_property_cpu:
-
-.. rst-class:: classref-property
-
-:ref:`Platform.CPUInfo<class_Platform.CPUInfo>` **cpu**
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_PerformanceManager_property_gpu:
-
-.. rst-class:: classref-property
-
-:ref:`Platform.GPUInfo<class_Platform.GPUInfo>` **gpu**
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_PerformanceManager_property_initialized:
 
 .. rst-class:: classref-property
@@ -560,20 +542,6 @@ Property Descriptions
 .. rst-class:: classref-property
 
 :ref:`Log.Logger<class_Log.Logger>` **logger**
-
-.. container:: contribute
-
-	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_PerformanceManager_property_platform_provider:
-
-.. rst-class:: classref-property
-
-:ref:`PlatformProvider<class_PlatformProvider>` **platform_provider**
 
 .. container:: contribute
 
