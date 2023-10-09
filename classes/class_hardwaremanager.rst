@@ -34,6 +34,8 @@ Properties
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`bios<class_HardwareManager_property_bios>`                             |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`card_ports<class_HardwareManager_property_card_ports>`                 |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`cards<class_HardwareManager_property_cards>`                           |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`HardwareManager.CPUInfo<class_HardwareManager.CPUInfo>`                | :ref:`cpu<class_HardwareManager_property_cpu>`                               |
@@ -47,6 +49,8 @@ Properties
    | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_HardwareManager_property_logger>`                         |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`product_name<class_HardwareManager_property_product_name>`             |
+   +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`SharedThread<class_SharedThread>`                                      | :ref:`thread<class_HardwareManager_property_thread>`                         |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`vendor_name<class_HardwareManager_property_vendor_name>`               |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -87,6 +91,8 @@ Methods
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_product_name<class_HardwareManager_method_get_product_name>` **(** **)**                                                                                                                                                                         |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_vendor_name<class_HardwareManager_method_get_vendor_name>` **(** **)**                                                                                                                                                                           |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                               | :ref:`start_gpu_watch<class_HardwareManager_method_start_gpu_watch>` **(** **)**                                                                                                                                                                           |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
@@ -134,6 +140,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **bios**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_HardwareManager_property_card_ports:
+
+.. rst-class:: classref-property
+
+`Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **card_ports**
 
 .. container:: contribute
 
@@ -232,6 +252,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **product_name**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_HardwareManager_property_thread:
+
+.. rst-class:: classref-property
+
+:ref:`SharedThread<class_SharedThread>` **thread**
 
 .. container:: contribute
 
@@ -423,6 +457,18 @@ Returns the hardware product name
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **get_vendor_name** **(** **)**
 
 Returns the hardware vendor name
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_HardwareManager_method_start_gpu_watch:
+
+.. rst-class:: classref-method
+
+void **start_gpu_watch** **(** **)**
+
+Starts watching for GPU connector port state changes in a separate thread, updating the properties of :ref:`DRMCardPort<class_DRMCardPort>` objects and emitting signals when their state changes.
 
 .. |virtual| replace:: :abbr:`virtual (This method should typically be overridden by the user to have any effect.)`
 .. |const| replace:: :abbr:`const (This method has no side effects. It doesn't modify any of the instance's member variables.)`

@@ -12,7 +12,14 @@ DRMCardInfo
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
-Data container for /sys/class/drm/cardX information
+GPU card state
+
+.. rst-class:: classref-introduction-group
+
+Description
+-----------
+
+Represents the data contained in /sys/class/drm/cardX
 
 .. rst-class:: classref-reftable-group
 
@@ -55,7 +62,7 @@ Methods
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_DRMCardInfo_method__to_string>` **(** **)**                                                                                   |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`DRMCardInfo.Port<class_DRMCardInfo.Port>`                              | :ref:`get_port<class_DRMCardInfo_method_get_port>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)** |
+   | :ref:`DRMCardPort<class_DRMCardPort>`                                        | :ref:`get_port<class_DRMCardInfo_method_get_port>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)** |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`get_ports<class_DRMCardInfo_method_get_ports>` **(** **)**                                                                                     |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -249,9 +256,9 @@ Method Descriptions
 
 .. rst-class:: classref-method
 
-:ref:`DRMCardInfo.Port<class_DRMCardInfo.Port>` **get_port** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)**
+:ref:`DRMCardPort<class_DRMCardPort>` **get_port** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)**
 
-Returns a ``Port`` object for the given port directory (E.g. card1-HDMI-A-1)
+Returns a :ref:`DRMCardPort<class_DRMCardPort>` object for the given port directory (E.g. card1-HDMI-A-1)
 
 .. rst-class:: classref-item-separator
 

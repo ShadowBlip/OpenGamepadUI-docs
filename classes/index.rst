@@ -97,7 +97,7 @@ Resources
     class_devicehider
     class_displaymanager
     class_drmcardinfo
-    class_drmcardinfo.port
+    class_drmcardport
     class_evdevabsevent
     class_evdevevent
     class_evdevkeyevent
