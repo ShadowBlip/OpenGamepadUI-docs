@@ -52,7 +52,7 @@ Nodes
     class_plugin
     class_pluginmanager
     class_powersaver
-    class_quickaccesscard
+    class_quickbarcard
     class_raiseeffect
     class_scrollerjoystick
     class_searchbar
@@ -65,7 +65,6 @@ Nodes
     class_stateupdater
     class_statewatcher
     class_store
-    class_test
     class_themesetter
     class_toggle
     class_transition
@@ -204,6 +203,5 @@ Other objects
     class_storeitemdetails
     class_sysfsdevice.bitmap
     class_sysfsdevice.id
-    class_test.assertion
     class_threadpool.task
 

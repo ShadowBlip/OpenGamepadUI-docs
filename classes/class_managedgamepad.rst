@@ -207,11 +207,11 @@ enum **INTERCEPT_MODE**:
 
 
 
-.. _class_ManagedGamepad_constant_PASS_QAM:
+.. _class_ManagedGamepad_constant_PASS_QB:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`INTERCEPT_MODE<enum_ManagedGamepad_INTERCEPT_MODE>` **PASS_QAM** = ``2``
+:ref:`INTERCEPT_MODE<enum_ManagedGamepad_INTERCEPT_MODE>` **PASS_QB** = ``2``
 
 
 

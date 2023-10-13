@@ -19,7 +19,7 @@ Manages global input
 Description
 -----------
 
-The InputManager class is responsible for handling global input that should happen everywhere in the application, regardless of the current menu. Examples include opening up the main or quick access menus.
+The InputManager class is responsible for handling global input that should happen everywhere in the application, regardless of the current menu. Examples include opening up the main or quick bar menus.
 
 
 
@@ -44,7 +44,7 @@ Properties
    +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
    | :ref:`State<class_State>`               | :ref:`osk_state<class_InputManager_property_osk_state>`                   | ``Resource("res://assets/state/states/osk.tres")``                          |
    +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`State<class_State>`               | :ref:`qam_state<class_InputManager_property_qam_state>`                   | ``Resource("res://assets/state/states/quick_access_menu.tres")``            |
+   | :ref:`State<class_State>`               | :ref:`quick_bar_state<class_InputManager_property_quick_bar_state>`       | ``Resource("res://assets/state/states/quick_bar_menu.tres")``               |
    +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
    | :ref:`StateMachine<class_StateMachine>` | :ref:`state_machine<class_InputManager_property_state_machine>`           | ``Resource("res://assets/state/state_machines/global_state_machine.tres")`` |
    +-----------------------------------------+---------------------------------------------------------------------------+-----------------------------------------------------------------------------+
@@ -66,9 +66,9 @@ Methods
    +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void | :ref:`_main_menu_input<class_InputManager_method__main_menu_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                       |
    +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_osk_input<class_InputManager_method__osk_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
+   | void | :ref:`_on_quick_bar_open<class_InputManager_method__on_quick_bar_open>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                   |
    +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | void | :ref:`_qam_input<class_InputManager_method__qam_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
+   | void | :ref:`_osk_input<class_InputManager_method__osk_input>` **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**                                                                                                                                                                   |
    +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void | :ref:`_ready<class_InputManager_method__ready>` **(** **)**                                                                                                                                                                                                                                                                      |
    +------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -173,11 +173,11 @@ The audio manager to use to adjust the audio when audio input events happen.
 
 ----
 
-.. _class_InputManager_property_qam_state:
+.. _class_InputManager_property_quick_bar_state:
 
 .. rst-class:: classref-property
 
-:ref:`State<class_State>` **qam_state** = ``Resource("res://assets/state/states/quick_access_menu.tres")``
+:ref:`State<class_State>` **quick_bar_state** = ``Resource("res://assets/state/states/quick_bar_menu.tres")``
 
 .. container:: contribute
 
@@ -222,7 +222,7 @@ Handle audio input events such as mute, volume up, and volume down
 
 void **_guide_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
-Handle guide button events and determine whether this is a guide action (e.g. guide + A to open the QAM), or if it's just a normal guide button press.
+Handle guide button events and determine whether this is a guide action (e.g. guide + A to open the Quick Bar), or if it's just a normal guide button press.
 
 .. rst-class:: classref-item-separator
 
@@ -252,6 +252,18 @@ Handle main menu events to open the main menu
 
 ----
 
+.. _class_InputManager_method__on_quick_bar_open:
+
+.. rst-class:: classref-method
+
+void **_on_quick_bar_open** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
+
+Handle quick bar menu events to open the quick bar menu
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_InputManager_method__osk_input:
 
 .. rst-class:: classref-method
@@ -259,18 +271,6 @@ Handle main menu events to open the main menu
 void **_osk_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
 
 Handle OSK events for bringing up the on-screen keyboard
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_InputManager_method__qam_input:
-
-.. rst-class:: classref-method
-
-void **_qam_input** **(** `InputEvent <https://docs.godotengine.org/en/stable/classes/class_inputevent.html>`_ event **)**
-
-Handle quick access menu events to open the quick access menu
 
 .. rst-class:: classref-item-separator
 

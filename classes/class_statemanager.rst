@@ -124,11 +124,11 @@ enum **STATE**:
 
 
 
-.. _class_StateManager_constant_QUICK_ACCESS_MENU:
+.. _class_StateManager_constant_QUICK_BAR_MENU:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`STATE<enum_StateManager_STATE>` **QUICK_ACCESS_MENU** = ``3``
+:ref:`STATE<enum_StateManager_STATE>` **QUICK_BAR_MENU** = ``3``
 
 
 
@@ -188,11 +188,11 @@ enum **STATE**:
 
 
 
-.. _class_StateManager_constant_QAM_BUTTON_SUBMENU:
+.. _class_StateManager_constant_QUICK_BAR_BUTTON_SUBMENU:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`STATE<enum_StateManager_STATE>` **QAM_BUTTON_SUBMENU** = ``11``
+:ref:`STATE<enum_StateManager_STATE>` **QUICK_BAR_BUTTON_SUBMENU** = ``11``
 
 
 
@@ -209,7 +209,7 @@ Constants
 
 .. rst-class:: classref-constant
 
-**StateMap** = ``{ 0: "", 1: "home", 2: "main_menu", 3: "quick_access_menu", 4: "library", 5: "store", 6: "in-game", 7: "in-game_menu", 8: "game_launcher_menu", 9: "settings_menu", 10: "osk", 11: "qam_button_submenu" }``
+**StateMap** = ``{ 0: "", 1: "home", 2: "main_menu", 3: "quick_bar_menu", 4: "library", 5: "store", 6: "in-game", 7: "in-game_menu", 8: "game_launcher_menu", 9: "settings_menu", 10: "osk", 11: "quick_bar_button_submenu" }``
 
 
 
