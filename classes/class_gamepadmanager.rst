@@ -32,7 +32,7 @@ Properties
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`default_profile<class_GamepadManager_property_default_profile>` | ``"res://assets/gamepad/profiles/default.tres"`` |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
-   | :ref:`DeviceHider<class_DeviceHider>`                                        | :ref:`device_hider<class_GamepadManager_property_device_hider>`       |                                                  |
+   | :ref:`DeviceHider<class_DeviceHider>`                                        | :ref:`device_unhider<class_GamepadManager_property_device_unhider>`   |                                                  |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
    | :ref:`GamepadManager.GamepadArray<class_GamepadManager.GamepadArray>`        | :ref:`gamepads<class_GamepadManager_property_gamepads>`               |                                                  |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------+
@@ -69,6 +69,8 @@ Methods
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`get_gamepad_capabilities<class_GamepadManager_method_get_gamepad_capabilities>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device **)**                                                                   |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`get_gamepad_paths<class_GamepadManager_method_get_gamepad_paths>` **(** **)**                                                                                                                                                                     |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`is_device_virtual<class_GamepadManager_method_is_device_virtual>` **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)**                                                                       |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                                               | :ref:`set_gamepad_profile<class_GamepadManager_method_set_gamepad_profile>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ device, :ref:`GamepadProfile<class_GamepadProfile>` profile **)**                        |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -147,11 +149,11 @@ Property Descriptions
 
 ----
 
-.. _class_GamepadManager_property_device_hider:
+.. _class_GamepadManager_property_device_unhider:
 
 .. rst-class:: classref-property
 
-:ref:`DeviceHider<class_DeviceHider>` **device_hider**
+:ref:`DeviceHider<class_DeviceHider>` **device_unhider**
 
 .. container:: contribute
 
@@ -329,6 +331,18 @@ Returns a list of all supported output events provided by the given gamepad.
 `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **get_gamepad_paths** **(** **)**
 
 Returns a list of gamepad devices that are being exclusively managed.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GamepadManager_method_is_device_virtual:
+
+.. rst-class:: classref-method
+
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_device_virtual** **(** `InputDevice <https://docs.godotengine.org/en/stable/classes/class_inputdevice.html>`_ device **)**
+
+Returns true if the InputDevice is a virtual device.
 
 .. rst-class:: classref-item-separator
 

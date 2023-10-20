@@ -38,25 +38,37 @@ Properties
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rx_max<class_ManagedGamepad_property_abs_rx_max>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rx_mid<class_ManagedGamepad_property_abs_rx_mid>`                           |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rx_min<class_ManagedGamepad_property_abs_rx_min>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_ry_max<class_ManagedGamepad_property_abs_ry_max>`                           |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_ry_mid<class_ManagedGamepad_property_abs_ry_mid>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_ry_min<class_ManagedGamepad_property_abs_ry_min>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rz_max<class_ManagedGamepad_property_abs_rz_max>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rz_mid<class_ManagedGamepad_property_abs_rz_mid>`                           |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_rz_min<class_ManagedGamepad_property_abs_rz_min>`                           |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_x_max<class_ManagedGamepad_property_abs_x_max>`                             |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_x_mid<class_ManagedGamepad_property_abs_x_mid>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_x_min<class_ManagedGamepad_property_abs_x_min>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_y_max<class_ManagedGamepad_property_abs_y_max>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_y_mid<class_ManagedGamepad_property_abs_y_mid>`                             |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_y_min<class_ManagedGamepad_property_abs_y_min>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_z_max<class_ManagedGamepad_property_abs_z_max>`                             |           |
+   +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_z_mid<class_ManagedGamepad_property_abs_z_mid>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                               | :ref:`abs_z_min<class_ManagedGamepad_property_abs_z_min>`                             |           |
    +------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------+
@@ -324,6 +336,20 @@ Property Descriptions
 
 ----
 
+.. _class_ManagedGamepad_property_abs_rx_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_rx_mid**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ManagedGamepad_property_abs_rx_min:
 
 .. rst-class:: classref-property
@@ -343,6 +369,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_ry_max**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ManagedGamepad_property_abs_ry_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_ry_mid**
 
 .. container:: contribute
 
@@ -380,6 +420,20 @@ Property Descriptions
 
 ----
 
+.. _class_ManagedGamepad_property_abs_rz_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_rz_mid**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ManagedGamepad_property_abs_rz_min:
 
 .. rst-class:: classref-property
@@ -399,6 +453,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_x_max**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ManagedGamepad_property_abs_x_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_x_mid**
 
 .. container:: contribute
 
@@ -436,6 +504,20 @@ Property Descriptions
 
 ----
 
+.. _class_ManagedGamepad_property_abs_y_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_y_mid**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ManagedGamepad_property_abs_y_min:
 
 .. rst-class:: classref-property
@@ -455,6 +537,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_z_max**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ManagedGamepad_property_abs_z_mid:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **abs_z_mid**
 
 .. container:: contribute
 
