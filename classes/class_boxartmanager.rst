@@ -146,7 +146,7 @@ Fields required to be set by :ref:`BoxArtProvider<class_BoxArtProvider>` impleme
 
 .. rst-class:: classref-constant
 
-**_placeholder_map** = ``{ 0: <CompressedTexture2D#-9223371975735376444>, 1: <CompressedTexture2D#-9223371975416609328>, 2: <CompressedTexture2D#-9223371975097842229>, 3: <CompressedTexture2D#-9223371974779075119> }``
+**_placeholder_map** = ``{ 0: <CompressedTexture2D#-9223371975433386555>, 1: <CompressedTexture2D#-9223371975114619439>, 2: <CompressedTexture2D#-9223371974795852340>, 3: <CompressedTexture2D#-9223371974477085230> }``
 
 
 
