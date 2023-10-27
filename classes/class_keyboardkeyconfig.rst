@@ -19,7 +19,7 @@ Defines a single key configuration for the on-screen keyboard
 Description
 -----------
 
-A key configuration is one key that is part of a :ref:`KeyboardLayout<class_KeyboardLayout>` which defines the type of key it is.
+A key configuration is one key that is part of a ``KeyboardLayout`` which defines the type of key it is.
 
 .. rst-class:: classref-reftable-group
 
