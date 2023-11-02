@@ -65,6 +65,7 @@ Nodes
     class_stateupdater
     class_statewatcher
     class_store
+    class_tablabel
     class_themesetter
     class_toggle
     class_transition
@@ -126,6 +127,7 @@ Resources
     class_keyboardcontext
     class_keyboardinstance
     class_keyboardkeyconfig
+    class_keyboardlayout
     class_keyboardrow
     class_launchmanager
     class_libraryitem

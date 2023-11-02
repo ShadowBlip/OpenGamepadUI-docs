@@ -12,7 +12,7 @@ KeyboardRow
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
-Defines a row of keys in a ``KeyboardLayout``
+Defines a row of keys in a :ref:`KeyboardLayout<class_KeyboardLayout>`
 
 .. rst-class:: classref-introduction-group
 
