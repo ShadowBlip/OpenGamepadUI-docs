@@ -79,6 +79,22 @@ enum **SIG**:
 
 
 
+.. _class_Reaper_constant_CONT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SIG<enum_Reaper_SIG>` **CONT** = ``18``
+
+
+
+.. _class_Reaper_constant_STOP:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SIG<enum_Reaper_SIG>` **STOP** = ``19``
+
+
+
 .. rst-class:: classref-section-separator
 
 ----

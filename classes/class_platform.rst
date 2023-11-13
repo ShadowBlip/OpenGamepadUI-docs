@@ -259,7 +259,7 @@ AMD OXP Devices 5800U and older.
 
 :ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN3** = ``19``
 
-AMD OXP Mini A07.
+OXP Mini A07 5800U, special BIOS.
 
 .. _class_Platform_constant_ONEXPLAYER_GEN4:
 
@@ -267,13 +267,37 @@ AMD OXP Mini A07.
 
 :ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN4** = ``20``
 
-AMD OXP Mini Pro 6800U.
+OXP Mini Pro.
+
+.. _class_Platform_constant_ONEXPLAYER_GEN5:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN5** = ``21``
+
+OXP2
+
+.. _class_Platform_constant_ONEXPLAYER_GEN6:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN6** = ``22``
+
+OXP2 Pro/EVA
+
+.. _class_Platform_constant_ONEXPLAYER_GEN7:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ONEXPLAYER_GEN7** = ``23``
+
+OneXFly
 
 .. _class_Platform_constant_STEAMDECK:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMDECK** = ``21``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMDECK** = ``24``
 
 
 
@@ -281,7 +305,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **CHIMERAOS** = ``22``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **CHIMERAOS** = ``25``
 
 
 
@@ -289,7 +313,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMOS** = ``23``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **STEAMOS** = ``26``
 
 
 
@@ -297,7 +321,7 @@ AMD OXP Mini Pro 6800U.
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`PLATFORM<enum_Platform_PLATFORM>` **ARCH_LIKE** = ``24``
+:ref:`PLATFORM<enum_Platform_PLATFORM>` **ARCH_LIKE** = ``27``
 
 
 

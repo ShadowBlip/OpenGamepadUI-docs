@@ -44,6 +44,8 @@ Properties
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
    | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`is_ogui_managed<class_RunningApp_property_is_ogui_managed>`         | ``true``  |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
+   | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`is_suspended<class_RunningApp_property_is_suspended>`               | ``false`` |
+   +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
    | :ref:`LibraryLaunchItem<class_LibraryLaunchItem>`                                                  | :ref:`launch_item<class_RunningApp_property_launch_item>`                 |           |
    +----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+-----------+
    | :ref:`Log.Logger<class_Log.Logger>`                                                                | :ref:`logger<class_RunningApp_property_logger>`                           |           |
@@ -103,6 +105,8 @@ Methods
    | void                                                                                             | :ref:`kill<class_RunningApp_method_kill>` **(** :ref:`SIG<enum_Reaper_SIG>` sig **)**                                                                                                                                                                                               |
    +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                         | :ref:`needs_window_id<class_RunningApp_method_needs_window_id>` **(** **)**                                                                                                                                                                                                         |
+   +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                                             | :ref:`suspend<class_RunningApp_method_suspend>` **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ enable **)**                                                                                                                                         |
    +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                           | :ref:`switch_window<class_RunningApp_method_switch_window>` **(** `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ win_id, `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ focus **)**                                               |
    +--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -185,6 +189,18 @@ Emitted when the app is unfocused
 **state_changed** **(** :ref:`STATE<enum_RunningApp_STATE>` from, :ref:`STATE<enum_RunningApp_STATE>` to **)**
 
 Emitted when the app's state has changed
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_RunningApp_signal_suspended:
+
+.. rst-class:: classref-signal
+
+**suspended** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ enabled **)**
+
+Emitted when an app is suspended
 
 .. rst-class:: classref-item-separator
 
@@ -370,6 +386,18 @@ Whether or not the app is currently focused
 `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_ogui_managed** = ``true``
 
 Flag for if OGUI should manage this app. Set to false if app is launched outside OGUI and we just want to track it.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_RunningApp_property_is_suspended:
+
+.. rst-class:: classref-property
+
+`bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **is_suspended** = ``false``
+
+Whether or not the running app is suspended
 
 .. rst-class:: classref-item-separator
 
@@ -679,6 +707,18 @@ Kill the running app
 `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ **needs_window_id** **(** **)**
 
 Returns whether or not the window id of the running app needs to be discovered
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_RunningApp_method_suspend:
+
+.. rst-class:: classref-method
+
+void **suspend** **(** `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_ enable **)**
+
+Pauses/Resumes the running app by running 'kill -STOP' or 'kill -CONT'
 
 .. rst-class:: classref-item-separator
 
