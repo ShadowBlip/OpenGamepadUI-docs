@@ -65,7 +65,6 @@ Nodes
     class_stateupdater
     class_statewatcher
     class_store
-    class_tablabel
     class_themesetter
     class_toggle
     class_transition
@@ -153,6 +152,7 @@ Resources
     class_powermanager
     class_powermanager.device
     class_powermanager.upower
+    class_rogallyplatform
     class_runningapp
     class_sandbox
     class_sandboxbubblewrap
