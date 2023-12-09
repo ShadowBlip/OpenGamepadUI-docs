@@ -10,7 +10,7 @@
 HandheldPlatform
 ================
 
-**Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
+**Inherits:** :ref:`PlatformProvider<class_PlatformProvider>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 **Inherited By:** :ref:`ROGAllyPlatform<class_ROGAllyPlatform>`
 
