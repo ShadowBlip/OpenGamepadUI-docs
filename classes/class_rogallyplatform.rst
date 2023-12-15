@@ -10,7 +10,7 @@
 ROGAllyPlatform
 ===============
 
-**Inherits:** :ref:`HandheldPlatform<class_HandheldPlatform>` **<** :ref:`PlatformProvider<class_PlatformProvider>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
+**Inherits:** :ref:`HandheldPlatform<class_HandheldPlatform>` **<** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
 .. container:: contribute
 

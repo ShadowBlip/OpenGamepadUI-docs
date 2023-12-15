@@ -12,7 +12,7 @@ PlatformProvider
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
-**Inherited By:** :ref:`HandheldPlatform<class_HandheldPlatform>`, :ref:`OSPlatform<class_OSPlatform>`
+**Inherited By:** :ref:`OSPlatform<class_OSPlatform>`
 
 Base class that defines a particular platform
 
