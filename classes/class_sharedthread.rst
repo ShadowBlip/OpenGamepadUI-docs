@@ -32,6 +32,8 @@ Properties
    :widths: auto
 
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
+   | :ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>`          | :ref:`executing_task<class_SharedThread_property_executing_task>`     |                    |
+   +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_       | :ref:`last_time<class_SharedThread_property_last_time>`               |                    |
    +------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------+
    | :ref:`Log.Logger<class_Log.Logger>`                                          | :ref:`logger<class_SharedThread_property_logger>`                     |                    |
@@ -78,6 +80,8 @@ Methods
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                       | :ref:`_run<class_SharedThread_method__run>` **(** **)**                                                                                                                                                                                                  |
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                       | :ref:`_set_executing_task<class_SharedThread_method__set_executing_task>` **(** :ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>` task **)**                                                                                           |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                       | :ref:`add_node<class_SharedThread_method_add_node>` **(** :ref:`NodeThread<class_NodeThread>` node **)**                                                                                                                                                 |
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                       | :ref:`add_process<class_SharedThread_method_add_process>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                            |
@@ -87,6 +91,8 @@ Methods
    | void                                                                       | :ref:`exec<class_SharedThread_method_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                                                          |
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ | :ref:`find_scheduled_exec<class_SharedThread_method_find_scheduled_exec>` **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**                                                                            |
+   +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>`        | :ref:`get_executing_task<class_SharedThread_method_get_executing_task>` **(** **)**                                                                                                                                                                      |
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_     | :ref:`get_target_frame_time<class_SharedThread_method_get_target_frame_time>` **(** **)**                                                                                                                                                                |
    +----------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -147,6 +153,20 @@ Constants
 
 Property Descriptions
 ---------------------
+
+.. _class_SharedThread_property_executing_task:
+
+.. rst-class:: classref-property
+
+:ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>` **executing_task**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_SharedThread_property_last_time:
 
@@ -399,6 +419,20 @@ void **_run** **(** **)**
 
 ----
 
+.. _class_SharedThread_method__set_executing_task:
+
+.. rst-class:: classref-method
+
+void **_set_executing_task** **(** :ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>` task **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_SharedThread_method_add_node:
 
 .. rst-class:: classref-method
@@ -454,6 +488,18 @@ Calls the given method from the thread. Internally, this queues the given method
 `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_ **find_scheduled_exec** **(** `Callable <https://docs.godotengine.org/en/stable/classes/class_callable.html>`_ method **)**
 
 Finds all SheduledTask's who's method matches the given method.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_SharedThread_method_get_executing_task:
+
+.. rst-class:: classref-method
+
+:ref:`SharedThread.ExecutingTask<class_SharedThread.ExecutingTask>` **get_executing_task** **(** **)**
+
+Returns the currently executing task
 
 .. rst-class:: classref-item-separator
 

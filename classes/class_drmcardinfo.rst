@@ -12,6 +12,8 @@ DRMCardInfo
 
 **Inherits:** `Resource <https://docs.godotengine.org/en/stable/classes/class_resource.html>`_
 
+**Inherited By:** :ref:`DRMCardInfoAMD<class_DRMCardInfoAMD>`, :ref:`DRMCardInfoIntel<class_DRMCardInfoIntel>`
+
 GPU card state
 
 .. rst-class:: classref-introduction-group
@@ -59,13 +61,21 @@ Methods
 .. table::
    :widths: auto
 
-   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ | :ref:`_to_string<class_DRMCardInfo_method__to_string>` **(** **)**                                                                                   |
-   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`DRMCardPort<class_DRMCardPort>`                                        | :ref:`get_port<class_DRMCardInfo_method_get_port>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)** |
-   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`get_ports<class_DRMCardInfo_method_get_ports>` **(** **)**                                                                                     |
-   +------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`_get_property<class_DRMCardInfo_method__get_property>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ prop **)** |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | void                                                                           | :ref:`_init<class_DRMCardInfo_method__init>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ card_dir **)**             |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_   | :ref:`_to_string<class_DRMCardInfo_method__to_string>` **(** **)**                                                                                         |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ | :ref:`get_clock_limits<class_DRMCardInfo_method_get_clock_limits>` **(** **)**                                                                             |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ | :ref:`get_clock_values<class_DRMCardInfo_method_get_clock_values>` **(** **)**                                                                             |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`DRMCardPort<class_DRMCardPort>`                                          | :ref:`get_port<class_DRMCardInfo_method_get_port>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ port_dir **)**       |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_     | :ref:`get_ports<class_DRMCardInfo_method_get_ports>` **(** **)**                                                                                           |
+   +--------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -238,6 +248,32 @@ Property Descriptions
 Method Descriptions
 -------------------
 
+.. _class_DRMCardInfo_method__get_property:
+
+.. rst-class:: classref-method
+
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_get_property** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ prop **)**
+
+Read the data from the given property path relative to /sys/class/drm/cardX
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DRMCardInfo_method__init:
+
+.. rst-class:: classref-method
+
+void **_init** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ card_dir **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_DRMCardInfo_method__to_string:
 
 .. rst-class:: classref-method
@@ -247,6 +283,30 @@ Method Descriptions
 .. container:: contribute
 
 	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DRMCardInfo_method_get_clock_limits:
+
+.. rst-class:: classref-method
+
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **get_clock_limits** **(** **)**
+
+Returns the maximum and minimum GPU clock values
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DRMCardInfo_method_get_clock_values:
+
+.. rst-class:: classref-method
+
+`Vector2 <https://docs.godotengine.org/en/stable/classes/class_vector2.html>`_ **get_clock_values** **(** **)**
+
+Returns the current GPU minimum and maximum clock values
 
 .. rst-class:: classref-item-separator
 

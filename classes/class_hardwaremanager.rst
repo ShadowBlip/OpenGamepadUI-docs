@@ -38,7 +38,7 @@ Properties
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_   | :ref:`cards<class_HardwareManager_property_cards>`                           |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`HardwareManager.CPUInfo<class_HardwareManager.CPUInfo>`                | :ref:`cpu<class_HardwareManager_property_cpu>`                               |
+   | :ref:`CPU<class_CPU>`                                                        | :ref:`cpu<class_HardwareManager_property_cpu>`                               |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`HardwareManager.GPUInfo<class_HardwareManager.GPUInfo>`                | :ref:`gpu<class_HardwareManager_property_gpu>`                               |
    +------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -70,15 +70,15 @@ Methods
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `Array <https://docs.godotengine.org/en/stable/classes/class_array.html>`_                         | :ref:`_get_cards_from_vulkan<class_HardwareManager_method__get_cards_from_vulkan>` **(** **)**                                                                                                                                                             |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`_get_lscpu_info<class_HardwareManager_method__get_lscpu_info>` **(** **)**                                                                                                                                                                           |
-   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_read_sys<class_HardwareManager_method__read_sys>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**                                                                                                     |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`DRMCardInfo<class_DRMCardInfo>`                                                              | :ref:`get_active_gpu_card<class_HardwareManager_method_get_active_gpu_card>` **(** **)**                                                                                                                                                                   |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`get_active_gpu_device<class_HardwareManager_method_get_active_gpu_device>` **(** **)**                                                                                                                                                               |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`get_bios_version<class_HardwareManager_method_get_bios_version>` **(** **)**                                                                                                                                                                         |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`HardwareManager.CPUInfo<class_HardwareManager.CPUInfo>`                                      | :ref:`get_cpu_info<class_HardwareManager_method_get_cpu_info>` **(** **)**                                                                                                                                                                                 |
+   | :ref:`CPU<class_CPU>`                                                                              | :ref:`get_cpu<class_HardwareManager_method_get_cpu>` **(** **)**                                                                                                                                                                                           |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`DRMCardInfo<class_DRMCardInfo>`                                                              | :ref:`get_gpu_card<class_HardwareManager_method_get_gpu_card>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ card_dir **)**                                                                                           |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -181,7 +181,7 @@ Property Descriptions
 
 .. rst-class:: classref-property
 
-:ref:`HardwareManager.CPUInfo<class_HardwareManager.CPUInfo>` **cpu**
+:ref:`CPU<class_CPU>` **cpu**
 
 .. container:: contribute
 
@@ -330,18 +330,6 @@ Returns a an array of PackedStringArray's that each represent a sing GPU identif
 
 ----
 
-.. _class_HardwareManager_method__get_lscpu_info:
-
-.. rst-class:: classref-method
-
-`PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **_get_lscpu_info** **(** **)**
-
-Provides info on the GPU vendor, model, and capabilities.
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_HardwareManager_method__read_sys:
 
 .. rst-class:: classref-method
@@ -349,6 +337,18 @@ Provides info on the GPU vendor, model, and capabilities.
 `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_read_sys** **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**
 
 Used to read values from sysfs
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_HardwareManager_method_get_active_gpu_card:
+
+.. rst-class:: classref-method
+
+:ref:`DRMCardInfo<class_DRMCardInfo>` **get_active_gpu_card** **(** **)**
+
+Returns the currently active GPU card
 
 .. rst-class:: classref-item-separator
 
@@ -378,11 +378,11 @@ Queries /sys/class for BIOS information
 
 ----
 
-.. _class_HardwareManager_method_get_cpu_info:
+.. _class_HardwareManager_method_get_cpu:
 
 .. rst-class:: classref-method
 
-:ref:`HardwareManager.CPUInfo<class_HardwareManager.CPUInfo>` **get_cpu_info** **(** **)**
+:ref:`CPU<class_CPU>` **get_cpu** **(** **)**
 
 Provides info on the CPU vendor, model, and capabilities.
 

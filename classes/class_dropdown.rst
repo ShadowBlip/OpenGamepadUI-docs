@@ -35,6 +35,8 @@ Properties
    +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
    | `OptionButton <https://docs.godotengine.org/en/stable/classes/class_optionbutton.html>`_ | :ref:`option_button<class_Dropdown_property_option_button>`         |
    +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+   | `int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_                   | :ref:`selected<class_Dropdown_property_selected>`                   |
+   +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
    | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_             | :ref:`title<class_Dropdown_property_title>`                         |
    +------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
 
@@ -165,6 +167,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `OptionButton <https://docs.godotengine.org/en/stable/classes/class_optionbutton.html>`_ **option_button**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Dropdown_property_selected:
+
+.. rst-class:: classref-property
+
+`int <https://docs.godotengine.org/en/stable/classes/class_int.html>`_ **selected**
 
 .. container:: contribute
 

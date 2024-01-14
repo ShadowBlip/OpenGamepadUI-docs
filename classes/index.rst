@@ -85,6 +85,7 @@ Resources
 
     class_resource
     class_actionstartopensd
+    class_actionstartpowerstation
     class_actionturbotakeover
     class_apudatabase
     class_apuentry
@@ -92,11 +93,15 @@ Resources
     class_batterymanager
     class_bluetoothmanager
     class_boxartmanager
+    class_cpu
+    class_cpucore
     class_dbusmanager
     class_dbusmanager.proxy
     class_devicehider
     class_displaymanager
     class_drmcardinfo
+    class_drmcardinfoamd
+    class_drmcardinfointel
     class_drmcardport
     class_evdevabsevent
     class_evdevevent
@@ -120,7 +125,6 @@ Resources
     class_handheldiconmapping
     class_handheldplatform
     class_hardwaremanager
-    class_hardwaremanager.cpuinfo
     class_hardwaremanager.gpuinfo
     class_installmanager
     class_interactiveprocess
@@ -153,6 +157,11 @@ Resources
     class_powermanager
     class_powermanager.device
     class_powermanager.upower
+    class_powerstation
+    class_powerstation.cpubus
+    class_powerstation.gpubus
+    class_powerstation.gpucard
+    class_powerstation.gpuconnector
     class_rogallyplatform
     class_runningapp
     class_sandbox
@@ -185,6 +194,7 @@ Other objects
     class_bluetoothmanager.device
     class_cache
     class_command
+    class_commandsync
     class_dbusmanager.dbusproxy
     class_dbusmanager.managedobject
     class_gamepadmanager.gamepadarray
@@ -197,9 +207,8 @@ Other objects
     class_networkmanager.wifiap
     class_notification
     class_reaper
-    class_ryzenadj
-    class_ryzenadj.info
     class_semanticversion
+    class_sharedthread.executingtask
     class_sharedthread.scheduledtask
     class_storeitem
     class_storeitemdetails

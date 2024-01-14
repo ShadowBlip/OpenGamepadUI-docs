@@ -58,6 +58,8 @@ Methods
    +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                                                                               | :ref:`_process_message<class_DBusManager_method__process_message>` **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**                                                                                |
    +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_                       | :ref:`_to_string<class_DBusManager_method__to_string>` **(** **)**                                                                                                                                                                                       |
+   +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | `bool <https://docs.godotengine.org/en/stable/classes/class_bool.html>`_                           | :ref:`bus_exists<class_DBusManager_method_bus_exists>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ name **)**                                                                                                     |
    +----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`DBusManager.Proxy<class_DBusManager.Proxy>`                                                  | :ref:`create_proxy<class_DBusManager_method_create_proxy>` **(** `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ bus, `String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ path **)**               |
@@ -282,6 +284,20 @@ Process messages on the bus that are being watched and dispatch them.
 void **_process_message** **(** `DBusMessage <https://docs.godotengine.org/en/stable/classes/class_dbusmessage.html>`_ msg **)**
 
 Dispatch the given message to any proxy objects
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DBusManager_method__to_string:
+
+.. rst-class:: classref-method
+
+`String <https://docs.godotengine.org/en/stable/classes/class_string.html>`_ **_to_string** **(** **)**
+
+.. container:: contribute
+
+	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 .. rst-class:: classref-item-separator
 

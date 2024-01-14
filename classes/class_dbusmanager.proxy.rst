@@ -33,6 +33,8 @@ Properties
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
    | `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ | :ref:`rules<class_DBusManager.Proxy_property_rules>`       |
    +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+   | :ref:`SharedThread<class_SharedThread>`                                                            | :ref:`thread<class_DBusManager.Proxy_property_thread>`     |
+   +----------------------------------------------------------------------------------------------------+------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -163,6 +165,20 @@ Property Descriptions
 .. rst-class:: classref-property
 
 `PackedStringArray <https://docs.godotengine.org/en/stable/classes/class_packedstringarray.html>`_ **rules**
+
+.. container:: contribute
+
+	There is currently no description for this property. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DBusManager.Proxy_property_thread:
+
+.. rst-class:: classref-property
+
+:ref:`SharedThread<class_SharedThread>` **thread**
 
 .. container:: contribute
 
