@@ -77,6 +77,9 @@ Use the following steps to install OpenGamepadUI as a systemd extension:
 
    mkdir -p ~/.config/systemd/user
    curl -L https://raw.githubusercontent.com/ShadowBlip/OpenGamepadUI/main/rootfs/usr/lib/systemd/user/systemd-sysext-updater.service -o ~/.config/systemd/user/systemd-sysext-updater.service
+   curl -L https://raw.githubusercontent.com/ShadowBlip/OpenGamepadUI/main/rootfs/usr/share/opengamepadui/scripts/update_systemd_ext.sh -o ~/.local/bin/update_systemd_ext.sh
+   chmod +x ~/.local/bin/update_systemd_ext.sh
+   ~/.local/bin/update_systemd_ext.sh
    systemctl --user enable systemd-sysext-updater
    systemctl --user start systemd-sysext-updater
 
