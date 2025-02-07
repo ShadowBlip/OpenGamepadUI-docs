@@ -62,7 +62,7 @@ This documentation is organized into several sections:
   plugins for OpenGamepadUI.
 - **Community** is dedicated to the life of OpenGamepadUI's community.
   It points to various community channels like the
-  `Discord <https://discord.gg/fKsUbrt>`_ and contains a list of recommended third-party tutorials and
+  `Discord <https://discord.gg/Ea9ABXhtkv>`_ and contains a list of recommended third-party tutorials and
   materials outside of this documentation.
 - Finally, the **Class reference** documents the full OpenGamepadUI API,
   also available directly within Godot's script editor.
